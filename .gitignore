@@ -1,5 +1,9 @@
 data/clean/*
 !data/clean/.gitkeep
+data/raw/01_pdfs/
+data/raw/02_xml_indexes/
+data/work/
+data/upstream/
 .ipynb_checkpoints/
 __pycache__/
 .venv/
