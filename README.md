@@ -11,8 +11,8 @@ The scraper had already extracted and resolved fields from PDFs before this snap
 ## Run
 
 1. Use Python 3.10+ and install: `python -m pip install -r requirements.txt`.
-2. Open `notebooks/DSA405_002_FA26_P2_YOURUNITYID.ipynb` (named with your Unity ID).
-3. Run all cells from a restarted kernel, or run `python -m jupyter nbconvert --execute --to notebook --inplace notebooks/DSA405_002_FA26_P2_YOURUNITYID.ipynb` from the repo root.
+2. Open `notebooks/DSA405_002_FA26_P2_sryan3.ipynb` (named with your Unity ID).
+3. Run all cells from a restarted kernel, or run `python -m jupyter nbconvert --execute --to notebook --inplace notebooks/DSA405_002_FA26_P2_sryan3.ipynb` from the repo root.
 4. Review the displayed exceptions against their linked PDFs. Fill in the judgment sections and self-score the course rubric before submission. Submit notebook and repo link on Moodle.
 
 The notebook audits the source, creates a data dictionary and quantified cleaning log, and writes `data/clean/house_ptr_2025_clean.csv`. The raw snapshot is never overwritten. The generated clean file is ignored by Git because the notebook recreates it.
