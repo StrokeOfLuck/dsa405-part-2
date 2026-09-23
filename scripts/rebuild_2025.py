@@ -1,4 +1,4 @@
-"""Copy pinned 2025 House PTR PDFs, then run the original parser in isolation."""
+"""Copy pinned 2025 House PTR PDFs into a working folder and run the parser."""
 
 from __future__ import annotations
 
@@ -44,31 +44,26 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def copy_raw(source: Path) -> None:
+def copy_verified_source(source: Path) -> None:
     with MANIFEST.open(newline="", encoding="utf-8") as stream:
         rows = list(csv.DictReader(stream))
     assert len(rows) == 515 and all(row["source_commit"] == SOURCE_COMMIT for row in rows)
-    raw_pdfs = RAW / "01_pdfs" / "2025"
     work_pdfs = WORK / "01_pdfs" / "2025"
-    raw_pdfs.mkdir(parents=True, exist_ok=True)
     work_pdfs.mkdir(parents=True, exist_ok=True)
     for row in rows:
         original = source / "data" / "01_pdfs" / "2025" / row["filename"]
         assert original.stat().st_size == int(row["bytes"]), original
-        copied = raw_pdfs / row["filename"]
-        if not copied.exists() or sha256(copied) != row["sha256"]:
-            shutil.copy2(original, copied)
-        assert sha256(copied) == row["sha256"], copied
         working = work_pdfs / row["filename"]
         if not working.exists() or sha256(working) != row["sha256"]:
-            shutil.copy2(copied, working)
-    assert len(list(raw_pdfs.glob("*.pdf"))) == len(rows), "Raw PDF count differs from manifest"
+            shutil.copy2(original, working)
+        assert sha256(working) == row["sha256"], working
+    assert len(list(work_pdfs.glob("*.pdf"))) == len(rows), "PDF count differs from manifest"
     index = source / "data" / "02_xml_indexes" / "2025FD.xml"
-    (RAW / "02_xml_indexes").mkdir(parents=True, exist_ok=True)
-    raw_index = RAW / "02_xml_indexes" / "2025FD.xml"
-    if not raw_index.exists() or sha256(raw_index) != sha256(index):
-        shutil.copy2(index, raw_index)
-    print(f"Verified {len(rows)} PDF copies and the 2025 XML index in {RAW}", flush=True)
+    (WORK / "02_xml_indexes").mkdir(parents=True, exist_ok=True)
+    copied_index = WORK / "02_xml_indexes" / "2025FD.xml"
+    if not copied_index.exists() or sha256(copied_index) != sha256(index):
+        shutil.copy2(index, copied_index)
+    print(f"Verified {len(rows)} PDF copies and the 2025 XML index in {WORK}", flush=True)
 
 
 def main() -> None:
@@ -78,7 +73,7 @@ def main() -> None:
     args = parser.parse_args()
     source = args.source_dir.resolve() if args.source_dir else SOURCE
     checkout_source(source)
-    copy_raw(source)
+    copy_verified_source(source)
     env = os.environ.copy()
     env.update(HOUSE_PTR_ROOT=str(WORK), HOUSE_PTR_START_YEAR="2025", HOUSE_PTR_END_YEAR="2025")
     if args.max_new_pdfs:
