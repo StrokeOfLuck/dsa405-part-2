@@ -1,5 +1,7 @@
 # DSA 405 — Part 2: House PTR data audit
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb)
+
 This is a separate class project. It does not write to or run the [House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper).
 
 ## Input and origin
@@ -9,6 +11,10 @@ This is a separate class project. It does not write to or run the [House PTR scr
 The scraper had already extracted and resolved fields from PDFs before this snapshot. This project's *raw input* means the untouched input to the P2 audit, not the original PDFs. Extraction choices and any OCR or layout errors remain upstream and are limits of this audit.
 
 ## Run
+
+**In Colab:** Click the button above, then choose Runtime → Run all. The notebook downloads the frozen 2025 snapshot into the temporary Colab session and checks its SHA-256 before auditing it. Save a copy of the finished notebook to Drive or GitHub before closing Colab, because runtime files are temporary.
+
+**Locally:**
 
 1. Use Python 3.10+ and install: `python -m pip install -r requirements.txt`.
 2. Open `notebooks/DSA405_002_FA26_P2_sryan3.ipynb` (named with your Unity ID).
