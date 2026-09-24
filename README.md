@@ -15,7 +15,7 @@ python scripts/build_pipeline_demo.py
 python -m http.server 8000 --directory docs
 ```
 
-Open `http://localhost:8000/`. The script writes `docs/data/examples.json`, eight per-filing CSVs, and first-page images. It reads verified working PDFs and CSVs without changing source files. GitHub Pages can serve the `docs/` folder from the `main` branch.
+Open `http://localhost:8000/`. The script writes `docs/data/examples.json`, eight per-filing CSVs, and first-page images. It reads verified working PDFs and CSVs without changing source files. To publish this repository's page, choose **Settings → Pages → Deploy from a branch → main → /docs → Save** in GitHub. Once GitHub Pages finishes deploying, the address is `https://strokeofluck.github.io/dsa405-part-2/`.
 
 ## Where the data comes from
 
