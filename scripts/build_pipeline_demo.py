@@ -47,6 +47,71 @@ def text_record(row: pd.Series, fields: list[str]) -> dict[str, str]:
     return {key: str(row[key]) for key in fields}
 
 
+def source_excerpt(text: str, start: str, end: str) -> str:
+    """Copy an exact, contiguous excerpt; fail if the source changes."""
+    assert start in text and end in text, (start, end)
+    return text[text.index(start):text.index(end) + len(end)].rstrip()
+
+
+def code_examples() -> dict[str, list[dict[str, str]]]:
+    """Keep the webpage snippets tied to the real notebook and pinned scripts."""
+    notebook = json.loads((ROOT / "notebooks" / "DSA405_002_FA26_P2_sryan3.ipynb").read_text())
+    cells = notebook["cells"]
+    code = lambda index: "".join(cells[index]["source"])
+    notebook_url = "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo="
+    source_url = f"https://github.com/StrokeOfLuck/house-ptr-scraper/blob/{SOURCE_COMMIT}/src/"
+    parser = (WORK / "../upstream/house-ptr-scraper/src/stage3_extract.py").resolve().read_text()
+    resolver = (WORK / "../upstream/house-ptr-scraper/src/stage4_clean.py").resolve().read_text()
+    builder = Path(__file__).read_text()
+
+    def nb(index: int, label: str, excerpt: str, explanation: str) -> dict[str, str]:
+        return {"label": label, "source": "Colab notebook", "url": notebook_url + cells[index]["id"],
+                "code": excerpt, "explanation": explanation}
+
+    def src(label: str, source: str, url: str, excerpt: str, explanation: str) -> dict[str, str]:
+        return {"label": label, "source": source, "url": url, "code": excerpt,
+                "explanation": explanation}
+
+    return {
+        "source": [nb(3, "Run the pinned rebuild", source_excerpt(
+            code(3), 'log_path=Path("data/work/rebuild.log")',
+            'raise RuntimeError(f"Pipeline failed. Inspect {log_path} for the stage and error.")'),
+            "The notebook runs the separate rebuild script, saves its messages, and stops if it fails. That script checks the PDF copies against the manifest before parsing them.")],
+        "text": [src("Render and read page one", "Page snapshot builder",
+            "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/build_pipeline_demo.py",
+            source_excerpt(builder, "with fitz.open(pdf) as document:",
+                           'image.save(OUT / "images" / image_name, "WEBP", quality=76, method=6)'),
+            "This webpage builder reads the same verified PDF and makes the page image and unprocessed text excerpt shown above. The Colab notebook does not display this page-level text dump.")],
+        "parse": [
+            src("Clip a physical PDF row into fields", "Pinned Stage 3 parser",
+                source_url + "stage3_extract.py#L856-L874",
+                source_excerpt(parser, "def extract_row_columns(page, row_bbox, column_boxes):", "    return output"),
+                "The parser uses the row's position on the page and known column boundaries to pull text from each field. More parsing happens later in the same script."),
+            nb(7, "Load Stage 3 results for audit", source_excerpt(
+                code(7), 'source=Path("data/work/04_transactions/transactions_raw.csv")',
+                'clean=pd.read_csv(resolved,dtype=str,keep_default_na=False)'),
+                "The Colab notebook reads the parser's CSV as text so filing IDs and raw field strings retain their printed form."),
+        ],
+        "resolve": [
+            src("Classify the candidate ticker", "Pinned Stage 4 resolver",
+                source_url + "stage4_clean.py#L231-L313",
+                source_excerpt(resolver, "def resolve_ticker(row):", '"ticker_parse_status": "ambiguous_preserved",\n        "ticker_validation_source": "house_ptr_structure",\n    }'),
+                "This is the original ticker decision function. The status and before/after fields above come from its Stage 4 CSV, not from a simulated rule on this page."),
+            nb(21, "Count resolver decisions", source_excerpt(
+                code(21), "for status,count in clean.ticker_parse_status.value_counts(dropna=False).items():",
+                'print("Stage 4 values changed (zero is a legitimate finding):",actual_changes)'),
+                "The notebook counts each classification and compares six retained old/new value pairs."),
+        ],
+        "audit": [nb(21, "Create the Part 2 date flags", source_excerpt(
+            code(21), "p2=clean.copy()",
+            'p2["date_prefix_disagrees"]=parsed_prefix.ne("")&parsed_prefix.ne(p2.transaction_date)'),
+            "These exact notebook lines make the three audit columns displayed above. They do not overwrite the original date text.")],
+        "csv": [nb(21, "Write the final CSV", source_excerpt(
+            code(21), 'output=Path("data/clean/house_ptr_2025_p2.csv")', 'p2.to_csv(output,index=False)'),
+            "The notebook writes the full 2025 Part 2 table. The download on this page is a subset of that output containing every transaction from the selected filing.")],
+    }
+
+
 def main() -> None:
     raw = pd.read_csv(
         WORK / "04_transactions" / "transactions_raw.csv",
@@ -181,6 +246,7 @@ def main() -> None:
         "batch_transaction_count": len(raw),
         "sample_size": len(examples),
         "selection": "Eight reproducibly selected examples from the completed 2025 batch, including three with extra text in the raw date. Each has 2–24 trades and visible extraction noise on page one. The Random filing button chooses among these eight.",
+        "code": code_examples(),
         "examples": examples,
     }
     (OUT / "data" / "examples.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
