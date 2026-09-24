@@ -2,15 +2,11 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb)
 
-**[View the PTR-to-CSV walkthrough](https://strokeofluck.github.io/dsa405-part-2/docs/index.html?filing=20033574)** · [Browse the webpage files](docs/index.html)
-
-Follow a real PDF through extracted text, parsed fields, ticker review, Part 2 checks, and a downloadable CSV. Expand **See the actual code for this step** beside any stage to inspect the relevant Colab cell or pinned parser source.
-
 This is a **separate class project**. It copies 2025 source files, builds two transaction CSVs with the [House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper)'s original parser and ticker resolver, then audits the differences. It does not alter the scraper repository.
 
 ## Visual walkthrough
 
-[`docs/index.html`](docs/index.html) follows one real PTR from its PDF page through raw extracted text, Stage 3 transaction fields, Stage 4 ticker review, Part 2 date checks, and a downloadable CSV containing **all rows from that filing**. The Random filing button selects among eight fixed examples from the 2025 batch. The walkthrough is a reproducible snapshot, not a live scraper.
+[Open the visual walkthrough](https://strokeofluck.github.io/dsa405-part-2/docs/index.html?filing=20033574) to follow one real PTR from its PDF page through raw extracted text, Stage 3 transaction fields, Stage 4 ticker review, Part 2 date checks, and a downloadable CSV containing **all rows from that filing**. It displays every Colab Python code cell in notebook order, including the original comments in green, beside explanations of the files each block reads and produces. Clearly labeled excerpts from the underlying scraper show how the notebook's pipeline parses PDF rows and resolves tickers. The Random filing button selects among eight fixed examples from the 2025 batch. The walkthrough is a reproducible snapshot, not a live scraper.
 
 After the full 2025 rebuild, regenerate the static examples with:
 
@@ -19,7 +15,7 @@ python scripts/build_pipeline_demo.py
 python -m http.server 8000 --directory docs
 ```
 
-Open `http://localhost:8000/`. The script writes `docs/data/examples.json`, eight per-filing CSVs, and first-page images. It reads verified working PDFs and CSVs without changing source files. The live page is at [the PTR-to-CSV walkthrough](https://strokeofluck.github.io/dsa405-part-2/docs/index.html?filing=20033574).
+Open `http://localhost:8000/`. The script writes `docs/data/examples.json`, eight per-filing CSVs, and first-page images. It reads verified working PDFs and CSVs without changing source files. To publish this repository's page, choose **Settings → Pages → Deploy from a branch → main → /docs → Save** in GitHub. Once GitHub Pages finishes deploying, the address is `https://strokeofluck.github.io/dsa405-part-2/`.
 
 ## Where the data comes from
 
