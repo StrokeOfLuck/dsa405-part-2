@@ -2,6 +2,10 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb)
 
+**[View the PTR-to-CSV walkthrough](https://strokeofluck.github.io/dsa405-part-2/)** · [Browse the webpage files](docs/index.html)
+
+> The live walkthrough link needs one-time GitHub Pages setup: [open this repo's Pages settings](https://github.com/StrokeOfLuck/dsa405-part-2/settings/pages), select **Deploy from a branch → main → /docs**, then save. The page files and downloadable examples are already in this repository.
+
 This is a **separate class project**. It copies 2025 source files, builds two transaction CSVs with the [House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper)'s original parser and ticker resolver, then audits the differences. It does not alter the scraper repository.
 
 ## Visual walkthrough
