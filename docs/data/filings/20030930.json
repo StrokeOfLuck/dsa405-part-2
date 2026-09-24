@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030930",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.975,
+      318.1875,
+      575.525,
+      423.75
+    ],
+    "physical_rect": [
+      21.975,
+      318.1875,
+      575.525,
+      423.75
+    ],
+    "method": "table",
+    "before": "AbbVie Inc. Common Stock (ABBV) [ST] P 09/26/2024 08/01/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Cʑʏʏʇʐʖʕ: This investment is held within a publicly available, widely held independently managed portfolio over which I have no authority to exercise control over or influence the financial interests held by the portfolio. The assets of the portfolio are widely diversified, and all investment decisions are made solely by the independent manager, without my input or direction.",
+    "after": "AbbVie Inc. Common Stock (ABBV) [ST] P 09/26/2024 08/01/2025 $1,001 - $15,000 Filing Status: New Comments: This investment is held within a publicly available, widely held independently managed portfolio over which I have no authority to exercise control over or influence the financial interests held by the portfolio. The assets of the portfolio are widely diversified, and all investment decisions are made solely by the independent manager, without my input or direction.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.975,
+          318.1875,
+          62.25,
+          423.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          423.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          423.75
+        ],
+        "before": "AbbVie Inc. Common Stock (ABBV)\n[ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCʑʏʏʇʐʖʕ: This investment is held within\nhave no authority to exercise control over \nare widely diversified, and all investment \ndirection.\n",
+        "after": "AbbVie Inc. Common Stock (ABBV) [ST] Filing Status: New Comments: This investment is held within have no authority to exercise control over are widely diversified, and all investment direction."
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          423.75
+        ],
+        "before": "P\nn a publicly availa\nor influence the f\ndecisions are mad\n",
+        "after": "P n a publicly availa or influence the f decisions are mad"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          380.25,
+          423.75
+        ],
+        "before": "09/26/2024\nable, widely hel\nfinancial intere\nde solely by the\n",
+        "after": "09/26/2024 able, widely hel financial intere de solely by the"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          380.25,
+          318.1875,
+          444.75,
+          423.75
+        ],
+        "before": "08/01/2025\nld independently m\nsts held by the po\ne independent ma\n",
+        "after": "08/01/2025 ld independently m sts held by the po e independent ma"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.75,
+          318.1875,
+          522.75,
+          423.75
+        ],
+        "before": "$1,001 - $15,000\nmanaged portfolio ov\nortfolio. The assets of \nanager, without my in\n",
+        "after": "$1,001 - $15,000 managed portfolio ov ortfolio. The assets of anager, without my in"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          318.1875,
+          575.525,
+          423.75
+        ],
+        "before": "ver which I\nthe portfolio\nnput or\n",
+        "after": "ver which I the portfolio nput or"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Ritchie John Torres",
+  "state_district": "NY15",
+  "rows": 156,
+  "page_count": 28,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf",
+  "pdf_image": "images/20030930.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Ritchie John Torres\nStatus:\nMember\nState/District: NY15\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAbbVie Inc. Common Stock (ABBV)\n[ST]\nP\n09/26/2024 08/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCʑʏʏʇʐʖʕ: This investment is held within a publicly available, widely held independently managed portfolio over which I\nhave no authority to exercise control over or influence the financial interests held by the portfolio. The assets of the portfolio\nare widely diversified, and all investment decisions are made solely by the independent manager, without my input or\ndirection.\nAbbVie Inc. Common Stock (ABBV)\n[ST]\nS\n07/11/2025\n08/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCʑʏʏʇʐʖʕ: This investment is held within a publicly available, widely held independently managed portfolio over which I\nhave no authority to exercise control over or influence the financial interests held by the portfolio. The assets of the portfolio\nare widely diversified, and all investment decisions are made solely by the independent manager, without my input or\ndirection.\nAlexandria Real Estate Equities, Inc.\nCommon Stock (ARE) [ST]\nP\n09/26/2024 08/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCʑʏʏʇʐʖʕ: This investment is held within a publicly available, widely held independently managed portfolio over which I\nhave no authority to exercise control over or influence the financial interests held by the portfolio. The assets of the portfolio\nare widely diversified, and all investment decisions are made solely by the independent manager, without my input or\ndirection.\nAlphabet Inc. - Class A Common Stock\n(GOOGL) [ST]\nP\n09/26/2024 08/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCʑʏʏʇʐʖʕ: This investment is held within a publicly available, widely held independently managed portfolio over which I\nhave no authority to exercise control over or influence the financial interests held by the portfolio. The assets of the portfolio\nare widely diversified, and all investment decisions are made solely by the independent manager, without my input or\nFiling ID #20030930\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "AbbVie Inc. Common Stock (ABBV) [ST] Filing Status: New Comments: This investment is held within have no authority to exercise control over are widely diversified, and all investment direction.",
+    "asset": "AbbVie Inc. Common Stock",
+    "ticker": "ABBV",
+    "transaction_type_raw": "P n a publicly availa or influence the f decisions are mad",
+    "transaction_type": "P",
+    "transaction_date_raw": "09/26/2024 able, widely hel financial intere de solely by the",
+    "transaction_date": "2024-09-26",
+    "amount_raw": "$1,001 - $15,000 managed portfolio ov ortfolio. The assets of anager, without my in",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AbbVie Inc. Common Stock",
+    "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+    "ticker_v8_1": "ABBV",
+    "ticker_v8_2_cleaned": "ABBV",
+    "ticker_candidate_raw": "ABBV",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "09/26/2024",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030930.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030930",
+      "politician": "Hon. Ritchie John Torres",
+      "owner": "",
+      "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ABBV",
+      "transaction_type": "P",
+      "transaction_date": "2024-09-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/26/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030930",
+      "politician": "Hon. Ritchie John Torres",
+      "owner": "",
+      "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ABBV",
+      "transaction_type": "S",
+      "transaction_date": "2025-07-11",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030930",
+      "politician": "Hon. Ritchie John Torres",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alexandria Real Estate Equities, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ARE",
+      "transaction_type": "P",
+      "transaction_date": "2024-09-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/26/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030930",
+      "politician": "Hon. Ritchie John Torres",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "P",
+      "transaction_date": "2024-09-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/26/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030930",
+      "politician": "Hon. Ritchie John Torres",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "S",
+      "transaction_date": "2025-07-11",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/11/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

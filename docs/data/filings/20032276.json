@@ -1,0 +1,264 @@
+{
+  "filing_id": "20032276",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.975,
+      318.1875,
+      575.525,
+      442.5
+    ],
+    "physical_rect": [
+      21.975,
+      318.1875,
+      575.525,
+      442.5
+    ],
+    "method": "table",
+    "before": "IWM Option [OT] P 09/15/2025 09/22/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: LPL Account I Lʑʅʃʖʋʑʐ: US Dʇʕʅʔʋʒʖʋʑʐ: CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25 Cʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+    "after": "IWM Option [OT] P 09/15/2025 09/22/2025 $1,001 - $15,000 Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25 Comments: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.975,
+          318.1875,
+          63.0,
+          442.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          442.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          442.5
+        ],
+        "before": "IWM Option [OT]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: LPL Account I\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: CALL ISHARES RUSSELL \nCʑʏʏʇʐʖʕ: All investment decisions rela\nadvisors. I have no role in, nor am inform\ntransaction was planned and executed by\n",
+        "after": "IWM Option [OT] Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL Comments: All investment decisions rela advisors. I have no role in, nor am inform transaction was planned and executed by"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          442.5
+        ],
+        "before": "P\n2000 $175 EXP 0\nated to my persona\nmed of, specific inv\ny a financial adviso\n",
+        "after": "P 2000 $175 EXP 0 ated to my persona med of, specific inv y a financial adviso"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          442.5
+        ],
+        "before": "09/15/2025\n09/19/25\nal financial por\nvestment decisi\nor.\n",
+        "after": "09/15/2025 09/19/25 al financial por vestment decisi or."
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          442.5
+        ],
+        "before": "09/22/2025\nrtfolio are delegat\nions prior to their\n",
+        "after": "09/22/2025 rtfolio are delegat ions prior to their"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          442.5
+        ],
+        "before": "$1,001 - $15,000\ned to professional fin\nr execution. According\n",
+        "after": "$1,001 - $15,000 ed to professional fin r execution. According"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.525,
+          442.5
+        ],
+        "before": "ancial\ngly, this\n",
+        "after": "ancial gly, this"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Rob Bresnahan",
+  "state_district": "PA08",
+  "rows": 7,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
+  "pdf_image": "images/20032276.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Rob Bresnahan\nStatus:\nMember\nState/District: PA08\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nIWM Option [OT]\nP\n09/15/2025 09/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: LPL Account I\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25\nCʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial\nadvisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this\ntransaction was planned and executed by a financial advisor.\nJT\nIWM Option [OT]\nP\n09/15/2025 09/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Joint Ownership LPL Account\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25\nCʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial\nadvisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this\ntransaction was planned and executed by a financial advisor.\nJT\nQQQ Option [OT]\nP\n09/15/2025 09/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Joint Ownership LPL Account\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: CALL INVESCO QQQ $450 EXP 09/19/25\nCʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial\nadvisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this\ntransaction was planned and executed by a financial advisor.\nQQQ Option [OT]\nP\n09/16/2025 09/22/2025\n$1,001 - $15,000\nFiling ID #20032276\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "IWM Option [OT] Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL Comments: All investment decisions rela advisors. I have no role in, nor am inform transaction was planned and executed by",
+    "asset": "IWM Option",
+    "ticker": "",
+    "transaction_type_raw": "P 2000 $175 EXP 0 ated to my persona med of, specific inv y a financial adviso",
+    "transaction_type": "P",
+    "transaction_date_raw": "09/15/2025 09/19/25 al financial por vestment decisi or.",
+    "transaction_date": "2025-09-15",
+    "amount_raw": "$1,001 - $15,000 ed to professional fin r execution. According",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "IWM Option",
+    "asset_v8_2_cleaned": "IWM Option",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "09/15/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20032276.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20032276",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "IWM Option",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-15",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032276",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "IWM Option",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-15",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032276",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "QQQ Option",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-15",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032276",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "QQQ Option",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-16",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/16/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032276",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "SPY Option",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-09-16",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/16/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

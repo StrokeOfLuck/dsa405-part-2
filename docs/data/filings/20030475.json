@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030475",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      398.25
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      398.25
+    ],
+    "method": "table",
+    "before": "2000137338 CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15 [GS] P 04/01/2025 05/06/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: Deleted Sʗʄʊʑʎʆʋʐʉ Oʈ: Trust 2 Dʇʕʅʔʋʒʖʋʑʐ: Interest",
+    "after": "2000137338 CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15 [GS] P 04/01/2025 05/06/2025 $1,001 - $15,000 Filing Status: Deleted Subholding Of: Trust 2 Description: Interest",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          78.75,
+          398.25
+        ],
+        "before": "2000137338\n",
+        "after": "2000137338"
+      },
+      {
+        "name": "owner",
+        "rect": [
+          78.75,
+          318.1875,
+          117.75,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          117.75,
+          318.1875,
+          264.75,
+          398.25
+        ],
+        "before": "CHASKA MN ELEC REVENUE\nREF - SER A DTD 10/01/15 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: Deleted\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 2\nDʇʕʅʔʋʒʖʋʑʐ: Interest\n",
+        "after": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15 [GS] Filing Status: Deleted Subholding Of: Trust 2 Description: Interest"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          264.75,
+          318.1875,
+          329.25,
+          398.25
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          329.25,
+          318.1875,
+          384.75,
+          398.25
+        ],
+        "before": "04/01/2025\n",
+        "after": "04/01/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          384.75,
+          318.1875,
+          449.25,
+          398.25
+        ],
+        "before": "05/06/2025\n",
+        "after": "05/06/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          449.25,
+          318.1875,
+          524.25,
+          398.25
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          524.25,
+          318.1875,
+          575.5178571428571,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kelly Louise Morrison",
+  "state_district": "MN03",
+  "rows": 19,
+  "page_count": 4,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030475.pdf",
+  "pdf_image": "images/20030475.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kelly Louise Morrison\nStatus:\nMember\nState/District: MN03\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\n2000137338\nCHASKA MN ELEC REVENUE\nREF - SER A DTD 10/01/15 [GS]\nP\n04/01/2025 05/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: Deleted\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 2\nDʇʕʅʔʋʒʖʋʑʐ: Interest\nHoulihan Lokey, Inc. Class A\nCommon Stock (HLI) [ST]\nS\n06/04/2025 06/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 5\n2000137339\nMINNESOTA ST MUNI PWR AGY\nELEC DTD 08/25/16 [GS]\nP\n04/01/2025 05/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: Deleted\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 2\nDʇʕʅʔʋʒʖʋʑʐ: Interest\nNike, Inc. Common Stock (NKE)\n[ST]\nS\n06/04/2025 06/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 3\nNike, Inc. Common Stock (NKE)\n[ST]\nS\n06/04/2025 06/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 4\nResMed Inc. Common Stock\n(RMD) [ST]\nS\n06/04/2025 06/04/2025\n$1,001 - $15,000\nFiling ID #20030475\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15 [GS] Filing Status: Deleted Subholding Of: Trust 2 Description: Interest",
+    "asset": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15",
+    "ticker": "",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "04/01/2025",
+    "transaction_date": "2025-04-01",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15",
+    "asset_v8_2_cleaned": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "04/01/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030475.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030475",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-04-01",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030475.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030475",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Houlihan Lokey, Inc. Class A Common Stock",
+      "ticker_v8_2_cleaned": "HLI",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-04",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030475.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/04/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030475",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "MINNESOTA ST MUNI PWR AGY ELEC DTD 08/25/16",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-04-01",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030475.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030475",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Nike, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "NKE",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-04",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "True",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030475.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/04/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030475",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Nike, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "NKE",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-04",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030475.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/04/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

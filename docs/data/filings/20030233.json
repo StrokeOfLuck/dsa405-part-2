@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030233",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "method": "table",
+    "before": "SP Simon Property Group, Inc. Common Stock (SPG) [ST] P 04/03/2025 04/20/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab Roth IRA Dʇʕʅʔʋʒʖʋʑʐ: This Transaction was made by Jason Spartz (spouse) Roth IRA",
+    "after": "SP Simon Property Group, Inc. Common Stock (SPG) [ST] P 04/03/2025 04/20/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Charles Schwab Roth IRA Description: This Transaction was made by Jason Spartz (spouse) Roth IRA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          398.71875
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          398.71875
+        ],
+        "before": "Simon Property Group, Inc. Common\nStock (SPG) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab Roth IR\nDʇʕʅʔʋʒʖʋʑʐ: This Transaction was made\n",
+        "after": "Simon Property Group, Inc. Common Stock (SPG) [ST] Filing Status: New Subholding Of: Charles Schwab Roth IR Description: This Transaction was made"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          398.71875
+        ],
+        "before": "P\nRA\ne by Jason Spartz \n",
+        "after": "P RA e by Jason Spartz"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          398.71875
+        ],
+        "before": "04/03/2025\n(spouse) Roth \n",
+        "after": "04/03/2025 (spouse) Roth"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          398.71875
+        ],
+        "before": "04/20/2025\nIRA\n",
+        "after": "04/20/2025 IRA"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          398.71875
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Victoria Spartz",
+  "state_district": "IN05",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030233.pdf",
+  "pdf_image": "images/20030233.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Victoria Spartz\nStatus:\nMember\nState/District: IN05\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nSimon Property Group, Inc. Common\nStock (SPG) [ST]\nP\n04/03/2025 04/20/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab Roth IRA\nDʇʕʅʔʋʒʖʋʑʐ: This Transaction was made by Jason Spartz (spouse) Roth IRA\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nCharles Schwab Roth IRA (Owner: SP)\nDʇʕʅʔʋʒʖʋʑʐ: Charles Schwab bought TD Ameritrade\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Victoria Spartz , 04/26/2025\nFiling ID #20030233\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Simon Property Group, Inc. Common Stock (SPG) [ST] Filing Status: New Subholding Of: Charles Schwab Roth IR Description: This Transaction was made",
+    "asset": "Simon Property Group, Inc. Common Stock",
+    "ticker": "SPG",
+    "transaction_type_raw": "P RA e by Jason Spartz",
+    "transaction_type": "P",
+    "transaction_date_raw": "04/03/2025 (spouse) Roth",
+    "transaction_date": "2025-04-03",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Simon Property Group, Inc. Common Stock",
+    "asset_v8_2_cleaned": "Simon Property Group, Inc. Common Stock",
+    "ticker_v8_1": "SPG",
+    "ticker_v8_2_cleaned": "SPG",
+    "ticker_candidate_raw": "SPG",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "04/03/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030233.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030233",
+      "politician": "Hon. Victoria Spartz",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Simon Property Group, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "SPG",
+      "transaction_type": "P",
+      "transaction_date": "2025-04-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030233.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "04/03/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

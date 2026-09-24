@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026695",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      398.25
+    ],
+    "physical_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      398.25
+    ],
+    "method": "table",
+    "before": "Aero Engineering Holdings LLC [OI] P 01/27/2025 01/27/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1 Dʇʕʅʔʋʒʖʋʑʐ: Aviation parts manufacturer",
+    "after": "Aero Engineering Holdings LLC [OI] P 01/27/2025 01/27/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Investment Fund 1 Description: Aviation parts manufacturer",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99264705882353,
+          318.1875,
+          62.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          398.25
+        ],
+        "before": "Aero Engineering Holdings LLC [OI]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nDʇʕʅʔʋʒʖʋʑʐ: Aviation parts manufacture\n",
+        "after": "Aero Engineering Holdings LLC [OI] Filing Status: New Subholding Of: Investment Fund 1 Description: Aviation parts manufacture"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          398.25
+        ],
+        "before": "P\ner\n",
+        "after": "P er"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          398.25
+        ],
+        "before": "01/27/2025\n",
+        "after": "01/27/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          398.25
+        ],
+        "before": "01/27/2025\n",
+        "after": "01/27/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$50,001 -\n$100,000\n",
+        "after": "$50,001 - $100,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5367647058823,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kelly Louise Morrison",
+  "state_district": "MN03",
+  "rows": 5,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf",
+  "pdf_image": "images/20026695.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kelly Louise Morrison\nStatus:\nMember\nState/District: MN03\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAero Engineering Holdings LLC [OI]\nP\n01/27/2025 01/27/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nDʇʕʅʔʋʒʖʋʑʐ: Aviation parts manufacturer\nAndersen Corporation [OI]\nS (partial)\n01/24/2025 01/25/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nDʇʕʅʔʋʒʖʋʑʐ: Window Manufacturer\nPathfinder 360 v.2 [HN]\nP\n01/10/2025 01/25/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nPathfinder 360 v.2 [HN]\nP\n01/10/2025 01/25/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nUrban SKY [OI]\nP\n01/06/2025 01/25/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nDʇʕʅʔʋʒʖʋʑʐ: Stratospheric Flight Technology\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nFiling ID #20026695\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Aero Engineering Holdings LLC [OI] Filing Status: New Subholding Of: Investment Fund 1 Description: Aviation parts manufacture",
+    "asset": "Aero Engineering Holdings LLC",
+    "ticker": "",
+    "transaction_type_raw": "P er",
+    "transaction_type": "P",
+    "transaction_date_raw": "01/27/2025",
+    "transaction_date": "2025-01-27",
+    "amount_raw": "$50,001 - $100,000",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Aero Engineering Holdings LLC",
+    "asset_v8_2_cleaned": "Aero Engineering Holdings LLC",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "01/27/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026695.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026695",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Aero Engineering Holdings LLC",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-27",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026695",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Andersen Corporation",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-01-24",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/24/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026695",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Pathfinder 360 v.2",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-10",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "True",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026695",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Pathfinder 360 v.2",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-10",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026695",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Urban SKY",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-06",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/06/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

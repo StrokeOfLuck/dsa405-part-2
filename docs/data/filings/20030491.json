@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030491",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.975,
+      318.1875,
+      575.5875,
+      385.5
+    ],
+    "physical_rect": [
+      21.975,
+      318.1875,
+      575.5875,
+      385.5
+    ],
+    "method": "table",
+    "before": "Amazon.com, Inc. - Common Stock (AMZN) [ST] P 05/08/2025 06/05/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership",
+    "after": "Amazon.com, Inc. - Common Stock (AMZN) [ST] P 05/08/2025 06/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.975,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          385.5
+        ],
+        "before": "Amazon.com, Inc. - Common Stock\n(AMZN) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnershi\n",
+        "after": "Amazon.com, Inc. - Common Stock (AMZN) [ST] Filing Status: New Subholding Of: Kean Family Partnershi"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          385.5
+        ],
+        "before": "P\np\n",
+        "after": "P p"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "05/08/2025\n",
+        "after": "05/08/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "06/05/2025\n",
+        "after": "06/05/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5875,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Thomas H. Kean Jr",
+  "state_district": "NJ07",
+  "rows": 5,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030491.pdf",
+  "pdf_image": "images/20030491.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Thomas H. Kean Jr\nStatus:\nMember\nState/District: NJ07\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAmazon.com, Inc. - Common Stock\n(AMZN) [ST]\nP\n05/08/2025 06/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nAon plc Class A Ordinary Shares\n(AON) [ST]\nP\n05/27/2025 06/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nBecton, Dickinson and Company\nCommon Stock (BDX) [ST]\nP\n05/13/2025\n06/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nCrown Holdings, Inc. (CCK) [ST]\nS (partial)\n05/08/2025 06/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nThermo Fisher Scientific Inc Common\nStock (TMO) [ST]\nP\n05/05/2025 06/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nKean Family Partnership (33% Interest)\nFiling ID #20030491\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Amazon.com, Inc. - Common Stock (AMZN) [ST] Filing Status: New Subholding Of: Kean Family Partnershi",
+    "asset": "Amazon.com, Inc. - Common Stock",
+    "ticker": "AMZN",
+    "transaction_type_raw": "P p",
+    "transaction_type": "P",
+    "transaction_date_raw": "05/08/2025",
+    "transaction_date": "2025-05-08",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Amazon.com, Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
+    "ticker_v8_1": "AMZN",
+    "ticker_v8_2_cleaned": "AMZN",
+    "ticker_candidate_raw": "AMZN",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "05/08/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030491.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030491",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AMZN",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030491.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030491",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Aon plc Class A Ordinary Shares",
+      "ticker_v8_2_cleaned": "AON",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030491.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030491",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Becton, Dickinson and Company Common Stock",
+      "ticker_v8_2_cleaned": "BDX",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030491.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/13/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030491",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Crown Holdings, Inc.",
+      "ticker_v8_2_cleaned": "CCK",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-05-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030491.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030491",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Thermo Fisher Scientific Inc Common Stock",
+      "ticker_v8_2_cleaned": "TMO",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-05",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030491.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/05/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

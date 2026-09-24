@@ -1,0 +1,264 @@
+{
+  "filing_id": "20029055",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      385.5
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      385.5
+    ],
+    "method": "table",
+    "before": "Broadcom Inc. - Common Stock (AVGO) [ST] S 03/11/2025 03/11/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #2",
+    "after": "Broadcom Inc. - Common Stock (AVGO) [ST] S 03/11/2025 03/11/2025 $1,001 - $15,000 Filing Status: New Subholding Of: JP Morgan Brokerage Account #2",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          385.5
+        ],
+        "before": "Broadcom Inc. - Common Stock\n(AVGO) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Ac\n",
+        "after": "Broadcom Inc. - Common Stock (AVGO) [ST] Filing Status: New Subholding Of: JP Morgan Brokerage Ac"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          385.5
+        ],
+        "before": "S\nccount #2\n",
+        "after": "S ccount #2"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          379.5,
+          385.5
+        ],
+        "before": "03/11/2025\n",
+        "after": "03/11/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          385.5
+        ],
+        "before": "03/11/2025\n",
+        "after": "03/11/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Rob Bresnahan",
+  "state_district": "PA08",
+  "rows": 19,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029055.pdf",
+  "pdf_image": "images/20029055.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Rob Bresnahan\nStatus:\nMember\nState/District: PA08\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nBroadcom Inc. - Common Stock\n(AVGO) [ST]\nS\n03/11/2025\n03/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #2\nCadence Design Systems, Inc. -\nCommon Stock (CDNS) [ST]\nP\n03/17/2025 03/17/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #2\nIntel Corporation - Common Stock\n(INTC) [ST]\nP\n03/13/2025 03/13/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #2\nInternational Business Machines\nCorporation Common Stock (IBM)\n[ST]\nP\n03/11/2025\n03/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #2\nInternational Business Machines\nCorporation Common Stock (IBM)\n[ST]\nP\n03/10/2025 03/10/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #2\nMercadoLibre, Inc. - Common Stock\n(MELI) [ST]\nP\n03/10/2025 03/10/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFiling ID #20029055\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Broadcom Inc. - Common Stock (AVGO) [ST] Filing Status: New Subholding Of: JP Morgan Brokerage Ac",
+    "asset": "Broadcom Inc. - Common Stock",
+    "ticker": "AVGO",
+    "transaction_type_raw": "S ccount #2",
+    "transaction_type": "S",
+    "transaction_date_raw": "03/11/2025",
+    "transaction_date": "2025-03-11",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Broadcom Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Broadcom Inc. - Common Stock",
+    "ticker_v8_1": "AVGO",
+    "ticker_v8_2_cleaned": "AVGO",
+    "ticker_candidate_raw": "AVGO",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "03/11/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20029055.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20029055",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Broadcom Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AVGO",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-11",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029055.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029055",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Cadence Design Systems, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "CDNS",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-17",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029055.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/17/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029055",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Intel Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "INTC",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029055.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/13/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029055",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "International Business Machines Corporation Common Stock",
+      "ticker_v8_2_cleaned": "IBM",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-11",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029055.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029055",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "International Business Machines Corporation Common Stock",
+      "ticker_v8_2_cleaned": "IBM",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029055.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/10/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

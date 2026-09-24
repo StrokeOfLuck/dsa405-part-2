@@ -1,0 +1,213 @@
+{
+  "filing_id": "20030857",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.9375,
+      318.1875,
+      575.625,
+      436.5
+    ],
+    "physical_rect": [
+      21.9375,
+      318.1875,
+      575.625,
+      436.5
+    ],
+    "method": "table",
+    "before": "Minneapolis-Saint Paul, MN Municipal Bond [GS] P 07/18/2025 07/28/2025 $100,001 - $250,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #4 Dʇʕʅʔʋʒʖʋʑʐ: Minneapolis-Saint Paul, MN Municipal Bond Cʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+    "after": "Minneapolis-Saint Paul, MN Municipal Bond [GS] P 07/18/2025 07/28/2025 $100,001 - $250,000 Filing Status: New Subholding Of: JP Morgan Brokerage Account #4 Description: Minneapolis-Saint Paul, MN Municipal Bond Comments: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.9375,
+          318.1875,
+          62.25,
+          436.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          436.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          436.5
+        ],
+        "before": "Minneapolis-Saint Paul, MN\nMunicipal Bond [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Ac\nDʇʕʅʔʋʒʖʋʑʐ: Minneapolis-Saint Paul, MN\nCʑʏʏʇʐʖʕ: All investment decisions relat\nadvisors. I have no role in, nor am inform\ntransaction was planned and executed by \n",
+        "after": "Minneapolis-Saint Paul, MN Municipal Bond [GS] Filing Status: New Subholding Of: JP Morgan Brokerage Ac Description: Minneapolis-Saint Paul, MN Comments: All investment decisions relat advisors. I have no role in, nor am inform transaction was planned and executed by"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          436.5
+        ],
+        "before": "P\nccount #4\nN Municipal Bond\nted to my persona\nmed of, specific inv\na financial adviso\n",
+        "after": "P ccount #4 N Municipal Bond ted to my persona med of, specific inv a financial adviso"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          436.5
+        ],
+        "before": "07/18/2025\nd\nal financial port\nvestment decisi\nor.\n",
+        "after": "07/18/2025 d al financial port vestment decisi or."
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          436.5
+        ],
+        "before": "07/28/2025\ntfolio are delegate\nions prior to their\n",
+        "after": "07/28/2025 tfolio are delegate ions prior to their"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          436.5
+        ],
+        "before": "$100,001 -\n$250,000\ned to professional fina\nr execution. According\n",
+        "after": "$100,001 - $250,000 ed to professional fina r execution. According"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          436.5
+        ],
+        "before": "ancial\ngly, this\n",
+        "after": "ancial gly, this"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Rob Bresnahan",
+  "state_district": "PA08",
+  "rows": 2,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030857.pdf",
+  "pdf_image": "images/20030857.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Rob Bresnahan\nStatus:\nMember\nState/District: PA08\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nMinneapolis-Saint Paul, MN\nMunicipal Bond [GS]\nP\n07/18/2025 07/28/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #4\nDʇʕʅʔʋʒʖʋʑʐ: Minneapolis-Saint Paul, MN Municipal Bond\nCʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial\nadvisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this\ntransaction was planned and executed by a financial advisor.\nPennsylvania State University\nMunicipal Bond [GS]\nP\n07/21/2025 07/28/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #4\nDʇʕʅʔʋʒʖʋʑʐ: Pennsylvania State University Municipal Bond\nCʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial\nadvisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this\ntransaction was planned and executed by a financial advisor.\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nJP Morgan Brokerage Account #4\nLʑʅʃʖʋʑʐ: US\nCʑʏʏʇʐʖʕ\nAll investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am\ninformed of, specific investment decisions prior to their execution. Accordingly, these transactions were planned and executed by a\nfinancial advisor.\nFiling ID #20030857\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Minneapolis-Saint Paul, MN Municipal Bond [GS] Filing Status: New Subholding Of: JP Morgan Brokerage Ac Description: Minneapolis-Saint Paul, MN Comments: All investment decisions relat advisors. I have no role in, nor am inform transaction was planned and executed by",
+    "asset": "Minneapolis-Saint Paul, MN Municipal Bond",
+    "ticker": "",
+    "transaction_type_raw": "P ccount #4 N Municipal Bond ted to my persona med of, specific inv a financial adviso",
+    "transaction_type": "P",
+    "transaction_date_raw": "07/18/2025 d al financial port vestment decisi or.",
+    "transaction_date": "2025-07-18",
+    "amount_raw": "$100,001 - $250,000 ed to professional fina r execution. According",
+    "amount_min": "100001.0",
+    "amount_max": "250000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Minneapolis-Saint Paul, MN Municipal Bond",
+    "asset_v8_2_cleaned": "Minneapolis-Saint Paul, MN Municipal Bond",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "07/18/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030857.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030857",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Minneapolis-Saint Paul, MN Municipal Bond",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-18",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030857.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030857",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Pennsylvania State University Municipal Bond",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-21",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030857.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/21/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

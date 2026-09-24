@@ -1,0 +1,264 @@
+{
+  "filing_id": "20029084",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "SP Accenture plc Class A Ordinary Shares (ACN) [ST] S 03/27/2025 04/04/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Sarah Landsman Traditional IRA",
+    "after": "SP Accenture plc Class A Ordinary Shares (ACN) [ST] S 03/27/2025 04/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Sarah Landsman Traditional IRA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Accenture plc Class A Ordinary Shares\n(ACN) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Sarah Landsman Traditi\n",
+        "after": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: Sarah Landsman Traditi"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S\nional IRA\n",
+        "after": "S ional IRA"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "03/27/2025\n",
+        "after": "03/27/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "04/04/2025\n",
+        "after": "04/04/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Greg Landsman",
+  "state_district": "OH01",
+  "rows": 43,
+  "page_count": 6,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029084.pdf",
+  "pdf_image": "images/20029084.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Greg Landsman\nStatus:\nMember\nState/District: OH01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nAccenture plc Class A Ordinary Shares\n(ACN) [ST]\nS\n03/27/2025 04/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Sarah Landsman Traditional IRA\nSP\nAlphabet Inc. - Class A Common\nStock (GOOGL) [ST]\nS\n03/27/2025 04/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Sarah Landsman Traditional IRA\nJT\nAmazon.com, Inc. - Common Stock\n(AMZN) [ST]\nS\n03/27/2025 04/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Rockefeller Capital Management (1)\nJT\nAmeriprise Financial, Inc. Common\nStock (AMP) [ST]\nS\n03/27/2025 04/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Rockefeller Capital Management (1)\nSP\nAmeriprise Financial, Inc. Common\nStock (AMP) [ST]\nS\n03/27/2025 04/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Sarah Landsman Traditional IRA\nSP\nApple Inc. - Common Stock (AAPL)\n[ST]\nS\n03/27/2025 04/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Sarah Landsman Traditional IRA\nFiling ID #20029084\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: Sarah Landsman Traditi",
+    "asset": "Accenture plc Class A Ordinary Shares",
+    "ticker": "ACN",
+    "transaction_type_raw": "S ional IRA",
+    "transaction_type": "S",
+    "transaction_date_raw": "03/27/2025",
+    "transaction_date": "2025-03-27",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Accenture plc Class A Ordinary Shares",
+    "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+    "ticker_v8_1": "ACN",
+    "ticker_v8_2_cleaned": "ACN",
+    "ticker_candidate_raw": "ACN",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "03/27/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20029084.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20029084",
+      "politician": "Hon. Greg Landsman",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+      "ticker_v8_2_cleaned": "ACN",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029084.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029084",
+      "politician": "Hon. Greg Landsman",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-27",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029084.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029084",
+      "politician": "Hon. Greg Landsman",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AMZN",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029084.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029084",
+      "politician": "Hon. Greg Landsman",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Ameriprise Financial, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "AMP",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029084.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029084",
+      "politician": "Hon. Greg Landsman",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Ameriprise Financial, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "AMP",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029084.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/27/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

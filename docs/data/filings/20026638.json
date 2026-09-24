@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026638",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      411.0
+    ],
+    "physical_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      411.0
+    ],
+    "method": "table",
+    "before": "Seven Bridges Emerging Markets Fund Series [HN] S 12/31/2024 01/22/2025 $500,001 - $1,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Randall R. Kaplan Irrevocable GST FBO Kathy Manning & Descendants > Randall Robert Kaplan Alaska LLC Dʇʕʅʔʋʒʖʋʑʐ: Hedge fund. Fund manager letter on file with the Committee on Ethics.",
+    "after": "Seven Bridges Emerging Markets Fund Series [HN] S 12/31/2024 01/22/2025 $500,001 - $1,000,000 Filing Status: New Subholding Of: Randall R. Kaplan Irrevocable GST FBO Kathy Manning & Descendants > Randall Robert Kaplan Alaska LLC Description: Hedge fund. Fund manager letter on file with the Committee on Ethics.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99264705882353,
+          318.1875,
+          62.25,
+          411.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          411.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          411.0
+        ],
+        "before": "Seven Bridges Emerging Markets\nFund Series [HN]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Randall R. Kaplan Irrev\nLLC\nDʇʕʅʔʋʒʖʋʑʐ: Hedge fund. Fund manager\n",
+        "after": "Seven Bridges Emerging Markets Fund Series [HN] Filing Status: New Subholding Of: Randall R. Kaplan Irrev LLC Description: Hedge fund. Fund manager"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          411.0
+        ],
+        "before": "S\nvocable GST FBO K\nr letter on file with\n",
+        "after": "S vocable GST FBO K r letter on file with"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          411.0
+        ],
+        "before": "12/31/2024\nKathy Manning\nh the Committe\n",
+        "after": "12/31/2024 Kathy Manning h the Committe"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          411.0
+        ],
+        "before": "01/22/2025\ng & Descendants >\nee on Ethics.\n",
+        "after": "01/22/2025 g & Descendants > ee on Ethics."
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          411.0
+        ],
+        "before": "$500,001 -\n$1,000,000\n> Randall Robert Kap\n",
+        "after": "$500,001 - $1,000,000 > Randall Robert Kap"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5367647058823,
+          411.0
+        ],
+        "before": "plan Alaska\n",
+        "after": "plan Alaska"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kathy Manning",
+  "state_district": "NC06",
+  "rows": 8,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026638.pdf",
+  "pdf_image": "images/20026638.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kathy Manning\nStatus:\nMember\nState/District: NC06\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSeven Bridges Emerging Markets\nFund Series [HN]\nS\n12/31/2024\n01/22/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Randall R. Kaplan Irrevocable GST FBO Kathy Manning & Descendants > Randall Robert Kaplan Alaska\nLLC\nDʇʕʅʔʋʒʖʋʑʐ: Hedge fund. Fund manager letter on file with the Committee on Ethics.\nSP\nSeven Bridges Emerging Markets\nFund Series [HN]\nS\n12/31/2024\n01/22/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 2021 Kathy E. Manning Irrevocable GST Trust FBO Randall R Kaplan & Descendants > Randall Robert\nKaplan Alaska LLC\nSP\nSeven Bridges Long/Short Equity\nFund Ltd. [HN]\nS (partial)\n01/01/2025 01/22/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: RRK Charitable Trust U/A 11/28/00 #2\nDʇʕʅʔʋʒʖʋʑʐ: Hedge Fund. Fund manager letter on file with the Committee on Ethics.\nSeven Bridges Long/Short Equity\nFund Series [HN]\nS (partial)\n01/01/2025 01/22/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Randall R. Kaplan Irrevocable GST FBO Kathy Manning & Descendants > Randall Robert Kaplan Alaska\nLLC\nDʇʕʅʔʋʒʖʋʑʐ: Hedge fund. Fund manager letter on file with the Committee on Ethics.\nSP\nSeven Bridges Long/Short Equity\nFund Series [HN]\nS (partial)\n01/01/2025 01/22/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 2021 Kathy E. Manning Irrevocable GST Trust FBO Randall R Kaplan & Descendants > Randall Robert\nFiling ID #20026638\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Seven Bridges Emerging Markets Fund Series [HN] Filing Status: New Subholding Of: Randall R. Kaplan Irrev LLC Description: Hedge fund. Fund manager",
+    "asset": "Seven Bridges Emerging Markets Fund Series",
+    "ticker": "",
+    "transaction_type_raw": "S vocable GST FBO K r letter on file with",
+    "transaction_type": "S",
+    "transaction_date_raw": "12/31/2024 Kathy Manning h the Committe",
+    "transaction_date": "2024-12-31",
+    "amount_raw": "$500,001 - $1,000,000 > Randall Robert Kap",
+    "amount_min": "500001.0",
+    "amount_max": "1000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Seven Bridges Emerging Markets Fund Series",
+    "asset_v8_2_cleaned": "Seven Bridges Emerging Markets Fund Series",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "12/31/2024",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026638.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026638",
+      "politician": "Hon. Kathy Manning",
+      "owner": "",
+      "asset_v8_2_cleaned": "Seven Bridges Emerging Markets Fund Series",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-31",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026638.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026638",
+      "politician": "Hon. Kathy Manning",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Seven Bridges Emerging Markets Fund Series",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-31",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026638.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026638",
+      "politician": "Hon. Kathy Manning",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Seven Bridges Long/Short Equity Fund Ltd.",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-01-01",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026638.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "01/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026638",
+      "politician": "Hon. Kathy Manning",
+      "owner": "",
+      "asset_v8_2_cleaned": "Seven Bridges Long/Short Equity Fund Series",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-01-01",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026638.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026638",
+      "politician": "Hon. Kathy Manning",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Seven Bridges Long/Short Equity Fund Series",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-01-01",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026638.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "01/01/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

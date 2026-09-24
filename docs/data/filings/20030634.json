@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030634",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "Amdocs Limited - Ordinary Shares (DOX) [ST] S (partial) 06/30/2025 07/08/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America",
+    "after": "Amdocs Limited - Ordinary Shares (DOX) [ST] S (partial) 06/30/2025 07/08/2025 $1,001 - $15,000 Filing Status: New Subholding Of: 150 Main Street Trust > Bank of America",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Amdocs Limited - Ordinary Shares\n(DOX) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > \n",
+        "after": "Amdocs Limited - Ordinary Shares (DOX) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S (partial)\nBank of America\n",
+        "after": "S (partial) Bank of America"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          379.5,
+          385.5
+        ],
+        "before": "06/30/2025\n",
+        "after": "06/30/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          385.5
+        ],
+        "before": "07/08/2025\n",
+        "after": "07/08/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Gilbert Cisneros",
+  "state_district": "CA31",
+  "rows": 27,
+  "page_count": 4,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
+  "pdf_image": "images/20030634.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Gilbert Cisneros\nStatus:\nMember\nState/District: CA31\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAmdocs Limited - Ordinary Shares\n(DOX) [ST]\nS (partial)\n06/30/2025 07/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nApplovin Corporation - Class A\nCommon Stock (APP) [ST]\nP\n07/01/2025\n07/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nASML Holding N.V. - New York\nRegistry Shares (ASML) [ST]\nS\n06/27/2025 07/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nBoot Barn Holdings, Inc. Common\nStock (BOOT) [ST]\nS (partial)\n06/16/2025 07/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nBoston Scientific Corporation\nCommon Stock (BSX) [ST]\nS (partial)\n06/11/2025\n07/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nBoston Scientific Corporation\nCommon Stock (BSX) [ST]\nS (partial)\n06/26/2025 07/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nFiling ID #20030634\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Amdocs Limited - Ordinary Shares (DOX) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >",
+    "asset": "Amdocs Limited - Ordinary Shares",
+    "ticker": "DOX",
+    "transaction_type_raw": "S (partial) Bank of America",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "06/30/2025",
+    "transaction_date": "2025-06-30",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Amdocs Limited - Ordinary Shares",
+    "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
+    "ticker_v8_1": "DOX",
+    "ticker_v8_2_cleaned": "DOX",
+    "ticker_candidate_raw": "DOX",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "06/30/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030634.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030634",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
+      "ticker_v8_2_cleaned": "DOX",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-30",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/30/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030634",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Applovin Corporation - Class A Common Stock",
+      "ticker_v8_2_cleaned": "APP",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-01",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030634",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "ASML Holding N.V. - New York Registry Shares",
+      "ticker_v8_2_cleaned": "ASML",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030634",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Boot Barn Holdings, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "BOOT",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-16",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/16/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030634",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Boston Scientific Corporation Common Stock",
+      "ticker_v8_2_cleaned": "BSX",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-11",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/11/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

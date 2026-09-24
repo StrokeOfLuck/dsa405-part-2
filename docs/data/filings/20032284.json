@@ -1,0 +1,247 @@
+{
+  "filing_id": "20032284",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      385.5
+    ],
+    "physical_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      385.5
+    ],
+    "method": "table",
+    "before": "JT Accenture plc Class A Ordinary Shares (ACN) [ST] S (partial) 09/26/2025 09/29/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation",
+    "after": "JT Accenture plc Class A Ordinary Shares (ACN) [ST] S (partial) 09/26/2025 09/29/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Hern Family Foundation",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.958333333333332,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          385.5
+        ],
+        "before": "Accenture plc Class A Ordinary\nShares (ACN) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\n",
+        "after": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: Hern Family Foundation"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          385.5
+        ],
+        "before": "S (partial)\nn\n",
+        "after": "S (partial) n"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "09/26/2025\n",
+        "after": "09/26/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "09/29/2025\n",
+        "after": "09/29/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5833333333334,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kevin Hern",
+  "state_district": "OK01",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf",
+  "pdf_image": "images/20032284.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kevin Hern\nStatus:\nMember\nState/District: OK01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nAccenture plc Class A Ordinary\nShares (ACN) [ST]\nS (partial)\n09/26/2025 09/29/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nJT\nHome Depot, Inc. (HD) [ST]\nS (partial)\n09/26/2025 09/29/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nJT\nMasimo Corporation - Common Stock\n(MASI) [ST]\nS\n09/26/2025 09/29/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nJT\nMicrosoft Corporation - Common\nStock (MSFT) [ST]\nS (partial)\n09/26/2025 09/29/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nHern Family Foundation (100% Interest) (Owner: JT)\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nFiling ID #20032284\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: Hern Family Foundation",
+    "asset": "Accenture plc Class A Ordinary Shares",
+    "ticker": "ACN",
+    "transaction_type_raw": "S (partial) n",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "09/26/2025",
+    "transaction_date": "2025-09-26",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Accenture plc Class A Ordinary Shares",
+    "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+    "ticker_v8_1": "ACN",
+    "ticker_v8_2_cleaned": "ACN",
+    "ticker_candidate_raw": "ACN",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "09/26/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20032284.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20032284",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+      "ticker_v8_2_cleaned": "ACN",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-09-26",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/26/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032284",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Home Depot, Inc.",
+      "ticker_v8_2_cleaned": "HD",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-09-26",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/26/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032284",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Masimo Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "MASI",
+      "transaction_type": "S",
+      "transaction_date": "2025-09-26",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/26/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032284",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Microsoft Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "MSFT",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-09-26",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/26/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

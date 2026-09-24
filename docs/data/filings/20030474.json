@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030474",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      398.25
+    ],
+    "physical_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      398.25
+    ],
+    "method": "table",
+    "before": "JT Capital One Financial Corporation Common Stock (COF) [ST] E 05/19/2025 06/06/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core Dʇʕʅʔʋʒʖʋʑʐ: Discover Financial Services stock exchanged for Capital One Financial Services stock following merger",
+    "after": "JT Capital One Financial Corporation Common Stock (COF) [ST] E 05/19/2025 06/06/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch Tax Efficient Core Description: Discover Financial Services stock exchanged for Capital One Financial Services stock following merger",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99264705882353,
+          318.1875,
+          62.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.25
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          398.25
+        ],
+        "before": "Capital One Financial Corporation\nCommon Stock (COF) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Effici\nDʇʕʅʔʋʒʖʋʑʐ: Discover Financial Services\n",
+        "after": "Capital One Financial Corporation Common Stock (COF) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Effici Description: Discover Financial Services"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          398.25
+        ],
+        "before": "E\nient Core\ns stock exchanged\n",
+        "after": "E ient Core s stock exchanged"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          398.25
+        ],
+        "before": "05/19/2025\nd for Capital On\n",
+        "after": "05/19/2025 d for Capital On"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          398.25
+        ],
+        "before": "06/06/2025\nne Financial Servic\n",
+        "after": "06/06/2025 ne Financial Servic"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$1,001 - $15,000\nces stock following m\n",
+        "after": "$1,001 - $15,000 ces stock following m"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5367647058823,
+          398.25
+        ],
+        "before": "merger\n",
+        "after": "merger"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Julie Johnson",
+  "state_district": "TX32",
+  "rows": 5,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf",
+  "pdf_image": "images/20030474.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Julie Johnson\nStatus:\nMember\nState/District: TX32\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nCapital One Financial Corporation\nCommon Stock (COF) [ST]\nE\n05/19/2025\n06/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core\nDʇʕʅʔʋʒʖʋʑʐ: Discover Financial Services stock exchanged for Capital One Financial Services stock following merger\nJT\nFidelity National Information\nServices, Inc. Common Stock (FIS)\n[ST]\nP\n05/15/2025\n06/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nGeneral Dynamics Corporation\nCommon Stock (GD) [ST]\nP\n05/02/2025 06/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nMorgan Stanley Common Stock (MS)\n[ST]\nS (partial)\n05/15/2025\n06/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nThe Bank of New York Mellon\nCorporation Common Stock (BK) [ST]\nP\n05/15/2025\n06/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nFiling ID #20030474\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Capital One Financial Corporation Common Stock (COF) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Effici Description: Discover Financial Services",
+    "asset": "Capital One Financial Corporation Common Stock",
+    "ticker": "COF",
+    "transaction_type_raw": "E ient Core s stock exchanged",
+    "transaction_type": "E",
+    "transaction_date_raw": "05/19/2025 d for Capital On",
+    "transaction_date": "2025-05-19",
+    "amount_raw": "$1,001 - $15,000 ces stock following m",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Capital One Financial Corporation Common Stock",
+    "asset_v8_2_cleaned": "Capital One Financial Corporation Common Stock",
+    "ticker_v8_1": "COF",
+    "ticker_v8_2_cleaned": "COF",
+    "ticker_candidate_raw": "COF",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "05/19/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030474.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030474",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Capital One Financial Corporation Common Stock",
+      "ticker_v8_2_cleaned": "COF",
+      "transaction_type": "E",
+      "transaction_date": "2025-05-19",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "05/19/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030474",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Fidelity National Information Services, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "FIS",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-15",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030474",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "General Dynamics Corporation Common Stock",
+      "ticker_v8_2_cleaned": "GD",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-02",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/02/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030474",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Morgan Stanley Common Stock",
+      "ticker_v8_2_cleaned": "MS",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-05-15",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030474",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "The Bank of New York Mellon Corporation Common Stock",
+      "ticker_v8_2_cleaned": "BK",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-15",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/15/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

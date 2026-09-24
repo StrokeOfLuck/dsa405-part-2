@@ -1,0 +1,18 @@
+{
+  "filing_id": "8220768",
+  "politician": "Hon. Brad Sherman",
+  "state_district": "CA32",
+  "rows": 0,
+  "page_count": 2,
+  "page": 1,
+  "spotlight_row": null,
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220768.pdf",
+  "pdf_image": "images/8220768.webp",
+  "geometry": null,
+  "raw_pdf_text": "",
+  "raw_text_truncated": false,
+  "status": "no_parsed_rows",
+  "status_note": "This archived PDF produced no transaction rows. Parser reason: scanned/image PDF or no embedded text; needs OCR/MinerU/AI fallback. Inspect the original PDF; no transaction CSV is available for this filing.",
+  "metadata_source": "Official 2025 filing XML index",
+  "fallback_reason": "scanned/image PDF or no embedded text; needs OCR/MinerU/AI fallback"
+}

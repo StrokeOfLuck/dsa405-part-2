@@ -1,0 +1,213 @@
+{
+  "filing_id": "20030630",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.990384615384617,
+      318.1875,
+      575.5416666666666,
+      398.25
+    ],
+    "physical_rect": [
+      22.990384615384617,
+      318.1875,
+      575.5416666666666,
+      398.25
+    ],
+    "method": "table",
+    "before": "SP Broadcom Inc. - Common Stock (AVGO) [ST] P 06/20/2025 06/20/2025 $1,000,001 - $5,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Dʇʕʅʔʋʒʖʋʑʐ: Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.",
+    "after": "SP Broadcom Inc. - Common Stock (AVGO) [ST] P 06/20/2025 06/20/2025 $1,000,001 - $5,000,000 Filing Status: New Description: Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.990384615384617,
+          318.1875,
+          62.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.25
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          398.25
+        ],
+        "before": "Broadcom Inc. - Common Stock\n(AVGO) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Exercised 200 call options \nof 6/20/25.\n",
+        "after": "Broadcom Inc. - Common Stock (AVGO) [ST] Filing Status: New Description: Exercised 200 call options of 6/20/25."
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          398.25
+        ],
+        "before": "P\npurchased 6/24/\n",
+        "after": "P purchased 6/24/"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          378.0,
+          398.25
+        ],
+        "before": "06/20/2025\n24 (20,000 sha\n",
+        "after": "06/20/2025 24 (20,000 sha"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          398.25
+        ],
+        "before": "06/20/2025\nares) at a strike pr\n",
+        "after": "06/20/2025 ares) at a strike pr"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$1,000,001 -\n$5,000,000\nrice of $80 with an ex\n",
+        "after": "$1,000,001 - $5,000,000 rice of $80 with an ex"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5416666666666,
+          398.25
+        ],
+        "before": "xpiration date\n",
+        "after": "xpiration date"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Nancy Pelosi",
+  "state_district": "CA11",
+  "rows": 2,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030630.pdf",
+  "pdf_image": "images/20030630.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Nancy Pelosi\nStatus:\nMember\nState/District: CA11\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nBroadcom Inc. - Common Stock\n(AVGO) [ST]\nP\n06/20/2025 06/20/2025\n$1,000,001 -\n$5,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date\nof 6/20/25.\nSP\nMatthews International Mutual Fund\n[OT]\nS\n06/20/2025 06/20/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Sale of 2,822 units.\nCʑʏʏʇʐʖʕ: Loss of $28,948 on sale.\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nCʑʏʏʇʐʖʕ\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Nancy Pelosi , 07/09/2025\nFiling ID #20030630\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Broadcom Inc. - Common Stock (AVGO) [ST] Filing Status: New Description: Exercised 200 call options of 6/20/25.",
+    "asset": "Broadcom Inc. - Common Stock",
+    "ticker": "AVGO",
+    "transaction_type_raw": "P purchased 6/24/",
+    "transaction_type": "P",
+    "transaction_date_raw": "06/20/2025 24 (20,000 sha",
+    "transaction_date": "2025-06-20",
+    "amount_raw": "$1,000,001 - $5,000,000 rice of $80 with an ex",
+    "amount_min": "1000001.0",
+    "amount_max": "5000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Broadcom Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Broadcom Inc. - Common Stock",
+    "ticker_v8_1": "AVGO",
+    "ticker_v8_2_cleaned": "AVGO",
+    "ticker_candidate_raw": "AVGO",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "06/20/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030630.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030630",
+      "politician": "Hon. Nancy Pelosi",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Broadcom Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AVGO",
+      "transaction_type": "P",
+      "transaction_date": "2025-06-20",
+      "amount_min": "1000001.0",
+      "amount_max": "5000000.0",
+      "amount_category": "$1,000,001 - $5,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030630.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "06/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030630",
+      "politician": "Hon. Nancy Pelosi",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Matthews International Mutual Fund",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-20",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030630.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/20/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

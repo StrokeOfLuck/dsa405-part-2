@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033458",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      398.25
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      398.25
+    ],
+    "method": "table",
+    "before": "JT Accenture plc Class A Ordinary Shares (ACN) [ST] S 10/27/2025 10/28/2025 $100,001 - $250,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation Dʇʕʅʔʋʒʖʋʑʐ: sell to close",
+    "after": "JT Accenture plc Class A Ordinary Shares (ACN) [ST] S 10/27/2025 10/28/2025 $100,001 - $250,000 Filing Status: New Subholding Of: Hern Family Foundation Description: sell to close",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.25
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          398.25
+        ],
+        "before": "Accenture plc Class A Ordinary\nShares (ACN) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nDʇʕʅʔʋʒʖʋʑʐ: sell to close\n",
+        "after": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: Hern Family Foundation Description: sell to close"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          398.25
+        ],
+        "before": "S\nn\n",
+        "after": "S n"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          398.25
+        ],
+        "before": "10/27/2025\n",
+        "after": "10/27/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          398.25
+        ],
+        "before": "10/28/2025\n",
+        "after": "10/28/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$100,001 -\n$250,000\n",
+        "after": "$100,001 - $250,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kevin Hern",
+  "state_district": "OK01",
+  "rows": 15,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
+  "pdf_image": "images/20033458.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kevin Hern\nStatus:\nMember\nState/District: OK01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nAccenture plc Class A Ordinary\nShares (ACN) [ST]\nS\n10/27/2025 10/28/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nDʇʕʅʔʋʒʖʋʑʐ: sell to close\nJT\nBNP Paribas MTN 4/9/2030 [CS]\nS\n10/09/2025 10/10/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nDʇʕʅʔʋʒʖʋʑʐ: note redeemed/called by issuer\nJT\nBNP Paribas MTN 4/9/2030 [CS]\nS\n10/09/2025 10/10/2025\n$1,000,001 -\n$5,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust\nDʇʕʅʔʋʒʖʋʑʐ: note redeemed/called by the issuer\nJT\nBoston Scientific Corporation\nCommon Stock (BSX) [ST]\nS (partial)\n10/28/2025 10/29/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nCSX Corporation (CSX) [ST]\nS (partial)\n10/28/2025 10/29/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kevin Hern Traditional IRA\nEaton Corporation, PLC Ordinary\nShares (ETN) [ST]\nS (partial)\n10/06/2025 10/07/2025\n$15,001 - $50,000\nFiling ID #20033458\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: Hern Family Foundation Description: sell to close",
+    "asset": "Accenture plc Class A Ordinary Shares",
+    "ticker": "ACN",
+    "transaction_type_raw": "S n",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/27/2025",
+    "transaction_date": "2025-10-27",
+    "amount_raw": "$100,001 - $250,000",
+    "amount_min": "100001.0",
+    "amount_max": "250000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Accenture plc Class A Ordinary Shares",
+    "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+    "ticker_v8_1": "ACN",
+    "ticker_v8_2_cleaned": "ACN",
+    "ticker_candidate_raw": "ACN",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/27/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033458.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033458",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+      "ticker_v8_2_cleaned": "ACN",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-27",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033458",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "BNP Paribas MTN 4/9/2030",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-09",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/09/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033458",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "BNP Paribas MTN 4/9/2030",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-09",
+      "amount_min": "1000001.0",
+      "amount_max": "5000000.0",
+      "amount_category": "$1,000,001 - $5,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/09/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033458",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Boston Scientific Corporation Common Stock",
+      "ticker_v8_2_cleaned": "BSX",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-10-28",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/28/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033458",
+      "politician": "Hon. Kevin Hern",
+      "owner": "",
+      "asset_v8_2_cleaned": "CSX Corporation",
+      "ticker_v8_2_cleaned": "CSX",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-10-28",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/28/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033611",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "JT 3M Company Common Stock (MMM) [ST] S (partial) 11/13/2025 12/05/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)",
+    "after": "JT 3M Company Common Stock (MMM) [ST] S (partial) 11/13/2025 12/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Chase Brokerage Account (3935)",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          385.5
+        ],
+        "before": "3M Company Common Stock (MMM)\n[ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Accoun\n",
+        "after": "3M Company Common Stock (MMM) [ST] Filing Status: New Subholding Of: Chase Brokerage Accoun"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          385.5
+        ],
+        "before": "S (partial)\nnt (3935)\n",
+        "after": "S (partial) nt (3935)"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          379.5,
+          385.5
+        ],
+        "before": "11/13/2025\n",
+        "after": "11/13/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          385.5
+        ],
+        "before": "12/05/2025\n",
+        "after": "12/05/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Julie Johnson",
+  "state_district": "TX32",
+  "rows": 63,
+  "page_count": 8,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf",
+  "pdf_image": "images/20033611.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Julie Johnson\nStatus:\nMember\nState/District: TX32\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\n3M Company Common Stock (MMM)\n[ST]\nS (partial)\n11/13/2025\n12/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nAbbott Laboratories Common Stock\n(ABT) [ST]\nS (partial)\n11/13/2025\n12/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nAbbVie Inc. Common Stock (ABBV)\n[ST]\nS (partial)\n11/13/2025\n12/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nAdobe Inc. - Common Stock (ADBE)\n[ST]\nS\n11/03/2025\n12/10/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Long Term Growth\nJT\nAir Products and Chemicals, Inc.\nCommon Stock (APD) [ST]\nS (partial)\n11/13/2025\n12/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nAlphabet Inc. - Class C Capital Stock\n(GOOG) [ST]\nS (partial)\n11/13/2025\n12/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nFiling ID #20033611\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "3M Company Common Stock (MMM) [ST] Filing Status: New Subholding Of: Chase Brokerage Accoun",
+    "asset": "3M Company Common Stock",
+    "ticker": "MMM",
+    "transaction_type_raw": "S (partial) nt (3935)",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "11/13/2025",
+    "transaction_date": "2025-11-13",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "3M Company Common Stock",
+    "asset_v8_2_cleaned": "3M Company Common Stock",
+    "ticker_v8_1": "MMM",
+    "ticker_v8_2_cleaned": "MMM",
+    "ticker_candidate_raw": "MMM",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "11/13/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033611.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033611",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "3M Company Common Stock",
+      "ticker_v8_2_cleaned": "MMM",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-11-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/13/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033611",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+      "ticker_v8_2_cleaned": "ABT",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-11-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/13/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033611",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ABBV",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-11-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/13/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033611",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Adobe Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "ADBE",
+      "transaction_type": "S",
+      "transaction_date": "2025-11-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033611",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Air Products and Chemicals, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "APD",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-11-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/13/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

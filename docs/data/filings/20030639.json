@@ -1,0 +1,247 @@
+{
+  "filing_id": "20030639",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.970588235294116,
+      318.1875,
+      575.5588235294117,
+      385.5
+    ],
+    "physical_rect": [
+      21.970588235294116,
+      318.1875,
+      575.5588235294117,
+      385.5
+    ],
+    "method": "table",
+    "before": "SP California State GO Call 12/1/27 4% due 12/1/47 [GS] S (partial) 06/12/2025 07/01/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA",
+    "after": "SP California State GO Call 12/1/27 4% due 12/1/47 [GS] S (partial) 06/12/2025 07/01/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.970588235294116,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          385.5
+        ],
+        "before": "California State GO Call 12/1/27 4%\ndue 12/1/47 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\n",
+        "after": "California State GO Call 12/1/27 4% due 12/1/47 [GS] Filing Status: New Subholding Of: Victoria Kelly Trust ICA"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          385.5
+        ],
+        "before": "S (partial)\nA\n",
+        "after": "S (partial) A"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "06/12/2025\n",
+        "after": "06/12/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "07/01/2025\n",
+        "after": "07/01/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5588235294117,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Mike Kelly",
+  "state_district": "PA16",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+  "pdf_image": "images/20030639.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Mike Kelly\nStatus:\nMember\nState/District: PA16\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nCalifornia State GO Call 12/1/27 4%\ndue 12/1/47 [GS]\nS (partial)\n06/12/2025 07/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\nSP\nHarding Loevner Institutional EM\n(HLMEX) [OT]\nS\n06/18/2025 07/01/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Mutual Fund\nSP\nUnited States Steel Corporation\nCommon Stock (X) [ST]\nP\n06/03/2025 07/01/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\nSP\nUnited States Steel Corporation\nCommon Stock (X) [ST]\nS\n06/20/2025 07/01/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nVictoria Kelly Trust ICA (Owner: SP)\nFiling ID #20030639\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "California State GO Call 12/1/27 4% due 12/1/47 [GS] Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "asset": "California State GO Call 12/1/27 4% due 12/1/47",
+    "ticker": "",
+    "transaction_type_raw": "S (partial) A",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "06/12/2025",
+    "transaction_date": "2025-06-12",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "California State GO Call 12/1/27 4% due 12/1/47",
+    "asset_v8_2_cleaned": "California State GO Call 12/1/27 4% due 12/1/47",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "06/12/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030639.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030639",
+      "politician": "Hon. Mike Kelly",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "California State GO Call 12/1/27 4% due 12/1/47",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-12",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/12/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030639",
+      "politician": "Hon. Mike Kelly",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Harding Loevner Institutional EM",
+      "ticker_v8_2_cleaned": "HLMEX",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-18",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030639",
+      "politician": "Hon. Mike Kelly",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "United States Steel Corporation Common Stock",
+      "ticker_v8_2_cleaned": "X",
+      "transaction_type": "P",
+      "transaction_date": "2025-06-03",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030639",
+      "politician": "Hon. Mike Kelly",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "United States Steel Corporation Common Stock",
+      "ticker_v8_2_cleaned": "X",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-20",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/20/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,264 @@
+{
+  "filing_id": "20029135",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "AFLAC Incorporated Common Stock (AFL) [ST] P 03/10/2025 04/11/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment Management Account",
+    "after": "AFLAC Incorporated Common Stock (AFL) [ST] P 03/10/2025 04/11/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Matt Miller Investment Management Account",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "AFLAC Incorporated Common Stock\n(AFL) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment \n",
+        "after": "AFLAC Incorporated Common Stock (AFL) [ST] Filing Status: New Subholding Of: Matt Miller Investment"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "P\nManagement Acc\n",
+        "after": "P Management Acc"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "03/10/2025\ncount\n",
+        "after": "03/10/2025 count"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "04/11/2025\n",
+        "after": "04/11/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Carol Devine Miller",
+  "state_district": "WV01",
+  "rows": 14,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf",
+  "pdf_image": "images/20029135.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Carol Devine Miller\nStatus:\nMember\nState/District: WV01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAFLAC Incorporated Common Stock\n(AFL) [ST]\nP\n03/10/2025 04/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment Management Account\nAmerican Water Works Company,\nInc. Common Stock (AWK) [ST]\nP\n03/10/2025 04/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment Management Account\nCME Group Inc. - Class A Common\nStock (CME) [ST]\nP\n03/10/2025 04/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment Management Account\nGilead Sciences, Inc. - Common Stock\n(GILD) [ST]\nP\n03/10/2025 04/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment Management Account\nHoneywell International Inc. -\nCommon Stock (HON) [ST]\nP\n03/10/2025 04/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment Management Account\nIllinois Tool Works Inc. Common\nStock (ITW) [ST]\nP\n03/10/2025 04/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Matt Miller Investment Management Account\nFiling ID #20029135\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "AFLAC Incorporated Common Stock (AFL) [ST] Filing Status: New Subholding Of: Matt Miller Investment",
+    "asset": "AFLAC Incorporated Common Stock",
+    "ticker": "AFL",
+    "transaction_type_raw": "P Management Acc",
+    "transaction_type": "P",
+    "transaction_date_raw": "03/10/2025 count",
+    "transaction_date": "2025-03-10",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AFLAC Incorporated Common Stock",
+    "asset_v8_2_cleaned": "AFLAC Incorporated Common Stock",
+    "ticker_v8_1": "AFL",
+    "ticker_v8_2_cleaned": "AFL",
+    "ticker_candidate_raw": "AFL",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "03/10/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20029135.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20029135",
+      "politician": "Hon. Carol Devine Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "AFLAC Incorporated Common Stock",
+      "ticker_v8_2_cleaned": "AFL",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "03/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029135",
+      "politician": "Hon. Carol Devine Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "American Water Works Company, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "AWK",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029135",
+      "politician": "Hon. Carol Devine Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "CME Group Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "CME",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "03/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029135",
+      "politician": "Hon. Carol Devine Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "Gilead Sciences, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "GILD",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029135",
+      "politician": "Hon. Carol Devine Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "Honeywell International Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "HON",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "03/10/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

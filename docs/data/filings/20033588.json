@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033588",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      391.5
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      391.5
+    ],
+    "method": "table",
+    "before": "SP Allocate Alpha Fund II LP [OT] P 11/19/2025 11/30/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Lʑʅʃʖʋʑʐ: US Dʇʕʅʔʋʒʖʋʑʐ: Pooled Investment Fund",
+    "after": "SP Allocate Alpha Fund II LP [OT] P 11/19/2025 11/30/2025 $15,001 - $50,000 Filing Status: New Location: US Description: Pooled Investment Fund",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          391.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          391.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          391.5
+        ],
+        "before": "Allocate Alpha Fund II LP [OT]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Pooled Investment Fund\n",
+        "after": "Allocate Alpha Fund II LP [OT] Filing Status: New Location: US Description: Pooled Investment Fund"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          391.5
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          391.5
+        ],
+        "before": "11/19/2025\n",
+        "after": "11/19/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          391.5
+        ],
+        "before": "11/30/2025\n",
+        "after": "11/30/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          391.5
+        ],
+        "before": "$15,001 - $50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          391.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Scott H. Peters",
+  "state_district": "CA50",
+  "rows": 6,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033588.pdf",
+  "pdf_image": "images/20033588.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Scott H. Peters\nStatus:\nMember\nState/District: CA50\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nAllocate Alpha Fund II LP [OT]\nP\n11/19/2025\n11/30/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Pooled Investment Fund\nSP\nKent Street Group LLC [OI]\nP\n11/20/2025\n11/30/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Poole Investment Fund/Venture Capital\nSP\nMotesto CA Waste [GS]\nP\n11/12/2025\n11/30/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nPalmdale CA Sch [GS]\nP\n11/19/2025\n11/30/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nSacramento CA WTR UTIL [GS]\nS\n11/03/2025\n11/30/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nU.S. Treasury Notes [GS]\nS (partial)\n11/18/2025\n11/30/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\nFiling ID #20033588\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Allocate Alpha Fund II LP [OT] Filing Status: New Location: US Description: Pooled Investment Fund",
+    "asset": "Allocate Alpha Fund II LP",
+    "ticker": "",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "11/19/2025",
+    "transaction_date": "2025-11-19",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Allocate Alpha Fund II LP",
+    "asset_v8_2_cleaned": "Allocate Alpha Fund II LP",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "11/19/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033588.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033588",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Allocate Alpha Fund II LP",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-19",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033588.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/19/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033588",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Kent Street Group LLC",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-20",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033588.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033588",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Motesto CA Waste",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-12",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033588.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/12/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033588",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Palmdale CA Sch",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-19",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033588.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/19/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033588",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Sacramento CA WTR UTIL",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-11-03",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033588.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/03/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,213 @@
+{
+  "filing_id": "20033415",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.78125,
+      318.1875,
+      575.625,
+      385.5
+    ],
+    "physical_rect": [
+      22.78125,
+      318.1875,
+      575.625,
+      385.5
+    ],
+    "method": "table",
+    "before": "SP Church & Dwight Company, Inc. Common Stock (CHD) [ST] S 10/10/2025 11/05/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: LIVTR",
+    "after": "SP Church & Dwight Company, Inc. Common Stock (CHD) [ST] S 10/10/2025 11/05/2025 $15,001 - $50,000 Filing Status: New Subholding Of: LIVTR",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.78125,
+          318.1875,
+          63.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          385.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Church & Dwight Company, Inc.\nCommon Stock (CHD) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: LIVTR\n",
+        "after": "Church & Dwight Company, Inc. Common Stock (CHD) [ST] Filing Status: New Subholding Of: LIVTR"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S\n",
+        "after": "S"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "10/10/2025\n",
+        "after": "10/10/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "11/05/2025\n",
+        "after": "11/05/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Richard W. Allen",
+  "state_district": "GA12",
+  "rows": 2,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033415.pdf",
+  "pdf_image": "images/20033415.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Richard W. Allen\nStatus:\nMember\nState/District: GA12\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nChurch & Dwight Company, Inc.\nCommon Stock (CHD) [ST]\nS\n10/10/2025 11/05/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: LIVTR\nUS Treasury Bill 91282CLP4 3.5%\nDue 9/30/26 [GS]\nP\n10/10/2025 11/05/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: SCH1\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nLIVTR (Owner: SP)\nLʑʅʃʖʋʑʐ: US\nSCH1\nLʑʅʃʖʋʑʐ: US\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Richard W. Allen , 11/13/2025\nFiling ID #20033415\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Church & Dwight Company, Inc. Common Stock (CHD) [ST] Filing Status: New Subholding Of: LIVTR",
+    "asset": "Church & Dwight Company, Inc. Common Stock",
+    "ticker": "CHD",
+    "transaction_type_raw": "S",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/10/2025",
+    "transaction_date": "2025-10-10",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Church & Dwight Company, Inc. Common Stock",
+    "asset_v8_2_cleaned": "Church & Dwight Company, Inc. Common Stock",
+    "ticker_v8_1": "CHD",
+    "ticker_v8_2_cleaned": "CHD",
+    "ticker_candidate_raw": "CHD",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/10/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033415.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033415",
+      "politician": "Hon. Richard W. Allen",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Church & Dwight Company, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "CHD",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-10",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033415.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033415",
+      "politician": "Hon. Richard W. Allen",
+      "owner": "",
+      "asset_v8_2_cleaned": "US Treasury Bill 91282CLP4 3.5% Due 9/30/26",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-10",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033415.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/10/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

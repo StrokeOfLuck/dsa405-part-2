@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030541",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99,
+      318.1875,
+      575.52,
+      372.75
+    ],
+    "physical_rect": [
+      21.99,
+      318.1875,
+      575.52,
+      372.75
+    ],
+    "method": "table",
+    "before": "JT Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029 [GS] S (partial) 06/11/2025 06/11/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "JT Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029 [GS] S (partial) 06/11/2025 06/11/2025 $15,001 - $50,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99,
+          318.1875,
+          62.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          372.75
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          372.75
+        ],
+        "before": "Arizona Indl Dev Auth Rev BDS\nLincoln 5.00% Due Nov 1, 2029 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029 [GS] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          372.75
+        ],
+        "before": "S (partial)\n",
+        "after": "S (partial)"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          372.75
+        ],
+        "before": "06/11/2025\n",
+        "after": "06/11/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          372.75
+        ],
+        "before": "06/11/2025\n",
+        "after": "06/11/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.52,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Suzan K. DelBene",
+  "state_district": "WA01",
+  "rows": 19,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+  "pdf_image": "images/20030541.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Suzan K. DelBene\nStatus:\nMember\nState/District: WA01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nArizona Indl Dev Auth Rev BDS\nLincoln 5.00% Due Nov 1, 2029 [GS]\nS (partial)\n06/11/2025\n06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nJT\nColorado Health Fac 5%49 Hosp\nHLTH Due 08/01/49 [GS]\nS (partial)\n06/11/2025\n06/11/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nJT\nHonolulu HI City & 4%32 Go Utx Due\n10/01/32 [GS]\nS (partial)\n06/11/2025\n06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nJT\nIllinois ST Sales Tax Rev JR Oblig\n4.00 % Due Jun 15, 2030 [GS]\nS (partial)\n06/11/2025\n06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nJT\nMichigan ST HSG Dev Auth Single\nFamily 1.25 % Due Jun 1, 2027 [GS]\nS (partial)\n06/11/2025\n06/11/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nJT\nNew York New Y CI 2.6%26 Mult\nHSG Due 05/01/26 [GS]\nS (partial)\n06/11/2025\n06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nJT\nNew York NY City Transitional Fin\n5.00 % Due Nov 1, 2027 [GS]\nS (partial)\n06/11/2025\n06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nJT\nNew York NY City Transitional Fin\nS (partial)\n06/11/2025\n06/11/2025\n$15,001 -\nFiling ID #20030541\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029 [GS] Filing Status: New",
+    "asset": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029",
+    "ticker": "",
+    "transaction_type_raw": "S (partial)",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "06/11/2025",
+    "transaction_date": "2025-06-11",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029",
+    "asset_v8_2_cleaned": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "06/11/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030541.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030541",
+      "politician": "Hon. Suzan K. DelBene",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-11",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030541",
+      "politician": "Hon. Suzan K. DelBene",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Colorado Health Fac 5%49 Hosp HLTH Due 08/01/49",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-11",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030541",
+      "politician": "Hon. Suzan K. DelBene",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Honolulu HI City & 4%32 Go Utx Due 10/01/32",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-11",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030541",
+      "politician": "Hon. Suzan K. DelBene",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Illinois ST Sales Tax Rev JR Oblig 4.00 % Due Jun 15, 2030",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-11",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030541",
+      "politician": "Hon. Suzan K. DelBene",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Michigan ST HSG Dev Auth Single Family 1.25 % Due Jun 1, 2027",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-11",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/11/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

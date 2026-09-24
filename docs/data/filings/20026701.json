@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026701",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      396.0
+    ],
+    "physical_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      396.0
+    ],
+    "method": "table",
+    "before": "JT NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] S 01/28/2025 02/03/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account",
+    "after": "JT NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] S 01/28/2025 02/03/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Equitable Advisors Investment Account",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99264705882353,
+          318.1875,
+          62.25,
+          396.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          396.0
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          396.0
+        ],
+        "before": "NGL ENERGY PARTNERS LP\nCommon Units representing Limited\nPartner Interests (NGL) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Inve\n",
+        "after": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] Filing Status: New Subholding Of: Equitable Advisors Inve"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          396.0
+        ],
+        "before": "S\nestment Account\n",
+        "after": "S estment Account"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          378.0,
+          396.0
+        ],
+        "before": "01/28/2025\n",
+        "after": "01/28/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          396.0
+        ],
+        "before": "02/03/2025\n",
+        "after": "02/03/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          396.0
+        ],
+        "before": "$50,001 -\n$100,000\n",
+        "after": "$50,001 - $100,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5367647058823,
+          396.0
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Mark Dr Green",
+  "state_district": "TN07",
+  "rows": 5,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026701.pdf",
+  "pdf_image": "images/20026701.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Mark Dr Green\nStatus:\nMember\nState/District: TN07\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nNGL ENERGY PARTNERS LP\nCommon Units representing Limited\nPartner Interests (NGL) [ST]\nS\n01/28/2025 02/03/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account\nJT\nNGL ENERGY PARTNERS LP\nCommon Units representing Limited\nPartner Interests (NGL) [ST]\nS\n01/30/2025 02/03/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account\nJT\nNGL ENERGY PARTNERS LP\nCommon Units representing Limited\nPartner Interests (NGL) [ST]\nS\n02/03/2025 02/06/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account\nJT\nOUNZ Van Eck Gold Trust ETF [OT]\nP\n01/30/2025 02/06/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Exchange traded ETF\nJT\nOUNZ Van Eck Gold Trust ETF [OT]\nP\n02/03/2025 02/06/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account\nLʑʅʃʖʋʑʐ: US\nFiling ID #20026701\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] Filing Status: New Subholding Of: Equitable Advisors Inve",
+    "asset": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests",
+    "ticker": "NGL",
+    "transaction_type_raw": "S estment Account",
+    "transaction_type": "S",
+    "transaction_date_raw": "01/28/2025",
+    "transaction_date": "2025-01-28",
+    "amount_raw": "$50,001 - $100,000",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests",
+    "asset_v8_2_cleaned": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests",
+    "ticker_v8_1": "NGL",
+    "ticker_v8_2_cleaned": "NGL",
+    "ticker_candidate_raw": "NGL",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "01/28/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026701.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026701",
+      "politician": "Hon. Mark Dr Green",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests",
+      "ticker_v8_2_cleaned": "NGL",
+      "transaction_type": "S",
+      "transaction_date": "2025-01-28",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026701.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/28/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026701",
+      "politician": "Hon. Mark Dr Green",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests",
+      "ticker_v8_2_cleaned": "NGL",
+      "transaction_type": "S",
+      "transaction_date": "2025-01-30",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026701.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/30/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026701",
+      "politician": "Hon. Mark Dr Green",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests",
+      "ticker_v8_2_cleaned": "NGL",
+      "transaction_type": "S",
+      "transaction_date": "2025-02-03",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026701.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026701",
+      "politician": "Hon. Mark Dr Green",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "OUNZ Van Eck Gold Trust ETF",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-30",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026701.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/30/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026701",
+      "politician": "Hon. Mark Dr Green",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "OUNZ Van Eck Gold Trust ETF",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-02-03",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026701.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/03/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

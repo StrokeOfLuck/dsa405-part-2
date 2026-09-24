@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026533",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      406.5
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      406.5
+    ],
+    "method": "table",
+    "before": "JT Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] S 12/16/2024 01/07/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1",
+    "after": "JT Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] S 12/16/2024 01/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley - Select UMA Account # 1",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          406.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          406.5
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          406.5
+        ],
+        "before": "Alibaba Group Holding Limited\nAmerican Depositary Shares each\nrepresenting eight Ordinary share\n(BABA) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select \n",
+        "after": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          406.5
+        ],
+        "before": "S\nUMA Account # 1\n",
+        "after": "S UMA Account # 1"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          406.5
+        ],
+        "before": "12/16/2024\n1\n",
+        "after": "12/16/2024 1"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          406.5
+        ],
+        "before": "01/07/2025\n",
+        "after": "01/07/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.75,
+          406.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          318.1875,
+          575.5178571428571,
+          406.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Josh Gottheimer",
+  "state_district": "NJ05",
+  "rows": 55,
+  "page_count": 8,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026533.pdf",
+  "pdf_image": "images/20026533.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Josh Gottheimer\nStatus:\nMember\nState/District: NJ05\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nAlibaba Group Holding Limited\nAmerican Depositary Shares each\nrepresenting eight Ordinary share\n(BABA) [ST]\nS\n12/16/2024\n01/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nAmbev S.A. American Depositary\nShares (ABEV) [ST]\nS (partial)\n12/27/2024 01/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nApple Inc. - Common Stock (AAPL)\n[ST]\nP\n12/19/2024\n01/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nBlock, Inc. Class A Common Stock,\n(SQ) [ST]\nP\n12/30/2024 01/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nCadre Holdings, Inc. Common Stock\n(CDRE) [ST]\nS\n12/27/2024 01/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nCadre Holdings, Inc. Common Stock\n(CDRE) [ST]\nP\n12/06/2024 01/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFiling ID #20026533\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select",
+    "asset": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+    "ticker": "BABA",
+    "transaction_type_raw": "S UMA Account # 1",
+    "transaction_type": "S",
+    "transaction_date_raw": "12/16/2024 1",
+    "transaction_date": "2024-12-16",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+    "asset_v8_2_cleaned": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+    "ticker_v8_1": "BABA",
+    "ticker_v8_2_cleaned": "BABA",
+    "ticker_candidate_raw": "BABA",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "12/16/2024",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026533.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026533",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+      "ticker_v8_2_cleaned": "BABA",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-16",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026533.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/16/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026533",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Ambev S.A. American Depositary Shares",
+      "ticker_v8_2_cleaned": "ABEV",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2024-12-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026533.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/27/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026533",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Apple Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AAPL",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-19",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026533.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/19/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026533",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Block, Inc. Class A Common Stock,",
+      "ticker_v8_2_cleaned": "SQ",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-30",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026533.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/30/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026533",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Cadre Holdings, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "CDRE",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026533.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/27/2024",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

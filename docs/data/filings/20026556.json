@@ -1,0 +1,230 @@
+{
+  "filing_id": "20026556",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.708333333333332,
+      318.1875,
+      575.625,
+      385.5
+    ],
+    "physical_rect": [
+      22.708333333333332,
+      318.1875,
+      575.625,
+      385.5
+    ],
+    "method": "table",
+    "before": "Airbnb, Inc. - Class A Common Stock (ABNB) [ST] S 01/07/2025 01/10/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Bill's IRA",
+    "after": "Airbnb, Inc. - Class A Common Stock (ABNB) [ST] S 01/07/2025 01/10/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Bill's IRA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.708333333333332,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Airbnb, Inc. - Class A Common Stock\n(ABNB) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Bill's IRA\n",
+        "after": "Airbnb, Inc. - Class A Common Stock (ABNB) [ST] Filing Status: New Subholding Of: Bill's IRA"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S\n",
+        "after": "S"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "01/07/2025\n",
+        "after": "01/07/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "01/10/2025\n",
+        "after": "01/10/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. William R. Keating",
+  "state_district": "MA09",
+  "rows": 3,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026556.pdf",
+  "pdf_image": "images/20026556.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. William R. Keating\nStatus:\nMember\nState/District: MA09\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAirbnb, Inc. - Class A Common Stock\n(ABNB) [ST]\nS\n01/07/2025 01/10/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Bill's IRA\nAmazon.com, Inc. - Common Stock\n(AMZN) [ST]\nP\n01/07/2025 01/10/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Bill's IRA\nFiserv, Inc. Common Stock (FI) [ST]\nP\n01/07/2025 01/10/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Bill's IRA\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nBill's IRA\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nFiling ID #20026556\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Airbnb, Inc. - Class A Common Stock (ABNB) [ST] Filing Status: New Subholding Of: Bill's IRA",
+    "asset": "Airbnb, Inc. - Class A Common Stock",
+    "ticker": "ABNB",
+    "transaction_type_raw": "S",
+    "transaction_type": "S",
+    "transaction_date_raw": "01/07/2025",
+    "transaction_date": "2025-01-07",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Airbnb, Inc. - Class A Common Stock",
+    "asset_v8_2_cleaned": "Airbnb, Inc. - Class A Common Stock",
+    "ticker_v8_1": "ABNB",
+    "ticker_v8_2_cleaned": "ABNB",
+    "ticker_candidate_raw": "ABNB",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "01/07/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026556.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026556",
+      "politician": "Hon. William R. Keating",
+      "owner": "",
+      "asset_v8_2_cleaned": "Airbnb, Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "ABNB",
+      "transaction_type": "S",
+      "transaction_date": "2025-01-07",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026556.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/07/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026556",
+      "politician": "Hon. William R. Keating",
+      "owner": "",
+      "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AMZN",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-07",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026556.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/07/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026556",
+      "politician": "Hon. William R. Keating",
+      "owner": "",
+      "asset_v8_2_cleaned": "Fiserv, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "FI",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-07",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026556.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/07/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

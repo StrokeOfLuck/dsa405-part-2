@@ -1,0 +1,264 @@
+{
+  "filing_id": "20032256",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.975,
+      318.1875,
+      575.5875,
+      385.5
+    ],
+    "physical_rect": [
+      21.975,
+      318.1875,
+      575.5875,
+      385.5
+    ],
+    "method": "table",
+    "before": "Coinbase Global, Inc. - Class A Common Stock (COIN) [ST] P 09/11/2025 10/04/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: TradeWinds",
+    "after": "Coinbase Global, Inc. - Class A Common Stock (COIN) [ST] P 09/11/2025 10/04/2025 $15,001 - $50,000 Filing Status: New Subholding Of: TradeWinds",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.975,
+          318.1875,
+          63.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Coinbase Global, Inc. - Class A\nCommon Stock (COIN) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: TradeWinds\n",
+        "after": "Coinbase Global, Inc. - Class A Common Stock (COIN) [ST] Filing Status: New Subholding Of: TradeWinds"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "09/11/2025\n",
+        "after": "09/11/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "10/04/2025\n",
+        "after": "10/04/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5875,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Tim Moore",
+  "state_district": "NC14",
+  "rows": 5,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032256.pdf",
+  "pdf_image": "images/20032256.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Tim Moore\nStatus:\nMember\nState/District: NC14\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nCoinbase Global, Inc. - Class A\nCommon Stock (COIN) [ST]\nP\n09/11/2025\n10/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: TradeWinds\nColgate-Palmolive Company Common\nStock (CL) [ST]\nS\n09/10/2025 10/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: TradeWinds\nHyster-Yale, Inc. Class A common\nstock (HY) [ST]\nP\n09/11/2025\n10/04/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Schwab One\nHyster-Yale, Inc. Class A common\nstock (HY) [ST]\nS\n09/19/2025 10/04/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Schwab One\nProcter & Gamble Company (PG) [ST] S\n09/10/2025 10/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: TradeWinds\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nSchwab One\nFiling ID #20032256\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Coinbase Global, Inc. - Class A Common Stock (COIN) [ST] Filing Status: New Subholding Of: TradeWinds",
+    "asset": "Coinbase Global, Inc. - Class A Common Stock",
+    "ticker": "COIN",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "09/11/2025",
+    "transaction_date": "2025-09-11",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Coinbase Global, Inc. - Class A Common Stock",
+    "asset_v8_2_cleaned": "Coinbase Global, Inc. - Class A Common Stock",
+    "ticker_v8_1": "COIN",
+    "ticker_v8_2_cleaned": "COIN",
+    "ticker_candidate_raw": "COIN",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "09/11/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20032256.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20032256",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Coinbase Global, Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "COIN",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-11",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032256.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032256",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Colgate-Palmolive Company Common Stock",
+      "ticker_v8_2_cleaned": "CL",
+      "transaction_type": "S",
+      "transaction_date": "2025-09-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032256.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032256",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Hyster-Yale, Inc. Class A common stock",
+      "ticker_v8_2_cleaned": "HY",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-11",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032256.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032256",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Hyster-Yale, Inc. Class A common stock",
+      "ticker_v8_2_cleaned": "HY",
+      "transaction_type": "S",
+      "transaction_date": "2025-09-19",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032256.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/19/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032256",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Procter & Gamble Company",
+      "ticker_v8_2_cleaned": "PG",
+      "transaction_type": "S",
+      "transaction_date": "2025-09-10",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032256.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/10/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

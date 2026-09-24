@@ -1,0 +1,196 @@
+{
+  "filing_id": "20027951",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      385.96875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      385.96875
+    ],
+    "method": "table",
+    "before": "US Treasury Note DTD 02/28/23 [GS] S 02/28/2025 03/08/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Trust 5",
+    "after": "US Treasury Note DTD 02/28/23 [GS] S 02/28/2025 03/08/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Trust 5",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          385.96875
+        ],
+        "before": "US Treasury Note DTD 02/28/23\n[GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 5\n",
+        "after": "US Treasury Note DTD 02/28/23 [GS] Filing Status: New Subholding Of: Trust 5"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          385.96875
+        ],
+        "before": "S\n",
+        "after": "S"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          385.96875
+        ],
+        "before": "02/28/2025\n",
+        "after": "02/28/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.96875
+        ],
+        "before": "03/08/2025\n",
+        "after": "03/08/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.96875
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kelly Louise Morrison",
+  "state_district": "MN03",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027951.pdf",
+  "pdf_image": "images/20027951.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kelly Louise Morrison\nStatus:\nMember\nState/District: MN03\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nUS Treasury Note DTD 02/28/23\n[GS]\nS\n02/28/2025 03/08/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Trust 5\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nTrust 5\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Kelly Louise Morrison , 03/11/2025\nFiling ID #20027951\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "US Treasury Note DTD 02/28/23 [GS] Filing Status: New Subholding Of: Trust 5",
+    "asset": "US Treasury Note DTD 02/28/23",
+    "ticker": "",
+    "transaction_type_raw": "S",
+    "transaction_type": "S",
+    "transaction_date_raw": "02/28/2025",
+    "transaction_date": "2025-02-28",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "US Treasury Note DTD 02/28/23",
+    "asset_v8_2_cleaned": "US Treasury Note DTD 02/28/23",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "02/28/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20027951.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20027951",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "US Treasury Note DTD 02/28/23",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-02-28",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027951.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/28/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

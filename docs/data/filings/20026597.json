@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026597",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.986842105263158,
+      318.1875,
+      575.5263157894736,
+      398.25
+    ],
+    "physical_rect": [
+      21.986842105263158,
+      318.1875,
+      575.5263157894736,
+      398.25
+    ],
+    "method": "table",
+    "before": "JT AGCO Corporation Common Stock (AGCO) [ST] S 12/31/2024 01/02/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account Dʇʕʅʔʋʒʖʋʑʐ: sell to close",
+    "after": "JT AGCO Corporation Common Stock (AGCO) [ST] S 12/31/2024 01/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Hern Family Revocable Trust > Brokerage Investment Account Description: sell to close",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.986842105263158,
+          318.1875,
+          62.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.25
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          398.25
+        ],
+        "before": "AGCO Corporation Common Stock\n(AGCO) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable \nDʇʕʅʔʋʒʖʋʑʐ: sell to close\n",
+        "after": "AGCO Corporation Common Stock (AGCO) [ST] Filing Status: New Subholding Of: Hern Family Revocable Description: sell to close"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          398.25
+        ],
+        "before": "S\nTrust > Brokerag\n",
+        "after": "S Trust > Brokerag"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          398.25
+        ],
+        "before": "12/31/2024\nge Investment A\n",
+        "after": "12/31/2024 ge Investment A"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          398.25
+        ],
+        "before": "01/02/2025\nAccount\n",
+        "after": "01/02/2025 Account"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$50,001 -\n$100,000\n",
+        "after": "$50,001 - $100,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5263157894736,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kevin Hern",
+  "state_district": "OK01",
+  "rows": 9,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf",
+  "pdf_image": "images/20026597.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kevin Hern\nStatus:\nMember\nState/District: OK01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nAGCO Corporation Common Stock\n(AGCO) [ST]\nS\n12/31/2024\n01/02/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account\nDʇʕʅʔʋʒʖʋʑʐ: sell to close\nJT\nCitigroup MTN 9/1/2026 [CS]\nS\n12/03/2024 12/04/2024\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nDʇʕʅʔʋʒʖʋʑʐ: Note Called by the issuer. position closed\nJT\nDevon Energy Corporation Common\nStock (DVN) [ST]\nS (partial)\n12/31/2024\n01/02/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account\nDʇʕʅʔʋʒʖʋʑʐ: Rebalance position toward original allocation\nJT\nDexCom, Inc. - Common Stock\n(DXCM) [ST]\nS\n12/31/2024\n01/02/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account\nDʇʕʅʔʋʒʖʋʑʐ: sell to close\nJT\nEstee Lauder Companies, Inc. (EL)\n[ST]\nS\n12/31/2024\n01/02/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account\nDʇʕʅʔʋʒʖʋʑʐ: sell to close\nFiling ID #20026597\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "AGCO Corporation Common Stock (AGCO) [ST] Filing Status: New Subholding Of: Hern Family Revocable Description: sell to close",
+    "asset": "AGCO Corporation Common Stock",
+    "ticker": "AGCO",
+    "transaction_type_raw": "S Trust > Brokerag",
+    "transaction_type": "S",
+    "transaction_date_raw": "12/31/2024 ge Investment A",
+    "transaction_date": "2024-12-31",
+    "amount_raw": "$50,001 - $100,000",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AGCO Corporation Common Stock",
+    "asset_v8_2_cleaned": "AGCO Corporation Common Stock",
+    "ticker_v8_1": "AGCO",
+    "ticker_v8_2_cleaned": "AGCO",
+    "ticker_candidate_raw": "AGCO",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "12/31/2024",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026597.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026597",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "AGCO Corporation Common Stock",
+      "ticker_v8_2_cleaned": "AGCO",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-31",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026597",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Citigroup MTN 9/1/2026",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-03",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/03/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026597",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Devon Energy Corporation Common Stock",
+      "ticker_v8_2_cleaned": "DVN",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2024-12-31",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026597",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "DexCom, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "DXCM",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-31",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026597",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Estee Lauder Companies, Inc.",
+      "ticker_v8_2_cleaned": "EL",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-31",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

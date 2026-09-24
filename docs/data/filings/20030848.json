@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030848",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      385.5
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      385.5
+    ],
+    "method": "table",
+    "before": "JT Abbott Laboratories Common Stock (ABT) [ST] S (partial) 07/18/2025 08/07/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1",
+    "after": "JT Abbott Laboratories Common Stock (ABT) [ST] S (partial) 07/18/2025 08/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley - Select UMA Account # 1",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Abbott Laboratories Common Stock\n(ABT) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select \n",
+        "after": "Abbott Laboratories Common Stock (ABT) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S (partial)\nUMA Account # 1\n",
+        "after": "S (partial) UMA Account # 1"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          379.5,
+          385.5
+        ],
+        "before": "07/18/2025\n1\n",
+        "after": "07/18/2025 1"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          385.5
+        ],
+        "before": "08/07/2025\n",
+        "after": "08/07/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Josh Gottheimer",
+  "state_district": "NJ05",
+  "rows": 7,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf",
+  "pdf_image": "images/20030848.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Josh Gottheimer\nStatus:\nMember\nState/District: NJ05\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nAbbott Laboratories Common Stock\n(ABT) [ST]\nS (partial)\n07/18/2025\n08/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nIndependence Realty Trust, Inc.\nCommon Stock (IRT) [ST]\nS\n07/16/2025\n08/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nInternational Business Machines\nCorporation Common Stock (IBM)\n[ST]\nS (partial)\n07/25/2025 08/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nNatera, Inc. - Common Stock (NTRA)\n[ST]\nS (partial)\n07/22/2025 08/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nSpringWorks Therapeutics, Inc. -\ncommon stock (SWTX) [ST]\nS\n07/02/2025 08/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nVisa Inc. (V) [ST]\nS (partial)\n07/14/2025\n08/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nFiling ID #20030848\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Abbott Laboratories Common Stock (ABT) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select",
+    "asset": "Abbott Laboratories Common Stock",
+    "ticker": "ABT",
+    "transaction_type_raw": "S (partial) UMA Account # 1",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "07/18/2025 1",
+    "transaction_date": "2025-07-18",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Abbott Laboratories Common Stock",
+    "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+    "ticker_v8_1": "ABT",
+    "ticker_v8_2_cleaned": "ABT",
+    "ticker_candidate_raw": "ABT",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "07/18/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030848.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030848",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+      "ticker_v8_2_cleaned": "ABT",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030848",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Independence Realty Trust, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "IRT",
+      "transaction_type": "S",
+      "transaction_date": "2025-07-16",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/16/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030848",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "International Business Machines Corporation Common Stock",
+      "ticker_v8_2_cleaned": "IBM",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-25",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/25/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030848",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Natera, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "NTRA",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-22",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/22/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030848",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "SpringWorks Therapeutics, Inc. - common stock",
+      "ticker_v8_2_cleaned": "SWTX",
+      "transaction_type": "S",
+      "transaction_date": "2025-07-02",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/02/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,196 @@
+{
+  "filing_id": "20027911",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      411.46875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      411.46875
+    ],
+    "method": "table",
+    "before": "SP Alliant Holdings, LP [OL] S (partial) 01/24/2025 02/04/2025 $500,001 - $1,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: 25-S Other Individual Investments Spouse Lʑʅʃʖʋʑʐ: San Diego, CA, US Dʇʕʅʔʋʒʖʋʑʐ: Partial redemption of stock",
+    "after": "SP Alliant Holdings, LP [OL] S (partial) 01/24/2025 02/04/2025 $500,001 - $1,000,000 Filing Status: New Subholding Of: 25-S Other Individual Investments Spouse Location: San Diego, CA, US Description: Partial redemption of stock",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          411.46875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          411.46875
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          411.46875
+        ],
+        "before": "Alliant Holdings, LP [OL]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 25-S Other Individual In\nLʑʅʃʖʋʑʐ: San Diego, CA, US\nDʇʕʅʔʋʒʖʋʑʐ: Partial redemption of stock\n",
+        "after": "Alliant Holdings, LP [OL] Filing Status: New Subholding Of: 25-S Other Individual In Location: San Diego, CA, US Description: Partial redemption of stock"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          411.46875
+        ],
+        "before": "S (partial)\nnvestments Spous\nk\n",
+        "after": "S (partial) nvestments Spous k"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          411.46875
+        ],
+        "before": "01/24/2025\nse\n",
+        "after": "01/24/2025 se"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          411.46875
+        ],
+        "before": "02/04/2025\n",
+        "after": "02/04/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          411.46875
+        ],
+        "before": "$500,001 -\n$1,000,000\n",
+        "after": "$500,001 - $1,000,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          411.46875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Bradley S. Schneider",
+  "state_district": "IL10",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027911.pdf",
+  "pdf_image": "images/20027911.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Bradley S. Schneider\nStatus:\nMember\nState/District: IL10\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nAlliant Holdings, LP [OL]\nS (partial)\n01/24/2025 02/04/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 25-S Other Individual Investments Spouse\nLʑʅʃʖʋʑʐ: San Diego, CA, US\nDʇʕʅʔʋʒʖʋʑʐ: Partial redemption of stock\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\n25-S Other Individual Investments Spouse (Owner: SP)\nLʑʅʃʖʋʑʐ: US\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Bradley S. Schneider , 03/05/2025\nFiling ID #20027911\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Alliant Holdings, LP [OL] Filing Status: New Subholding Of: 25-S Other Individual In Location: San Diego, CA, US Description: Partial redemption of stock",
+    "asset": "Alliant Holdings, LP",
+    "ticker": "",
+    "transaction_type_raw": "S (partial) nvestments Spous k",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "01/24/2025 se",
+    "transaction_date": "2025-01-24",
+    "amount_raw": "$500,001 - $1,000,000",
+    "amount_min": "500001.0",
+    "amount_max": "1000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Alliant Holdings, LP",
+    "asset_v8_2_cleaned": "Alliant Holdings, LP",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "01/24/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20027911.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20027911",
+      "politician": "Hon. Bradley S. Schneider",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Alliant Holdings, LP",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-01-24",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027911.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "01/24/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026591",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "Abbott Laboratories Common Stock (ABT) [ST] P 12/16/2024 01/06/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership",
+    "after": "Abbott Laboratories Common Stock (ABT) [ST] P 12/16/2024 01/06/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          63.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Abbott Laboratories Common Stock\n(ABT) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnershi\n",
+        "after": "Abbott Laboratories Common Stock (ABT) [ST] Filing Status: New Subholding Of: Kean Family Partnershi"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "P\np\n",
+        "after": "P p"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "12/16/2024\n",
+        "after": "12/16/2024"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "01/06/2025\n",
+        "after": "01/06/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Thomas H. Kean Jr",
+  "state_district": "NJ07",
+  "rows": 7,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf",
+  "pdf_image": "images/20026591.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Thomas H. Kean Jr\nStatus:\nMember\nState/District: NJ07\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAbbott Laboratories Common Stock\n(ABT) [ST]\nP\n12/16/2024\n01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nAlphabet Inc. - Class C Capital Stock\n(GOOG) [ST]\nS\n12/19/2024\n01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nAnalog Devices, Inc. - Common Stock\n(ADI) [ST]\nP\n12/13/2024\n01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nCanadian Pacific Kansas City Limited\nCommon Shares (CP) [ST]\nP\n12/27/2024 01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nFranklin Resources, Inc. Common\nStock (BEN) [ST]\nS (partial)\n12/16/2024\n01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nPERNOD RICARD S A SP/ADR\n(PRNDY) [ST]\nP\n12/27/2024 01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Kean Family Partnership\nFiling ID #20026591\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Abbott Laboratories Common Stock (ABT) [ST] Filing Status: New Subholding Of: Kean Family Partnershi",
+    "asset": "Abbott Laboratories Common Stock",
+    "ticker": "ABT",
+    "transaction_type_raw": "P p",
+    "transaction_type": "P",
+    "transaction_date_raw": "12/16/2024",
+    "transaction_date": "2024-12-16",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Abbott Laboratories Common Stock",
+    "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+    "ticker_v8_1": "ABT",
+    "ticker_v8_2_cleaned": "ABT",
+    "ticker_candidate_raw": "ABT",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "12/16/2024",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026591.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026591",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+      "ticker_v8_2_cleaned": "ABT",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-16",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/16/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026591",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
+      "ticker_v8_2_cleaned": "GOOG",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-19",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/19/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026591",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Analog Devices, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "ADI",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/13/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026591",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Canadian Pacific Kansas City Limited Common Shares",
+      "ticker_v8_2_cleaned": "CP",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/27/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026591",
+      "politician": "Hon. Thomas H. Kean Jr",
+      "owner": "",
+      "asset_v8_2_cleaned": "Franklin Resources, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "BEN",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2024-12-16",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/16/2024",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

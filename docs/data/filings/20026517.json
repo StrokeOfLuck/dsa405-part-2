@@ -1,0 +1,247 @@
+{
+  "filing_id": "20026517",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.958333333333332,
+      477.75,
+      575.5833333333334,
+      557.25
+    ],
+    "physical_rect": [
+      21.958333333333332,
+      477.75,
+      575.5833333333334,
+      557.25
+    ],
+    "method": "table",
+    "before": "JT Oklahoma Cnty OK Indep 3.00% 07.01.25 [GS] P 12/04/2024 01/06/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds Dʇʕʅʔʋʒʖʋʑʐ: 15,000 units Oklahoma County, OK, Indep 3.00% 07/01/25",
+    "after": "JT Oklahoma Cnty OK Indep 3.00% 07.01.25 [GS] P 12/04/2024 01/06/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: 15,000 units Oklahoma County, OK, Indep 3.00% 07/01/25",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.958333333333332,
+          477.75,
+          62.25,
+          557.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          477.75,
+          101.25,
+          557.25
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          477.75,
+          258.0,
+          557.25
+        ],
+        "before": "Oklahoma Cnty OK Indep 3.00%\n07.01.25 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutua\nDʇʕʅʔʋʒʖʋʑʐ: 15,000 units Oklahoma Cou\n",
+        "after": "Oklahoma Cnty OK Indep 3.00% 07.01.25 [GS] Filing Status: New Subholding Of: Stocks, Bonds, & Mutua Description: 15,000 units Oklahoma Cou"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          477.75,
+          322.5,
+          557.25
+        ],
+        "before": "P\nal Funds\nunty, OK, Indep 3\n",
+        "after": "P al Funds unty, OK, Indep 3"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          477.75,
+          377.25,
+          557.25
+        ],
+        "before": "12/04/2024\n3.00% 07/01/2\n",
+        "after": "12/04/2024 3.00% 07/01/2"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          377.25,
+          477.75,
+          441.75,
+          557.25
+        ],
+        "before": "01/06/2025\n25\n",
+        "after": "01/06/2025 25"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          441.75,
+          477.75,
+          522.0,
+          557.25
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          477.75,
+          575.5833333333334,
+          557.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Donald Sternoff Beyer Jr",
+  "state_district": "VA08",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "3",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf",
+  "pdf_image": "images/20026517.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Donald Sternoff Beyer Jr\nStatus:\nMember\nState/District: VA08\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nDallas Tex Area Rapid 5.00%\n12/01/25 [GS]\nE\n12/02/2024 01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds\nDʇʕʅʔʋʒʖʋʑʐ: Called Security\nJT\nDuke Street LLC, 50% Interest [OI]\nS\n12/23/2024 12/26/2024\n$5,000,001 -\n$25,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Real estate investments\nDʇʕʅʔʋʒʖʋʑʐ: sale of 2712 Duke Street, Alexandria, Virginia\nJT\nOklahoma Cnty OK Indep 3.00%\n07.01.25 [GS]\nP\n12/04/2024 01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds\nDʇʕʅʔʋʒʖʋʑʐ: 15,000 units Oklahoma County, OK, Indep 3.00% 07/01/25\nJT\nOklahoma Cnty OK Indep 3.00%\n07.01.25 [GS]\nP\n12/04/2024 01/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds\nDʇʕʅʔʋʒʖʋʑʐ: 5,000 units Oklahoma County, OK, Indep 3.00% 07/01/25\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nReal estate investments (Owner: JT)\nLʑʅʃʖʋʑʐ: VA, US\nFiling ID #20026517\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Oklahoma Cnty OK Indep 3.00% 07.01.25 [GS] Filing Status: New Subholding Of: Stocks, Bonds, & Mutua Description: 15,000 units Oklahoma Cou",
+    "asset": "Oklahoma Cnty OK Indep 3.00% 07.01.25",
+    "ticker": "",
+    "transaction_type_raw": "P al Funds unty, OK, Indep 3",
+    "transaction_type": "P",
+    "transaction_date_raw": "12/04/2024 3.00% 07/01/2",
+    "transaction_date": "2024-12-04",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "True",
+    "review_reason": "adjacent transaction has same core signature",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Oklahoma Cnty OK Indep 3.00% 07.01.25",
+    "asset_v8_2_cleaned": "Oklahoma Cnty OK Indep 3.00% 07.01.25",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "True"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "12/04/2024",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026517.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026517",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Dallas Tex Area Rapid 5.00% 12/01/25",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "E",
+      "transaction_date": "2024-12-02",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/02/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026517",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Duke Street LLC, 50% Interest",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2024-12-23",
+      "amount_min": "5000001.0",
+      "amount_max": "25000000.0",
+      "amount_category": "$5,000,001 - $25,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/23/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026517",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Oklahoma Cnty OK Indep 3.00% 07.01.25",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-04",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "True",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/04/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026517",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Oklahoma Cnty OK Indep 3.00% 07.01.25",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-04",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/04/2024",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,264 @@
+{
+  "filing_id": "20029092",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "Abbott Laboratories Common Stock (ABT) [ST] P 03/20/2025 04/07/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA",
+    "after": "Abbott Laboratories Common Stock (ABT) [ST] P 03/20/2025 04/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Moran Wealth IRA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          385.5
+        ],
+        "before": "Abbott Laboratories Common Stock\n(ABT) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA\n",
+        "after": "Abbott Laboratories Common Stock (ABT) [ST] Filing Status: New Subholding Of: Moran Wealth IRA"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          385.5
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          380.25,
+          385.5
+        ],
+        "before": "03/20/2025\n",
+        "after": "03/20/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          380.25,
+          318.1875,
+          444.75,
+          385.5
+        ],
+        "before": "04/07/2025\n",
+        "after": "04/07/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.75,
+          318.1875,
+          522.75,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Byron Donalds",
+  "state_district": "FL19",
+  "rows": 50,
+  "page_count": 7,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029092.pdf",
+  "pdf_image": "images/20029092.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Byron Donalds\nStatus:\nMember\nState/District: FL19\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAbbott Laboratories Common Stock\n(ABT) [ST]\nP\n03/20/2025 04/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA\nSP\nAbbott Laboratories Common Stock\n(ABT) [ST]\nP\n03/20/2025 04/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA\nSP\nAmazon.com, Inc. - Common Stock\n(AMZN) [ST]\nP\n03/20/2025 04/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA\nAmazon.com, Inc. - Common Stock\n(AMZN) [ST]\nP\n03/20/2025 04/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA\nArista Networks, Inc. Common Stock\n(ANET) [ST]\nP\n03/20/2025 04/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA\nSP\nArista Networks, Inc. Common Stock\n(ANET) [ST]\nP\n03/20/2025 04/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Moran Wealth IRA\nFiling ID #20029092\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Abbott Laboratories Common Stock (ABT) [ST] Filing Status: New Subholding Of: Moran Wealth IRA",
+    "asset": "Abbott Laboratories Common Stock",
+    "ticker": "ABT",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "03/20/2025",
+    "transaction_date": "2025-03-20",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Abbott Laboratories Common Stock",
+    "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+    "ticker_v8_1": "ABT",
+    "ticker_v8_2_cleaned": "ABT",
+    "ticker_candidate_raw": "ABT",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "03/20/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20029092.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20029092",
+      "politician": "Hon. Byron Donalds",
+      "owner": "",
+      "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+      "ticker_v8_2_cleaned": "ABT",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-20",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029092.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029092",
+      "politician": "Hon. Byron Donalds",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+      "ticker_v8_2_cleaned": "ABT",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-20",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029092.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029092",
+      "politician": "Hon. Byron Donalds",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AMZN",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-20",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029092.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029092",
+      "politician": "Hon. Byron Donalds",
+      "owner": "",
+      "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AMZN",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-20",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029092.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029092",
+      "politician": "Hon. Byron Donalds",
+      "owner": "",
+      "asset_v8_2_cleaned": "Arista Networks, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ANET",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-20",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029092.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/20/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

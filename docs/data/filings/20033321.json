@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033321",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      378.75
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      378.75
+    ],
+    "method": "table",
+    "before": "INTL PAPER CO 4 C PR (INPAP) [ST] S 10/14/2025 10/16/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch- Advisor Discretion Account- IRA",
+    "after": "INTL PAPER CO 4 C PR (INPAP) [ST] S 10/14/2025 10/16/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch- Advisor Discretion Account- IRA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          378.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          378.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          378.75
+        ],
+        "before": "INTL PAPER CO 4 C PR (INPAP) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch- Advisor D\n",
+        "after": "INTL PAPER CO 4 C PR (INPAP) [ST] Filing Status: New Subholding Of: Merrill Lynch- Advisor D"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          378.75
+        ],
+        "before": "S\nDiscretion Accoun\n",
+        "after": "S Discretion Accoun"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          378.75
+        ],
+        "before": "10/14/2025\nnt- IRA\n",
+        "after": "10/14/2025 nt- IRA"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          378.75
+        ],
+        "before": "10/16/2025\n",
+        "after": "10/16/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          378.75
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          378.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Thomas Suozzi",
+  "state_district": "NY03",
+  "rows": 6,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf",
+  "pdf_image": "images/20033321.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Thomas Suozzi\nStatus:\nMember\nState/District: NY03\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nINTL PAPER CO 4 C PR (INPAP) [ST] S\n10/14/2025\n10/16/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch- Advisor Discretion Account- IRA\nNextEra Energy, Inc. Common Stock\n(NEE) [ST]\nS\n10/14/2025\n10/16/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch- Advisor Discretion Account- IRA\nUnited States Treasury Bill [GS]\nP\n10/02/2025 10/02/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: National Securities- Advisor Discretion Account\nDʇʕʅʔʋʒʖʋʑʐ: US Treasury Bill\nUS Treasury Bill [GS]\nP\n10/02/2025 10/02/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Thomas Suozzi IRA FBO Thomas Suozzi\nDʇʕʅʔʋʒʖʋʑʐ: US Treasury Bill\nWalmart Inc. Common Stock (WMT)\n[ST]\nS\n10/14/2025\n10/16/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch- Advisor Discretion Account- IRA\nWeyerhaeuser Company Common\nStock (WY) [ST]\nS\n10/14/2025\n10/16/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFiling ID #20033321\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "INTL PAPER CO 4 C PR (INPAP) [ST] Filing Status: New Subholding Of: Merrill Lynch- Advisor D",
+    "asset": "INTL PAPER CO 4 C PR",
+    "ticker": "INPAP",
+    "transaction_type_raw": "S Discretion Accoun",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/14/2025 nt- IRA",
+    "transaction_date": "2025-10-14",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "INTL PAPER CO 4 C PR",
+    "asset_v8_2_cleaned": "INTL PAPER CO 4 C PR",
+    "ticker_v8_1": "INPAP",
+    "ticker_v8_2_cleaned": "INPAP",
+    "ticker_candidate_raw": "INPAP",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "10/14/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033321.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033321",
+      "politician": "Hon. Thomas Suozzi",
+      "owner": "",
+      "asset_v8_2_cleaned": "INTL PAPER CO 4 C PR",
+      "ticker_v8_2_cleaned": "INPAP",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-14",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033321",
+      "politician": "Hon. Thomas Suozzi",
+      "owner": "",
+      "asset_v8_2_cleaned": "NextEra Energy, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "NEE",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-14",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033321",
+      "politician": "Hon. Thomas Suozzi",
+      "owner": "",
+      "asset_v8_2_cleaned": "United States Treasury Bill",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-02",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "10/02/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033321",
+      "politician": "Hon. Thomas Suozzi",
+      "owner": "",
+      "asset_v8_2_cleaned": "US Treasury Bill",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-02",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/02/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033321",
+      "politician": "Hon. Thomas Suozzi",
+      "owner": "",
+      "asset_v8_2_cleaned": "Walmart Inc. Common Stock",
+      "ticker_v8_2_cleaned": "WMT",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-14",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

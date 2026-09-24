@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033619",
+  "status": "parsed",
+  "geometry": {
+    "page": 11,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.0,
+      387.0,
+      575.525,
+      464.25
+    ],
+    "physical_rect": [
+      22.0,
+      387.0,
+      575.525,
+      464.25
+    ],
+    "method": "table",
+    "before": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] P 11/21/2025 12/12/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Wells Fargo Advisors",
+    "after": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] P 11/21/2025 12/12/2025 $15,001 - $50,000 Filing Status: New Subholding Of: 150 Main Street Trust > Wells Fargo Advisors",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.0,
+          387.0,
+          62.25,
+          464.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          387.0,
+          101.25,
+          464.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          387.0,
+          260.25,
+          464.25
+        ],
+        "before": "LandBridge Company LLC Class A\nShares Representing Limited Liability\nCompany Interests (LB) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > \n",
+        "after": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          387.0,
+          324.75,
+          464.25
+        ],
+        "before": "P\nWells Fargo Advi\n",
+        "after": "P Wells Fargo Advi"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          387.0,
+          379.5,
+          464.25
+        ],
+        "before": "11/21/2025\nisors\n",
+        "after": "11/21/2025 isors"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          387.0,
+          444.0,
+          464.25
+        ],
+        "before": "12/12/2025\n",
+        "after": "12/12/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          387.0,
+          522.0,
+          464.25
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          387.0,
+          575.525,
+          464.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 11,
+  "politician": "Hon. Gilbert Cisneros",
+  "state_district": "CA31",
+  "rows": 178,
+  "page_count": 22,
+  "spotlight_row": "91",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+  "pdf_image": "images/20033619.webp",
+  "raw_pdf_text": "ID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nKenvue Inc. Common Stock (KVUE)\n[ST]\nP\n11/12/2025\n12/12/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nKimberly-Clark Corporation Common\nStock (KMB) [ST]\nS\n11/12/2025\n12/12/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nKKR & Co. Inc. Common Stock (KKR)\n[ST]\nS\n11/07/2025\n12/12/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nLandBridge Company LLC Class A\nShares Representing Limited Liability\nCompany Interests (LB) [ST]\nP\n11/20/2025\n12/12/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Wells Fargo Advisors\nLandBridge Company LLC Class A\nShares Representing Limited Liability\nCompany Interests (LB) [ST]\nP\n11/21/2025\n12/12/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Wells Fargo Advisors\nLegence Corp. - Class A Common\nstock (LGN) [ST]\nP\n11/24/2025\n12/12/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nLennar Corporation Class A Common\nStock (LEN) [ST]\nP\n11/18/2025\n12/12/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nLockheed Martin Corporation\nCommon Stock (LMT) [ST]\nP\n11/18/2025\n12/12/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nlululemon athletica inc. - Common\nStock (LULU) [ST]\nP\n11/12/2025\n12/12/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >",
+    "asset": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests",
+    "ticker": "LB",
+    "transaction_type_raw": "P Wells Fargo Advi",
+    "transaction_type": "P",
+    "transaction_date_raw": "11/21/2025 isors",
+    "transaction_date": "2025-11-21",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests",
+    "asset_v8_2_cleaned": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests",
+    "ticker_v8_1": "LB",
+    "ticker_v8_2_cleaned": "LB",
+    "ticker_candidate_raw": "LB",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "11/21/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033619.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033619",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
+      "ticker_v8_2_cleaned": "ABT",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033619",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Advanced Micro Devices, Inc.",
+      "ticker_v8_2_cleaned": "AMD",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-18",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033619",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alexandria Real Estate Equities, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ARE",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033619",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+      "ticker_v8_2_cleaned": "BABA",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-19",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/19/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033619",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "ALIBABA GROUP HOLDING LTD",
+      "ticker_v8_2_cleaned": "BABAF",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-19",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/19/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

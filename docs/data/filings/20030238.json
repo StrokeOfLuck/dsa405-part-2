@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030238",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "Accenture plc Class A Ordinary Shares (ACN) [ST] S 04/08/2025 04/08/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account",
+    "after": "Accenture plc Class A Ordinary Shares (ACN) [ST] S 04/08/2025 04/08/2025 $15,001 - $50,000 Filing Status: New Subholding Of: JP Morgan Brokerage Account",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          385.5
+        ],
+        "before": "Accenture plc Class A Ordinary\nShares (ACN) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage A\n",
+        "after": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: JP Morgan Brokerage A"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          385.5
+        ],
+        "before": "S\nAccount\n",
+        "after": "S Account"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          379.5,
+          385.5
+        ],
+        "before": "04/08/2025\n",
+        "after": "04/08/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          385.5
+        ],
+        "before": "04/08/2025\n",
+        "after": "04/08/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Rob Bresnahan",
+  "state_district": "PA08",
+  "rows": 52,
+  "page_count": 7,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030238.pdf",
+  "pdf_image": "images/20030238.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Rob Bresnahan\nStatus:\nMember\nState/District: PA08\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAccenture plc Class A Ordinary\nShares (ACN) [ST]\nS\n04/08/2025 04/08/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account\nAdvanced Micro Devices, Inc. (AMD)\n[ST]\nS\n04/08/2025 04/08/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account\nAgilent Technologies, Inc. Common\nStock (A) [ST]\nS\n04/08/2025 04/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account\nAirbnb, Inc. - Class A Common Stock\n(ABNB) [ST]\nS\n04/08/2025 04/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account\nAlphabet Inc. - Class A Common\nStock (GOOGL) [ST]\nS\n04/08/2025 04/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account\nAlphabet Inc. - Class C Capital Stock\n(GOOG) [ST]\nS (partial)\n04/08/2025 04/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account\nFiling ID #20030238\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: JP Morgan Brokerage A",
+    "asset": "Accenture plc Class A Ordinary Shares",
+    "ticker": "ACN",
+    "transaction_type_raw": "S Account",
+    "transaction_type": "S",
+    "transaction_date_raw": "04/08/2025",
+    "transaction_date": "2025-04-08",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Accenture plc Class A Ordinary Shares",
+    "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+    "ticker_v8_1": "ACN",
+    "ticker_v8_2_cleaned": "ACN",
+    "ticker_candidate_raw": "ACN",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "04/08/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030238.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030238",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Accenture plc Class A Ordinary Shares",
+      "ticker_v8_2_cleaned": "ACN",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-08",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030238.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030238",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Advanced Micro Devices, Inc.",
+      "ticker_v8_2_cleaned": "AMD",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-08",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030238.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030238",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Agilent Technologies, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "A",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030238.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030238",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Airbnb, Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "ABNB",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030238.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030238",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030238.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/08/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

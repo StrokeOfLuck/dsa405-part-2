@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030782",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      378.75
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      378.75
+    ],
+    "method": "table",
+    "before": "AT&T Inc. (T) [ST] P 07/18/2025 07/31/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)",
+    "after": "AT&T Inc. (T) [ST] P 07/18/2025 07/31/2025 $1,001 - $15,000 Filing Status: New Subholding Of: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          378.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          378.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          378.75
+        ],
+        "before": "AT&T Inc. (T) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Sch\n",
+        "after": "AT&T Inc. (T) [ST] Filing Status: New Subholding Of: David Taylor Trust > Sch"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          378.75
+        ],
+        "before": "P\nhwab Joint Broke\n",
+        "after": "P hwab Joint Broke"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          380.25,
+          378.75
+        ],
+        "before": "07/18/2025\nerage #1 (Home\n",
+        "after": "07/18/2025 erage #1 (Home"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          380.25,
+          318.1875,
+          444.75,
+          378.75
+        ],
+        "before": "07/31/2025\ne Grown)\n",
+        "after": "07/31/2025 e Grown)"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.75,
+          318.1875,
+          522.75,
+          378.75
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          318.1875,
+          575.5227272727273,
+          378.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. David J. Taylor",
+  "state_district": "OH02",
+  "rows": 21,
+  "page_count": 4,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf",
+  "pdf_image": "images/20030782.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. David J. Taylor\nStatus:\nMember\nState/District: OH02\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAT&T Inc. (T) [ST]\nP\n07/18/2025\n07/31/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)\nAT&T Inc. (T) [ST]\nP\n07/18/2025\n07/31/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Sardinia Ready Mix 401(k) - Dave\nEli Lilly and Company Common Stock\n(LLY) [ST]\nP\n08/14/2025 08/19/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Sardinia Ready Mix 401(k) - Dave\nEli Lilly and Company Common Stock\n(LLY) [ST]\nP\n08/14/2025 08/19/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)\nInstalled Building Products, Inc.\nCommon Stock (IBP) [ST]\nS\n08/13/2025 08/19/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Sardinia Ready Mix 401(k) - Dave\nInstalled Building Products, Inc.\nCommon Stock (IBP) [ST]\nS\n08/07/2025 08/19/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)\nFiling ID #20030782\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "AT&T Inc. (T) [ST] Filing Status: New Subholding Of: David Taylor Trust > Sch",
+    "asset": "AT&T Inc.",
+    "ticker": "T",
+    "transaction_type_raw": "P hwab Joint Broke",
+    "transaction_type": "P",
+    "transaction_date_raw": "07/18/2025 erage #1 (Home",
+    "transaction_date": "2025-07-18",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "True",
+    "review_reason": "adjacent transaction has same core signature",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AT&T Inc.",
+    "asset_v8_2_cleaned": "AT&T Inc.",
+    "ticker_v8_1": "T",
+    "ticker_v8_2_cleaned": "T",
+    "ticker_candidate_raw": "T",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "True"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "07/18/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030782.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030782",
+      "politician": "Hon. David J. Taylor",
+      "owner": "",
+      "asset_v8_2_cleaned": "AT&T Inc.",
+      "ticker_v8_2_cleaned": "T",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "True",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030782",
+      "politician": "Hon. David J. Taylor",
+      "owner": "",
+      "asset_v8_2_cleaned": "AT&T Inc.",
+      "ticker_v8_2_cleaned": "T",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030782",
+      "politician": "Hon. David J. Taylor",
+      "owner": "",
+      "asset_v8_2_cleaned": "Eli Lilly and Company Common Stock",
+      "ticker_v8_2_cleaned": "LLY",
+      "transaction_type": "P",
+      "transaction_date": "2025-08-14",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030782",
+      "politician": "Hon. David J. Taylor",
+      "owner": "",
+      "asset_v8_2_cleaned": "Eli Lilly and Company Common Stock",
+      "ticker_v8_2_cleaned": "LLY",
+      "transaction_type": "P",
+      "transaction_date": "2025-08-14",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030782",
+      "politician": "Hon. David J. Taylor",
+      "owner": "",
+      "asset_v8_2_cleaned": "Installed Building Products, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "IBP",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/13/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030822",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      385.96875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      385.96875
+    ],
+    "method": "table",
+    "before": "Full House Resorts, Inc. - Common Stock (FLL) [ST] S 07/23/2025 07/23/2025 $500,001 - $1,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Suzanne K Lee Trust > Fidelity Investments Brokerage 249",
+    "after": "Full House Resorts, Inc. - Common Stock (FLL) [ST] S 07/23/2025 07/23/2025 $500,001 - $1,000,000 Filing Status: New Subholding Of: Suzanne K Lee Trust > Fidelity Investments Brokerage 249",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          385.96875
+        ],
+        "before": "Full House Resorts, Inc. - Common\nStock (FLL) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Suzanne K Lee Trust > F\n",
+        "after": "Full House Resorts, Inc. - Common Stock (FLL) [ST] Filing Status: New Subholding Of: Suzanne K Lee Trust > F"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          385.96875
+        ],
+        "before": "S\nFidelity Investme\n",
+        "after": "S Fidelity Investme"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          385.96875
+        ],
+        "before": "07/23/2025\nnts Brokerage \n",
+        "after": "07/23/2025 nts Brokerage"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          385.96875
+        ],
+        "before": "07/23/2025\n249\n",
+        "after": "07/23/2025 249"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          385.96875
+        ],
+        "before": "$500,001 -\n$1,000,000\n",
+        "after": "$500,001 - $1,000,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Susie Lee",
+  "state_district": "NV03",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030822.pdf",
+  "pdf_image": "images/20030822.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Susie Lee\nStatus:\nMember\nState/District: NV03\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nFull House Resorts, Inc. - Common\nStock (FLL) [ST]\nS\n07/23/2025 07/23/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Suzanne K Lee Trust > Fidelity Investments Brokerage 249\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nSuzanne K Lee Trust\nSuzanne K Lee Trust ⇒ Fidelity Investments Brokerage 249\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Susie Lee , 08/22/2025\nFiling ID #20030822\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Full House Resorts, Inc. - Common Stock (FLL) [ST] Filing Status: New Subholding Of: Suzanne K Lee Trust > F",
+    "asset": "Full House Resorts, Inc. - Common Stock",
+    "ticker": "FLL",
+    "transaction_type_raw": "S Fidelity Investme",
+    "transaction_type": "S",
+    "transaction_date_raw": "07/23/2025 nts Brokerage",
+    "transaction_date": "2025-07-23",
+    "amount_raw": "$500,001 - $1,000,000",
+    "amount_min": "500001.0",
+    "amount_max": "1000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Full House Resorts, Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Full House Resorts, Inc. - Common Stock",
+    "ticker_v8_1": "FLL",
+    "ticker_v8_2_cleaned": "FLL",
+    "ticker_candidate_raw": "FLL",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "07/23/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030822.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030822",
+      "politician": "Hon. Susie Lee",
+      "owner": "",
+      "asset_v8_2_cleaned": "Full House Resorts, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "FLL",
+      "transaction_type": "S",
+      "transaction_date": "2025-07-23",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030822.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/23/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

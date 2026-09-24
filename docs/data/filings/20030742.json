@@ -1,0 +1,213 @@
+{
+  "filing_id": "20030742",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.85,
+      318.1875,
+      575.5909090909091,
+      398.25
+    ],
+    "physical_rect": [
+      22.85,
+      318.1875,
+      575.5909090909091,
+      398.25
+    ],
+    "method": "table",
+    "before": "AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 07/15/2025 07/27/2025 $647.63 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: 2012 Trust Dʇʕʅʔʋʒʖʋʑʐ: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)",
+    "after": "AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 07/15/2025 07/27/2025 $647.63 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.85,
+          318.1875,
+          63.0,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          398.25
+        ],
+        "before": "AIX Ventures Fund II, LP (GLAS\nFunds, LP) [HN]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 2012 Trust\nDʇʕʅʔʋʒʖʋʑʐ: Capital Call for AIX Ventur\n",
+        "after": "AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventur"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          398.25
+        ],
+        "before": "P\nres Fund II, LP (G\n",
+        "after": "P res Fund II, LP (G"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          398.25
+        ],
+        "before": "07/15/2025\nGLAS Funds, LP\n",
+        "after": "07/15/2025 GLAS Funds, LP"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          398.25
+        ],
+        "before": "07/27/2025\nP)\n",
+        "after": "07/27/2025 P)"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$647.63\n",
+        "after": "$647.63"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5909090909091,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Max Miller",
+  "state_district": "OH07",
+  "rows": 2,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf",
+  "pdf_image": "images/20030742.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Max Miller\nStatus:\nMember\nState/District: OH07\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAIX Ventures Fund II, LP (GLAS\nFunds, LP) [HN]\nP\n07/15/2025\n07/27/2025\n$647.63\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 2012 Trust\nDʇʕʅʔʋʒʖʋʑʐ: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\nGLAS Funds, LP [HN]\nP\n07/15/2025\n07/27/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 2012 Trust\nDʇʕʅʔʋʒʖʋʑʐ: Transfer of $25,000 to GLAS Funds, LP to fund capital calls for future investments.\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\n2012 Trust\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Max Miller , 07/27/2025\nFiling ID #20030742\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventur",
+    "asset": "AIX Ventures Fund II, LP (GLAS Funds, LP)",
+    "ticker": "",
+    "transaction_type_raw": "P res Fund II, LP (G",
+    "transaction_type": "P",
+    "transaction_date_raw": "07/15/2025 GLAS Funds, LP",
+    "transaction_date": "2025-07-15",
+    "amount_raw": "$647.63",
+    "amount_min": "",
+    "amount_max": "",
+    "needs_review": "True",
+    "review_reason": "nonstandard_exact",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AIX Ventures Fund II, LP (GLAS Funds, LP)",
+    "asset_v8_2_cleaned": "AIX Ventures Fund II, LP (GLAS Funds, LP)",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "True"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "07/15/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030742.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030742",
+      "politician": "Hon. Max Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "AIX Ventures Fund II, LP (GLAS Funds, LP)",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-15",
+      "amount_min": "",
+      "amount_max": "",
+      "amount_category": "",
+      "needs_review": "True",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030742",
+      "politician": "Hon. Max Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "GLAS Funds, LP",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-15",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/15/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

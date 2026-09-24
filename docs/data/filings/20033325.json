@@ -1,0 +1,247 @@
+{
+  "filing_id": "20033325",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      398.25
+    ],
+    "physical_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      398.25
+    ],
+    "method": "table",
+    "before": "JT Connecticut St SPL Tax 5.00% 01/01/37 [GS] P 10/22/2025 11/02/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds Dʇʕʅʔʋʒʖʋʑʐ: 40,000 units of Connecticut St SPL Tax 5.00% 01/01/37",
+    "after": "JT Connecticut St SPL Tax 5.00% 01/01/37 [GS] P 10/22/2025 11/02/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: 40,000 units of Connecticut St SPL Tax 5.00% 01/01/37",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.958333333333332,
+          318.1875,
+          63.0,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          398.25
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          398.25
+        ],
+        "before": "Connecticut St SPL Tax 5.00%\n01/01/37 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutua\nDʇʕʅʔʋʒʖʋʑʐ: 40,000 units of Connecticu\n",
+        "after": "Connecticut St SPL Tax 5.00% 01/01/37 [GS] Filing Status: New Subholding Of: Stocks, Bonds, & Mutua Description: 40,000 units of Connecticu"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          398.25
+        ],
+        "before": "P\nal Funds\nut St SPL Tax 5.00\n",
+        "after": "P al Funds ut St SPL Tax 5.00"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          398.25
+        ],
+        "before": "10/22/2025\n0% 01/01/37\n",
+        "after": "10/22/2025 0% 01/01/37"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          398.25
+        ],
+        "before": "11/02/2025\n",
+        "after": "11/02/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5833333333334,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Donald Sternoff Beyer Jr",
+  "state_district": "VA08",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf",
+  "pdf_image": "images/20033325.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Donald Sternoff Beyer Jr\nStatus:\nMember\nState/District: VA08\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nConnecticut St SPL Tax 5.00%\n01/01/37 [GS]\nP\n10/22/2025 11/02/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds\nDʇʕʅʔʋʒʖʋʑʐ: 40,000 units of Connecticut St SPL Tax 5.00% 01/01/37\nJT\nKing Cnty Wash 4.00% 12/01/32 [GS] P\n10/31/2025\n11/02/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds\nDʇʕʅʔʋʒʖʋʑʐ: 35,000 units of King Cnty Wash 4.00% 12/01/32\nJT\nNorth Allegheny PA Sch 5.00%\n05/01/2030 [GS]\nE\n10/14/2025\n10/22/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds\nDʇʕʅʔʋʒʖʋʑʐ: redemption of municipal bond\nJT\nSt John Baptist Parish Var 06/01/37\n[GS]\nP\n10/23/2025 11/02/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Stocks, Bonds, & Mutual Funds\nDʇʕʅʔʋʒʖʋʑʐ: 55,000 units of St John Baptist Parish Var 06/01/37\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nStocks, Bonds, & Mutual Funds (Owner: JT)\nLʑʅʃʖʋʑʐ: VA, US\nFiling ID #20033325\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Connecticut St SPL Tax 5.00% 01/01/37 [GS] Filing Status: New Subholding Of: Stocks, Bonds, & Mutua Description: 40,000 units of Connecticu",
+    "asset": "Connecticut St SPL Tax 5.00% 01/01/37",
+    "ticker": "",
+    "transaction_type_raw": "P al Funds ut St SPL Tax 5.00",
+    "transaction_type": "P",
+    "transaction_date_raw": "10/22/2025 0% 01/01/37",
+    "transaction_date": "2025-10-22",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Connecticut St SPL Tax 5.00% 01/01/37",
+    "asset_v8_2_cleaned": "Connecticut St SPL Tax 5.00% 01/01/37",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "10/22/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033325.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033325",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Connecticut St SPL Tax 5.00% 01/01/37",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-22",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "10/22/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033325",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "King Cnty Wash 4.00% 12/01/32",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-31",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/31/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033325",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "North Allegheny PA Sch 5.00% 05/01/2030",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "E",
+      "transaction_date": "2025-10-14",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033325",
+      "politician": "Hon. Donald Sternoff Beyer Jr",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "St John Baptist Parish Var 06/01/37",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-23",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/23/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

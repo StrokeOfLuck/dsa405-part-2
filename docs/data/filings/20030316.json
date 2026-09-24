@@ -1,0 +1,247 @@
+{
+  "filing_id": "20030316",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.958333333333332,
+      452.25,
+      575.5833333333334,
+      519.0
+    ],
+    "physical_rect": [
+      21.958333333333332,
+      452.25,
+      575.5833333333334,
+      519.0
+    ],
+    "method": "table",
+    "before": "SP US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0 [GS] S 04/15/2025 05/07/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: R.W. Allen & Associates, Inc. > R.W. ALLEN, LLC > LIFE INSURANCE TRUST",
+    "after": "SP US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0 [GS] S 04/15/2025 05/07/2025 $50,001 - $100,000 Filing Status: New Subholding Of: R.W. Allen & Associates, Inc. > R.W. ALLEN, LLC > LIFE INSURANCE TRUST",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.958333333333332,
+          452.25,
+          63.0,
+          519.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          452.25,
+          102.0,
+          519.0
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          452.25,
+          259.5,
+          519.0
+        ],
+        "before": "US Treasury Bill - Due 3/15/2027\n4.25% - 91282CKE0 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: R.W. Allen & Associates\n",
+        "after": "US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0 [GS] Filing Status: New Subholding Of: R.W. Allen & Associates"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          452.25,
+          324.0,
+          519.0
+        ],
+        "before": "S\ns, Inc. > R.W. ALL\n",
+        "after": "S s, Inc. > R.W. ALL"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          452.25,
+          378.75,
+          519.0
+        ],
+        "before": "04/15/2025\nLEN, LLC > LIF\n",
+        "after": "04/15/2025 LEN, LLC > LIF"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          452.25,
+          443.25,
+          519.0
+        ],
+        "before": "05/07/2025\nFE INSURANCE T\n",
+        "after": "05/07/2025 FE INSURANCE T"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          452.25,
+          522.0,
+          519.0
+        ],
+        "before": "$50,001 -\n$100,000\nTRUST\n",
+        "after": "$50,001 - $100,000 TRUST"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          452.25,
+          575.5833333333334,
+          519.0
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Richard W. Allen",
+  "state_district": "GA12",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "3",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf",
+  "pdf_image": "images/20030316.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Richard W. Allen\nStatus:\nMember\nState/District: GA12\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nThermo Fisher Scientific Inc Common\nStock (TMO) [ST]\nS\n04/11/2025\n05/07/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: R.W. Allen & Associates, Inc.\nSP\nUS Treasury Bill - Due 12/31/2025\n4.25% - 91282CJS1 [GS]\nS\n04/15/2025 05/07/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: R.W. Allen & Associates, Inc. > R.W. ALLEN, LLC > LIFE INSURANCE TRUST\nSP\nUS Treasury Bill - Due 3/15/2027\n4.25% - 91282CKE0 [GS]\nS\n04/15/2025 05/07/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: R.W. Allen & Associates, Inc. > R.W. ALLEN, LLC > LIFE INSURANCE TRUST\nSP\nUS Treasury Bill - Due 5/15/26\n3.625% - 91282CHB0 [GS]\nS\n04/15/2025 05/07/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: R.W. Allen & Associates, Inc. > R.W. ALLEN, LLC > LIFE INSURANCE TRUST\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nR.W. Allen & Associates, Inc. (Owner: SP)\nLʑʅʃʖʋʑʐ: US\nR.W. Allen & Associates, Inc. ⇒ R.W. ALLEN, LLC (44% Interest) (Owner: SP)\nLʑʅʃʖʋʑʐ: US\nR.W. Allen & Associates, Inc. ⇒ R.W. ALLEN, LLC ⇒ LIFE INSURANCE TRUST (Owner: SP)\nFiling ID #20030316\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0 [GS] Filing Status: New Subholding Of: R.W. Allen & Associates",
+    "asset": "US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0",
+    "ticker": "",
+    "transaction_type_raw": "S s, Inc. > R.W. ALL",
+    "transaction_type": "S",
+    "transaction_date_raw": "04/15/2025 LEN, LLC > LIF",
+    "transaction_date": "2025-04-15",
+    "amount_raw": "$50,001 - $100,000 TRUST",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0",
+    "asset_v8_2_cleaned": "US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "04/15/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030316.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030316",
+      "politician": "Hon. Richard W. Allen",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Thermo Fisher Scientific Inc Common Stock",
+      "ticker_v8_2_cleaned": "TMO",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-11",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030316",
+      "politician": "Hon. Richard W. Allen",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "US Treasury Bill - Due 12/31/2025 4.25% - 91282CJS1",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-15",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030316",
+      "politician": "Hon. Richard W. Allen",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "US Treasury Bill - Due 3/15/2027 4.25% - 91282CKE0",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-15",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "04/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030316",
+      "politician": "Hon. Richard W. Allen",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "US Treasury Bill - Due 5/15/26 3.625% - 91282CHB0",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-15",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/15/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

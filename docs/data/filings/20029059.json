@@ -1,0 +1,264 @@
+{
+  "filing_id": "20029059",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99,
+      318.1875,
+      575.52,
+      372.75
+    ],
+    "physical_rect": [
+      21.99,
+      318.1875,
+      575.52,
+      372.75
+    ],
+    "method": "table",
+    "before": "DC A.O. Smith Corporation Common Stock (AOS) [ST] S (partial) 03/06/2025 04/01/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "DC A.O. Smith Corporation Common Stock (AOS) [ST] S (partial) 03/06/2025 04/01/2025 $1,001 - $15,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99,
+          318.1875,
+          62.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          372.75
+        ],
+        "before": "DC\n",
+        "after": "DC"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          372.75
+        ],
+        "before": "A.O. Smith Corporation Common\nStock (AOS) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "A.O. Smith Corporation Common Stock (AOS) [ST] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          372.75
+        ],
+        "before": "S (partial)\n",
+        "after": "S (partial)"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          379.5,
+          372.75
+        ],
+        "before": "03/06/2025\n",
+        "after": "03/06/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          372.75
+        ],
+        "before": "04/01/2025\n",
+        "after": "04/01/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.52,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. April McClain Delaney",
+  "state_district": "MD06",
+  "rows": 17,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029059.pdf",
+  "pdf_image": "images/20029059.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. April McClain Delaney\nStatus:\nMember\nState/District: MD06\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nDC\nA.O. Smith Corporation Common\nStock (AOS) [ST]\nS (partial)\n03/06/2025 04/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nBJ's Wholesale Club Holdings, Inc.\nCommon Stock (BJ) [ST]\nP\n03/17/2025\n04/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nBJ's Wholesale Club Holdings, Inc.\nCommon Stock (BJ) [ST]\nP\n03/14/2025\n04/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nCorpay, Inc. Common Stock (CPAY)\n[ST]\nP\n03/13/2025\n04/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nDayforce, Inc. Common Stock (DAY)\n[ST]\nS (partial)\n03/18/2025 04/01/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nIDEXX Laboratories, Inc. - Common\nStock (IDXX) [ST]\nP\n03/14/2025\n04/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nITT Inc. Common Stock (ITT) [ST]\nP\n03/05/2025 04/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nJones Lang LaSalle Incorporated\nCommon Stock (JLL) [ST]\nP\n03/05/2025 04/01/2025\n$1,001 - $15,000\nFiling ID #20029059\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "DC",
+    "asset_raw": "A.O. Smith Corporation Common Stock (AOS) [ST] Filing Status: New",
+    "asset": "A.O. Smith Corporation Common Stock",
+    "ticker": "AOS",
+    "transaction_type_raw": "S (partial)",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "03/06/2025",
+    "transaction_date": "2025-03-06",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "A.O. Smith Corporation Common Stock",
+    "asset_v8_2_cleaned": "A.O. Smith Corporation Common Stock",
+    "ticker_v8_1": "AOS",
+    "ticker_v8_2_cleaned": "AOS",
+    "ticker_candidate_raw": "AOS",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "03/06/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20029059.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20029059",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "A.O. Smith Corporation Common Stock",
+      "ticker_v8_2_cleaned": "AOS",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-03-06",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029059.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/06/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029059",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "BJ's Wholesale Club Holdings, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "BJ",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-17",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029059.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/17/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029059",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "BJ's Wholesale Club Holdings, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "BJ",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-14",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029059.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029059",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "Corpay, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "CPAY",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-13",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029059.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/13/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029059",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "Dayforce, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "DAY",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-03-18",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029059.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/18/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

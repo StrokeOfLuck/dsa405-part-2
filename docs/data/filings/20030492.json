@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030492",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.994565217391305,
+      318.1875,
+      575.5271739130435,
+      372.75
+    ],
+    "physical_rect": [
+      21.994565217391305,
+      318.1875,
+      575.5271739130435,
+      372.75
+    ],
+    "method": "table",
+    "before": "United States Treasury Notes; 3.875%; Due 1-15-26 [GS] P 02/05/2025 06/11/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "United States Treasury Notes; 3.875%; Due 1-15-26 [GS] P 02/05/2025 06/11/2025 $15,001 - $50,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.994565217391305,
+          318.1875,
+          63.0,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          372.75
+        ],
+        "before": "United States Treasury Notes;\n3.875%; Due 1-15-26 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "United States Treasury Notes; 3.875%; Due 1-15-26 [GS] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          372.75
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          372.75
+        ],
+        "before": "02/05/2025\n",
+        "after": "02/05/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          372.75
+        ],
+        "before": "06/11/2025\n",
+        "after": "06/11/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5271739130435,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Chellie Pingree",
+  "state_district": "ME01",
+  "rows": 7,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030492.pdf",
+  "pdf_image": "images/20030492.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Chellie Pingree\nStatus:\nMember\nState/District: ME01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nUnited States Treasury Notes;\n3.875%; Due 1-15-26 [GS]\nP\n02/05/2025 06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nUnited States Treasury Notes;\n4.125%; Due 6-15-26 [GS]\nP\n02/05/2025 06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nUnited States Treasury Notes; 4.25%;\nDue 10-15-25 [GS]\nP\n02/05/2025 06/09/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nUnited States Treasury Notes; 4.25%;\nDue 10-15-25 [GS]\nS\n05/09/2025 06/09/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nUnited States Treasury Notes; 4.25%;\nDue 3-15-27 [GS]\nP\n02/05/2025 06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nUnited States Treasury Notes;\n4.375%; Due 12-15-26 [GS]\nP\n02/05/2025 06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nUnited States Treasury Notes;\n4.625%; Due 9-15-26 [GS]\nP\n02/05/2025 06/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nFiling ID #20030492\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "United States Treasury Notes; 3.875%; Due 1-15-26 [GS] Filing Status: New",
+    "asset": "United States Treasury Notes; 3.875%; Due 1-15-26",
+    "ticker": "",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "02/05/2025",
+    "transaction_date": "2025-02-05",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "United States Treasury Notes; 3.875%; Due 1-15-26",
+    "asset_v8_2_cleaned": "United States Treasury Notes; 3.875%; Due 1-15-26",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "02/05/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030492.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030492",
+      "politician": "Hon. Chellie Pingree",
+      "owner": "",
+      "asset_v8_2_cleaned": "United States Treasury Notes; 3.875%; Due 1-15-26",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-02-05",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030492.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/05/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030492",
+      "politician": "Hon. Chellie Pingree",
+      "owner": "",
+      "asset_v8_2_cleaned": "United States Treasury Notes; 4.125%; Due 6-15-26",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-02-05",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030492.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/05/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030492",
+      "politician": "Hon. Chellie Pingree",
+      "owner": "",
+      "asset_v8_2_cleaned": "United States Treasury Notes; 4.25%; Due 10-15-25",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-02-05",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030492.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/05/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030492",
+      "politician": "Hon. Chellie Pingree",
+      "owner": "",
+      "asset_v8_2_cleaned": "United States Treasury Notes; 4.25%; Due 10-15-25",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-05-09",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030492.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/09/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030492",
+      "politician": "Hon. Chellie Pingree",
+      "owner": "",
+      "asset_v8_2_cleaned": "United States Treasury Notes; 4.25%; Due 3-15-27",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-02-05",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030492.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/05/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

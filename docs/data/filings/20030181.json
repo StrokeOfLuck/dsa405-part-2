@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030181",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.458333333333332,
+      318.1875,
+      575.625,
+      424.21875
+    ],
+    "physical_rect": [
+      23.458333333333332,
+      318.1875,
+      575.625,
+      424.21875
+    ],
+    "method": "table",
+    "before": "Interest Rate Cap Transaction UBS [OT] S 04/10/2025 04/11/2025 $25,000,001 - $50,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Lʑʅʃʖʋʑʐ: US Dʇʕʅʔʋʒʖʋʑʐ: Sale of two interest rate cap investments reported as purchases in 2023 and two interest rate cap investments that were purchased in 2024 and will be reported in the 2024 annual report. All four were sold prior to their maturity date thus triggering this report. The total of the 4 sales was $30 million.",
+    "after": "Interest Rate Cap Transaction UBS [OT] S 04/10/2025 04/11/2025 $25,000,001 - $50,000,000 Filing Status: New Location: US Description: Sale of two interest rate cap investments reported as purchases in 2023 and two interest rate cap investments that were purchased in 2024 and will be reported in the 2024 annual report. All four were sold prior to their maturity date thus triggering this report. The total of the 4 sales was $30 million.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.458333333333332,
+          318.1875,
+          62.25,
+          424.21875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          424.21875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          424.21875
+        ],
+        "before": "Interest Rate Cap Transaction UBS\n[OT]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Sale of two interest rate cap\nthat were purchased in 2024 and will be r\nthus triggering this report. The total of th\n",
+        "after": "Interest Rate Cap Transaction UBS [OT] Filing Status: New Location: US Description: Sale of two interest rate cap that were purchased in 2024 and will be r thus triggering this report. The total of th"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          424.21875
+        ],
+        "before": "S\np investments rep\nreported in the 20\nhe 4 sales was $30\n",
+        "after": "S p investments rep reported in the 20 he 4 sales was $30"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          377.25,
+          424.21875
+        ],
+        "before": "04/10/2025\nported as purch\n024 annual rep\n0 million.\n",
+        "after": "04/10/2025 ported as purch 024 annual rep 0 million."
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          377.25,
+          318.1875,
+          441.75,
+          424.21875
+        ],
+        "before": "04/11/2025\nhases in 2023 and \nport. All four were \n",
+        "after": "04/11/2025 hases in 2023 and port. All four were"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          441.75,
+          318.1875,
+          522.0,
+          424.21875
+        ],
+        "before": "$25,000,001 -\n$50,000,000\ntwo interest rate cap \nsold prior to their ma\n",
+        "after": "$25,000,001 - $50,000,000 two interest rate cap sold prior to their ma"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          424.21875
+        ],
+        "before": "investments\naturity date\n",
+        "after": "investments aturity date"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Darrell E. Issa",
+  "state_district": "CA48",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030181.pdf",
+  "pdf_image": "images/20030181.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Darrell E. Issa\nStatus:\nMember\nState/District: CA48\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nInterest Rate Cap Transaction UBS\n[OT]\nS\n04/10/2025 04/11/2025\n$25,000,001 -\n$50,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Sale of two interest rate cap investments reported as purchases in 2023 and two interest rate cap investments\nthat were purchased in 2024 and will be reported in the 2024 annual report. All four were sold prior to their maturity date\nthus triggering this report. The total of the 4 sales was $30 million.\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Darrell E. Issa , 04/17/2025\nFiling ID #20030181\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Interest Rate Cap Transaction UBS [OT] Filing Status: New Location: US Description: Sale of two interest rate cap that were purchased in 2024 and will be r thus triggering this report. The total of th",
+    "asset": "Interest Rate Cap Transaction UBS",
+    "ticker": "",
+    "transaction_type_raw": "S p investments rep reported in the 20 he 4 sales was $30",
+    "transaction_type": "S",
+    "transaction_date_raw": "04/10/2025 ported as purch 024 annual rep 0 million.",
+    "transaction_date": "2025-04-10",
+    "amount_raw": "$25,000,001 - $50,000,000 two interest rate cap sold prior to their ma",
+    "amount_min": "25000001.0",
+    "amount_max": "50000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Interest Rate Cap Transaction UBS",
+    "asset_v8_2_cleaned": "Interest Rate Cap Transaction UBS",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "04/10/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030181.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030181",
+      "politician": "Hon. Darrell E. Issa",
+      "owner": "",
+      "asset_v8_2_cleaned": "Interest Rate Cap Transaction UBS",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-10",
+      "amount_min": "25000001.0",
+      "amount_max": "50000000.0",
+      "amount_category": "$25,000,001 - $50,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030181.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "04/10/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

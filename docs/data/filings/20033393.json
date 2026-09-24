@@ -1,0 +1,247 @@
+{
+  "filing_id": "20033393",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      396.0
+    ],
+    "physical_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      396.0
+    ],
+    "method": "table",
+    "before": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE [GS] P 10/27/2025 11/03/2025 $250,001 - $500,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Judith S. Clark Irrevocable Trust",
+    "after": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE [GS] P 10/27/2025 11/03/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Judith S. Clark Irrevocable Trust",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.958333333333332,
+          318.1875,
+          63.0,
+          396.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          396.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          396.0
+        ],
+        "before": "UNITED STATES TREAS SER AU-\n2026; 4.625%; 11/15/2026 NTS\nNOTE [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Judith S. Clark Irrevoca\n",
+        "after": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE [GS] Filing Status: New Subholding Of: Judith S. Clark Irrevoca"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          396.0
+        ],
+        "before": "P\nable Trust\n",
+        "after": "P able Trust"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          396.0
+        ],
+        "before": "10/27/2025\n",
+        "after": "10/27/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          396.0
+        ],
+        "before": "11/03/2025\n",
+        "after": "11/03/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          396.0
+        ],
+        "before": "$250,001 -\n$500,000\n",
+        "after": "$250,001 - $500,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5833333333334,
+          396.0
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Katherine M. Clark",
+  "state_district": "MA05",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033393.pdf",
+  "pdf_image": "images/20033393.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Katherine M. Clark\nStatus:\nMember\nState/District: MA05\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nUNITED STATES TREAS SER AU-\n2026; 4.625%; 11/15/2026 NTS\nNOTE [GS]\nP\n10/27/2025 11/03/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Judith S. Clark Irrevocable Trust\nUNITED STATES TREAS SER AU-\n2026; 4.625%; 11/15/2026 NTS\nNOTE [GS]\nP\n10/27/2025 11/03/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Katherine M. Clark Exempt Trust\nSP\nUNITED STATES TREAS SER AU-\n2026; 4.625%; 11/15/2026 NTS\nNOTE [GS]\nP\n10/27/2025 11/03/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Rollover IRA\nUNITED STATES TREAS SER AU-\n2026; 4.625%; 11/15/2026; NTS\nNOTE [GS]\nP\n10/27/2025 11/03/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Katherine M. Clark Separate Share Trust\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nFidelity Rollover IRA (Owner: SP)\nDʇʕʅʔʋʒʖʋʑʐ: Transferred from Amerprise in September 2021.\nFiling ID #20033393\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE [GS] Filing Status: New Subholding Of: Judith S. Clark Irrevoca",
+    "asset": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE",
+    "ticker": "",
+    "transaction_type_raw": "P able Trust",
+    "transaction_type": "P",
+    "transaction_date_raw": "10/27/2025",
+    "transaction_date": "2025-10-27",
+    "amount_raw": "$250,001 - $500,000",
+    "amount_min": "250001.0",
+    "amount_max": "500000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE",
+    "asset_v8_2_cleaned": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/27/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033393.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033393",
+      "politician": "Hon. Katherine M. Clark",
+      "owner": "",
+      "asset_v8_2_cleaned": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-27",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033393.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033393",
+      "politician": "Hon. Katherine M. Clark",
+      "owner": "",
+      "asset_v8_2_cleaned": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-27",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033393.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033393",
+      "politician": "Hon. Katherine M. Clark",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-27",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033393.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033393",
+      "politician": "Hon. Katherine M. Clark",
+      "owner": "",
+      "asset_v8_2_cleaned": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026; NTS NOTE",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-27",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033393.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/27/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

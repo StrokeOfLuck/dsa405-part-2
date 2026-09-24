@@ -1,0 +1,230 @@
+{
+  "filing_id": "20033447",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.708333333333332,
+      318.1875,
+      575.625,
+      385.5
+    ],
+    "physical_rect": [
+      22.708333333333332,
+      318.1875,
+      575.625,
+      385.5
+    ],
+    "method": "table",
+    "before": "SP Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26 [GS] S 10/17/2025 11/11/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA",
+    "after": "SP Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26 [GS] S 10/17/2025 11/11/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.708333333333332,
+          318.1875,
+          63.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          385.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Indiana St Fin Auth Revenue Ser B\nRev 5% due 2/1/26 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\n",
+        "after": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26 [GS] Filing Status: New Subholding Of: Victoria Kelly Trust ICA"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S\nA\n",
+        "after": "S A"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "10/17/2025\n",
+        "after": "10/17/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "11/11/2025\n",
+        "after": "11/11/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$50,001 -\n$100,000\n",
+        "after": "$50,001 - $100,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Mike Kelly",
+  "state_district": "PA16",
+  "rows": 3,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf",
+  "pdf_image": "images/20033447.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Mike Kelly\nStatus:\nMember\nState/District: PA16\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nIndiana St Fin Auth Revenue Ser B\nRev 5% due 2/1/26 [GS]\nS\n10/17/2025\n11/11/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\nSP\nMaryland St Dept of Transport Ser B\nRev 5% due 10/1/32 [GS]\nP\n10/21/2025\n11/11/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\nSP\nSeattle WA Muni Light & Pw Ser C\nRev 5% due 9/1/26 [GS]\nS (partial)\n10/17/2025\n11/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Victoria Kelly Trust ICA\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nVictoria Kelly Trust ICA (Owner: SP)\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nFiling ID #20033447\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26 [GS] Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "asset": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26",
+    "ticker": "",
+    "transaction_type_raw": "S A",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/17/2025",
+    "transaction_date": "2025-10-17",
+    "amount_raw": "$50,001 - $100,000",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26",
+    "asset_v8_2_cleaned": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/17/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033447.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033447",
+      "politician": "Hon. Mike Kelly",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-17",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/17/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033447",
+      "politician": "Hon. Mike Kelly",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Maryland St Dept of Transport Ser B Rev 5% due 10/1/32",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-21",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/21/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033447",
+      "politician": "Hon. Mike Kelly",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Seattle WA Muni Light & Pw Ser C Rev 5% due 9/1/26",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-10-17",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/17/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

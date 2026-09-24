@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030185",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "method": "table",
+    "before": "JT MORGAN STANLEY FIN LLC MTN ZERO CPN [CS] S 03/31/2025 04/01/2025 $500,001 - $1,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account Dʇʕʅʔʋʒʖʋʑʐ: Matured - Redeemed by the issuer",
+    "after": "JT MORGAN STANLEY FIN LLC MTN ZERO CPN [CS] S 03/31/2025 04/01/2025 $500,001 - $1,000,000 Filing Status: New Subholding Of: Hern Family Revocable Trust > Brokerage Investment Account Description: Matured - Redeemed by the issuer",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          398.71875
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          398.71875
+        ],
+        "before": "MORGAN STANLEY FIN LLC MTN\nZERO CPN [CS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable \nDʇʕʅʔʋʒʖʋʑʐ: Matured - Redeemed by th\n",
+        "after": "MORGAN STANLEY FIN LLC MTN ZERO CPN [CS] Filing Status: New Subholding Of: Hern Family Revocable Description: Matured - Redeemed by th"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          398.71875
+        ],
+        "before": "S\nTrust > Brokerag\ne issuer\n",
+        "after": "S Trust > Brokerag e issuer"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.0,
+          398.71875
+        ],
+        "before": "03/31/2025\nge Investment A\n",
+        "after": "03/31/2025 ge Investment A"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          398.71875
+        ],
+        "before": "04/01/2025\nAccount\n",
+        "after": "04/01/2025 Account"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          398.71875
+        ],
+        "before": "$500,001 -\n$1,000,000\n",
+        "after": "$500,001 - $1,000,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kevin Hern",
+  "state_district": "OK01",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030185.pdf",
+  "pdf_image": "images/20030185.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kevin Hern\nStatus:\nMember\nState/District: OK01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nMORGAN STANLEY FIN LLC MTN\nZERO CPN [CS]\nS\n03/31/2025 04/01/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account\nDʇʕʅʔʋʒʖʋʑʐ: Matured - Redeemed by the issuer\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nHern Family Revocable Trust (100% Interest) (Owner: JT)\nDʇʕʅʔʋʒʖʋʑʐ: Family Revocable Trust\nHern Family Revocable Trust ⇒ Brokerage Investment Account (100% Interest) (Owner: JT)\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Stock, Bonds, EFTs, & Mutual funds\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Kevin Hern , 04/23/2025\nFiling ID #20030185\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "MORGAN STANLEY FIN LLC MTN ZERO CPN [CS] Filing Status: New Subholding Of: Hern Family Revocable Description: Matured - Redeemed by th",
+    "asset": "MORGAN STANLEY FIN LLC MTN ZERO CPN",
+    "ticker": "",
+    "transaction_type_raw": "S Trust > Brokerag e issuer",
+    "transaction_type": "S",
+    "transaction_date_raw": "03/31/2025 ge Investment A",
+    "transaction_date": "2025-03-31",
+    "amount_raw": "$500,001 - $1,000,000",
+    "amount_min": "500001.0",
+    "amount_max": "1000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "MORGAN STANLEY FIN LLC MTN ZERO CPN",
+    "asset_v8_2_cleaned": "MORGAN STANLEY FIN LLC MTN ZERO CPN",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "03/31/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030185.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030185",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "MORGAN STANLEY FIN LLC MTN ZERO CPN",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-31",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030185.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "03/31/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

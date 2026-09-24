@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033446",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "SP AbbVie Inc. Common Stock (ABBV) [ST] S 10/30/2025 11/01/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab Brokerage Account 924",
+    "after": "SP AbbVie Inc. Common Stock (ABBV) [ST] S 10/30/2025 11/01/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Charles Schwab Brokerage Account 924",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "AbbVie Inc. Common Stock (ABBV)\n[ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab Brokera\n",
+        "after": "AbbVie Inc. Common Stock (ABBV) [ST] Filing Status: New Subholding Of: Charles Schwab Brokera"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S\nage Account 924\n",
+        "after": "S age Account 924"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "10/30/2025\n",
+        "after": "10/30/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "11/01/2025\n",
+        "after": "11/01/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Lisa McClain",
+  "state_district": "MI09",
+  "rows": 473,
+  "page_count": 53,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033446.pdf",
+  "pdf_image": "images/20033446.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Lisa McClain\nStatus:\nMember\nState/District: MI09\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nAbbVie Inc. Common Stock (ABBV)\n[ST]\nS\n10/30/2025 11/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab Brokerage Account 924\nSP\nAbbVie Inc. Common Stock (ABBV)\n[ST]\nP\n10/30/2025 11/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab 401K > Schwab 893\nSP\nAbbVie Inc. Common Stock (ABBV)\n[ST]\nS\n10/31/2025\n11/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab 401K > Schwab 893\nSP\nACI Worldwide, Inc. - Common Stock\n(ACIW) [ST]\nS\n10/31/2025\n11/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab 401K > Schwab 893\nSP\nACI Worldwide, Inc. - Common Stock\n(ACIW) [ST]\nP\n10/30/2025 11/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab 401K > Schwab 893\nSP\nACI Worldwide, Inc. - Common Stock\n(ACIW) [ST]\nS\n10/30/2025 11/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Charles Schwab Brokerage Account 924\nFiling ID #20033446\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "AbbVie Inc. Common Stock (ABBV) [ST] Filing Status: New Subholding Of: Charles Schwab Brokera",
+    "asset": "AbbVie Inc. Common Stock",
+    "ticker": "ABBV",
+    "transaction_type_raw": "S age Account 924",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/30/2025",
+    "transaction_date": "2025-10-30",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AbbVie Inc. Common Stock",
+    "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+    "ticker_v8_1": "ABBV",
+    "ticker_v8_2_cleaned": "ABBV",
+    "ticker_candidate_raw": "ABBV",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/30/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033446.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033446",
+      "politician": "Hon. Lisa McClain",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ABBV",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-30",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033446.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/30/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033446",
+      "politician": "Hon. Lisa McClain",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ABBV",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-30",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033446.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/30/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033446",
+      "politician": "Hon. Lisa McClain",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "AbbVie Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ABBV",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-31",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033446.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/31/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033446",
+      "politician": "Hon. Lisa McClain",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "ACI Worldwide, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "ACIW",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-31",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033446.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/31/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033446",
+      "politician": "Hon. Lisa McClain",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "ACI Worldwide, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "ACIW",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-30",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033446.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/30/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

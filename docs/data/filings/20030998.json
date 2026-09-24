@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030998",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      436.96875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      436.96875
+    ],
+    "method": "table",
+    "before": "Arlington, TX Municipal Bond [GS] P 08/18/2025 08/26/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #4 Dʇʕʅʔʋʒʖʋʑʐ: Arlington, TX Municipal Bond Cʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+    "after": "Arlington, TX Municipal Bond [GS] P 08/18/2025 08/26/2025 $50,001 - $100,000 Filing Status: New Subholding Of: JP Morgan Brokerage Account #4 Description: Arlington, TX Municipal Bond Comments: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          436.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          436.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          436.96875
+        ],
+        "before": "Arlington, TX Municipal Bond [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage A\nDʇʕʅʔʋʒʖʋʑʐ: Arlington, TX Municipal Bo\nCʑʏʏʇʐʖʕ: All investment decisions relat\nadvisors. I have no role in, nor am inform\ntransaction was planned and executed by \n",
+        "after": "Arlington, TX Municipal Bond [GS] Filing Status: New Subholding Of: JP Morgan Brokerage A Description: Arlington, TX Municipal Bo Comments: All investment decisions relat advisors. I have no role in, nor am inform transaction was planned and executed by"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          436.96875
+        ],
+        "before": "P\nAccount #4\nond\nted to my persona\nmed of, specific inv\n a financial adviso\n",
+        "after": "P Account #4 ond ted to my persona med of, specific inv a financial adviso"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          436.96875
+        ],
+        "before": "08/18/2025\nal financial por\nvestment decisi\nor.\n",
+        "after": "08/18/2025 al financial por vestment decisi or."
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          436.96875
+        ],
+        "before": "08/26/2025\nrtfolio are delegate\nions prior to their\n",
+        "after": "08/26/2025 rtfolio are delegate ions prior to their"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          436.96875
+        ],
+        "before": "$50,001 -\n$100,000\ned to professional fin\nr execution. According\n",
+        "after": "$50,001 - $100,000 ed to professional fin r execution. According"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          436.96875
+        ],
+        "before": "ancial\ngly, this\n",
+        "after": "ancial gly, this"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Rob Bresnahan",
+  "state_district": "PA08",
+  "rows": 1,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030998.pdf",
+  "pdf_image": "images/20030998.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Rob Bresnahan\nStatus:\nMember\nState/District: PA08\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nArlington, TX Municipal Bond [GS]\nP\n08/18/2025 08/26/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: JP Morgan Brokerage Account #4\nDʇʕʅʔʋʒʖʋʑʐ: Arlington, TX Municipal Bond\nCʑʏʏʇʐʖʕ: All investment decisions related to my personal financial portfolio are delegated to professional financial\nadvisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this\ntransaction was planned and executed by a financial advisor.\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nJP Morgan Brokerage Account #4\nLʑʅʃʖʋʑʐ: US\nCʑʏʏʇʐʖʕ\nAll investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am\ninformed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial\nadvisor.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nFiling ID #20030998\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Arlington, TX Municipal Bond [GS] Filing Status: New Subholding Of: JP Morgan Brokerage A Description: Arlington, TX Municipal Bo Comments: All investment decisions relat advisors. I have no role in, nor am inform transaction was planned and executed by",
+    "asset": "Arlington, TX Municipal Bond",
+    "ticker": "",
+    "transaction_type_raw": "P Account #4 ond ted to my persona med of, specific inv a financial adviso",
+    "transaction_type": "P",
+    "transaction_date_raw": "08/18/2025 al financial por vestment decisi or.",
+    "transaction_date": "2025-08-18",
+    "amount_raw": "$50,001 - $100,000 ed to professional fin r execution. According",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Arlington, TX Municipal Bond",
+    "asset_v8_2_cleaned": "Arlington, TX Municipal Bond",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "08/18/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030998.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030998",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "Arlington, TX Municipal Bond",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-08-18",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030998.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/18/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033327",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      417.0
+    ],
+    "physical_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      417.0
+    ],
+    "method": "table",
+    "before": "SP iShares Core S&P 500 ETF (IVV) [OT] P 10/14/2025 10/21/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Roth IRA Lʑʅʃʖʋʑʐ: US Dʇʕʅʔʋʒʖʋʑʐ: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have reported it on past PTRs and Annual FDs. I didn't see an option besides \"Other\" for entering it.",
+    "after": "SP iShares Core S&P 500 ETF (IVV) [OT] P 10/14/2025 10/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have reported it on past PTRs and Annual FDs. I didn't see an option besides \"Other\" for entering it.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99264705882353,
+          318.1875,
+          63.0,
+          417.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          417.0
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          417.0
+        ],
+        "before": "iShares Core S&P 500 ETF (IVV) [OT]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Roth IRA\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: IVV (iShares Core S&P 500\nreported it on past PTRs and Annual FDs\n",
+        "after": "iShares Core S&P 500 ETF (IVV) [OT] Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 reported it on past PTRs and Annual FDs"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          417.0
+        ],
+        "before": "P\n0 ETF) isn't shown\n. I didn't see an op\n",
+        "after": "P 0 ETF) isn't shown . I didn't see an op"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          417.0
+        ],
+        "before": "10/14/2025\nn as an option i\nption besides \"\n",
+        "after": "10/14/2025 n as an option i ption besides \""
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          417.0
+        ],
+        "before": "10/21/2025\nin the Stocks drop\n\"Other\" for enterin\n",
+        "after": "10/21/2025 in the Stocks drop \"Other\" for enterin"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          417.0
+        ],
+        "before": "$1,001 - $15,000\npdown list, even thoug\nng it.\n",
+        "after": "$1,001 - $15,000 pdown list, even thoug ng it."
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5367647058823,
+          417.0
+        ],
+        "before": "gh I have\n",
+        "after": "gh I have"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Scott Scott Franklin",
+  "state_district": "FL18",
+  "rows": 6,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
+  "pdf_image": "images/20033327.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Scott Scott Franklin\nStatus:\nMember\nState/District: FL18\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\niShares Core S&P 500 ETF (IVV) [OT] P\n10/14/2025\n10/21/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Roth IRA\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have\nreported it on past PTRs and Annual FDs. I didn't see an option besides \"Other\" for entering it.\niShares Core S&P 500 ETF (IVV) [OT] P\n10/14/2025\n10/21/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Roth IRA\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have\nreported it on past PTRs and Annual FDs. I didn't see an option besides \"Other\" for entering it.\niShares Core S&P 500 ETF (IVV) [OT] P\n10/14/2025\n10/21/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Traditional IRA\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have\nreported it on past PTRs and Annual FDs. I didn't see an option besides \"Other\" for entering it.\nUnion Pacific Corporation Common\nStock (UNP) [ST]\nP\n10/14/2025\n10/21/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Traditional IRA\nUnion Pacific Corporation Common\nStock (UNP) [ST]\nP\n10/14/2025\n10/21/2025\n$1,001 - $15,000\nFiling ID #20033327\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "iShares Core S&P 500 ETF (IVV) [OT] Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 reported it on past PTRs and Annual FDs",
+    "asset": "iShares Core S&P 500 ETF",
+    "ticker": "IVV",
+    "transaction_type_raw": "P 0 ETF) isn't shown . I didn't see an op",
+    "transaction_type": "P",
+    "transaction_date_raw": "10/14/2025 n as an option i ption besides \"",
+    "transaction_date": "2025-10-14",
+    "amount_raw": "$1,001 - $15,000 pdown list, even thoug ng it.",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "iShares Core S&P 500 ETF",
+    "asset_v8_2_cleaned": "iShares Core S&P 500 ETF",
+    "ticker_v8_1": "IVV",
+    "ticker_v8_2_cleaned": "IVV",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "10/14/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033327.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033327",
+      "politician": "Hon. Scott Scott Franklin",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "iShares Core S&P 500 ETF",
+      "ticker_v8_2_cleaned": "IVV",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-14",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033327",
+      "politician": "Hon. Scott Scott Franklin",
+      "owner": "",
+      "asset_v8_2_cleaned": "iShares Core S&P 500 ETF",
+      "ticker_v8_2_cleaned": "IVV",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-14",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033327",
+      "politician": "Hon. Scott Scott Franklin",
+      "owner": "",
+      "asset_v8_2_cleaned": "iShares Core S&P 500 ETF",
+      "ticker_v8_2_cleaned": "IVV",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-14",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033327",
+      "politician": "Hon. Scott Scott Franklin",
+      "owner": "",
+      "asset_v8_2_cleaned": "Union Pacific Corporation Common Stock",
+      "ticker_v8_2_cleaned": "UNP",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-14",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033327",
+      "politician": "Hon. Scott Scott Franklin",
+      "owner": "",
+      "asset_v8_2_cleaned": "Union Pacific Corporation Common Stock",
+      "ticker_v8_2_cleaned": "UNP",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-14",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/14/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

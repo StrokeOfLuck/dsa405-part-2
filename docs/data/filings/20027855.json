@@ -1,0 +1,196 @@
+{
+  "filing_id": "20027855",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      385.96875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      385.96875
+    ],
+    "method": "table",
+    "before": "NVIDIA Corporation - Common Stock (NVDA) [ST] S (partial) 02/05/2025 02/24/2025 $500,001 - $1,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*Trade",
+    "after": "NVIDIA Corporation - Common Stock (NVDA) [ST] S (partial) 02/05/2025 02/24/2025 $500,001 - $1,000,000 Filing Status: New Subholding Of: Morgan Stanley - E*Trade",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          62.25,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          385.96875
+        ],
+        "before": "NVIDIA Corporation - Common\nStock (NVDA) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*Tra\n",
+        "after": "NVIDIA Corporation - Common Stock (NVDA) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*Tra"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          385.96875
+        ],
+        "before": "S (partial)\nade\n",
+        "after": "S (partial) ade"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          378.0,
+          385.96875
+        ],
+        "before": "02/05/2025\n",
+        "after": "02/05/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          385.96875
+        ],
+        "before": "02/24/2025\n",
+        "after": "02/24/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          385.96875
+        ],
+        "before": "$500,001 -\n$1,000,000\n",
+        "after": "$500,001 - $1,000,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Cleo Fields",
+  "state_district": "LA06",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027855.pdf",
+  "pdf_image": "images/20027855.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nCleo Fields\nStatus:\nMember\nState/District: LA06\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nNVIDIA Corporation - Common\nStock (NVDA) [ST]\nS (partial)\n02/05/2025 02/24/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*Trade\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nMorgan Stanley - E*Trade\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Cleo Fields , 03/14/2025\nFiling ID #20027855\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "NVIDIA Corporation - Common Stock (NVDA) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*Tra",
+    "asset": "NVIDIA Corporation - Common Stock",
+    "ticker": "NVDA",
+    "transaction_type_raw": "S (partial) ade",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "02/05/2025",
+    "transaction_date": "2025-02-05",
+    "amount_raw": "$500,001 - $1,000,000",
+    "amount_min": "500001.0",
+    "amount_max": "1000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "NVIDIA Corporation - Common Stock",
+    "asset_v8_2_cleaned": "NVIDIA Corporation - Common Stock",
+    "ticker_v8_1": "NVDA",
+    "ticker_v8_2_cleaned": "NVDA",
+    "ticker_candidate_raw": "NVDA",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "02/05/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20027855.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20027855",
+      "politician": "Cleo Fields",
+      "owner": "",
+      "asset_v8_2_cleaned": "NVIDIA Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "NVDA",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-02-05",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027855.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/05/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

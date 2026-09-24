@@ -1,0 +1,264 @@
+{
+  "filing_id": "20032149",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      398.25
+    ],
+    "physical_rect": [
+      21.99264705882353,
+      318.1875,
+      575.5367647058823,
+      398.25
+    ],
+    "method": "table",
+    "before": "SP Air Products and Chemicals, Inc. Common Stock (APD) [ST] S 03/18/2025 08/11/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: W.S.B Trust > UBS Financial Services Inc 35 Dʇʕʅʔʋʒʖʋʑʐ: Professionally managed account.",
+    "after": "SP Air Products and Chemicals, Inc. Common Stock (APD) [ST] S 03/18/2025 08/11/2025 $15,001 - $50,000 Filing Status: New Subholding Of: W.S.B Trust > UBS Financial Services Inc 35 Description: Professionally managed account.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99264705882353,
+          318.1875,
+          62.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.25
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          398.25
+        ],
+        "before": "Air Products and Chemicals, Inc.\nCommon Stock (APD) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: W.S.B Trust > UBS Fina\nDʇʕʅʔʋʒʖʋʑʐ: Professionally managed acc\n",
+        "after": "Air Products and Chemicals, Inc. Common Stock (APD) [ST] Filing Status: New Subholding Of: W.S.B Trust > UBS Fina Description: Professionally managed acc"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          398.25
+        ],
+        "before": "S\nancial Services Inc\ncount.\n",
+        "after": "S ancial Services Inc count."
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          379.5,
+          398.25
+        ],
+        "before": "03/18/2025\nc 35\n",
+        "after": "03/18/2025 c 35"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          398.25
+        ],
+        "before": "08/11/2025\n",
+        "after": "08/11/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.75,
+          398.25
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          318.1875,
+          575.5367647058823,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Sheri Biggs",
+  "state_district": "SC03",
+  "rows": 189,
+  "page_count": 26,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf",
+  "pdf_image": "images/20032149.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Sheri Biggs\nStatus:\nMember\nState/District: SC03\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nAir Products and Chemicals, Inc.\nCommon Stock (APD) [ST]\nS\n03/18/2025 08/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: W.S.B Trust > UBS Financial Services Inc 35\nDʇʕʅʔʋʒʖʋʑʐ: Professionally managed account.\nSP\nAlibaba Group Holding Limited\nAmerican Depositary Shares each\nrepresenting eight Ordinary share\n(BABA) [ST]\nS\n03/18/2025 08/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: W.S.B Trust > UBS Financial Services Inc 35\nDʇʕʅʔʋʒʖʋʑʐ: Professionally managed account.\nSP\nAltria Group, Inc. (MO) [ST]\nS\n03/19/2025\n08/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: W.S.B Trust > UBS Financial Services Inc 36\nDʇʕʅʔʋʒʖʋʑʐ: Professionally managed account.\nSP\nAmerica Movil, S.A.B. de C.V.\nAmerican Depositary Shares (AMX)\n[ST]\nS\n03/18/2025 08/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: W.S.B Trust > UBS Financial Services Inc 35\nDʇʕʅʔʋʒʖʋʑʐ: Professionally managed account.\nSP\nAnhui Conch Cement Unsponsored\nADR representing Shares -H-\n(AHCHY) [ST]\nS\n03/18/2025 08/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFiling ID #20032149\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Air Products and Chemicals, Inc. Common Stock (APD) [ST] Filing Status: New Subholding Of: W.S.B Trust > UBS Fina Description: Professionally managed acc",
+    "asset": "Air Products and Chemicals, Inc. Common Stock",
+    "ticker": "APD",
+    "transaction_type_raw": "S ancial Services Inc count.",
+    "transaction_type": "S",
+    "transaction_date_raw": "03/18/2025 c 35",
+    "transaction_date": "2025-03-18",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Air Products and Chemicals, Inc. Common Stock",
+    "asset_v8_2_cleaned": "Air Products and Chemicals, Inc. Common Stock",
+    "ticker_v8_1": "APD",
+    "ticker_v8_2_cleaned": "APD",
+    "ticker_candidate_raw": "APD",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "03/18/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20032149.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20032149",
+      "politician": "Hon. Sheri Biggs",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Air Products and Chemicals, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "APD",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-18",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "03/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032149",
+      "politician": "Hon. Sheri Biggs",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+      "ticker_v8_2_cleaned": "BABA",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032149",
+      "politician": "Hon. Sheri Biggs",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Altria Group, Inc.",
+      "ticker_v8_2_cleaned": "MO",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-19",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "03/19/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032149",
+      "politician": "Hon. Sheri Biggs",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "America Movil, S.A.B. de C.V. American Depositary Shares",
+      "ticker_v8_2_cleaned": "AMX",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032149",
+      "politician": "Hon. Sheri Biggs",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Anhui Conch Cement Unsponsored ADR representing Shares -H",
+      "ticker_v8_2_cleaned": "AHCHY",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-18",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/18/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

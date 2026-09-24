@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033670",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      372.75
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      372.75
+    ],
+    "method": "table",
+    "before": "Cracker Barrel Old Country Store, Inc. - Common Stock (CBRL) [ST] P 12/09/2025 12/19/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "Cracker Barrel Old Country Store, Inc. - Common Stock (CBRL) [ST] P 12/09/2025 12/19/2025 $50,001 - $100,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          372.75
+        ],
+        "before": "Cracker Barrel Old Country Store, Inc.\n- Common Stock (CBRL) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "Cracker Barrel Old Country Store, Inc. - Common Stock (CBRL) [ST] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          372.75
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          379.5,
+          372.75
+        ],
+        "before": "12/09/2025\n",
+        "after": "12/09/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          372.75
+        ],
+        "before": "12/19/2025\n",
+        "after": "12/19/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$50,001 -\n$100,000\n",
+        "after": "$50,001 - $100,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Tim Moore",
+  "state_district": "NC14",
+  "rows": 6,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf",
+  "pdf_image": "images/20033670.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Tim Moore\nStatus:\nMember\nState/District: NC14\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nCracker Barrel Old Country Store, Inc.\n- Common Stock (CBRL) [ST]\nP\n12/09/2025 12/19/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCracker Barrel Old Country Store, Inc.\n- Common Stock (CBRL) [ST]\nP\n12/16/2025\n12/19/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCracker Barrel Old Country Store, Inc.\n- Common Stock (CBRL) [ST]\nS\n12/10/2025\n12/19/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nHarley-Davidson, Inc. Common Stock\n(HOG) [ST]\nP\n12/09/2025 12/19/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nHyster-Yale, Inc. Class A common\nstock (HY) [ST]\nS\n12/03/2025 12/19/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nVerizon Communications Inc.\nCommon Stock (VZ) [ST]\nP\n12/10/2025\n12/19/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nFiling ID #20033670\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Cracker Barrel Old Country Store, Inc. - Common Stock (CBRL) [ST] Filing Status: New",
+    "asset": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+    "ticker": "CBRL",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "12/09/2025",
+    "transaction_date": "2025-12-09",
+    "amount_raw": "$50,001 - $100,000",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+    "ticker_v8_1": "CBRL",
+    "ticker_v8_2_cleaned": "CBRL",
+    "ticker_candidate_raw": "CBRL",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "12/09/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033670.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033670",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "CBRL",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-09",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/09/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033670",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "CBRL",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-16",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/16/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033670",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "CBRL",
+      "transaction_type": "S",
+      "transaction_date": "2025-12-10",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/10/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033670",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Harley-Davidson, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "HOG",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-09",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/09/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033670",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Hyster-Yale, Inc. Class A common stock",
+      "ticker_v8_2_cleaned": "HY",
+      "transaction_type": "S",
+      "transaction_date": "2025-12-03",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/03/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

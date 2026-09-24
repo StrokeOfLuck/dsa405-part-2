@@ -1,0 +1,196 @@
+{
+  "filing_id": "20033403",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      396.46875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      396.46875
+    ],
+    "method": "table",
+    "before": "JT CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED [GS] S 10/21/2025 10/21/2025 $250,001 - $500,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Trust",
+    "after": "JT CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED [GS] S 10/21/2025 10/21/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Fidelity Trust",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          62.25,
+          396.46875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          396.46875
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          396.46875
+        ],
+        "before": "CENTRE CNTY PA HOSP AUTH REV\nHOSP REV 5% 11/15/2046 BDS MT\nNITTANYMED [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Trust\n",
+        "after": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED [GS] Filing Status: New Subholding Of: Fidelity Trust"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          396.46875
+        ],
+        "before": "S\n",
+        "after": "S"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          396.46875
+        ],
+        "before": "10/21/2025\n",
+        "after": "10/21/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          396.46875
+        ],
+        "before": "10/21/2025\n",
+        "after": "10/21/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          396.46875
+        ],
+        "before": "$250,001 -\n$500,000\n",
+        "after": "$250,001 - $500,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          396.46875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Ann Wagner",
+  "state_district": "MO02",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033403.pdf",
+  "pdf_image": "images/20033403.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Ann Wagner\nStatus:\nMember\nState/District: MO02\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nCENTRE CNTY PA HOSP AUTH REV\nHOSP REV 5% 11/15/2046 BDS MT\nNITTANYMED [GS]\nS\n10/21/2025\n10/21/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Fidelity Trust\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nFidelity Trust (Owner: JT)\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Ann Wagner , 11/04/2025\nFiling ID #20033403\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED [GS] Filing Status: New Subholding Of: Fidelity Trust",
+    "asset": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED",
+    "ticker": "",
+    "transaction_type_raw": "S",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/21/2025",
+    "transaction_date": "2025-10-21",
+    "amount_raw": "$250,001 - $500,000",
+    "amount_min": "250001.0",
+    "amount_max": "500000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED",
+    "asset_v8_2_cleaned": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/21/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033403.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033403",
+      "politician": "Hon. Ann Wagner",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-21",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033403.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/21/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

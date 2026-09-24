@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030236",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "method": "table",
+    "before": "New Water Capital Partners II, LP (GLAS Funds, LP) [HN] P 04/03/2025 04/28/2025 $823.45 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: 2012 Trust Dʇʕʅʔʋʒʖʋʑʐ: Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)",
+    "after": "New Water Capital Partners II, LP (GLAS Funds, LP) [HN] P 04/03/2025 04/28/2025 $823.45 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          398.71875
+        ],
+        "before": "New Water Capital Partners II, LP\n(GLAS Funds, LP) [HN]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 2012 Trust\nDʇʕʅʔʋʒʖʋʑʐ: Capital Call for New Water \n",
+        "after": "New Water Capital Partners II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          398.71875
+        ],
+        "before": "P\nCapital Partners \n",
+        "after": "P Capital Partners"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          398.71875
+        ],
+        "before": "04/03/2025\nII, LP (GLAS F\n",
+        "after": "04/03/2025 II, LP (GLAS F"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          398.71875
+        ],
+        "before": "04/28/2025\nFunds LP)\n",
+        "after": "04/28/2025 Funds LP)"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          398.71875
+        ],
+        "before": "$823.45\n",
+        "after": "$823.45"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Max Miller",
+  "state_district": "OH07",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030236.pdf",
+  "pdf_image": "images/20030236.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Max Miller\nStatus:\nMember\nState/District: OH07\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nNew Water Capital Partners II, LP\n(GLAS Funds, LP) [HN]\nP\n04/03/2025 04/28/2025\n$823.45\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 2012 Trust\nDʇʕʅʔʋʒʖʋʑʐ: Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\n2012 Trust\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Max Miller , 04/28/2025\nFiling ID #20030236\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "New Water Capital Partners II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water",
+    "asset": "New Water Capital Partners II, LP (GLAS Funds, LP)",
+    "ticker": "",
+    "transaction_type_raw": "P Capital Partners",
+    "transaction_type": "P",
+    "transaction_date_raw": "04/03/2025 II, LP (GLAS F",
+    "transaction_date": "2025-04-03",
+    "amount_raw": "$823.45",
+    "amount_min": "",
+    "amount_max": "",
+    "needs_review": "True",
+    "review_reason": "nonstandard_exact",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "New Water Capital Partners II, LP (GLAS Funds, LP)",
+    "asset_v8_2_cleaned": "New Water Capital Partners II, LP (GLAS Funds, LP)",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "True"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "04/03/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030236.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030236",
+      "politician": "Hon. Max Miller",
+      "owner": "",
+      "asset_v8_2_cleaned": "New Water Capital Partners II, LP (GLAS Funds, LP)",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-04-03",
+      "amount_min": "",
+      "amount_max": "",
+      "amount_category": "",
+      "needs_review": "True",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030236.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "04/03/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

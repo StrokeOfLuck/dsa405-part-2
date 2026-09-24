@@ -1,0 +1,247 @@
+{
+  "filing_id": "20029065",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      385.5
+    ],
+    "physical_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      385.5
+    ],
+    "method": "table",
+    "before": "JT ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041 [GS] P 03/28/2025 04/03/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley Trust Account",
+    "after": "JT ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041 [GS] P 03/28/2025 04/03/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley Trust Account",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.958333333333332,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          385.5
+        ],
+        "before": "ILLINOIS WESLEYAN UNIV FIN\nREV RE; 4.0%; Due 09/01/2041 [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley Trust A\n",
+        "after": "ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041 [GS] Filing Status: New Subholding Of: Morgan Stanley Trust A"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          385.5
+        ],
+        "before": "P\nAccount\n",
+        "after": "P Account"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "03/28/2025\n",
+        "after": "03/28/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "04/03/2025\n",
+        "after": "04/03/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5833333333334,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Jonathan Jackson",
+  "state_district": "IL01",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029065.pdf",
+  "pdf_image": "images/20029065.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Jonathan Jackson\nStatus:\nMember\nState/District: IL01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nILLINOIS WESLEYAN UNIV FIN\nREV RE; 4.0%; Due 09/01/2041 [GS]\nP\n03/28/2025 04/03/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley Trust Account\nMcKesson Corporation Common\nStock (MCK) [ST]\nP\n03/04/2025 04/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley IRA\nMicrosoft Corporation - Common\nStock (MSFT) [ST]\nS\n03/04/2025 04/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley IRA\nJT\nSalesforce, Inc. Common Stock\n(CRM) [ST]\nS\n03/11/2025\n04/03/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley Trust Account\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nMorgan Stanley IRA\nMorgan Stanley Trust Account (Owner: JT)\nDʇʕʅʔʋʒʖʋʑʐ: 083057\nFiling ID #20029065\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041 [GS] Filing Status: New Subholding Of: Morgan Stanley Trust A",
+    "asset": "ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041",
+    "ticker": "",
+    "transaction_type_raw": "P Account",
+    "transaction_type": "P",
+    "transaction_date_raw": "03/28/2025",
+    "transaction_date": "2025-03-28",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041",
+    "asset_v8_2_cleaned": "ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "03/28/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20029065.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20029065",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "ILLINOIS WESLEYAN UNIV FIN REV RE; 4.0%; Due 09/01/2041",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-28",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029065.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/28/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029065",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "",
+      "asset_v8_2_cleaned": "McKesson Corporation Common Stock",
+      "ticker_v8_2_cleaned": "MCK",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-04",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029065.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/04/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029065",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "",
+      "asset_v8_2_cleaned": "Microsoft Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "MSFT",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-04",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029065.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/04/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029065",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Salesforce, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "CRM",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-11",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029065.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/11/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

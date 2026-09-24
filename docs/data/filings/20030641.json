@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030641",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      372.75
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      372.75
+    ],
+    "method": "table",
+    "before": "BTC [CT] P 06/20/2025 06/20/2025 $500,001 - $1,000,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "BTC [CT] P 06/20/2025 06/20/2025 $500,001 - $1,000,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          63.0,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.0,
+          372.75
+        ],
+        "before": "BTC [CT]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "BTC [CT] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          372.75
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          378.0,
+          372.75
+        ],
+        "before": "06/20/2025\n",
+        "after": "06/20/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          372.75
+        ],
+        "before": "06/20/2025\n",
+        "after": "06/20/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$500,001 -\n$1,000,000\n",
+        "after": "$500,001 - $1,000,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Brandon Gill",
+  "state_district": "TX26",
+  "rows": 13,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
+  "pdf_image": "images/20030641.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Brandon Gill\nStatus:\nMember\nState/District: TX26\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nBTC [CT]\nP\n06/20/2025 06/20/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nBTC [CT]\nP\n06/23/2025 06/23/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nBTC [CT]\nP\n07/08/2025 07/08/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDIA ETF [OT]\nS\n06/20/2025 06/20/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: DIA ETF\nDIA ETF [OT]\nP\n06/23/2025 06/23/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: DIA ETF\nQQQ ETF [OT]\nP\n06/23/2025 06/23/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: QQQ ETF\nFiling ID #20030641\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "BTC [CT] Filing Status: New",
+    "asset": "BTC",
+    "ticker": "",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "06/20/2025",
+    "transaction_date": "2025-06-20",
+    "amount_raw": "$500,001 - $1,000,000",
+    "amount_min": "500001.0",
+    "amount_max": "1000000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "BTC",
+    "asset_v8_2_cleaned": "BTC",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "06/20/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030641.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030641",
+      "politician": "Hon. Brandon Gill",
+      "owner": "",
+      "asset_v8_2_cleaned": "BTC",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-06-20",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030641",
+      "politician": "Hon. Brandon Gill",
+      "owner": "",
+      "asset_v8_2_cleaned": "BTC",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-06-23",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/23/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030641",
+      "politician": "Hon. Brandon Gill",
+      "owner": "",
+      "asset_v8_2_cleaned": "BTC",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-08",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030641",
+      "politician": "Hon. Brandon Gill",
+      "owner": "",
+      "asset_v8_2_cleaned": "DIA ETF",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-20",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030641",
+      "politician": "Hon. Brandon Gill",
+      "owner": "",
+      "asset_v8_2_cleaned": "DIA ETF",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-06-23",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/23/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

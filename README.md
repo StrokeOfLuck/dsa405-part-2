@@ -6,16 +6,25 @@ This is a **separate class project**. It copies 2025 source files, builds two tr
 
 ## Visual walkthrough
 
-[Open the visual walkthrough](https://strokeofluck.github.io/dsa405-part-2/docs/index.html?filing=20033574) to follow one real PTR from its PDF page through raw extracted text, Stage 3 transaction fields, Stage 4 ticker review, Part 2 date checks, and a downloadable CSV containing **all rows from that filing**. It displays every Colab Python code cell in notebook order, including the original comments in green, beside explanations of the files each block reads and produces. Clearly labeled excerpts from the underlying scraper show how the notebook's pipeline parses PDF rows and resolves tickers. The Random filing button selects among eight fixed examples from the 2025 batch. The walkthrough is a reproducible snapshot, not a live scraper.
+[Open the visual walkthrough](https://strokeofluck.github.io/dsa405-part-2/docs/index.html) to follow a random 2025 PTR from its PDF page to a downloadable CSV containing **all rows from that filing**. The button draws from all **515 archived PDFs**, with no dropdown. Of these, 449 produced 7,667 transaction rows; the other 66 show an explicit fallback result without inventing a transaction or CSV. The archive is a pinned snapshot, not a live list of every filing currently available.
+
+1. The selected filing's member, ID, and row count fill the selection box.
+2. The PDF inspector highlights the actual physical row. Select a column to see its clipping rectangle, embedded text, and text after the parser's character/whitespace cleanup.
+3. Follow that transaction through Stage 3 fields, Stage 4 ticker decisions, and Part 2 date checks.
+4. Start with each highlighted code line, then expand its complete function or Colab cell. **Show all code** expands every block, including every notebook code cell.
+5. Download the selected filing's CSV. The notebook's `p2.to_csv(...)` writes the full-year file; the walkthrough's download is a filtered copy.
+
+Geometry is observed at the exact point where the pinned parser accepts a new transaction after duplicate handling. `scripts/trace_geometry.py` adds an in-memory observer without editing the upstream source or changing its parsing decisions. The builder reruns that parser and checks the observed fields against the rebuilt CSV before publishing a highlight. Continuations can contribute additional text to the final transaction. Coordinates use PDF points from the top-left; the illustrated code substitutes the selected rectangle's numeric values.
 
 After the full 2025 rebuild, regenerate the static examples with:
 
 ```bash
 python scripts/build_pipeline_demo.py
+python scripts/validate_pipeline_demo.py
 python -m http.server 8000 --directory docs
 ```
 
-Open `http://localhost:8000/`. The script writes `docs/data/examples.json`, eight per-filing CSVs, and first-page images. It reads verified working PDFs and CSVs without changing source files. To publish this repository's page, choose **Settings → Pages → Deploy from a branch → main → /docs → Save** in GitHub. Once GitHub Pages finishes deploying, the address is `https://strokeofluck.github.io/dsa405-part-2/`.
+Open `http://localhost:8000/`. The builder writes `docs/data/examples.json` (index and code), 515 individual records under `docs/data/filings/`, 515 page images, and 449 per-filing CSVs. Each image shows the selected transaction's page, which may be later than page one. The browser fetches only the selected record and image, then caches the record for that session. A `?filing=20033604` link opens a specific filing. Validation checks every asset, row count, field highlight, code line, notebook cell, and CSV audit value. Source PDFs and pipeline CSVs remain unchanged.
 
 ## Where the data comes from
 

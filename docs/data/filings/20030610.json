@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030610",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99264705882353,
+      452.25,
+      575.5367647058823,
+      555.0
+    ],
+    "physical_rect": [
+      21.99264705882353,
+      452.25,
+      575.5367647058823,
+      555.0
+    ],
+    "method": "table",
+    "before": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX) [OT] S 06/03/2025 07/04/2025 $250,001 - $500,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Raymond James Brokerage Account Lʑʅʃʖʋʑʐ: US Dʇʕʅʔʋʒʖʋʑʐ: AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX)",
+    "after": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX) [OT] S 06/03/2025 07/04/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Raymond James Brokerage Account Location: US Description: AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX)",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99264705882353,
+          452.25,
+          62.25,
+          555.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          452.25,
+          101.25,
+          555.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          452.25,
+          258.75,
+          555.0
+        ],
+        "before": "AMERICAN FUNDS CAPITAL\nWORLD GROWTH & INCOME FD\nCL A M/F (Symbol: CWGIX) [OT]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Raymond James Broker\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: AMERICAN FUNDS CAPIT\n",
+        "after": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX) [OT] Filing Status: New Subholding Of: Raymond James Broker Location: US Description: AMERICAN FUNDS CAPIT"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          452.25,
+          323.25,
+          555.0
+        ],
+        "before": "S\nrage Account\nTAL WORLD GRO\n",
+        "after": "S rage Account TAL WORLD GRO"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          452.25,
+          378.75,
+          555.0
+        ],
+        "before": "06/03/2025\nOWTH & INCO\n",
+        "after": "06/03/2025 OWTH & INCO"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          452.25,
+          443.25,
+          555.0
+        ],
+        "before": "07/04/2025\nOME FD CL A M/F\n",
+        "after": "07/04/2025 OME FD CL A M/F"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          452.25,
+          522.75,
+          555.0
+        ],
+        "before": "$250,001 -\n$500,000\nF (Symbol: CWGIX)\n",
+        "after": "$250,001 - $500,000 F (Symbol: CWGIX)"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          452.25,
+          575.5367647058823,
+          555.0
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. John W. Rose",
+  "state_district": "TN06",
+  "rows": 10,
+  "page_count": 3,
+  "spotlight_row": "3",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf",
+  "pdf_image": "images/20030610.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. John W. Rose\nStatus:\nMember\nState/District: TN06\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAlphabet Inc. - Class A Common\nStock (GOOGL) [ST]\nS\n06/03/2025 06/04/2025\n$1,000,001 -\n$5,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Raymond James Brokerage Account\nAlphabet Inc. - Class C Capital Stock\n(GOOG) [ST]\nS\n06/03/2025 06/04/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Raymond James Brokerage Account\nAMERICAN FUNDS CAPITAL\nWORLD GROWTH & INCOME FD\nCL A M/F (Symbol: CWGIX) [OT]\nS\n06/03/2025 07/04/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Raymond James Brokerage Account\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX)\nAMERICAN FUNDS EUPAC FUND\nCL A M/F (Symbol: AEPGX) [OT]\nS\n06/03/2025 06/04/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Raymond James Brokerage Account\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: AMERICAN FUNDS EUPAC FUND CL A M/F (Symbol: AEPGX)\nAMERICAN FUNDS GROWTH\nFUND OF AMERICA FUND CL A\nM/F (Symbol: AGTHX) [OT]\nS\n06/03/2025 06/04/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Raymond James Brokerage Account\nFiling ID #20030610\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX) [OT] Filing Status: New Subholding Of: Raymond James Broker Location: US Description: AMERICAN FUNDS CAPIT",
+    "asset": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX)",
+    "ticker": "",
+    "transaction_type_raw": "S rage Account TAL WORLD GRO",
+    "transaction_type": "S",
+    "transaction_date_raw": "06/03/2025 OWTH & INCO",
+    "transaction_date": "2025-06-03",
+    "amount_raw": "$250,001 - $500,000 F (Symbol: CWGIX)",
+    "amount_min": "250001.0",
+    "amount_max": "500000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX)",
+    "asset_v8_2_cleaned": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX)",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "06/03/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030610.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030610",
+      "politician": "Hon. John W. Rose",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-03",
+      "amount_min": "1000001.0",
+      "amount_max": "5000000.0",
+      "amount_category": "$1,000,001 - $5,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030610",
+      "politician": "Hon. John W. Rose",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
+      "ticker_v8_2_cleaned": "GOOG",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-03",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030610",
+      "politician": "Hon. John W. Rose",
+      "owner": "",
+      "asset_v8_2_cleaned": "AMERICAN FUNDS CAPITAL WORLD GROWTH & INCOME FD CL A M/F (Symbol: CWGIX)",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-03",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "06/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030610",
+      "politician": "Hon. John W. Rose",
+      "owner": "",
+      "asset_v8_2_cleaned": "AMERICAN FUNDS EUPAC FUND CL A M/F (Symbol: AEPGX)",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-03",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030610",
+      "politician": "Hon. John W. Rose",
+      "owner": "",
+      "asset_v8_2_cleaned": "AMERICAN FUNDS GROWTH FUND OF AMERICA FUND CL A M/F (Symbol: AGTHX)",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-03",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/03/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

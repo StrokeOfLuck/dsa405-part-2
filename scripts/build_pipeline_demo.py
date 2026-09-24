@@ -1,4 +1,4 @@
-"""Build a small, reproducible static tour of real 2025 House PTR filings.
+"""Build a reproducible static tour of every archived 2025 House PTR filing.
 
 Run after scripts/rebuild_2025.py. The output is a snapshot, not a live parser.
 No source PDFs or pipeline CSVs are edited.
@@ -7,7 +7,10 @@ No source PDFs or pipeline CSVs are edited.
 from __future__ import annotations
 
 import csv
-import hashlib
+import ast
+import re
+import xml.etree.ElementTree as ET
+from trace_geometry import load_parser
 import json
 from pathlib import Path
 
@@ -55,14 +58,14 @@ def source_excerpt(text: str, start: str, end: str) -> str:
 
 def code_examples() -> dict[str, list[dict[str, str | int]]]:
     """Show every Colab code line, in notebook order, beside the matching data."""
-    notebook = json.loads((ROOT / "notebooks" / "DSA405_002_FA26_P2_sryan3.ipynb").read_text())
+    notebook = json.loads((ROOT / "notebooks" / "DSA405_002_FA26_P2_sryan3.ipynb").read_text(encoding="utf-8"))
     cells = notebook["cells"]
     code = lambda index: "".join(cells[index]["source"])
     notebook_url = "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo="
     source_url = f"https://github.com/StrokeOfLuck/house-ptr-scraper/blob/{SOURCE_COMMIT}/src/"
-    parser = (ROOT / "data/upstream/house-ptr-scraper/src/stage3_extract.py").read_text()
-    resolver = (ROOT / "data/upstream/house-ptr-scraper/src/stage4_clean.py").read_text()
-    builder = Path(__file__).read_text()
+    parser = (ROOT / "data/upstream/house-ptr-scraper/src/stage3_extract.py").read_text(encoding="utf-8")
+    resolver = (ROOT / "data/upstream/house-ptr-scraper/src/stage4_clean.py").read_text(encoding="utf-8")
+    builder = Path(__file__).read_text(encoding="utf-8")
 
     def nb(index: int, label: str, explanation: str, reads: str, makes: str,
            part: str | None = None, start_line: int = 1) -> dict[str, str | int]:
@@ -79,6 +82,11 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
             "code": excerpt, "start_line": 1, "explanation": explanation,
             "reads": reads, "makes": makes,
         }
+
+    # Copy complete function bodies with real source line numbers.
+    def function_source(text, name):
+        node = next(n for n in ast.parse(text).body if isinstance(n, ast.FunctionDef) and n.name == name)
+        return "\n".join(text.splitlines()[node.lineno - 1:node.end_lineno]), node.lineno
 
     # One long Colab cell contains the Stage 3/4 decision log, P2 date checks,
     # and CSV write. Split only at its existing comment boundaries. Joining the
@@ -98,10 +106,9 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
             "data/work/01_pdfs/2025/*.pdf → transactions_raw.csv → transactions_resolved.csv")],
         "text": [src("How this page renders and reads the PDF", "Webpage snapshot builder",
             "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/build_pipeline_demo.py",
-            source_excerpt(builder, "with fitz.open(pdf) as document:",
-                           'image.save(OUT / "images" / image_name, "WEBP", quality=76, method=6)'),
+            function_source(builder, "main")[0],
             "This is the webpage's own visual aid, not a Colab cell. It reads the verified PDF to show its page image and messy text; the actual transaction parser uses page geometry.",
-            "Verified PDF", "First-page image + page-level text excerpt")],
+            "Verified PDF", "Selected-page image + page-level text excerpt")],
         "parse": [
             src("Under the hood · clip PDF columns", "Pinned Stage 3 parser",
                 source_url + "stage3_extract.py#L856-L874",
@@ -118,7 +125,7 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
                 "These loops print category frequencies and check numeric and date ranges without changing the original text.",
                 "raw table", "Printed ranges and unparsed-value counts"),
             nb(14, "5 · Check duplicates and extraction problems",
-                "The notebook checks repeated rows, placeholder values, and raw date text that fails strict parsing. The selected filing below shows one such date.",
+                "The notebook checks repeated rows, placeholder values, and raw date text that fails strict parsing. Some filings have extra date text; others do not.",
                 "raw table", "checks table + bad_date examples"),
             nb(18, "6 · Explain every field",
                 "The dictionary records intended types, expected values, missing counts, and field cautions.",
@@ -155,7 +162,69 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
         int(item["source"].split()[-1]) for group in steps.values()
         for item in group if item["kind"] == "notebook"
     }
+    rebuild = (ROOT / "scripts/rebuild_2025.py").read_text(encoding="utf-8")
+    for name, label, explanation in [
+        ("copy_verified_source", "Verify the PDF copies", "Check each PDF's SHA-256 against the manifest before the parser reads it."),
+        ("main", "Run Stage 3, Stage 4, then publish", "The rebuild runs each Python stage in order. The Colab notebook later reads their saved CSVs.")]:
+        body, line = function_source(rebuild, name)
+        card = src(label, "Project rebuild script", "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/rebuild_2025.py", body, explanation, "Pinned archive + manifest", "Verified PDFs + transaction CSVs")
+        card["start_line"] = line
+        steps["source"].append(card)
+    for name, label, explanation in [
+        ("parse_pdf_geometry_v8", "Choose rows and build transactions", "Find tables or paired dates, separate new transactions from continuations, then normalize fields. This is the complete parser function."),
+        ("clip_text", "Read and normalize one rectangle", "Read embedded PDF text inside the rectangle and pass it through whitespace and character cleanup."),
+        ("normalize_house_pdf_text", "Repair the House PDF character encoding", "Map the known encoded characters back to readable characters before interpreting values.")]:
+        body, line = function_source(parser, name)
+        card = src(label, "Pinned Stage 3 parser", source_url + f"stage3_extract.py#L{line}", body, explanation, "PDF geometry / text", "Transaction fields")
+        card["start_line"] = line
+        steps["text"].append(card)
+    for group in steps.values():
+        for item in group:
+            if item["kind"] == "notebook":
+                cell_index = int(item["source"].split()[-1])
+                item["full_code"] = code(cell_index)
+                item["full_start_line"] = 1
+            else:
+                item["full_code"] = item["code"]
+                item["full_start_line"] = item["start_line"]
+                for text in [parser, resolver, builder]:
+                    if item["code"] in text:
+                        item["start_line"] = text[:text.index(item["code"])].count("\n") + 1
+                        item["full_start_line"] = item["start_line"]
+                        break
+            lines = item["code"].splitlines()
+            preferred = ["to_csv(", "fitz.Rect(", "output[name]", "raw = pd.read_csv", "p2 = clean.copy", "for page_number", "sha256(working)", "run(sys.executable", "return clean_space", "ticker_candidate", "raw_date_has_extra_text"]
+            if item["source"] == "Webpage snapshot builder":
+                preferred = ["page.get_pixmap"]
+            elif item["label"] == "Choose rows and build transactions":
+                preferred = ["primary_table = find_ptr_table"]
+            elif item["label"] == "Repair the House PDF character encoding":
+                preferred = ["chr(code -"]
+            elif item["source"] == "Colab cell 3":
+                preferred = ["result=subprocess.run"]
+            elif item["source"] == "Colab cell 7":
+                preferred = ["raw=pd.read_csv"]
+            chosen = next((i for token in preferred for i, line in enumerate(lines) if token in line), next((i for i, line in enumerate(lines) if line.strip() and not line.lstrip().startswith("#")), 0))
+            item["focus_line"] = item["start_line"] + chosen
+            item["focus_code"] = lines[chosen]
     return steps
+
+
+def enrich_fallback(examples):
+    """Use the official XML index for scanned filings with no readable name."""
+    members = {m.findtext("DocID"): m for m in ET.parse(WORK / "02_xml_indexes/2025FD.xml").getroot()}
+    fallback = pd.read_csv(WORK / "04_transactions/needs_fallback.csv", dtype=str, keep_default_na=False)
+    reasons = dict(zip(fallback.filing_id, fallback.review_reason))
+    for example in examples:
+        if example["status"] != "no_parsed_rows":
+            continue
+        member = members.get(example["filing_id"])
+        if member is not None:
+            example["politician"] = " ".join(member.findtext(key) or "" for key in ("Prefix", "First", "Last", "Suffix")).strip()
+            example["state_district"] = member.findtext("StateDst") or ""
+            example["metadata_source"] = "Official 2025 filing XML index"
+        example["fallback_reason"] = reasons.get(example["filing_id"], "No transaction rows returned")
+        example["status_note"] = "This archived PDF produced no transaction rows. Parser reason: " + example["fallback_reason"] + ". Inspect the original PDF; no transaction CSV is available for this filing."
 
 
 def main() -> None:
@@ -174,48 +243,18 @@ def main() -> None:
     final = prepare_final(resolved)
     assert final.source_year.eq("2025").all()
 
-    # Choose modest-size filings with visible extraction noise. Include three
-    # raw-date exceptions so the audit has something meaningful to illustrate.
-    # The fixed hash order makes the snapshot reproducible, not hand-picked.
-    groups = raw.groupby("filing_id", sort=False)
-    candidates = []
-    for filing_id, group in groups:
-        if not 2 <= len(group) <= 24:
-            continue
-        page_one = group[group.page.eq("1")]
-        if page_one.empty:
-            continue
-        noisy = page_one[
-            page_one.asset_raw.str.contains("Filing Status:|[\\n]", regex=True)
-            | page_one.transaction_date_raw.str.contains(r"\s", regex=True)
-        ]
-        if noisy.empty:
-            continue
-        date_exceptions = noisy[
-            noisy.transaction_date_raw.ne("")
-            & ~noisy.transaction_date_raw.str.fullmatch(r"\d{1,2}/\d{1,2}/\d{4}")
-        ]
-        spotlight = date_exceptions.iloc[0] if not date_exceptions.empty else noisy.iloc[0]
-        candidates.append((filing_id, spotlight, not date_exceptions.empty))
-    assert len(candidates) >= 8, f"Only {len(candidates)} suitable filings"
-    candidates.sort(key=lambda item: hashlib.sha256(("P2-tour-2025:" + item[0]).encode()).hexdigest())
+    manifest = list(csv.DictReader((ROOT / "data/raw/2025_pdf_manifest.csv").open(encoding="utf-8")))
     selected = []
-    seen_members = set()
-    for prefer_exception, goal in ((True, 3), (False, 8)):
-        for candidate in candidates:
-            filing_id, row, is_exception = candidate
-            if prefer_exception and not is_exception:
-                continue
-            if not prefer_exception and is_exception:
-                continue
-            if row.politician in seen_members:
-                continue
-            selected.append((filing_id, row))
-            seen_members.add(row.politician)
-            if len(selected) == goal:
-                break
-    assert len(selected) == 8
-
+    for entry in manifest:
+        filing_id = Path(entry["filename"]).stem
+        group = raw[raw.filing_id.eq(filing_id)]
+        if group.empty:
+            selected.append((filing_id, None))
+        else:
+            noisy = group[~group.transaction_date_raw.str.fullmatch(r"\d{1,2}/\d{1,2}/\d{4}")]
+            selected.append((filing_id, noisy.iloc[0] if not noisy.empty else group.iloc[0]))
+    trace = load_parser(ROOT)
+    (OUT / "data/filings").mkdir(parents=True, exist_ok=True)
     (OUT / "data" / "csv").mkdir(parents=True, exist_ok=True)
     (OUT / "images").mkdir(parents=True, exist_ok=True)
     # Remove obsolete generated examples from an earlier run of this script.
@@ -228,14 +267,23 @@ def main() -> None:
         first = raw.loc[match]
         second = resolved.loc[match]
         finished = final.loc[match]
-        index = spotlight.name
+        index = spotlight.name if spotlight is not None else None
         pdf = WORK / "01_pdfs" / "2025" / f"{filing_id}.pdf"
         assert pdf.exists()
+        parsed, metadata, traces = trace(pdf)
+        assert len(parsed) == len(first), (filing_id, len(parsed), len(first))
+        geometry = None
+        if spotlight is not None:
+            row_number = int(spotlight.transaction_number_in_filing) - 1
+            actual = parsed.iloc[row_number]
+            for field in ["asset_raw", "owner_raw", "transaction_type_raw", "transaction_date_raw", "amount_raw", "page_parse_method"]:
+                assert str(actual[field]) == str(spotlight[field]), (filing_id, field)
+            geometry = traces[row_number]
         with fitz.open(pdf) as document:
-            page = document[0]
+            page = document[geometry["page"] - 1 if geometry else 0]
             page_count = len(document)
             extracted_text = page.get_text(sort=False)
-            # A rendered image is the actual first page, not reconstructed HTML.
+            # Render the actual page containing the observed transaction.
             pix = page.get_pixmap(matrix=fitz.Matrix(1.15, 1.15), alpha=False)
             image_name = f"{filing_id}.webp"
             from PIL import Image
@@ -243,12 +291,25 @@ def main() -> None:
 
             image = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
             image.save(OUT / "images" / image_name, "WEBP", quality=76, method=6)
+        if spotlight is None:
+            examples.append({
+                "filing_id": filing_id, "politician": metadata["politician"] or "Member name unavailable",
+                "state_district": metadata["state_district"], "rows": 0,
+                "page_count": page_count, "page": 1, "spotlight_row": None,
+                "pdf_url": f"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/{filing_id}.pdf",
+                "pdf_image": f"images/{image_name}", "geometry": None,
+                "raw_pdf_text": extracted_text[:3300], "raw_text_truncated": len(extracted_text) > 3300,
+                "status": "no_parsed_rows",
+                "status_note": "This archived PDF produced no transaction rows in this run. Inspect the original PDF; this does not establish that it contains no transactions. No transaction CSV is available for this filing.",
+            })
+            continue
         csv_name = f"{filing_id}.csv"
         finished.to_csv(OUT / "data" / "csv" / csv_name, index=False, quoting=csv.QUOTE_MINIMAL)
         a, b, c = raw.loc[index], resolved.loc[index], final.loc[index]
         page_excerpt = extracted_text[:3300]
         examples.append({
             "filing_id": filing_id,
+            "status": "parsed", "geometry": geometry, "page": geometry["page"],
             "politician": a.politician,
             "state_district": a.state_district,
             "rows": len(first),
@@ -284,18 +345,24 @@ def main() -> None:
                 + (second.ticker_v8_1 != second.ticker_v8_2_cleaned).sum()
             ),
         })
+    enrich_fallback(examples)
     payload = {
         "title": "One filing, from PDF to CSV",
         "source_year": "2025",
         "source_commit": SOURCE_COMMIT,
+        "pymupdf_version": fitz.VersionBind,
         "batch_pdf_count": 515,
         "batch_transaction_count": len(raw),
         "sample_size": len(examples),
-        "selection": "Eight reproducibly selected examples from the completed 2025 batch, including three with extra text in the raw date. Each has 2–24 trades and visible extraction noise on page one. The Random filing button chooses among these eight.",
+        "selection": "Random selection covers every PDF in the archived 2025 manifest. Filings without parsed rows are shown explicitly. Each parsed filing follows one observed transaction through the saved pipeline.",
         "code": code_examples(),
-        "examples": examples,
+        "parsed_filing_count": sum(e["rows"] > 0 for e in examples),
+        "examples": [{key: e[key] for key in ("filing_id", "politician", "rows", "status")} for e in examples],
     }
-    (OUT / "data" / "examples.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+    for example in examples:
+        (OUT / "data/filings" / (example["filing_id"] + ".json")).write_text(
+            json.dumps(example, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (OUT / "data" / "examples.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Built {len(examples)} examples from {len(raw)} trades: {[e['filing_id'] for e in examples]}")
 
 

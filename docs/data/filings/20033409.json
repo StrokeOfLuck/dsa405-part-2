@@ -1,0 +1,247 @@
+{
+  "filing_id": "20033409",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      385.5
+    ],
+    "physical_rect": [
+      21.958333333333332,
+      318.1875,
+      575.5833333333334,
+      385.5
+    ],
+    "method": "table",
+    "before": "McKesson Corporation Common Stock (MCK) [ST] S 10/08/2025 11/04/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley IRA",
+    "after": "McKesson Corporation Common Stock (MCK) [ST] S 10/08/2025 11/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley IRA",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.958333333333332,
+          318.1875,
+          63.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "McKesson Corporation Common\nStock (MCK) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley IRA\n",
+        "after": "McKesson Corporation Common Stock (MCK) [ST] Filing Status: New Subholding Of: Morgan Stanley IRA"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "S\n",
+        "after": "S"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.5
+        ],
+        "before": "10/08/2025\n",
+        "after": "10/08/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.5
+        ],
+        "before": "11/04/2025\n",
+        "after": "11/04/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5833333333334,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Jonathan Jackson",
+  "state_district": "IL01",
+  "rows": 4,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
+  "pdf_image": "images/20033409.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Jonathan Jackson\nStatus:\nMember\nState/District: IL01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nMcKesson Corporation Common\nStock (MCK) [ST]\nS\n10/08/2025 11/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley IRA\nJT\nRobinhood Markets, Inc. - Class A\nCommon Stock (HOOD) [ST]\nP\n10/08/2025 11/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley Trust Account\nShopify Inc. - Class A Subordinate\nVoting Shares (SHOP) [ST]\nP\n10/08/2025 11/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley IRA\nJT\nShopify Inc. - Class A Subordinate\nVoting Shares (SHOP) [ST]\nP\n10/06/2025 11/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley Trust Account\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nMorgan Stanley IRA\nMorgan Stanley Trust Account (Owner: JT)\nDʇʕʅʔʋʒʖʋʑʐ: 083057\nFiling ID #20033409\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "McKesson Corporation Common Stock (MCK) [ST] Filing Status: New Subholding Of: Morgan Stanley IRA",
+    "asset": "McKesson Corporation Common Stock",
+    "ticker": "MCK",
+    "transaction_type_raw": "S",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/08/2025",
+    "transaction_date": "2025-10-08",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "McKesson Corporation Common Stock",
+    "asset_v8_2_cleaned": "McKesson Corporation Common Stock",
+    "ticker_v8_1": "MCK",
+    "ticker_v8_2_cleaned": "MCK",
+    "ticker_candidate_raw": "MCK",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/08/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033409.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033409",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "",
+      "asset_v8_2_cleaned": "McKesson Corporation Common Stock",
+      "ticker_v8_2_cleaned": "MCK",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033409",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Robinhood Markets, Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "HOOD",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-08",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033409",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "",
+      "asset_v8_2_cleaned": "Shopify Inc. - Class A Subordinate Voting Shares",
+      "ticker_v8_2_cleaned": "SHOP",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033409",
+      "politician": "Hon. Jonathan Jackson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Shopify Inc. - Class A Subordinate Voting Shares",
+      "ticker_v8_2_cleaned": "SHOP",
+      "transaction_type": "P",
+      "transaction_date": "2025-10-06",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/06/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

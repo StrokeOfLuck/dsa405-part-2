@@ -1,0 +1,264 @@
+{
+  "filing_id": "20027936",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "JT Albemarle Corporation Common Stock (ALB) [ST] S 02/12/2025 03/06/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core",
+    "after": "JT Albemarle Corporation Common Stock (ALB) [ST] S 02/12/2025 03/06/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch Tax Efficient Core",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          385.5
+        ],
+        "before": "Albemarle Corporation Common\nStock (ALB) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficie\n",
+        "after": "Albemarle Corporation Common Stock (ALB) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Efficie"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          385.5
+        ],
+        "before": "S\nent Core\n",
+        "after": "S ent Core"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          380.25,
+          385.5
+        ],
+        "before": "02/12/2025\n",
+        "after": "02/12/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          380.25,
+          318.1875,
+          444.75,
+          385.5
+        ],
+        "before": "03/06/2025\n",
+        "after": "03/06/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.75,
+          318.1875,
+          522.75,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Julie Johnson",
+  "state_district": "TX32",
+  "rows": 49,
+  "page_count": 7,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027936.pdf",
+  "pdf_image": "images/20027936.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Julie Johnson\nStatus:\nMember\nState/District: TX32\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nAlbemarle Corporation Common\nStock (ALB) [ST]\nS\n02/12/2025\n03/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core\nJT\nAmdocs Limited - Ordinary Shares\n(DOX) [ST]\nS\n02/11/2025\n03/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Long Term Growth\nJT\nAptiv PLC Ordinary Shares (APTV)\n[ST]\nP\n02/12/2025\n03/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core\nJT\nArista Networks, Inc. Common Stock\n(ANET) [ST]\nP\n02/12/2025\n03/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core\nJT\nBlackRock, Inc. Common Stock (BLK)\n[ST]\nS (partial)\n02/24/2025 03/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nBoeing Company (BA) [ST]\nP\n02/12/2025\n03/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core\nFiling ID #20027936\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Albemarle Corporation Common Stock (ALB) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Efficie",
+    "asset": "Albemarle Corporation Common Stock",
+    "ticker": "ALB",
+    "transaction_type_raw": "S ent Core",
+    "transaction_type": "S",
+    "transaction_date_raw": "02/12/2025",
+    "transaction_date": "2025-02-12",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Albemarle Corporation Common Stock",
+    "asset_v8_2_cleaned": "Albemarle Corporation Common Stock",
+    "ticker_v8_1": "ALB",
+    "ticker_v8_2_cleaned": "ALB",
+    "ticker_candidate_raw": "ALB",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "02/12/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20027936.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20027936",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Albemarle Corporation Common Stock",
+      "ticker_v8_2_cleaned": "ALB",
+      "transaction_type": "S",
+      "transaction_date": "2025-02-12",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027936.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/12/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20027936",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
+      "ticker_v8_2_cleaned": "DOX",
+      "transaction_type": "S",
+      "transaction_date": "2025-02-11",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027936.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20027936",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Aptiv PLC Ordinary Shares",
+      "ticker_v8_2_cleaned": "APTV",
+      "transaction_type": "P",
+      "transaction_date": "2025-02-12",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027936.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/12/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20027936",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Arista Networks, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ANET",
+      "transaction_type": "P",
+      "transaction_date": "2025-02-12",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027936.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/12/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20027936",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "BlackRock, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "BLK",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-02-24",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027936.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "02/24/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

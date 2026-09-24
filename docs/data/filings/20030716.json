@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030716",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.98611111111111,
+      318.1875,
+      575.5138888888889,
+      372.75
+    ],
+    "physical_rect": [
+      21.98611111111111,
+      318.1875,
+      575.5138888888889,
+      372.75
+    ],
+    "method": "table",
+    "before": "Arista Networks, Inc. Common Stock (ANET) [ST] S (partial) 07/03/2025 07/22/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "Arista Networks, Inc. Common Stock (ANET) [ST] S (partial) 07/03/2025 07/22/2025 $1,001 - $15,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.98611111111111,
+          318.1875,
+          62.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          372.75
+        ],
+        "before": "Arista Networks, Inc. Common Stock\n(ANET) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "Arista Networks, Inc. Common Stock (ANET) [ST] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          372.75
+        ],
+        "before": "S (partial)\n",
+        "after": "S (partial)"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          372.75
+        ],
+        "before": "07/03/2025\n",
+        "after": "07/03/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          372.75
+        ],
+        "before": "07/22/2025\n",
+        "after": "07/22/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5138888888889,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. James Comer",
+  "state_district": "KY01",
+  "rows": 10,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf",
+  "pdf_image": "images/20030716.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. James Comer\nStatus:\nMember\nState/District: KY01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nArista Networks, Inc. Common Stock\n(ANET) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nAT&T Inc. (T) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nBroadcom Inc. - Common Stock\n(AVGO) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nChurchill Downs, Incorporated -\nCommon Stock (CHDN) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDover Corporation Common Stock\n(DOV) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nHome Depot, Inc. (HD) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nMarvell Technology, Inc. - Common\nStock (MRVL) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nPayPal Holdings, Inc. - Common\nStock (PYPL) [ST]\nS (partial)\n07/03/2025 07/22/2025\n$1,001 - $15,000\nFiling ID #20030716\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Arista Networks, Inc. Common Stock (ANET) [ST] Filing Status: New",
+    "asset": "Arista Networks, Inc. Common Stock",
+    "ticker": "ANET",
+    "transaction_type_raw": "S (partial)",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "07/03/2025",
+    "transaction_date": "2025-07-03",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Arista Networks, Inc. Common Stock",
+    "asset_v8_2_cleaned": "Arista Networks, Inc. Common Stock",
+    "ticker_v8_1": "ANET",
+    "ticker_v8_2_cleaned": "ANET",
+    "ticker_candidate_raw": "ANET",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "07/03/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030716.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030716",
+      "politician": "Hon. James Comer",
+      "owner": "",
+      "asset_v8_2_cleaned": "Arista Networks, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ANET",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030716",
+      "politician": "Hon. James Comer",
+      "owner": "",
+      "asset_v8_2_cleaned": "AT&T Inc.",
+      "ticker_v8_2_cleaned": "T",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030716",
+      "politician": "Hon. James Comer",
+      "owner": "",
+      "asset_v8_2_cleaned": "Broadcom Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AVGO",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030716",
+      "politician": "Hon. James Comer",
+      "owner": "",
+      "asset_v8_2_cleaned": "Churchill Downs, Incorporated - Common Stock",
+      "ticker_v8_2_cleaned": "CHDN",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030716",
+      "politician": "Hon. James Comer",
+      "owner": "",
+      "asset_v8_2_cleaned": "Dover Corporation Common Stock",
+      "ticker_v8_2_cleaned": "DOV",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/03/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

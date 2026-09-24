@@ -1,0 +1,264 @@
+{
+  "filing_id": "20029061",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      383.25
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      383.25
+    ],
+    "method": "table",
+    "before": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests (ARLP) [ST] S (partial) 03/07/2025 04/02/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests (ARLP) [ST] S (partial) 03/07/2025 04/02/2025 $15,001 - $50,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          383.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          383.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          383.25
+        ],
+        "before": "Alliance Resource Partners, L.P. -\nCommon Units Representing Limited\nPartnership Interests (ARLP) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests (ARLP) [ST] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          383.25
+        ],
+        "before": "S (partial)\n",
+        "after": "S (partial)"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          383.25
+        ],
+        "before": "03/07/2025\n",
+        "after": "03/07/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          383.25
+        ],
+        "before": "04/02/2025\n",
+        "after": "04/02/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          383.25
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          383.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Virginia Foxx",
+  "state_district": "NC05",
+  "rows": 6,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029061.pdf",
+  "pdf_image": "images/20029061.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Virginia Foxx\nStatus:\nMember\nState/District: NC05\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAlliance Resource Partners, L.P. -\nCommon Units Representing Limited\nPartnership Interests (ARLP) [ST]\nS (partial)\n03/07/2025 04/02/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nEllington Financial Inc. Common\nStock (EFC) [ST]\nP\n03/31/2025\n04/02/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nEnergy Transfer LP Common Units\n(ET) [ST]\nS (partial)\n03/07/2025 04/02/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFLEX LNG Ltd. Ordinary Shares\n(FLNG) [ST]\nS\n03/07/2025 04/02/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nHercules Capital, Inc. Common Stock\n(HTGC) [ST]\nP\n03/05/2025 04/02/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nPembina Pipeline Corp. Ordinary\nShares (PBA) [ST]\nS\n03/07/2025 04/02/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nFiling ID #20029061\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests (ARLP) [ST] Filing Status: New",
+    "asset": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+    "ticker": "ARLP",
+    "transaction_type_raw": "S (partial)",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "03/07/2025",
+    "transaction_date": "2025-03-07",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+    "asset_v8_2_cleaned": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+    "ticker_v8_1": "ARLP",
+    "ticker_v8_2_cleaned": "ARLP",
+    "ticker_candidate_raw": "ARLP",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "03/07/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20029061.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20029061",
+      "politician": "Hon. Virginia Foxx",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+      "ticker_v8_2_cleaned": "ARLP",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-03-07",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029061.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/07/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029061",
+      "politician": "Hon. Virginia Foxx",
+      "owner": "",
+      "asset_v8_2_cleaned": "Ellington Financial Inc. Common Stock",
+      "ticker_v8_2_cleaned": "EFC",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-31",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029061.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/31/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029061",
+      "politician": "Hon. Virginia Foxx",
+      "owner": "",
+      "asset_v8_2_cleaned": "Energy Transfer LP Common Units",
+      "ticker_v8_2_cleaned": "ET",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-03-07",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029061.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/07/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029061",
+      "politician": "Hon. Virginia Foxx",
+      "owner": "",
+      "asset_v8_2_cleaned": "FLEX LNG Ltd. Ordinary Shares",
+      "ticker_v8_2_cleaned": "FLNG",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-07",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029061.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/07/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20029061",
+      "politician": "Hon. Virginia Foxx",
+      "owner": "",
+      "asset_v8_2_cleaned": "Hercules Capital, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "HTGC",
+      "transaction_type": "P",
+      "transaction_date": "2025-03-05",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029061.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "03/05/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

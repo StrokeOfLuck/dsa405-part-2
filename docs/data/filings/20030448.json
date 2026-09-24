@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030448",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      398.71875
+    ],
+    "method": "table",
+    "before": "Aero Engineering Holdings LLC [OI] P 05/05/2025 05/05/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1 Dʇʕʅʔʋʒʖʋʑʐ: Aviation parts manufacturer",
+    "after": "Aero Engineering Holdings LLC [OI] P 05/05/2025 05/05/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Investment Fund 1 Description: Aviation parts manufacturer",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          398.71875
+        ],
+        "before": "Aero Engineering Holdings LLC [OI]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nDʇʕʅʔʋʒʖʋʑʐ: Aviation parts manufacture\n",
+        "after": "Aero Engineering Holdings LLC [OI] Filing Status: New Subholding Of: Investment Fund 1 Description: Aviation parts manufacture"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          398.71875
+        ],
+        "before": "P\ner\n",
+        "after": "P er"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          398.71875
+        ],
+        "before": "05/05/2025\n",
+        "after": "05/05/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          398.71875
+        ],
+        "before": "05/05/2025\n",
+        "after": "05/05/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          398.71875
+        ],
+        "before": "$50,001 -\n$100,000\n",
+        "after": "$50,001 - $100,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kelly Louise Morrison",
+  "state_district": "MN03",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030448.pdf",
+  "pdf_image": "images/20030448.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kelly Louise Morrison\nStatus:\nMember\nState/District: MN03\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAero Engineering Holdings LLC [OI]\nP\n05/05/2025 05/05/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Investment Fund 1\nDʇʕʅʔʋʒʖʋʑʐ: Aviation parts manufacturer\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nInvestment Fund 1\nLʑʅʃʖʋʑʐ: US\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Kelly Louise Morrison , 06/04/2025\nFiling ID #20030448\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Aero Engineering Holdings LLC [OI] Filing Status: New Subholding Of: Investment Fund 1 Description: Aviation parts manufacture",
+    "asset": "Aero Engineering Holdings LLC",
+    "ticker": "",
+    "transaction_type_raw": "P er",
+    "transaction_type": "P",
+    "transaction_date_raw": "05/05/2025",
+    "transaction_date": "2025-05-05",
+    "amount_raw": "$50,001 - $100,000",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Aero Engineering Holdings LLC",
+    "asset_v8_2_cleaned": "Aero Engineering Holdings LLC",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "05/05/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030448.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030448",
+      "politician": "Hon. Kelly Louise Morrison",
+      "owner": "",
+      "asset_v8_2_cleaned": "Aero Engineering Holdings LLC",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-05-05",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030448.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/05/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

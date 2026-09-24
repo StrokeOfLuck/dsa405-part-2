@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030909",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      452.25,
+      575.5178571428571,
+      531.75
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      452.25,
+      575.5178571428571,
+      531.75
+    ],
+    "method": "table",
+    "before": "JT Chevron Corporation Common Stock (CVX) [ST] E 07/21/2025 08/05/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core Dʇʕʅʔʋʒʖʋʑʐ: Hess Corp. stock exchanged for Chevron Corp. stock following merger",
+    "after": "JT Chevron Corporation Common Stock (CVX) [ST] E 07/21/2025 08/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch Tax Efficient Core Description: Hess Corp. stock exchanged for Chevron Corp. stock following merger",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          452.25,
+          62.25,
+          531.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          452.25,
+          101.25,
+          531.75
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          452.25,
+          259.5,
+          531.75
+        ],
+        "before": "Chevron Corporation Common Stock\n(CVX) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficie\nDʇʕʅʔʋʒʖʋʑʐ: Hess Corp. stock exchanged\n",
+        "after": "Chevron Corporation Common Stock (CVX) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Efficie Description: Hess Corp. stock exchanged"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          452.25,
+          324.0,
+          531.75
+        ],
+        "before": "E\nent Core\nd for Chevron Cor\n",
+        "after": "E ent Core d for Chevron Cor"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          452.25,
+          378.75,
+          531.75
+        ],
+        "before": "07/21/2025\nrp. stock follow\n",
+        "after": "07/21/2025 rp. stock follow"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          452.25,
+          443.25,
+          531.75
+        ],
+        "before": "08/05/2025\nwing merger\n",
+        "after": "08/05/2025 wing merger"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          452.25,
+          522.0,
+          531.75
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          452.25,
+          575.5178571428571,
+          531.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Julie Johnson",
+  "state_district": "TX32",
+  "rows": 14,
+  "page_count": 3,
+  "spotlight_row": "3",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
+  "pdf_image": "images/20030909.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Julie Johnson\nStatus:\nMember\nState/District: TX32\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nBlackRock, Inc. Common Stock (BLK)\n[ST]\nS (partial)\n07/22/2025 08/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nChevron Corporation Common Stock\n(CVX) [ST]\nP\n07/25/2025 08/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nChevron Corporation Common Stock\n(CVX) [ST]\nE\n07/21/2025 08/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Merrill Lynch Tax Efficient Core\nDʇʕʅʔʋʒʖʋʑʐ: Hess Corp. stock exchanged for Chevron Corp. stock following merger\nJT\nCME Group Inc. - Class A Common\nStock (CME) [ST]\nP\n07/22/2025 08/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nExxon Mobil Corporation Common\nStock (XOM) [ST]\nS (partial)\n07/25/2025 08/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Chase Brokerage Account (3935)\nJT\nMicrosoft Corporation - Common\nStock (MSFT) [ST]\nS (partial)\n07/29/2025 08/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFiling ID #20030909\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Chevron Corporation Common Stock (CVX) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Efficie Description: Hess Corp. stock exchanged",
+    "asset": "Chevron Corporation Common Stock",
+    "ticker": "CVX",
+    "transaction_type_raw": "E ent Core d for Chevron Cor",
+    "transaction_type": "E",
+    "transaction_date_raw": "07/21/2025 rp. stock follow",
+    "transaction_date": "2025-07-21",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Chevron Corporation Common Stock",
+    "asset_v8_2_cleaned": "Chevron Corporation Common Stock",
+    "ticker_v8_1": "CVX",
+    "ticker_v8_2_cleaned": "CVX",
+    "ticker_candidate_raw": "CVX",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "07/21/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030909.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030909",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "BlackRock, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "BLK",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-22",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/22/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030909",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Chevron Corporation Common Stock",
+      "ticker_v8_2_cleaned": "CVX",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-25",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/25/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030909",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Chevron Corporation Common Stock",
+      "ticker_v8_2_cleaned": "CVX",
+      "transaction_type": "E",
+      "transaction_date": "2025-07-21",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "07/21/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030909",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "CME Group Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "CME",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-22",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/22/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030909",
+      "politician": "Hon. Julie Johnson",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Exxon Mobil Corporation Common Stock",
+      "ticker_v8_2_cleaned": "XOM",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-07-25",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/25/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

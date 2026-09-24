@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030551",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.986842105263158,
+      318.1875,
+      575.5263157894736,
+      391.5
+    ],
+    "physical_rect": [
+      21.986842105263158,
+      318.1875,
+      575.5263157894736,
+      391.5
+    ],
+    "method": "table",
+    "before": "SP AT&T Inc. (T) [ST] S 06/23/2025 06/23/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Martha M Hill - Revocable Trust Dʇʕʅʔʋʒʖʋʑʐ: FULL LIQUIDATION.",
+    "after": "SP AT&T Inc. (T) [ST] S 06/23/2025 06/23/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Martha M Hill - Revocable Trust Description: FULL LIQUIDATION.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.986842105263158,
+          318.1875,
+          62.25,
+          391.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          391.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          391.5
+        ],
+        "before": "AT&T Inc. (T) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Martha M Hill - Revocab\nDʇʕʅʔʋʒʖʋʑʐ: FULL LIQUIDATION.\n",
+        "after": "AT&T Inc. (T) [ST] Filing Status: New Subholding Of: Martha M Hill - Revocab Description: FULL LIQUIDATION."
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          391.5
+        ],
+        "before": "S\nble Trust\n",
+        "after": "S ble Trust"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          391.5
+        ],
+        "before": "06/23/2025\n",
+        "after": "06/23/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          391.5
+        ],
+        "before": "06/23/2025\n",
+        "after": "06/23/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          391.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5263157894736,
+          391.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. James French Hill",
+  "state_district": "AR02",
+  "rows": 14,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
+  "pdf_image": "images/20030551.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. James French Hill\nStatus:\nMember\nState/District: AR02\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nAT&T Inc. (T) [ST]\nS\n06/23/2025 06/23/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Martha M Hill - Revocable Trust\nDʇʕʅʔʋʒʖʋʑʐ: FULL LIQUIDATION.\nBlackstone Inc. Common Stock (BX)\n[ST]\nS\n06/23/2025 06/23/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: J French Hill - IRA\nDʇʕʅʔʋʒʖʋʑʐ: FULL LIQUIDATION.\nSP\nFortrea Holdings Inc. - Common\nStock (FTRE) [ST]\nS\n06/23/2025 06/23/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Martha M Hill - SEP IRA\nDʇʕʅʔʋʒʖʋʑʐ: FULL LIQUIDATION.\nIntel Corporation - Common Stock\n(INTC) [ST]\nS\n06/23/2025 06/23/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: J French Hill - Revocable Trust\nDʇʕʅʔʋʒʖʋʑʐ: FULL LIQUIDATION.\nLazard, Inc. Common Stock (LAZ)\n[ST]\nS\n06/23/2025 06/23/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: J French Hill - IRA\nDʇʕʅʔʋʒʖʋʑʐ: FULL LIQUIDATION.\nFiling ID #20030551\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "AT&T Inc. (T) [ST] Filing Status: New Subholding Of: Martha M Hill - Revocab Description: FULL LIQUIDATION.",
+    "asset": "AT&T Inc.",
+    "ticker": "T",
+    "transaction_type_raw": "S ble Trust",
+    "transaction_type": "S",
+    "transaction_date_raw": "06/23/2025",
+    "transaction_date": "2025-06-23",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AT&T Inc.",
+    "asset_v8_2_cleaned": "AT&T Inc.",
+    "ticker_v8_1": "T",
+    "ticker_v8_2_cleaned": "T",
+    "ticker_candidate_raw": "T",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "06/23/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030551.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030551",
+      "politician": "Hon. James French Hill",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "AT&T Inc.",
+      "ticker_v8_2_cleaned": "T",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-23",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/23/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030551",
+      "politician": "Hon. James French Hill",
+      "owner": "",
+      "asset_v8_2_cleaned": "Blackstone Inc. Common Stock",
+      "ticker_v8_2_cleaned": "BX",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-23",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/23/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030551",
+      "politician": "Hon. James French Hill",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Fortrea Holdings Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "FTRE",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-23",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/23/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030551",
+      "politician": "Hon. James French Hill",
+      "owner": "",
+      "asset_v8_2_cleaned": "Intel Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "INTC",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-23",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/23/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030551",
+      "politician": "Hon. James French Hill",
+      "owner": "",
+      "asset_v8_2_cleaned": "Lazard, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "LAZ",
+      "transaction_type": "S",
+      "transaction_date": "2025-06-23",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/23/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

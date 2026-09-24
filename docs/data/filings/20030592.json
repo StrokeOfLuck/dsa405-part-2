@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030592",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      372.75
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      372.75
+    ],
+    "method": "table",
+    "before": "DC Bio-Techne Corp - Common Stock (TECH) [ST] S (partial) 05/26/2025 07/01/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "DC Bio-Techne Corp - Common Stock (TECH) [ST] S (partial) 05/26/2025 07/01/2025 $1,001 - $15,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          63.0,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          372.75
+        ],
+        "before": "DC\n",
+        "after": "DC"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          372.75
+        ],
+        "before": "Bio-Techne Corp - Common Stock\n(TECH) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "Bio-Techne Corp - Common Stock (TECH) [ST] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          372.75
+        ],
+        "before": "S (partial)\n",
+        "after": "S (partial)"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          372.75
+        ],
+        "before": "05/26/2025\n",
+        "after": "05/26/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          372.75
+        ],
+        "before": "07/01/2025\n",
+        "after": "07/01/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. April McClain Delaney",
+  "state_district": "MD06",
+  "rows": 6,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf",
+  "pdf_image": "images/20030592.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. April McClain Delaney\nStatus:\nMember\nState/District: MD06\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nDC\nBio-Techne Corp - Common Stock\n(TECH) [ST]\nS (partial)\n05/26/2025 07/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nClean Harbors, Inc. Common Stock\n(CLH) [ST]\nS (partial)\n06/20/2025 07/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nMarkel Group Inc. Common Stock\n(MKL) [ST]\nP\n06/06/2025 07/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nPaychex, Inc. - Common Stock\n(PAYX) [ST]\nP\n06/26/2025 07/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nSTERIS plc (STE) [ST]\nS (partial)\n06/26/2025 07/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDC\nTractor Supply Company - Common\nStock (TSCO) [ST]\nP\n06/06/2025 07/01/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nFiling ID #20030592\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "DC",
+    "asset_raw": "Bio-Techne Corp - Common Stock (TECH) [ST] Filing Status: New",
+    "asset": "Bio-Techne Corp - Common Stock",
+    "ticker": "TECH",
+    "transaction_type_raw": "S (partial)",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "05/26/2025",
+    "transaction_date": "2025-05-26",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Bio-Techne Corp - Common Stock",
+    "asset_v8_2_cleaned": "Bio-Techne Corp - Common Stock",
+    "ticker_v8_1": "TECH",
+    "ticker_v8_2_cleaned": "TECH",
+    "ticker_candidate_raw": "TECH",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "05/26/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030592.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030592",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "Bio-Techne Corp - Common Stock",
+      "ticker_v8_2_cleaned": "TECH",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-05-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/26/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030592",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "Clean Harbors, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "CLH",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-20",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/20/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030592",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "Markel Group Inc. Common Stock",
+      "ticker_v8_2_cleaned": "MKL",
+      "transaction_type": "P",
+      "transaction_date": "2025-06-06",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/06/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030592",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "Paychex, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "PAYX",
+      "transaction_type": "P",
+      "transaction_date": "2025-06-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/26/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030592",
+      "politician": "Hon. April McClain Delaney",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "STERIS plc",
+      "ticker_v8_2_cleaned": "STE",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-06-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "06/26/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

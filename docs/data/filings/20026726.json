@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026726",
+  "status": "parsed",
+  "geometry": {
+    "page": 2,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.99609375,
+      120.75,
+      575.51953125,
+      187.5
+    ],
+    "physical_rect": [
+      21.99609375,
+      120.75,
+      575.51953125,
+      187.5
+    ],
+    "method": "table",
+    "before": "CACI International, Inc. Class A Common Stock (CACI) [ST] P 01/31/2025 02/06/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Wells Fargo Advisors",
+    "after": "CACI International, Inc. Class A Common Stock (CACI) [ST] P 01/31/2025 02/06/2025 $15,001 - $50,000 Filing Status: New Subholding Of: 150 Main Street Trust > Wells Fargo Advisors",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.99609375,
+          120.75,
+          62.25,
+          187.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          120.75,
+          101.25,
+          187.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          120.75,
+          260.25,
+          187.5
+        ],
+        "before": "CACI International, Inc. Class A\nCommon Stock (CACI) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > \n",
+        "after": "CACI International, Inc. Class A Common Stock (CACI) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          120.75,
+          324.75,
+          187.5
+        ],
+        "before": "P\nWells Fargo Advi\n",
+        "after": "P Wells Fargo Advi"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          120.75,
+          380.25,
+          187.5
+        ],
+        "before": "01/31/2025\nisors\n",
+        "after": "01/31/2025 isors"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          380.25,
+          120.75,
+          444.75,
+          187.5
+        ],
+        "before": "02/06/2025\n",
+        "after": "02/06/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.75,
+          120.75,
+          522.75,
+          187.5
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          120.75,
+          575.51953125,
+          187.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 2,
+  "politician": "Hon. Gilbert Cisneros",
+  "state_district": "CA31",
+  "rows": 56,
+  "page_count": 8,
+  "spotlight_row": "7",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026726.pdf",
+  "pdf_image": "images/20026726.webp",
+  "raw_pdf_text": "ID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nCACI International, Inc. Class A\nCommon Stock (CACI) [ST]\nP\n01/31/2025\n02/06/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Wells Fargo Advisors\nCarMax Inc (KMX) [ST]\nP\n01/13/2025\n02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nConstellation Brands, Inc. Common\nStock (STZ) [OP]\nP\n01/13/2025\n02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Pershing Advisor Solutions LLC Brokerage\nDʇʕʅʔʋʒʖʋʑʐ: Put option, strike price $205, exp. Jan. 17, 2025.\nCrinetics Pharmaceuticals, Inc. -\nCommon Stock (CRNX) [ST]\nP\n01/29/2025 02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nCrown Castle Inc. Common Stock\n(CCI) [ST]\nP\n01/24/2025\n02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nCVS Health Corporation Common\nStock (CVS) [ST]\nP\n01/24/2025\n02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nDENTSPLY SIRONA Inc. - Common\nStock (XRAY) [ST]\nS (partial)\n01/07/2025\n02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nDENTSPLY SIRONA Inc. - Common\nStock (XRAY) [ST]\nS\n01/08/2025 02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nDollar General Corporation Common\nStock (DG) [ST]\nS\n01/24/2025\n02/06/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "CACI International, Inc. Class A Common Stock (CACI) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >",
+    "asset": "CACI International, Inc. Class A Common Stock",
+    "ticker": "CACI",
+    "transaction_type_raw": "P Wells Fargo Advi",
+    "transaction_type": "P",
+    "transaction_date_raw": "01/31/2025 isors",
+    "transaction_date": "2025-01-31",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "CACI International, Inc. Class A Common Stock",
+    "asset_v8_2_cleaned": "CACI International, Inc. Class A Common Stock",
+    "ticker_v8_1": "CACI",
+    "ticker_v8_2_cleaned": "CACI",
+    "ticker_candidate_raw": "CACI",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "01/31/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026726.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026726",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Agios Pharmaceuticals, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AGIO",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-29",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026726.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/29/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026726",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Airbnb, Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "ABNB",
+      "transaction_type": "S",
+      "transaction_date": "2025-01-24",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026726.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/24/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026726",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "APi Group Corporation Common Stock",
+      "ticker_v8_2_cleaned": "APG",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-07",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026726.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/07/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026726",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Boeing Company",
+      "ticker_v8_2_cleaned": "BA",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-01-24",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026726.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/24/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026726",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Broadcom Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AVGO",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-01-30",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026726.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/30/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

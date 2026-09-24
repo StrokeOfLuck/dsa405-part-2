@@ -1,0 +1,264 @@
+{
+  "filing_id": "20032054",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      372.75
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      372.75
+    ],
+    "method": "table",
+    "before": "SP CA ST UNIV PUB EDUC [GS] P 08/05/2025 08/31/2025 $100,001 - $250,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "SP CA ST UNIV PUB EDUC [GS] P 08/05/2025 08/31/2025 $100,001 - $250,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          372.75
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          372.75
+        ],
+        "before": "CA ST UNIV PUB EDUC [GS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "CA ST UNIV PUB EDUC [GS] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          372.75
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          378.0,
+          372.75
+        ],
+        "before": "08/05/2025\n",
+        "after": "08/05/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          372.75
+        ],
+        "before": "08/31/2025\n",
+        "after": "08/31/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          372.75
+        ],
+        "before": "$100,001 -\n$250,000\n",
+        "after": "$100,001 - $250,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Scott H. Peters",
+  "state_district": "CA50",
+  "rows": 6,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032054.pdf",
+  "pdf_image": "images/20032054.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Scott H. Peters\nStatus:\nMember\nState/District: CA50\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nCA ST UNIV PUB EDUC [GS]\nP\n08/05/2025 08/31/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nMammoth CA USD IMPT SCH [GS]\nS\n08/01/2025 08/31/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nSan Jose CA Uni Sch [GS]\nP\n08/05/2025 08/31/2025\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nSan Juan CA USD IMPT SCH [GS]\nS (partial)\n08/01/2025 08/31/2025\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nSanta Clara CN CA HLTH [GS]\nS\n08/01/2025 08/31/2025\n$15,001 - $50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSP\nU.S Treasury Bills [GS]\nP\n08/01/2025 08/31/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nFiling ID #20032054\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "CA ST UNIV PUB EDUC [GS] Filing Status: New",
+    "asset": "CA ST UNIV PUB EDUC",
+    "ticker": "",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "08/05/2025",
+    "transaction_date": "2025-08-05",
+    "amount_raw": "$100,001 - $250,000",
+    "amount_min": "100001.0",
+    "amount_max": "250000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "CA ST UNIV PUB EDUC",
+    "asset_v8_2_cleaned": "CA ST UNIV PUB EDUC",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "08/05/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20032054.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20032054",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "CA ST UNIV PUB EDUC",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-08-05",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032054.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/05/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032054",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Mammoth CA USD IMPT SCH",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-01",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032054.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032054",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "San Jose CA Uni Sch",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-08-05",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032054.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/05/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032054",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "San Juan CA USD IMPT SCH",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-08-01",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032054.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032054",
+      "politician": "Hon. Scott H. Peters",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Santa Clara CN CA HLTH",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-01",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032054.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/01/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

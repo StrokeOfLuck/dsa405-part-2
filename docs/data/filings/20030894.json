@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030894",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.458333333333332,
+      318.1875,
+      575.625,
+      398.71875
+    ],
+    "physical_rect": [
+      23.458333333333332,
+      318.1875,
+      575.625,
+      398.71875
+    ],
+    "method": "table",
+    "before": "Toronto Dominion Bank (TD) [ST] S 06/04/2024 08/07/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Dʇʕʅʔʋʒʖʋʑʐ: Sale of stock that was an asset of the Donald W. Norcross IRA account. The proceeds of the sale remain invested in the IRA account.",
+    "after": "Toronto Dominion Bank (TD) [ST] S 06/04/2024 08/07/2025 $15,001 - $50,000 Filing Status: New Description: Sale of stock that was an asset of the Donald W. Norcross IRA account. The proceeds of the sale remain invested in the IRA account.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.458333333333332,
+          318.1875,
+          62.25,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.71875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          398.71875
+        ],
+        "before": "Toronto Dominion Bank (TD) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Sale of stock that was an as\ninvested in the IRA account.\n",
+        "after": "Toronto Dominion Bank (TD) [ST] Filing Status: New Description: Sale of stock that was an as invested in the IRA account."
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          398.71875
+        ],
+        "before": "S\nsset of the Donald\n",
+        "after": "S sset of the Donald"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          378.75,
+          398.71875
+        ],
+        "before": "06/04/2024\nd W. Norcross IR\n",
+        "after": "06/04/2024 d W. Norcross IR"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          398.71875
+        ],
+        "before": "08/07/2025\nRA account. The p\n",
+        "after": "08/07/2025 RA account. The p"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          398.71875
+        ],
+        "before": "$15,001 -\n$50,000\nproceeds of the sale re\n",
+        "after": "$15,001 - $50,000 proceeds of the sale re"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          398.71875
+        ],
+        "before": "emain\n",
+        "after": "emain"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Donald W. Norcross",
+  "state_district": "NJ01",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030894.pdf",
+  "pdf_image": "images/20030894.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Donald W. Norcross\nStatus:\nMember\nState/District: NJ01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nToronto Dominion Bank (TD) [ST]\nS\n06/04/2024 08/07/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Sale of stock that was an asset of the Donald W. Norcross IRA account. The proceeds of the sale remain\ninvested in the IRA account.\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Donald W. Norcross , 09/04/2025\nFiling ID #20030894\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Toronto Dominion Bank (TD) [ST] Filing Status: New Description: Sale of stock that was an as invested in the IRA account.",
+    "asset": "Toronto Dominion Bank",
+    "ticker": "TD",
+    "transaction_type_raw": "S sset of the Donald",
+    "transaction_type": "S",
+    "transaction_date_raw": "06/04/2024 d W. Norcross IR",
+    "transaction_date": "2024-06-04",
+    "amount_raw": "$15,001 - $50,000 proceeds of the sale re",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Toronto Dominion Bank",
+    "asset_v8_2_cleaned": "Toronto Dominion Bank",
+    "ticker_v8_1": "TD",
+    "ticker_v8_2_cleaned": "TD",
+    "ticker_candidate_raw": "TD",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "06/04/2024",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030894.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030894",
+      "politician": "Hon. Donald W. Norcross",
+      "owner": "",
+      "asset_v8_2_cleaned": "Toronto Dominion Bank",
+      "ticker_v8_2_cleaned": "TD",
+      "transaction_type": "S",
+      "transaction_date": "2024-06-04",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030894.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "06/04/2024",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

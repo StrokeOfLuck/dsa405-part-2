@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030824",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.994565217391305,
+      318.1875,
+      575.5271739130435,
+      372.75
+    ],
+    "physical_rect": [
+      21.994565217391305,
+      318.1875,
+      575.5271739130435,
+      372.75
+    ],
+    "method": "table",
+    "before": "Centene Corporation Common Stock (CNC) [ST] P 07/14/2025 08/04/2025 $15,001 - $50,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New",
+    "after": "Centene Corporation Common Stock (CNC) [ST] P 07/14/2025 08/04/2025 $15,001 - $50,000 Filing Status: New",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.994565217391305,
+          318.1875,
+          62.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          260.25,
+          372.75
+        ],
+        "before": "Centene Corporation Common Stock\n(CNC) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\n",
+        "after": "Centene Corporation Common Stock (CNC) [ST] Filing Status: New"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          260.25,
+          318.1875,
+          324.75,
+          372.75
+        ],
+        "before": "P\n",
+        "after": "P"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.75,
+          318.1875,
+          380.25,
+          372.75
+        ],
+        "before": "07/14/2025\n",
+        "after": "07/14/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          380.25,
+          318.1875,
+          444.75,
+          372.75
+        ],
+        "before": "08/04/2025\n",
+        "after": "08/04/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.75,
+          318.1875,
+          522.75,
+          372.75
+        ],
+        "before": "$15,001 -\n$50,000\n",
+        "after": "$15,001 - $50,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.75,
+          318.1875,
+          575.5271739130435,
+          372.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Tim Moore",
+  "state_district": "NC14",
+  "rows": 21,
+  "page_count": 3,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf",
+  "pdf_image": "images/20030824.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Tim Moore\nStatus:\nMember\nState/District: NC14\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nCentene Corporation Common Stock\n(CNC) [ST]\nP\n07/14/2025\n08/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCentene Corporation Common Stock\n(CNC) [ST]\nP\n07/18/2025\n08/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCentene Corporation Common Stock\n(CNC) [ST]\nP\n07/21/2025\n08/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCentene Corporation Common Stock\n(CNC) [ST]\nP\n07/22/2025 08/04/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCentene Corporation Common Stock\n(CNC) [ST]\nP\n07/29/2025 08/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nCentene Corporation Common Stock\n(CNC) [ST]\nP\n07/30/2025 08/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDirexion Daily Small Cap Bull 3X ETF\n- TZA [OT]\nP\n07/24/2025 08/04/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: ETF\nFiling ID #20030824\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Centene Corporation Common Stock (CNC) [ST] Filing Status: New",
+    "asset": "Centene Corporation Common Stock",
+    "ticker": "CNC",
+    "transaction_type_raw": "P",
+    "transaction_type": "P",
+    "transaction_date_raw": "07/14/2025",
+    "transaction_date": "2025-07-14",
+    "amount_raw": "$15,001 - $50,000",
+    "amount_min": "15001.0",
+    "amount_max": "50000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Centene Corporation Common Stock",
+    "asset_v8_2_cleaned": "Centene Corporation Common Stock",
+    "ticker_v8_1": "CNC",
+    "ticker_v8_2_cleaned": "CNC",
+    "ticker_candidate_raw": "CNC",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "07/14/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030824.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030824",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Centene Corporation Common Stock",
+      "ticker_v8_2_cleaned": "CNC",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-14",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030824",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Centene Corporation Common Stock",
+      "ticker_v8_2_cleaned": "CNC",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-18",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/18/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030824",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Centene Corporation Common Stock",
+      "ticker_v8_2_cleaned": "CNC",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-21",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/21/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030824",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Centene Corporation Common Stock",
+      "ticker_v8_2_cleaned": "CNC",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-22",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/22/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030824",
+      "politician": "Hon. Tim Moore",
+      "owner": "",
+      "asset_v8_2_cleaned": "Centene Corporation Common Stock",
+      "ticker_v8_2_cleaned": "CNC",
+      "transaction_type": "P",
+      "transaction_date": "2025-07-29",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "07/29/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

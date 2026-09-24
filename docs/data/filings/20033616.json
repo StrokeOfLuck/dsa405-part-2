@@ -1,0 +1,264 @@
+{
+  "filing_id": "20033616",
+  "status": "parsed",
+  "geometry": {
+    "page": 2,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.0,
+      515.25,
+      575.525,
+      582.0
+    ],
+    "physical_rect": [
+      22.0,
+      515.25,
+      575.525,
+      582.0
+    ],
+    "method": "table",
+    "before": "Netflix, Inc. - Common Stock (NFLX) [ST] P 12/03/2025 12/03/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC",
+    "after": "Netflix, Inc. - Common Stock (NFLX) [ST] P 12/03/2025 12/03/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.0,
+          515.25,
+          62.25,
+          582.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          515.25,
+          101.25,
+          582.0
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          515.25,
+          259.5,
+          582.0
+        ],
+        "before": "Netflix, Inc. - Common Stock (NFLX)\n[ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRA\n",
+        "after": "Netflix, Inc. - Common Stock (NFLX) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*TRA"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          515.25,
+          324.0,
+          582.0
+        ],
+        "before": "P\nADE - Fields Law \n",
+        "after": "P ADE - Fields Law"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          515.25,
+          378.75,
+          582.0
+        ],
+        "before": "12/03/2025\nFirm 2, LLC\n",
+        "after": "12/03/2025 Firm 2, LLC"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          515.25,
+          443.25,
+          582.0
+        ],
+        "before": "12/03/2025\n",
+        "after": "12/03/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          515.25,
+          522.0,
+          582.0
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          515.25,
+          575.525,
+          582.0
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 2,
+  "politician": "Cleo Fields",
+  "state_district": "LA06",
+  "rows": 15,
+  "page_count": 3,
+  "spotlight_row": "13",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf",
+  "pdf_image": "images/20033616.webp",
+  "raw_pdf_text": "ID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAT&T Inc. (T) [ST]\nS\n12/11/2025\n12/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE #2\nCoreWeave, Inc. - Class A Common\nStock (CRWV) [ST]\nS\n12/11/2025\n12/11/2025\n$15,001 -\n$50,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE #2\nIREN Limited - Ordinary Shares\n(IREN) [ST]\nP\n12/09/2025 12/09/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE #2\nMicrosoft Corporation - Common\nStock (MSFT) [ST]\nP\n12/11/2025\n12/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC\nMicrosoft Corporation - Common\nStock (MSFT) [ST]\nP\n12/11/2025\n12/11/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE #2\nNetflix, Inc. - Common Stock (NFLX)\n[ST]\nP\n12/03/2025 12/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE #1\nNetflix, Inc. - Common Stock (NFLX)\n[ST]\nP\n12/03/2025 12/03/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC\nSoundHound AI, Inc. - Class A\nCommon Stock (SOUN) [ST]\nS\n12/15/2025\n12/15/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE #2\nUber Technologies, Inc. Common\nStock (UBER) [ST]\nS\n12/11/2025\n12/11/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - E*TRADE #2\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Netflix, Inc. - Common Stock (NFLX) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*TRA",
+    "asset": "Netflix, Inc. - Common Stock",
+    "ticker": "NFLX",
+    "transaction_type_raw": "P ADE - Fields Law",
+    "transaction_type": "P",
+    "transaction_date_raw": "12/03/2025 Firm 2, LLC",
+    "transaction_date": "2025-12-03",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Netflix, Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Netflix, Inc. - Common Stock",
+    "ticker_v8_1": "NFLX",
+    "ticker_v8_2_cleaned": "NFLX",
+    "ticker_candidate_raw": "NFLX",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "12/03/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033616.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033616",
+      "politician": "Cleo Fields",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-15",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/15/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033616",
+      "politician": "Cleo Fields",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-11",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/11/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033616",
+      "politician": "Cleo Fields",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-09",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/09/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033616",
+      "politician": "Cleo Fields",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-01",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033616",
+      "politician": "Cleo Fields",
+      "owner": "",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
+      "ticker_v8_2_cleaned": "GOOG",
+      "transaction_type": "P",
+      "transaction_date": "2025-12-15",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/15/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

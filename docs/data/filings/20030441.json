@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030441",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      411.46875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      411.46875
+    ],
+    "method": "table",
+    "before": "JT OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] S 05/28/2025 06/02/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account Lʑʅʃʖʋʑʐ: Clarksville, TN, US Dʇʕʅʔʋʒʖʋʑʐ: sale of ETF OUNZ",
+    "after": "JT OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] S 05/28/2025 06/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Equitable Advisors Investment Account Location: Clarksville, TN, US Description: sale of ETF OUNZ",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          411.46875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          411.46875
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          258.75,
+          411.46875
+        ],
+        "before": "OUNZ Van Eck Gold Trust ETF,\n100% Interest [OT]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Inve\nLʑʅʃʖʋʑʐ: Clarksville, TN, US\nDʇʕʅʔʋʒʖʋʑʐ: sale of ETF OUNZ\n",
+        "after": "OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] Filing Status: New Subholding Of: Equitable Advisors Inve Location: Clarksville, TN, US Description: sale of ETF OUNZ"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          411.46875
+        ],
+        "before": "S\nestment Account\n",
+        "after": "S estment Account"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          378.75,
+          411.46875
+        ],
+        "before": "05/28/2025\n",
+        "after": "05/28/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          411.46875
+        ],
+        "before": "06/02/2025\n",
+        "after": "06/02/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          411.46875
+        ],
+        "before": "$50,001 -\n$100,000\n",
+        "after": "$50,001 - $100,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          411.46875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Mark Dr Green",
+  "state_district": "TN07",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030441.pdf",
+  "pdf_image": "images/20030441.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Mark Dr Green\nStatus:\nMember\nState/District: TN07\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nOUNZ Van Eck Gold Trust ETF,\n100% Interest [OT]\nS\n05/28/2025 06/02/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Equitable Advisors Investment Account\nLʑʅʃʖʋʑʐ: Clarksville, TN, US\nDʇʕʅʔʋʒʖʋʑʐ: sale of ETF OUNZ\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nEquitable Advisors Investment Account (Owner: JT)\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Mark Dr Green , 06/06/2025\nFiling ID #20030441\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] Filing Status: New Subholding Of: Equitable Advisors Inve Location: Clarksville, TN, US Description: sale of ETF OUNZ",
+    "asset": "OUNZ Van Eck Gold Trust ETF, 100% Interest",
+    "ticker": "",
+    "transaction_type_raw": "S estment Account",
+    "transaction_type": "S",
+    "transaction_date_raw": "05/28/2025",
+    "transaction_date": "2025-05-28",
+    "amount_raw": "$50,001 - $100,000",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "OUNZ Van Eck Gold Trust ETF, 100% Interest",
+    "asset_v8_2_cleaned": "OUNZ Van Eck Gold Trust ETF, 100% Interest",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "05/28/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030441.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030441",
+      "politician": "Hon. Mark Dr Green",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "OUNZ Van Eck Gold Trust ETF, 100% Interest",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-05-28",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030441.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "05/28/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

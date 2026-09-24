@@ -1,0 +1,264 @@
+{
+  "filing_id": "20031022",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "Adobe Inc. - Common Stock (ADBE) [ST] S (partial) 08/05/2025 09/08/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America",
+    "after": "Adobe Inc. - Common Stock (ADBE) [ST] S (partial) 08/05/2025 09/08/2025 $1,001 - $15,000 Filing Status: New Subholding Of: 150 Main Street Trust > Bank of America",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          78.75,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          78.75,
+          318.1875,
+          117.75,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          117.75,
+          318.1875,
+          264.75,
+          385.5
+        ],
+        "before": "Adobe Inc. - Common Stock\n(ADBE) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trus\n",
+        "after": "Adobe Inc. - Common Stock (ADBE) [ST] Filing Status: New Subholding Of: 150 Main Street Trus"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          264.75,
+          318.1875,
+          329.25,
+          385.5
+        ],
+        "before": "S (partial)\nt > Bank of Amer\n",
+        "after": "S (partial) t > Bank of Amer"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          329.25,
+          318.1875,
+          385.5,
+          385.5
+        ],
+        "before": "08/05/2025\nrica\n",
+        "after": "08/05/2025 rica"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          385.5,
+          318.1875,
+          450.0,
+          385.5
+        ],
+        "before": "09/08/2025\n",
+        "after": "09/08/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          450.0,
+          318.1875,
+          524.25,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          524.25,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Gilbert Cisneros",
+  "state_district": "CA31",
+  "rows": 64,
+  "page_count": 8,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf",
+  "pdf_image": "images/20031022.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Gilbert Cisneros\nStatus:\nMember\nState/District: CA31\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nAdobe Inc. - Common Stock\n(ADBE) [ST]\nS (partial)\n08/05/2025 09/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nAmdocs Limited - Ordinary Shares\n(DOX) [ST]\nS (partial)\n08/26/2025 09/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nAmdocs Limited - Ordinary Shares\n(DOX) [ST]\nS (partial)\n08/27/2025 09/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nAPA Corporation - Common Stock\n(APA) [ST]\nP\n08/05/2025 09/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nAPi Group Corporation Common\nStock (APG) [ST]\nP\n08/26/2025 09/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nAvantor, Inc. Common Stock\n(AVTR) [ST]\nS (partial)\n08/12/2025\n09/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: 150 Main Street Trust > Bank of America\nFiling ID #20031022\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Adobe Inc. - Common Stock (ADBE) [ST] Filing Status: New Subholding Of: 150 Main Street Trus",
+    "asset": "Adobe Inc. - Common Stock",
+    "ticker": "ADBE",
+    "transaction_type_raw": "S (partial) t > Bank of Amer",
+    "transaction_type": "S (partial)",
+    "transaction_date_raw": "08/05/2025 rica",
+    "transaction_date": "2025-08-05",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Adobe Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Adobe Inc. - Common Stock",
+    "ticker_v8_1": "ADBE",
+    "ticker_v8_2_cleaned": "ADBE",
+    "ticker_candidate_raw": "ADBE",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "08/05/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20031022.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20031022",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Adobe Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "ADBE",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-08-05",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/05/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20031022",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
+      "ticker_v8_2_cleaned": "DOX",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-08-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/26/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20031022",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
+      "ticker_v8_2_cleaned": "DOX",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-08-27",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/27/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20031022",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "APA Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "APA",
+      "transaction_type": "P",
+      "transaction_date": "2025-08-05",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/05/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20031022",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "APi Group Corporation Common Stock",
+      "ticker_v8_2_cleaned": "APG",
+      "transaction_type": "P",
+      "transaction_date": "2025-08-26",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/26/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

@@ -1,0 +1,264 @@
+{
+  "filing_id": "20026590",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      385.5
+    ],
+    "physical_rect": [
+      21.982142857142858,
+      318.1875,
+      575.5178571428571,
+      385.5
+    ],
+    "method": "table",
+    "before": "SP Alphabet Inc. - Class A Common Stock (GOOGL) [OP] P 01/14/2025 01/14/2025 $250,001 - $500,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Dʇʕʅʔʋʒʖʋʑʐ: Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.",
+    "after": "SP Alphabet Inc. - Class A Common Stock (GOOGL) [OP] P 01/14/2025 01/14/2025 $250,001 - $500,000 Filing Status: New Description: Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.982142857142858,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          385.5
+        ],
+        "before": "Alphabet Inc. - Class A Common\nStock (GOOGL) [OP]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Purchased 50 call options w\n",
+        "after": "Alphabet Inc. - Class A Common Stock (GOOGL) [OP] Filing Status: New Description: Purchased 50 call options w"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          385.5
+        ],
+        "before": "P\nwith a strike price\n",
+        "after": "P with a strike price"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          377.25,
+          385.5
+        ],
+        "before": "01/14/2025\ne of $150 and an\n",
+        "after": "01/14/2025 e of $150 and an"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          377.25,
+          318.1875,
+          441.75,
+          385.5
+        ],
+        "before": "01/14/2025\nn expiration date \n",
+        "after": "01/14/2025 n expiration date"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          441.75,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$250,001 -\n$500,000\nof 1/16/26.\n",
+        "after": "$250,001 - $500,000 of 1/16/26."
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5178571428571,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Nancy Pelosi",
+  "state_district": "CA11",
+  "rows": 9,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "pdf_image": "images/20026590.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Nancy Pelosi\nStatus:\nMember\nState/District: CA11\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nAlphabet Inc. - Class A Common\nStock (GOOGL) [OP]\nP\n01/14/2025\n01/14/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.\nSP\nAmazon.com, Inc. - Common Stock\n(AMZN) [OP]\nP\n01/14/2025\n01/14/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.\nSP\nApple Inc. - Common Stock (AAPL)\n[ST]\nS (partial)\n12/31/2024\n12/31/2024\n$5,000,001 -\n$25,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Sold 31,600 shares.\nSP\nNVIDIA Corporation - Common\nStock (NVDA) [ST]\nS (partial)\n12/31/2024\n12/31/2024\n$1,000,001 -\n$5,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Sold 10,000 shares.\nSP\nNVIDIA Corporation - Common\nStock (NVDA) [ST]\nP\n12/20/2024 12/20/2024\n$500,001 -\n$1,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Exercised 500 call options purchased 11/22/23 (50,000 shares) at a strike price of $12 with an expiration date\nof 12/20/24.\nSP\nNVIDIA Corporation - Common\nStock (NVDA) [OP]\nP\n01/14/2025\n01/14/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFiling ID #20026590\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Alphabet Inc. - Class A Common Stock (GOOGL) [OP] Filing Status: New Description: Purchased 50 call options w",
+    "asset": "Alphabet Inc. - Class A Common Stock",
+    "ticker": "GOOGL",
+    "transaction_type_raw": "P with a strike price",
+    "transaction_type": "P",
+    "transaction_date_raw": "01/14/2025 e of $150 and an",
+    "transaction_date": "2025-01-14",
+    "amount_raw": "$250,001 - $500,000 of 1/16/26.",
+    "amount_min": "250001.0",
+    "amount_max": "500000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Alphabet Inc. - Class A Common Stock",
+    "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+    "ticker_v8_1": "GOOGL",
+    "ticker_v8_2_cleaned": "GOOGL",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "01/14/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20026590.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20026590",
+      "politician": "Hon. Nancy Pelosi",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class A Common Stock",
+      "ticker_v8_2_cleaned": "GOOGL",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-14",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "01/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026590",
+      "politician": "Hon. Nancy Pelosi",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AMZN",
+      "transaction_type": "P",
+      "transaction_date": "2025-01-14",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "01/14/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026590",
+      "politician": "Hon. Nancy Pelosi",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Apple Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AAPL",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2024-12-31",
+      "amount_min": "5000001.0",
+      "amount_max": "25000000.0",
+      "amount_category": "$5,000,001 - $25,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026590",
+      "politician": "Hon. Nancy Pelosi",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "NVIDIA Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "NVDA",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2024-12-31",
+      "amount_min": "1000001.0",
+      "amount_max": "5000000.0",
+      "amount_category": "$1,000,001 - $5,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/31/2024",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20026590",
+      "politician": "Hon. Nancy Pelosi",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "NVIDIA Corporation - Common Stock",
+      "ticker_v8_2_cleaned": "NVDA",
+      "transaction_type": "P",
+      "transaction_date": "2024-12-20",
+      "amount_min": "500001.0",
+      "amount_max": "1000000.0",
+      "amount_category": "$500,001 - $1,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "12/20/2024",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

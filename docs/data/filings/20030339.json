@@ -1,0 +1,230 @@
+{
+  "filing_id": "20030339",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.964285714285715,
+      318.1875,
+      575.625,
+      398.25
+    ],
+    "physical_rect": [
+      21.964285714285715,
+      318.1875,
+      575.625,
+      398.25
+    ],
+    "method": "table",
+    "before": "JT BNP Paribas MTN 4/9/2030 [CS] P 04/04/2025 04/04/2025 $250,001 - $500,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation Dʇʕʅʔʋʒʖʋʑʐ: Buy to open",
+    "after": "JT BNP Paribas MTN 4/9/2030 [CS] P 04/04/2025 04/04/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Hern Family Foundation Description: Buy to open",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.964285714285715,
+          318.1875,
+          62.25,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          398.25
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.0,
+          398.25
+        ],
+        "before": "BNP Paribas MTN 4/9/2030 [CS]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundatio\nDʇʕʅʔʋʒʖʋʑʐ: Buy to open\n",
+        "after": "BNP Paribas MTN 4/9/2030 [CS] Filing Status: New Subholding Of: Hern Family Foundatio Description: Buy to open"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.0,
+          318.1875,
+          322.5,
+          398.25
+        ],
+        "before": "P\nn\n",
+        "after": "P n"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          322.5,
+          318.1875,
+          378.0,
+          398.25
+        ],
+        "before": "04/04/2025\n",
+        "after": "04/04/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.0,
+          318.1875,
+          442.5,
+          398.25
+        ],
+        "before": "04/04/2025\n",
+        "after": "04/04/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          442.5,
+          318.1875,
+          522.0,
+          398.25
+        ],
+        "before": "$250,001 -\n$500,000\n",
+        "after": "$250,001 - $500,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          398.25
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Kevin Hern",
+  "state_district": "OK01",
+  "rows": 3,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030339.pdf",
+  "pdf_image": "images/20030339.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Kevin Hern\nStatus:\nMember\nState/District: OK01\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nBNP Paribas MTN 4/9/2030 [CS]\nP\n04/04/2025 04/04/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nDʇʕʅʔʋʒʖʋʑʐ: Buy to open\nJT\nBNP Paribas MTN 4/9/2030 [CS]\nP\n04/04/2025 04/07/2025\n$1,000,001 -\n$5,000,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Revocable Trust > Brokerage Investment Account\nDʇʕʅʔʋʒʖʋʑʐ: Buy to open\nJT\nGoldman Sachs MTN 4/29/2030\n[CS]\nP\n04/24/2025 04/25/2025\n$250,001 -\n$500,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hern Family Foundation\nDʇʕʅʔʋʒʖʋʑʐ: Buy to open\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nHern Family Foundation (100% Interest) (Owner: JT)\nHern Family Revocable Trust (100% Interest) (Owner: JT)\nDʇʕʅʔʋʒʖʋʑʐ: Family Revocable Trust\nHern Family Revocable Trust ⇒ Brokerage Investment Account (100% Interest) (Owner: JT)\nLʑʅʃʖʋʑʐ: US\nDʇʕʅʔʋʒʖʋʑʐ: Stock, Bonds, EFTs, & Mutual funds\nFiling ID #20030339\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "BNP Paribas MTN 4/9/2030 [CS] Filing Status: New Subholding Of: Hern Family Foundatio Description: Buy to open",
+    "asset": "BNP Paribas MTN 4/9/2030",
+    "ticker": "",
+    "transaction_type_raw": "P n",
+    "transaction_type": "P",
+    "transaction_date_raw": "04/04/2025",
+    "transaction_date": "2025-04-04",
+    "amount_raw": "$250,001 - $500,000",
+    "amount_min": "250001.0",
+    "amount_max": "500000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "BNP Paribas MTN 4/9/2030",
+    "asset_v8_2_cleaned": "BNP Paribas MTN 4/9/2030",
+    "ticker_v8_1": "",
+    "ticker_v8_2_cleaned": "",
+    "ticker_candidate_raw": "",
+    "ticker_parse_status": "not_applicable",
+    "ticker_validation_source": "",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "04/04/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030339.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030339",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "BNP Paribas MTN 4/9/2030",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-04-04",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030339.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/04/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030339",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "BNP Paribas MTN 4/9/2030",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-04-04",
+      "amount_min": "1000001.0",
+      "amount_max": "5000000.0",
+      "amount_category": "$1,000,001 - $5,000,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030339.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/04/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030339",
+      "politician": "Hon. Kevin Hern",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Goldman Sachs MTN 4/29/2030",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "P",
+      "transaction_date": "2025-04-24",
+      "amount_min": "250001.0",
+      "amount_max": "500000.0",
+      "amount_category": "$250,001 - $500,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030339.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "04/24/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

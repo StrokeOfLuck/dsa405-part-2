@@ -1,0 +1,264 @@
+{
+  "filing_id": "20030868",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.975,
+      318.1875,
+      575.525,
+      429.75
+    ],
+    "physical_rect": [
+      21.975,
+      318.1875,
+      575.525,
+      429.75
+    ],
+    "method": "table",
+    "before": "SP ABB LTD SPONS ADR (ABBNY) [ST] S 08/08/2025 08/08/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Baird Trust Company TTEE FBO/Inherited Beneficiary IRA/John Eldridge Deceased IRA/Sara Smith Beneficiary Cʑʏʏʇʐʖʕ: This stock was part of the Inherited Beneficiary IRA spouse received upon the death of her father in 2021. Spouse has chosen to divest of all the stocks contained within this IRA. As this is an Inherited Beneficiary IRA, there are no capital gains on this sale.",
+    "after": "SP ABB LTD SPONS ADR (ABBNY) [ST] S 08/08/2025 08/08/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Baird Trust Company TTEE FBO/Inherited Beneficiary IRA/John Eldridge Deceased IRA/Sara Smith Beneficiary Comments: This stock was part of the Inherited Beneficiary IRA spouse received upon the death of her father in 2021. Spouse has chosen to divest of all the stocks contained within this IRA. As this is an Inherited Beneficiary IRA, there are no capital gains on this sale.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.975,
+          318.1875,
+          62.25,
+          429.75
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          429.75
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          258.75,
+          429.75
+        ],
+        "before": "ABB LTD SPONS ADR (ABBNY) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Baird Trust Company TT\nBeneficiary\nCʑʏʏʇʐʖʕ: This stock was part of the Inh\nSpouse has chosen to divest of all the stoc\ncapital gains on this sale.\n",
+        "after": "ABB LTD SPONS ADR (ABBNY) [ST] Filing Status: New Subholding Of: Baird Trust Company TT Beneficiary Comments: This stock was part of the Inh Spouse has chosen to divest of all the stoc capital gains on this sale."
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          258.75,
+          318.1875,
+          323.25,
+          429.75
+        ],
+        "before": "S\nTEE FBO/Inherit\nherited Beneficiar\ncks contained with\n",
+        "after": "S TEE FBO/Inherit herited Beneficiar cks contained with"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          323.25,
+          318.1875,
+          379.5,
+          429.75
+        ],
+        "before": "08/08/2025\nted Beneficiary \nry IRA spouse re\nhin this IRA. As\n",
+        "after": "08/08/2025 ted Beneficiary ry IRA spouse re hin this IRA. As"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          429.75
+        ],
+        "before": "08/08/2025\nIRA/John Eldridg\neceived upon the \ns this is an Inherit\n",
+        "after": "08/08/2025 IRA/John Eldridg eceived upon the s this is an Inherit"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          429.75
+        ],
+        "before": "$1,001 - $15,000\nge Deceased IRA/Sar\ndeath of her father in\nted Beneficiary IRA, t\n",
+        "after": "$1,001 - $15,000 ge Deceased IRA/Sar death of her father in ted Beneficiary IRA, t"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.525,
+          429.75
+        ],
+        "before": "ra Smith\nn 2021.\nthere are no\n",
+        "after": "ra Smith n 2021. there are no"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Adam Smith",
+  "state_district": "WA09",
+  "rows": 18,
+  "page_count": 5,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030868.pdf",
+  "pdf_image": "images/20030868.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Adam Smith\nStatus:\nMember\nState/District: WA09\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nSP\nABB LTD SPONS ADR (ABBNY) [ST]\nS\n08/08/2025 08/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Baird Trust Company TTEE FBO/Inherited Beneficiary IRA/John Eldridge Deceased IRA/Sara Smith\nBeneficiary\nCʑʏʏʇʐʖʕ: This stock was part of the Inherited Beneficiary IRA spouse received upon the death of her father in 2021.\nSpouse has chosen to divest of all the stocks contained within this IRA. As this is an Inherited Beneficiary IRA, there are no\ncapital gains on this sale.\nSP\nAlaska Air Group, Inc. Common Stock\n(ALK) [ST]\nS\n08/08/2025 08/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Baird Trust Company TTEE FBO/Inherited Beneficiary IRA/John Eldridge Deceased IRA/Sara Smith\nBeneficiary\nCʑʏʏʇʐʖʕ: This stock was part of the Inherited Beneficiary IRA spouse received upon the death of her father in 2021.\nSpouse has chosen to divest of all the stocks contained within this IRA. As this is an Inherited Beneficiary IRA, there are no\ncapital gains on this sale.\nSP\nAlphabet Inc. - Class C Capital Stock\n(GOOG) [ST]\nS\n08/08/2025 08/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Baird Trust Company TTEE FBO/Inherited Beneficiary IRA/John Eldridge Deceased IRA/Sara Smith\nBeneficiary\nCʑʏʏʇʐʖʕ: This stock was part of the Inherited Beneficiary IRA spouse received upon the death of her father in 2021.\nSpouse has chosen to divest of all the stocks contained within this IRA. As this is an Inherited Beneficiary IRA, there are no\ncapital gains on this sale.\nSP\nApple Inc. - Common Stock (AAPL)\n[ST]\nS\n08/08/2025 08/08/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nFiling ID #20030868\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "ABB LTD SPONS ADR (ABBNY) [ST] Filing Status: New Subholding Of: Baird Trust Company TT Beneficiary Comments: This stock was part of the Inh Spouse has chosen to divest of all the stoc capital gains on this sale.",
+    "asset": "ABB LTD SPONS ADR",
+    "ticker": "ABBNY",
+    "transaction_type_raw": "S TEE FBO/Inherit herited Beneficiar cks contained with",
+    "transaction_type": "S",
+    "transaction_date_raw": "08/08/2025 ted Beneficiary ry IRA spouse re hin this IRA. As",
+    "transaction_date": "2025-08-08",
+    "amount_raw": "$1,001 - $15,000 ge Deceased IRA/Sar death of her father in ted Beneficiary IRA, t",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "ABB LTD SPONS ADR",
+    "asset_v8_2_cleaned": "ABB LTD SPONS ADR",
+    "ticker_v8_1": "ABBNY",
+    "ticker_v8_2_cleaned": "ABBNY",
+    "ticker_candidate_raw": "ABBNY",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "08/08/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030868.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030868",
+      "politician": "Hon. Adam Smith",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "ABB LTD SPONS ADR",
+      "ticker_v8_2_cleaned": "ABBNY",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030868.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030868",
+      "politician": "Hon. Adam Smith",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Alaska Air Group, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "ALK",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030868.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030868",
+      "politician": "Hon. Adam Smith",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
+      "ticker_v8_2_cleaned": "GOOG",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030868.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030868",
+      "politician": "Hon. Adam Smith",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Apple Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "AAPL",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030868.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "08/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030868",
+      "politician": "Hon. Adam Smith",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Berkshire Hathaway Inc. New Common Stock",
+      "ticker_v8_2_cleaned": "BRK.B",
+      "transaction_type": "S",
+      "transaction_date": "2025-08-08",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030868.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "08/08/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

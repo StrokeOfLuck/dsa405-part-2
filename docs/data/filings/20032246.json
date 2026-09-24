@@ -1,0 +1,264 @@
+{
+  "filing_id": "20032246",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "physical_rect": [
+      21.988636363636363,
+      318.1875,
+      575.5227272727273,
+      385.5
+    ],
+    "method": "table",
+    "before": "JT Commvault Systems, Inc. - Common Stock (CVLT) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1",
+    "after": "JT Commvault Systems, Inc. - Common Stock (CVLT) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley - Select UMA Account # 1",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          21.988636363636363,
+          318.1875,
+          62.25,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.5
+        ],
+        "before": "JT\n",
+        "after": "JT"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.5
+        ],
+        "before": "Commvault Systems, Inc. - Common\nStock (CVLT) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select \n",
+        "after": "Commvault Systems, Inc. - Common Stock (CVLT) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.5
+        ],
+        "before": "P\nUMA Account # 1\n",
+        "after": "P UMA Account # 1"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          379.5,
+          385.5
+        ],
+        "before": "09/23/2025\n1\n",
+        "after": "09/23/2025 1"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          379.5,
+          318.1875,
+          444.0,
+          385.5
+        ],
+        "before": "10/07/2025\n",
+        "after": "10/07/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          444.0,
+          318.1875,
+          522.0,
+          385.5
+        ],
+        "before": "$1,001 - $15,000\n",
+        "after": "$1,001 - $15,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.5227272727273,
+          385.5
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Josh Gottheimer",
+  "state_district": "NJ05",
+  "rows": 10,
+  "page_count": 2,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
+  "pdf_image": "images/20032246.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Josh Gottheimer\nStatus:\nMember\nState/District: NJ05\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nJT\nCommvault Systems, Inc. - Common\nStock (CVLT) [ST]\nP\n09/23/2025 10/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nDiageo plc Common Stock (DEO) [ST] S\n09/22/2025 10/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nIndependence Realty Trust, Inc.\nCommon Stock (IRT) [ST]\nP\n09/22/2025 10/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nIntuitive Surgical, Inc. - Common\nStock (ISRG) [ST]\nS (partial)\n09/03/2025 10/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nM3 INC UNSP/ADR (MTHRY) [ST]\nP\n09/30/2025 10/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nJT\nNatera, Inc. - Common Stock (NTRA)\n[ST]\nP\n09/22/2025 10/07/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Morgan Stanley - Select UMA Account # 1\nFiling ID #20032246\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "JT",
+    "asset_raw": "Commvault Systems, Inc. - Common Stock (CVLT) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select",
+    "asset": "Commvault Systems, Inc. - Common Stock",
+    "ticker": "CVLT",
+    "transaction_type_raw": "P UMA Account # 1",
+    "transaction_type": "P",
+    "transaction_date_raw": "09/23/2025 1",
+    "transaction_date": "2025-09-23",
+    "amount_raw": "$1,001 - $15,000",
+    "amount_min": "1001.0",
+    "amount_max": "15000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Commvault Systems, Inc. - Common Stock",
+    "asset_v8_2_cleaned": "Commvault Systems, Inc. - Common Stock",
+    "ticker_v8_1": "CVLT",
+    "ticker_v8_2_cleaned": "CVLT",
+    "ticker_candidate_raw": "CVLT",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "09/23/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20032246.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20032246",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Commvault Systems, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "CVLT",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-23",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/23/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032246",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Diageo plc Common Stock",
+      "ticker_v8_2_cleaned": "DEO",
+      "transaction_type": "S",
+      "transaction_date": "2025-09-22",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/22/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032246",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Independence Realty Trust, Inc. Common Stock",
+      "ticker_v8_2_cleaned": "IRT",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-22",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/22/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032246",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "Intuitive Surgical, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "ISRG",
+      "transaction_type": "S (partial)",
+      "transaction_date": "2025-09-03",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "09/03/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20032246",
+      "politician": "Hon. Josh Gottheimer",
+      "owner": "JT",
+      "asset_v8_2_cleaned": "M3 INC UNSP/ADR",
+      "ticker_v8_2_cleaned": "MTHRY",
+      "transaction_type": "P",
+      "transaction_date": "2025-09-30",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "09/30/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

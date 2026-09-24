@@ -1,0 +1,213 @@
+{
+  "filing_id": "20030875",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      22.990384615384617,
+      318.1875,
+      575.5416666666666,
+      393.75
+    ],
+    "physical_rect": [
+      22.990384615384617,
+      318.1875,
+      575.5416666666666,
+      393.75
+    ],
+    "method": "table",
+    "before": "2000114315 SP Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] S 12/29/2023 01/03/2024 $100,001 - $250,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: Amended",
+    "after": "2000114315 SP Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] S 12/29/2023 01/03/2024 $100,001 - $250,000 Filing Status: Amended",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          22.990384615384617,
+          318.1875,
+          79.5,
+          393.75
+        ],
+        "before": "2000114315\n",
+        "after": "2000114315"
+      },
+      {
+        "name": "owner",
+        "rect": [
+          79.5,
+          318.1875,
+          118.5,
+          393.75
+        ],
+        "before": "SP\n",
+        "after": "SP"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          118.5,
+          318.1875,
+          264.75,
+          393.75
+        ],
+        "before": "Alibaba Group Holding Limited\nAmerican Depositary Shares each\nrepresenting eight Ordinary share\n(BABA) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: Amended\n",
+        "after": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] Filing Status: Amended"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          264.75,
+          318.1875,
+          329.25,
+          393.75
+        ],
+        "before": "S\n",
+        "after": "S"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          329.25,
+          318.1875,
+          384.0,
+          393.75
+        ],
+        "before": "12/29/2023\n",
+        "after": "12/29/2023"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          384.0,
+          318.1875,
+          448.5,
+          393.75
+        ],
+        "before": "01/03/2024\n",
+        "after": "01/03/2024"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          448.5,
+          318.1875,
+          523.5,
+          393.75
+        ],
+        "before": "$100,001 -\n$250,000\n",
+        "after": "$100,001 - $250,000"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          523.5,
+          318.1875,
+          575.5416666666666,
+          393.75
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Laurel Lee",
+  "state_district": "FL15",
+  "rows": 2,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030875.pdf",
+  "pdf_image": "images/20030875.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Laurel Lee\nStatus:\nMember\nState/District: FL15\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\n2000114315\nSP\nAlibaba Group Holding Limited\nAmerican Depositary Shares each\nrepresenting eight Ordinary share\n(BABA) [ST]\nS\n12/29/2023 01/03/2024\n$100,001 -\n$250,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: Amended\n2000128986 SP\nWarner Bros. Discovery, Inc. -\nSeries A Common Stock (WBD)\n[ST]\nS\n11/29/2024\n01/05/2025\n$1,001 - $15,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: Amended\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Laurel Lee , 08/11/2025\nFiling ID #20030875\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "SP",
+    "asset_raw": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] Filing Status: Amended",
+    "asset": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+    "ticker": "BABA",
+    "transaction_type_raw": "S",
+    "transaction_type": "S",
+    "transaction_date_raw": "12/29/2023",
+    "transaction_date": "2023-12-29",
+    "amount_raw": "$100,001 - $250,000",
+    "amount_min": "100001.0",
+    "amount_max": "250000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+    "asset_v8_2_cleaned": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+    "ticker_v8_1": "BABA",
+    "ticker_v8_2_cleaned": "BABA",
+    "ticker_candidate_raw": "BABA",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "12/29/2023",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030875.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030875",
+      "politician": "Hon. Laurel Lee",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+      "ticker_v8_2_cleaned": "BABA",
+      "transaction_type": "S",
+      "transaction_date": "2023-12-29",
+      "amount_min": "100001.0",
+      "amount_max": "250000.0",
+      "amount_category": "$100,001 - $250,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030875.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "12/29/2023",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030875",
+      "politician": "Hon. Laurel Lee",
+      "owner": "SP",
+      "asset_v8_2_cleaned": "Warner Bros. Discovery, Inc. - Series A Common Stock",
+      "ticker_v8_2_cleaned": "WBD",
+      "transaction_type": "S",
+      "transaction_date": "2024-11-29",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030875.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "11/29/2024",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

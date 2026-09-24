@@ -1,0 +1,196 @@
+{
+  "filing_id": "20033320",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.458333333333332,
+      318.1875,
+      575.625,
+      385.96875
+    ],
+    "physical_rect": [
+      23.458333333333332,
+      318.1875,
+      575.625,
+      385.96875
+    ],
+    "method": "table",
+    "before": "DC AngioDynamics, Inc. - Common Stock (ANGO) [ST] S 10/20/2025 10/21/2025 $2,000.00 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Dʇʕʅʔʋʒʖʋʑʐ: Dependent Child C",
+    "after": "DC AngioDynamics, Inc. - Common Stock (ANGO) [ST] S 10/20/2025 10/21/2025 $2,000.00 Filing Status: New Description: Dependent Child C",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.458333333333332,
+          318.1875,
+          62.25,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          62.25,
+          318.1875,
+          101.25,
+          385.96875
+        ],
+        "before": "DC\n",
+        "after": "DC"
+      },
+      {
+        "name": "asset",
+        "rect": [
+          101.25,
+          318.1875,
+          259.5,
+          385.96875
+        ],
+        "before": "AngioDynamics, Inc. - Common Stock\n(ANGO) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Dependent Child C\n",
+        "after": "AngioDynamics, Inc. - Common Stock (ANGO) [ST] Filing Status: New Description: Dependent Child C"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          385.96875
+        ],
+        "before": "S\n",
+        "after": "S"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          385.96875
+        ],
+        "before": "10/20/2025\n",
+        "after": "10/20/2025"
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          385.96875
+        ],
+        "before": "10/21/2025\n",
+        "after": "10/21/2025"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          385.96875
+        ],
+        "before": "$2,000.00\n",
+        "after": "$2,000.00"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.625,
+          385.96875
+        ],
+        "before": "",
+        "after": ""
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. Debbie Wasserman Schultz",
+  "state_district": "FL25",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033320.pdf",
+  "pdf_image": "images/20033320.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. Debbie Wasserman Schultz\nStatus:\nMember\nState/District: FL25\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nDC\nAngioDynamics, Inc. - Common Stock\n(ANGO) [ST]\nS\n10/20/2025 10/21/2025\n$2,000.00\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nDʇʕʅʔʋʒʖʋʑʐ: Dependent Child C\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. Debbie Wasserman Schultz , 10/24/2025\nFiling ID #20033320\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "DC",
+    "asset_raw": "AngioDynamics, Inc. - Common Stock (ANGO) [ST] Filing Status: New Description: Dependent Child C",
+    "asset": "AngioDynamics, Inc. - Common Stock",
+    "ticker": "ANGO",
+    "transaction_type_raw": "S",
+    "transaction_type": "S",
+    "transaction_date_raw": "10/20/2025",
+    "transaction_date": "2025-10-20",
+    "amount_raw": "$2,000.00",
+    "amount_min": "",
+    "amount_max": "",
+    "needs_review": "True",
+    "review_reason": "missing_range_bound",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "AngioDynamics, Inc. - Common Stock",
+    "asset_v8_2_cleaned": "AngioDynamics, Inc. - Common Stock",
+    "ticker_v8_1": "ANGO",
+    "ticker_v8_2_cleaned": "ANGO",
+    "ticker_candidate_raw": "ANGO",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "True"
+  },
+  "p2": {
+    "raw_date_has_extra_text": false,
+    "raw_date_prefix": "10/20/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20033320.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20033320",
+      "politician": "Hon. Debbie Wasserman Schultz",
+      "owner": "DC",
+      "asset_v8_2_cleaned": "AngioDynamics, Inc. - Common Stock",
+      "ticker_v8_2_cleaned": "ANGO",
+      "transaction_type": "S",
+      "transaction_date": "2025-10-20",
+      "amount_min": "",
+      "amount_max": "",
+      "amount_category": "",
+      "needs_review": "True",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033320.pdf",
+      "raw_date_has_extra_text": "False",
+      "raw_date_prefix": "10/20/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}

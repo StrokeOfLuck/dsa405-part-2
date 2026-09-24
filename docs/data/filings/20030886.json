@@ -1,0 +1,196 @@
+{
+  "filing_id": "20030886",
+  "status": "parsed",
+  "geometry": {
+    "page": 1,
+    "width": 612.0,
+    "height": 792.0,
+    "row_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      424.21875
+    ],
+    "physical_rect": [
+      23.0625,
+      318.1875,
+      575.71875,
+      424.21875
+    ],
+    "method": "table",
+    "before": "Planet Labs PBC Class A Common Stock (PL) [ST] S 03/27/2025 03/27/2025 $50,001 - $100,000 Fʋʎʋʐʉ Sʖʃʖʗʕ: New Sʗʄʊʑʎʆʋʐʉ Oʈ: Hummingbird Circle Trust Cʑʏʏʇʐʖʕ: This position was sold at a loss on 3/27/2025 as part of my divestments to avoid possible conflicts of interest. This PTR is being submitted to ensure full transparency and compliance with all disclosure requirements. As of 3/28/2025, neither I nor my wife hold any single company publicly-traded stocks.",
+    "after": "Planet Labs PBC Class A Common Stock (PL) [ST] S 03/27/2025 03/27/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Hummingbird Circle Trust Comments: This position was sold at a loss on 3/27/2025 as part of my divestments to avoid possible conflicts of interest. This PTR is being submitted to ensure full transparency and compliance with all disclosure requirements. As of 3/28/2025, neither I nor my wife hold any single company publicly-traded stocks.",
+    "fields": [
+      {
+        "name": "id",
+        "rect": [
+          23.0625,
+          318.1875,
+          63.0,
+          424.21875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "owner",
+        "rect": [
+          63.0,
+          318.1875,
+          102.0,
+          424.21875
+        ],
+        "before": "",
+        "after": ""
+      },
+      {
+        "name": "asset",
+        "rect": [
+          102.0,
+          318.1875,
+          259.5,
+          424.21875
+        ],
+        "before": "Planet Labs PBC Class A Common\nStock (PL) [ST]\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hummingbird Circle Tru\nCʑʏʏʇʐʖʕ: This position was sold at a  los\nThis PTR is being submitted to ensure ful\nneither I nor my wife hold any single com\n",
+        "after": "Planet Labs PBC Class A Common Stock (PL) [ST] Filing Status: New Subholding Of: Hummingbird Circle Tru Comments: This position was sold at a los This PTR is being submitted to ensure ful neither I nor my wife hold any single com"
+      },
+      {
+        "name": "transaction_type",
+        "rect": [
+          259.5,
+          318.1875,
+          324.0,
+          424.21875
+        ],
+        "before": "S\nust\nss on 3/27/2025 a\nll transparency an\nmpany publicly-tra\n",
+        "after": "S ust ss on 3/27/2025 a ll transparency an mpany publicly-tra"
+      },
+      {
+        "name": "transaction_date",
+        "rect": [
+          324.0,
+          318.1875,
+          378.75,
+          424.21875
+        ],
+        "before": "03/27/2025\nas part of my d\nnd compliance w\naded stocks.\n",
+        "after": "03/27/2025 as part of my d nd compliance w aded stocks."
+      },
+      {
+        "name": "notification_date",
+        "rect": [
+          378.75,
+          318.1875,
+          443.25,
+          424.21875
+        ],
+        "before": "03/27/2025\ndivestments to avo\nwith all disclosure\n",
+        "after": "03/27/2025 divestments to avo with all disclosure"
+      },
+      {
+        "name": "amount",
+        "rect": [
+          443.25,
+          318.1875,
+          522.0,
+          424.21875
+        ],
+        "before": "$50,001 -\n$100,000\noid possible conflicts o\ne requirements. As of\n",
+        "after": "$50,001 - $100,000 oid possible conflicts o e requirements. As of"
+      },
+      {
+        "name": "cap_gains",
+        "rect": [
+          522.0,
+          318.1875,
+          575.71875,
+          424.21875
+        ],
+        "before": "of interest.\nf 3/28/2025,\n",
+        "after": "of interest. f 3/28/2025,"
+      }
+    ]
+  },
+  "page": 1,
+  "politician": "Hon. George Whitesides",
+  "state_district": "CA27",
+  "rows": 1,
+  "page_count": 1,
+  "spotlight_row": "1",
+  "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030886.pdf",
+  "pdf_image": "images/20030886.webp",
+  "raw_pdf_text": "Pʇʔʋʑʆʋʅ Tʔʃʐʕʃʅʖʋʑʐ Rʇʒʑʔʖ\nClerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515\nFʋʎʇʔ Iʐʈʑʔʏʃʖʋʑʐ\nName:\nHon. George Whitesides\nStatus:\nMember\nState/District: CA27\nTʔʃʐʕʃʅʖʋʑʐʕ\nID\nOwner Asset\nTransaction\nType\nDate\nNotification\nDate\nAmount\nCap.\nGains >\n$200?\nPlanet Labs PBC Class A Common\nStock (PL) [ST]\nS\n03/27/2025 03/27/2025\n$50,001 -\n$100,000\nFʋʎʋʐʉ Sʖʃʖʗʕ: New\nSʗʄʊʑʎʆʋʐʉ Oʈ: Hummingbird Circle Trust\nCʑʏʏʇʐʖʕ: This position was sold at a  loss on 3/27/2025 as part of my divestments to avoid possible conflicts of interest.\nThis PTR is being submitted to ensure full transparency and compliance with all disclosure requirements. As of 3/28/2025,\nneither I nor my wife hold any single company publicly-traded stocks.\n* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.\nIʐʘʇʕʖʏʇʐʖ Vʇʊʋʅʎʇ Dʇʖʃʋʎʕ\nHummingbird Circle Trust\nLʑʅʃʖʋʑʐ: US\nCʑʏʏʇʐʖʕ\nIʐʋʖʋʃʎ Pʗʄʎʋʅ Oʈʈʇʔʋʐʉʕ\n Yes \n No\nCʇʔʖʋʈʋʅʃʖʋʑʐ ʃʐʆ Sʋʉʐʃʖʗʔʇ\n I CERTIFY that the statements I have made on the attached Periodic Transaction Report are true, complete, and correct to the best of\nmy knowledge and belief. Further, I CERTIFY that I have disclosed all transactions as required by the STOCK Act.\nDigitally Signed: Hon. George Whitesides , 08/13/2025\nFiling ID #20030886\n",
+  "raw_text_truncated": false,
+  "stage3": {
+    "owner_raw": "",
+    "asset_raw": "Planet Labs PBC Class A Common Stock (PL) [ST] Filing Status: New Subholding Of: Hummingbird Circle Tru Comments: This position was sold at a los This PTR is being submitted to ensure ful neither I nor my wife hold any single com",
+    "asset": "Planet Labs PBC Class A Common Stock",
+    "ticker": "PL",
+    "transaction_type_raw": "S ust ss on 3/27/2025 a ll transparency an mpany publicly-tra",
+    "transaction_type": "S",
+    "transaction_date_raw": "03/27/2025 as part of my d nd compliance w aded stocks.",
+    "transaction_date": "2025-03-27",
+    "amount_raw": "$50,001 - $100,000 oid possible conflicts o e requirements. As of",
+    "amount_min": "50001.0",
+    "amount_max": "100000.0",
+    "needs_review": "False",
+    "review_reason": "",
+    "page_parse_method": "table"
+  },
+  "stage4": {
+    "asset_v8_1": "Planet Labs PBC Class A Common Stock",
+    "asset_v8_2_cleaned": "Planet Labs PBC Class A Common Stock",
+    "ticker_v8_1": "PL",
+    "ticker_v8_2_cleaned": "PL",
+    "ticker_candidate_raw": "PL",
+    "ticker_parse_status": "accepted",
+    "ticker_validation_source": "house_ptr_structure+v8_1",
+    "asset_changed_by_ticker_resolver": "False",
+    "ticker_changed": "False",
+    "needs_review": "False"
+  },
+  "p2": {
+    "raw_date_has_extra_text": true,
+    "raw_date_prefix": "03/27/2025",
+    "date_prefix_disagrees": false
+  },
+  "csv_url": "data/csv/20030886.csv",
+  "csv_columns": 64,
+  "preview_columns": [
+    "filing_id",
+    "politician",
+    "owner",
+    "asset_v8_2_cleaned",
+    "ticker_v8_2_cleaned",
+    "transaction_type",
+    "transaction_date",
+    "amount_min",
+    "amount_max",
+    "amount_category",
+    "needs_review",
+    "original_pdf_url",
+    "raw_date_has_extra_text",
+    "raw_date_prefix",
+    "date_prefix_disagrees"
+  ],
+  "csv_preview": [
+    {
+      "filing_id": "20030886",
+      "politician": "Hon. George Whitesides",
+      "owner": "",
+      "asset_v8_2_cleaned": "Planet Labs PBC Class A Common Stock",
+      "ticker_v8_2_cleaned": "PL",
+      "transaction_type": "S",
+      "transaction_date": "2025-03-27",
+      "amount_min": "50001.0",
+      "amount_max": "100000.0",
+      "amount_category": "$50,001 - $100,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030886.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "03/27/2025",
+      "date_prefix_disagrees": "False"
+    }
+  ],
+  "changed_stage4_values": 0
+}
