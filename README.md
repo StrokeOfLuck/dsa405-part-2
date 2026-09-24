@@ -4,6 +4,19 @@
 
 This is a **separate class project**. It copies 2025 source files, builds two transaction CSVs with the [House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper)'s original parser and ticker resolver, then audits the differences. It does not alter the scraper repository.
 
+## Visual walkthrough
+
+[`docs/index.html`](docs/index.html) follows one real PTR from its PDF page through raw extracted text, Stage 3 transaction fields, Stage 4 ticker review, Part 2 date checks, and a downloadable CSV containing **all rows from that filing**. The Random filing button selects among eight fixed examples from the 2025 batch. The walkthrough is a reproducible snapshot, not a live scraper.
+
+After the full 2025 rebuild, regenerate the static examples with:
+
+```bash
+python scripts/build_pipeline_demo.py
+python -m http.server 8000 --directory docs
+```
+
+Open `http://localhost:8000/`. The script writes `docs/data/examples.json`, eight per-filing CSVs, and first-page images. It reads verified working PDFs and CSVs without changing source files. GitHub Pages can serve the `docs/` folder from the `main` branch.
+
 ## Where the data comes from
 
 The source is the official U.S. House periodic transaction disclosure PDFs. `data/raw/2025_pdf_manifest.csv` records the filename, size, SHA-256, and pinned scraper commit for each of **515 archived 2025 PDFs**. The source code and archived files are fetched from scraper commit `510945b2b1d600dd90b183858b86419926b81e65`. The 2025 disclosure XML index is also copied. The files total about 51 MB.
