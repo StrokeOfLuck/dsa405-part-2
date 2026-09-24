@@ -6,6 +6,76 @@
   "batch_transaction_count": 7667,
   "sample_size": 8,
   "selection": "Eight reproducibly selected examples from the completed 2025 batch, including three with extra text in the raw date. Each has 2–24 trades and visible extraction noise on page one. The Random filing button chooses among these eight.",
+  "code": {
+    "source": [
+      {
+        "label": "Run the pinned rebuild",
+        "source": "Colab notebook",
+        "url": "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo=9052b914",
+        "code": "log_path=Path(\"data/work/rebuild.log\")\nlog_path.parent.mkdir(parents=True,exist_ok=True)\n# Run the rebuild script: it checks the PDFs and makes the Stage 3 and Stage 4 CSVs.\n# Send its messages and errors to the log instead of printing pages of output here.\nwith log_path.open(\"w\") as log:\n    result=subprocess.run([sys.executable,\"scripts/rebuild_2025.py\"],stdout=log,stderr=subprocess.STDOUT)\n# A result of 0 means the script finished successfully. Show its last 18 messages.\nprint(\"Pipeline result:\",result.returncode)\nprint(\"\\n\".join(log_path.read_text(errors=\"replace\").splitlines()[-18:]))\n# If the script failed, stop here so later cells do not read old or incomplete CSVs.\nif result.returncode:\n    raise RuntimeError(f\"Pipeline failed. Inspect {log_path} for the stage and error.\")",
+        "explanation": "The notebook runs the separate rebuild script, saves its messages, and stops if it fails. That script checks the PDF copies against the manifest before parsing them."
+      }
+    ],
+    "text": [
+      {
+        "label": "Render and read page one",
+        "source": "Page snapshot builder",
+        "url": "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/build_pipeline_demo.py",
+        "code": "with fitz.open(pdf) as document:\",\n                           'image.save(OUT / \"images\" / image_name, \"WEBP\", quality=76, method=6)",
+        "explanation": "This webpage builder reads the same verified PDF and makes the page image and unprocessed text excerpt shown above. The Colab notebook does not display this page-level text dump."
+      }
+    ],
+    "parse": [
+      {
+        "label": "Clip a physical PDF row into fields",
+        "source": "Pinned Stage 3 parser",
+        "url": "https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage3_extract.py#L856-L874",
+        "code": "def extract_row_columns(page, row_bbox, column_boxes):\n    y0 = float(row_bbox[1])\n    y1 = float(row_bbox[3])\n\n    output = {}\n\n    for name, (x0, x1) in column_boxes.items():\n        output[name] = clip_text(\n            page,\n            fitz.Rect(x0, y0, x1, y1)\n        )\n\n    return output",
+        "explanation": "The parser uses the row's position on the page and known column boundaries to pull text from each field. More parsing happens later in the same script."
+      },
+      {
+        "label": "Load Stage 3 results for audit",
+        "source": "Colab notebook",
+        "url": "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo=52ffc0a6",
+        "code": "source=Path(\"data/work/04_transactions/transactions_raw.csv\")\nresolved=Path(\"data/work/04_transactions/transactions_resolved.csv\")\n# Load both tables. dtype=str keeps IDs and printed text exactly as written.\n# keep_default_na=False keeps a blank cell as \"\" instead of turning it into a special missing value.\nraw=pd.read_csv(source,dtype=str,keep_default_na=False)\nclean=pd.read_csv(resolved,dtype=str,keep_default_na=False)",
+        "explanation": "The Colab notebook reads the parser's CSV as text so filing IDs and raw field strings retain their printed form."
+      }
+    ],
+    "resolve": [
+      {
+        "label": "Classify the candidate ticker",
+        "source": "Pinned Stage 4 resolver",
+        "url": "https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage4_clean.py#L231-L313",
+        "code": "def resolve_ticker(row):\n    asset_type = normalize_symbol(\n        row.get(\"asset_type\", \"\")\n    )\n\n    old_ticker = normalize_symbol(\n        row.get(\"ticker\", \"\")\n    )\n\n    if asset_type != \"ST\":\n        return {\n            \"ticker_candidate_raw\": \"\",\n            \"ticker_resolved\": old_ticker,\n            \"ticker_parse_status\": \"not_applicable\",\n            \"ticker_validation_source\": \"\",\n        }\n\n    candidate = extract_ticker_candidate(\n        row\n    )\n\n    if not candidate:\n        if old_ticker:\n            return {\n                \"ticker_candidate_raw\": \"\",\n                \"ticker_resolved\": old_ticker,\n                \"ticker_parse_status\": \"legacy_only_review\",\n                \"ticker_validation_source\": \"v8_1_only\",\n            }\n\n        return {\n            \"ticker_candidate_raw\": \"\",\n            \"ticker_resolved\": \"\",\n            \"ticker_parse_status\": \"missing_candidate\",\n            \"ticker_validation_source\": \"\",\n        }\n\n    if (\n        REFERENCE_SYMBOLS\n        and candidate in REFERENCE_SYMBOLS\n    ):\n        return {\n            \"ticker_candidate_raw\": candidate,\n            \"ticker_resolved\": candidate,\n            \"ticker_parse_status\": \"validated\",\n            \"ticker_validation_source\": \"reference_table\",\n        }\n\n    if old_ticker == candidate:\n        return {\n            \"ticker_candidate_raw\": candidate,\n            \"ticker_resolved\": candidate,\n            \"ticker_parse_status\": \"accepted\",\n            \"ticker_validation_source\": \"house_ptr_structure+v8_1\",\n        }\n\n    # Do not blacklist words such as FUND, CORP, ETN, ADS, or REIT.\n    # If the source structure says a compact parenthetical is the asset\n    # symbol, preserve it.\n    if len(candidate) <= STRUCTURAL_ACCEPT_MAX_LEN:\n        return {\n            \"ticker_candidate_raw\": candidate,\n            \"ticker_resolved\": candidate,\n            \"ticker_parse_status\": \"accepted\",\n            \"ticker_validation_source\": \"house_ptr_structure\",\n        }\n\n    # Longer source candidates are preserved for review.\n    if old_ticker == candidate:\n        return {\n            \"ticker_candidate_raw\": candidate,\n            \"ticker_resolved\": candidate,\n            \"ticker_parse_status\": \"accepted_long_existing\",\n            \"ticker_validation_source\": \"house_ptr_structure+v8_1\",\n        }\n\n    return {\n        \"ticker_candidate_raw\": candidate,\n        \"ticker_resolved\": \"\",\n        \"ticker_parse_status\": \"ambiguous_preserved\",\n        \"ticker_validation_source\": \"house_ptr_structure\",\n    }",
+        "explanation": "This is the original ticker decision function. The status and before/after fields above come from its Stage 4 CSV, not from a simulated rule on this page."
+      },
+      {
+        "label": "Count resolver decisions",
+        "source": "Colab notebook",
+        "url": "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo=62493a21",
+        "code": "for status,count in clean.ticker_parse_status.value_counts(dropna=False).items():\n    reasons={\"accepted\":\"A source-structured ticker candidate was accepted.\",\"not_applicable\":\"The row is not a stock asset, so stock ticker resolution does not apply.\",\"ambiguous_preserved\":\"The candidate is too uncertain to assert as a ticker.\"}\n    log_decision(\"4: ticker resolver\",\"ticker_parse_status\",f\"Classified ticker as {status}\",count,reasons.get(status,\"Resolver classification; inspect pinned Stage 4 code.\"),\"No source evidence lost; V8.1 ticker and asset are retained.\",\"Use ticker_v8_1, asset_v8_1, and asset_raw or re-run pinned Stage 4.\")\n# Compare six Stage 4 fields to copies of their Stage 3 values.\n# .ne() means \"not equal\"; summing True values counts differences.\nactual_changes={current:int(clean[current].ne(clean[prior]).sum()) for current,prior in [\n (\"ticker_v8_2_cleaned\",\"ticker_v8_1\"),(\"asset_v8_2_cleaned\",\"asset_v8_1\"),\n (\"review_reason\",\"review_reason_v8_1\"),(\"review_level\",\"review_level_v8_1\"),\n (\"needs_review\",\"needs_review_v8_1\"),(\"geometry_quality_score\",\"geometry_quality_score_v8_1\")]}\n# Print the six counts. Zero is a useful result: the value stayed the same.\nprint(\"Stage 4 values changed (zero is a legitimate finding):\",actual_changes)",
+        "explanation": "The notebook counts each classification and compares six retained old/new value pairs."
+      }
+    ],
+    "audit": [
+      {
+        "label": "Create the Part 2 date flags",
+        "source": "Colab notebook",
+        "url": "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo=62493a21",
+        "code": "p2=clean.copy()\n# Start with the original text extracted for the transaction date.\nsource_date=p2.transaction_date_raw\n# fullmatch checks the whole string. The pattern means 1–2 digits / 1–2 digits / 4 digits;\n# a date followed by other PDF text will not match.\nstandalone=source_date.str.fullmatch(r\"\\d{1,2}/\\d{1,2}/\\d{4}\")\n# True means the raw field did not match that date-only pattern.\np2[\"raw_date_has_extra_text\"]=~standalone\n# extract looks only at the start (^). Keep a date-shaped prefix if one exists;\n# fillna(\"\") uses an empty string when there is no such prefix.\np2[\"raw_date_prefix\"]=source_date.str.extract(r\"^(\\d{1,2}/\\d{1,2}/\\d{4})\",expand=False).fillna(\"\")\n# Convert that leading piece to YYYY-MM-DD so it can be compared with the cleaned date.\nparsed_prefix=pd.to_datetime(p2.raw_date_prefix.replace(\"\",pd.NA),format=\"%m/%d/%Y\",errors=\"coerce\").dt.strftime(\"%Y-%m-%d\").fillna(\"\")\n# Flag cases where a readable leading date differs from the cleaned transaction date.\np2[\"date_prefix_disagrees\"]=parsed_prefix.ne(\"\")&parsed_prefix.ne(p2.transaction_date)",
+        "explanation": "These exact notebook lines make the three audit columns displayed above. They do not overwrite the original date text."
+      }
+    ],
+    "csv": [
+      {
+        "label": "Write the final CSV",
+        "source": "Colab notebook",
+        "url": "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo=62493a21",
+        "code": "output=Path(\"data/clean/house_ptr_2025_p2.csv\")\n# Create that folder if it is missing.\noutput.parent.mkdir(parents=True,exist_ok=True)\n# Save the table as CSV without adding an extra row-number column.\np2.to_csv(output,index=False)",
+        "explanation": "The notebook writes the full 2025 Part 2 table. The download on this page is a subset of that output containing every transaction from the selected filing."
+      }
+    ]
+  },
   "examples": [
     {
       "filing_id": "20033574",
