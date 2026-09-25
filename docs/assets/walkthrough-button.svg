@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="144" viewBox="0 0 840 144" role="img" aria-labelledby="title description">
+  <title id="title">Open the visual walkthrough</title>
+  <desc id="description">Follow a real PDF to CSV with clickable explanations and highlighted code.</desc>
+  <rect x="2" y="2" width="836" height="140" rx="20" fill="#116b70" stroke="#38d2cb" stroke-width="3"/>
+  <text x="32" y="35" fill="#baf8ef" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">START HERE · INTERACTIVE PDF TO CSV</text>
+  <text x="32" y="81" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">Open the visual walkthrough</text>
+  <text x="32" y="115" fill="#e0f6f3" font-family="Arial, sans-serif" font-size="18">Real PDFs. Clickable explanations. Highlighted code.</text>
+  <circle cx="779" cy="72" r="30" fill="#ffffff"/>
+  <path d="M765 72h27m-11-11 11 11-11 11" fill="none" stroke="#116b70" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

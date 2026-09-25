@@ -6,7 +6,9 @@ This is a **separate class project**. It copies 2025 source files, builds two tr
 
 ## Visual walkthrough
 
-[Open the visual walkthrough](https://strokeofluck.github.io/dsa405-part-2/docs/index.html) to follow a random 2025 PTR from its PDF page to a downloadable CSV containing **all rows from that filing**. The button draws from all **515 archived PDFs**, with no dropdown. Of these, 449 produced 7,667 transaction rows; the other 66 show an explicit fallback result without inventing a transaction or CSV. The archive is a pinned snapshot, not a live list of every filing currently available.
+[![Open the visual walkthrough — follow a real PDF to CSV with clickable explanations and highlighted code](docs/assets/walkthrough-button.svg)](https://strokeofluck.github.io/dsa405-part-2/docs/index.html)
+
+Follow a random 2025 PTR from its PDF page to a downloadable CSV containing **all rows from that filing**. The button draws from all **515 archived PDFs**, with no dropdown. Of these, 449 produced 7,667 transaction rows; the other 66 show an explicit fallback result without inventing a transaction or CSV. The archive is a pinned snapshot, not a live list of every filing currently available.
 
 1. The selected filing's member, ID, and row count fill the selection box.
 2. The PDF inspector highlights the actual physical row. Select a column to see its clipping rectangle, embedded text, and text after the parser's character/whitespace cleanup.
@@ -14,7 +16,7 @@ This is a **separate class project**. It copies 2025 source files, builds two tr
 4. Read the complete source file or notebook cell in the left panel. The relevant function and line are highlighted; code-block buttons expose every notebook cell in its matching step.
 5. Download the selected filing's CSV. The notebook's `p2.to_csv(...)` writes the full-year file; the walkthrough's download is a filtered copy.
 
-The walkthrough uses a synchronized split view: complete source code on the left, PDF and results on the right. Choose a pipeline step to show its code and visual together. Click a PDF field to highlight the clipping function, or use the code-block buttons to inspect other functions and notebook cells for that step. The source-file selector exposes all eight complete files and the original-source link opens GitHub or Colab. On narrow screens the code and visuals stack. Third-party library implementations are not bundled.
+The walkthrough uses a synchronized split view: complete source code on the left, PDF and results on the right. Choose a pipeline step to show its code and visual together. Click a PDF field to highlight the clipping function, or use the code-block buttons to inspect other functions and notebook cells for that step. The source-file selector exposes all ten complete files and the original-source link opens GitHub or Colab. On narrow screens the code and visuals stack. Third-party library implementations are not bundled.
 
 Geometry is observed at the exact point where the pinned parser accepts a new transaction after duplicate handling. `scripts/trace_geometry.py` adds an in-memory observer without editing the upstream source or changing its parsing decisions. The builder reruns that parser and checks the observed fields against the rebuilt CSV before publishing a highlight. Continuations can contribute additional text to the final transaction. Coordinates use PDF points from the top-left; the illustrated code substitutes the selected rectangle's numeric values.
 
