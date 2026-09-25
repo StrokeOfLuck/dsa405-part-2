@@ -323,5 +323,11 @@
     "raw_date_prefix": "12/12/2024",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20026537,Hon. Richard W. Allen,Member,GA12,20026537.pdf,2025,1,SP,\"Rollins, Inc. Common Stock\",\"Rollins, Inc. Common Stock\",ROL,ROL,ST,P,2024-12-12,2025-01-08,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,\"R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026537.pdf,,,SP,\"Rollins, Inc. Common Stock (ROL) [ST] Filing Status: New Subholding Of: R.W. Allen & Associates\",\"Rollins, Inc. Common Stock (ROL) [ST]\",\"P , Inc. > RWA&A -\",12/12/2024 - Securities,01/08/2025,\"$15,001 - $50,000\",,\"SP Rollins, Inc. Common Stock (ROL) [ST] P 12/12/2024 01/08/2025 $15,001 - $50,000 Filing Status: New Subholding Of: R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,False,100,ROL,accepted,house_ptr_structure+v8_1,False,False,True,12/12/2024,False\n"
+  "csv_serialized_row": "20026537,Hon. Richard W. Allen,Member,GA12,20026537.pdf,2025,1,SP,\"Rollins, Inc. Common Stock\",\"Rollins, Inc. Common Stock\",ROL,ROL,ST,P,2024-12-12,2025-01-08,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,\"R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026537.pdf,,,SP,\"Rollins, Inc. Common Stock (ROL) [ST] Filing Status: New Subholding Of: R.W. Allen & Associates\",\"Rollins, Inc. Common Stock (ROL) [ST]\",\"P , Inc. > RWA&A -\",12/12/2024 - Securities,01/08/2025,\"$15,001 - $50,000\",,\"SP Rollins, Inc. Common Stock (ROL) [ST] P 12/12/2024 01/08/2025 $15,001 - $50,000 Filing Status: New Subholding Of: R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,False,100,ROL,accepted,house_ptr_structure+v8_1,False,False,True,12/12/2024,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " , Inc. > RWA&A -",
+    "result": "P"
+  }
 }

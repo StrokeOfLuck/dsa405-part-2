@@ -269,5 +269,11 @@
     "raw_date_prefix": "02/26/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20027927,Hon. Richard W. Allen,Member,GA12,20027927.pdf,2025,1,SP,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7,,,GS,P,2025-02-26,2025-03-05,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,LIVTR,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027927.pdf,,,SP,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7 [GS] Filing Status: New Subholding Of: LIVTR,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7 [GS],P,02/26/2025,03/05/2025,\"$50,001 - $100,000\",,\"SP US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7 [GS] P 02/26/2025 03/05/2025 $50,001 - $100,000 Filing Status: New Subholding Of: LIVTR\",,,False,100,,not_applicable,,False,False,False,02/26/2025,False\n"
+  "csv_serialized_row": "20027927,Hon. Richard W. Allen,Member,GA12,20027927.pdf,2025,1,SP,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7,,,GS,P,2025-02-26,2025-03-05,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,LIVTR,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027927.pdf,,,SP,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7 [GS] Filing Status: New Subholding Of: LIVTR,US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7 [GS],P,02/26/2025,03/05/2025,\"$50,001 - $100,000\",,\"SP US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7 [GS] P 02/26/2025 03/05/2025 $50,001 - $100,000 Filing Status: New Subholding Of: LIVTR\",,,False,100,,not_applicable,,False,False,False,02/26/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": "",
+    "result": "P"
+  }
 }

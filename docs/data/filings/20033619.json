@@ -341,5 +341,11 @@
     "raw_date_prefix": "11/21/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20033619,Hon. Gilbert Cisneros,Member,CA31,20033619.pdf,2025,91,,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests,LB,LB,ST,P,2025-11-21,2025-12-12,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,150 Main Street Trust > Wells Fargo Advisors,,,,11,11,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf,,,,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST],P Wells Fargo Advi,11/21/2025 isors,12/12/2025,\"$15,001 - $50,000\",,\"LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] P 11/21/2025 12/12/2025 $15,001 - $50,000 Filing Status: New Subholding Of: 150 Main Street Trust > Wells Fargo Advisors\",,,False,100,LB,accepted,house_ptr_structure+v8_1,False,False,True,11/21/2025,False\n"
+  "csv_serialized_row": "20033619,Hon. Gilbert Cisneros,Member,CA31,20033619.pdf,2025,91,,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests,LB,LB,ST,P,2025-11-21,2025-12-12,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,150 Main Street Trust > Wells Fargo Advisors,,,,11,11,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf,,,,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] Filing Status: New Subholding Of: 150 Main Street Trust >,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST],P Wells Fargo Advi,11/21/2025 isors,12/12/2025,\"$15,001 - $50,000\",,\"LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests (LB) [ST] P 11/21/2025 12/12/2025 $15,001 - $50,000 Filing Status: New Subholding Of: 150 Main Street Trust > Wells Fargo Advisors\",,,False,100,LB,accepted,house_ptr_structure+v8_1,False,False,True,11/21/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " Wells Fargo Advi",
+    "result": "P"
+  }
 }

@@ -269,5 +269,11 @@
     "raw_date_prefix": "07/01/2024",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030869,Hon. Shri Thanedar,Member,MI13,20030869.pdf,2025,1,,MicroStrategy Incorporated - Class A Common Stock,MicroStrategy Incorporated - Class A Common Stock,MSTR,MSTR,ST,P,2024-07-01,2024-07-01,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030869.pdf,,,,MicroStrategy Incorporated - Class A Common Stock (MSTR) [ST] Filing Status: New,MicroStrategy Incorporated - Class A Common Stock (MSTR) [ST],P,07/01/2024,07/01/2024,\"$15,001 - $50,000\",,\"MicroStrategy Incorporated - Class A Common Stock (MSTR) [ST] P 07/01/2024 07/01/2024 $15,001 - $50,000 Filing Status: New\",,,False,100,MSTR,accepted,house_ptr_structure+v8_1,False,False,False,07/01/2024,False\n"
+  "csv_serialized_row": "20030869,Hon. Shri Thanedar,Member,MI13,20030869.pdf,2025,1,,MicroStrategy Incorporated - Class A Common Stock,MicroStrategy Incorporated - Class A Common Stock,MSTR,MSTR,ST,P,2024-07-01,2024-07-01,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030869.pdf,,,,MicroStrategy Incorporated - Class A Common Stock (MSTR) [ST] Filing Status: New,MicroStrategy Incorporated - Class A Common Stock (MSTR) [ST],P,07/01/2024,07/01/2024,\"$15,001 - $50,000\",,\"MicroStrategy Incorporated - Class A Common Stock (MSTR) [ST] P 07/01/2024 07/01/2024 $15,001 - $50,000 Filing Status: New\",,,False,100,MSTR,accepted,house_ptr_structure+v8_1,False,False,False,07/01/2024,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": "",
+    "result": "P"
+  }
 }

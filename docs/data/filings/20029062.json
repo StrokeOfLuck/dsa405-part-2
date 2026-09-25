@@ -287,5 +287,11 @@
     "raw_date_prefix": "10/29/2024",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20029062,Hon. Dwight Evans,Member,PA03,20029062.pdf,2025,1,,\"Amazon.com, Inc. - Common Stock\",\"Amazon.com, Inc. - Common Stock\",AMZN,AMZN,ST,S,2024-10-29,2025-04-02,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,PERSHING LLC,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029062.pdf,,,,\"Amazon.com, Inc. - Common Stock (AMZN) [ST] Filing Status: New Subholding Of: PERSHING LLC\",\"Amazon.com, Inc. - Common Stock (AMZN) [ST]\",S,10/29/2024,04/02/2025,\"$15,001 - $50,000\",,\"Amazon.com, Inc. - Common Stock (AMZN) [ST] S 10/29/2024 04/02/2025 $15,001 - $50,000 Filing Status: New Subholding Of: PERSHING LLC\",,,False,100,AMZN,accepted,house_ptr_structure+v8_1,False,False,False,10/29/2024,False\n"
+  "csv_serialized_row": "20029062,Hon. Dwight Evans,Member,PA03,20029062.pdf,2025,1,,\"Amazon.com, Inc. - Common Stock\",\"Amazon.com, Inc. - Common Stock\",AMZN,AMZN,ST,S,2024-10-29,2025-04-02,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,PERSHING LLC,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029062.pdf,,,,\"Amazon.com, Inc. - Common Stock (AMZN) [ST] Filing Status: New Subholding Of: PERSHING LLC\",\"Amazon.com, Inc. - Common Stock (AMZN) [ST]\",S,10/29/2024,04/02/2025,\"$15,001 - $50,000\",,\"Amazon.com, Inc. - Common Stock (AMZN) [ST] S 10/29/2024 04/02/2025 $15,001 - $50,000 Filing Status: New Subholding Of: PERSHING LLC\",,,False,100,AMZN,accepted,house_ptr_structure+v8_1,False,False,False,10/29/2024,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": "",
+    "result": "S"
+  }
 }

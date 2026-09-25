@@ -269,5 +269,11 @@
     "raw_date_prefix": "10/20/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20033320,Hon. Debbie Wasserman Schultz,Member,FL25,20033320.pdf,2025,1,DC,\"AngioDynamics, Inc. - Common Stock\",\"AngioDynamics, Inc. - Common Stock\",ANGO,ANGO,ST,S,2025-10-20,2025-10-21,,,,,missing_range_bound,New,,,Dependent Child C,,1,1,table,False,False,,False,0,False,False,80,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033320.pdf,high,missing_range_bound,DC,\"AngioDynamics, Inc. - Common Stock (ANGO) [ST] Filing Status: New Description: Dependent Child C\",\"AngioDynamics, Inc. - Common Stock (ANGO) [ST]\",S,10/20/2025,10/21/2025,\"$2,000.00\",,\"DC AngioDynamics, Inc. - Common Stock (ANGO) [ST] S 10/20/2025 10/21/2025 $2,000.00 Filing Status: New Description: Dependent Child C\",missing_range_bound,high,True,80,ANGO,accepted,house_ptr_structure+v8_1,False,False,False,10/20/2025,False\n"
+  "csv_serialized_row": "20033320,Hon. Debbie Wasserman Schultz,Member,FL25,20033320.pdf,2025,1,DC,\"AngioDynamics, Inc. - Common Stock\",\"AngioDynamics, Inc. - Common Stock\",ANGO,ANGO,ST,S,2025-10-20,2025-10-21,,,,,missing_range_bound,New,,,Dependent Child C,,1,1,table,False,False,,False,0,False,False,80,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033320.pdf,high,missing_range_bound,DC,\"AngioDynamics, Inc. - Common Stock (ANGO) [ST] Filing Status: New Description: Dependent Child C\",\"AngioDynamics, Inc. - Common Stock (ANGO) [ST]\",S,10/20/2025,10/21/2025,\"$2,000.00\",,\"DC AngioDynamics, Inc. - Common Stock (ANGO) [ST] S 10/20/2025 10/21/2025 $2,000.00 Filing Status: New Description: Dependent Child C\",missing_range_bound,high,True,80,ANGO,accepted,house_ptr_structure+v8_1,False,False,False,10/20/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": "",
+    "result": "S"
+  }
 }

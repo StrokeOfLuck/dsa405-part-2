@@ -287,5 +287,11 @@
     "raw_date_prefix": "11/20/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20033559,Cleo Fields,Member,LA06,20033559.pdf,2025,1,,\"Netflix, Inc. - Common Stock\",\"Netflix, Inc. - Common Stock\",NFLX,NFLX,ST,P,2025-11-20,2025-11-20,100001.0,250000.0,,\"$100,001 - $250,000\",valid_range,New,\"Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC\",,,,1,1,table,False,False,,False,0,True,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033559.pdf,low,adjacent transaction has same core signature,,\"Netflix, Inc. - Common Stock (NFLX) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*TRA\",\"Netflix, Inc. - Common Stock (NFLX) [ST]\",P ADE - Fields Law,\"11/20/2025 Firm 2, LLC\",11/20/2025,\"$100,001 - $250,000\",,\"Netflix, Inc. - Common Stock (NFLX) [ST] P 11/20/2025 11/20/2025 $100,001 - $250,000 Filing Status: New Subholding Of: Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC\",adjacent transaction has same core signature,low,True,95,NFLX,accepted,house_ptr_structure+v8_1,False,False,True,11/20/2025,False\n"
+  "csv_serialized_row": "20033559,Cleo Fields,Member,LA06,20033559.pdf,2025,1,,\"Netflix, Inc. - Common Stock\",\"Netflix, Inc. - Common Stock\",NFLX,NFLX,ST,P,2025-11-20,2025-11-20,100001.0,250000.0,,\"$100,001 - $250,000\",valid_range,New,\"Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC\",,,,1,1,table,False,False,,False,0,True,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033559.pdf,low,adjacent transaction has same core signature,,\"Netflix, Inc. - Common Stock (NFLX) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*TRA\",\"Netflix, Inc. - Common Stock (NFLX) [ST]\",P ADE - Fields Law,\"11/20/2025 Firm 2, LLC\",11/20/2025,\"$100,001 - $250,000\",,\"Netflix, Inc. - Common Stock (NFLX) [ST] P 11/20/2025 11/20/2025 $100,001 - $250,000 Filing Status: New Subholding Of: Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC\",adjacent transaction has same core signature,low,True,95,NFLX,accepted,house_ptr_structure+v8_1,False,False,True,11/20/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " ADE - Fields Law",
+    "result": "P"
+  }
 }

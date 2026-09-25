@@ -287,5 +287,11 @@
     "raw_date_prefix": "06/20/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030630,Hon. Nancy Pelosi,Member,CA11,20030630.pdf,2025,1,SP,Broadcom Inc. - Common Stock,Broadcom Inc. - Common Stock,AVGO,AVGO,ST,P,2025-06-20,2025-06-20,1000001.0,5000000.0,,\"$1,000,001 - $5,000,000\",valid_range,New,,,\"Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.\",,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030630.pdf,,,SP,Broadcom Inc. - Common Stock (AVGO) [ST] Filing Status: New Description: Exercised 200 call options of 6/20/25.,Broadcom Inc. - Common Stock (AVGO) [ST],P purchased 6/24/,\"06/20/2025 24 (20,000 sha\",06/20/2025 ares) at a strike pr,\"$1,000,001 - $5,000,000 rice of $80 with an ex\",,\"SP Broadcom Inc. - Common Stock (AVGO) [ST] P 06/20/2025 06/20/2025 $1,000,001 - $5,000,000 Filing Status: New Description: Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.\",,,False,100,AVGO,accepted,house_ptr_structure+v8_1,False,False,True,06/20/2025,False\n"
+  "csv_serialized_row": "20030630,Hon. Nancy Pelosi,Member,CA11,20030630.pdf,2025,1,SP,Broadcom Inc. - Common Stock,Broadcom Inc. - Common Stock,AVGO,AVGO,ST,P,2025-06-20,2025-06-20,1000001.0,5000000.0,,\"$1,000,001 - $5,000,000\",valid_range,New,,,\"Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.\",,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030630.pdf,,,SP,Broadcom Inc. - Common Stock (AVGO) [ST] Filing Status: New Description: Exercised 200 call options of 6/20/25.,Broadcom Inc. - Common Stock (AVGO) [ST],P purchased 6/24/,\"06/20/2025 24 (20,000 sha\",06/20/2025 ares) at a strike pr,\"$1,000,001 - $5,000,000 rice of $80 with an ex\",,\"SP Broadcom Inc. - Common Stock (AVGO) [ST] P 06/20/2025 06/20/2025 $1,000,001 - $5,000,000 Filing Status: New Description: Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.\",,,False,100,AVGO,accepted,house_ptr_structure+v8_1,False,False,True,06/20/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " purchased 6/24/",
+    "result": "P"
+  }
 }

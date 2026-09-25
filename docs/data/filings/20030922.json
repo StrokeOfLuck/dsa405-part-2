@@ -341,5 +341,11 @@
     "raw_date_prefix": "02/11/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030922,Hon. Daniel Meuser,Member,PA09,20030922.pdf,2025,1,SP,Alphabet Inc. - Class A Common Stock,Alphabet Inc. - Class A Common Stock,GOOGL,GOOGL,ST,S,2025-02-11,2025-02-11,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,Schwab Brokerage Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030922.pdf,,,SP,Alphabet Inc. - Class A Common Stock (GOOGL) [ST] Filing Status: New Subholding Of: Schwab Brokerage Accou,Alphabet Inc. - Class A Common Stock (GOOGL) [ST],S unt,02/11/2025,02/11/2025,\"$50,001 - $100,000\",,\"SP Alphabet Inc. - Class A Common Stock (GOOGL) [ST] S 02/11/2025 02/11/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Schwab Brokerage Account\",,,False,100,GOOGL,accepted,house_ptr_structure+v8_1,False,False,False,02/11/2025,False\n"
+  "csv_serialized_row": "20030922,Hon. Daniel Meuser,Member,PA09,20030922.pdf,2025,1,SP,Alphabet Inc. - Class A Common Stock,Alphabet Inc. - Class A Common Stock,GOOGL,GOOGL,ST,S,2025-02-11,2025-02-11,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,Schwab Brokerage Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030922.pdf,,,SP,Alphabet Inc. - Class A Common Stock (GOOGL) [ST] Filing Status: New Subholding Of: Schwab Brokerage Accou,Alphabet Inc. - Class A Common Stock (GOOGL) [ST],S unt,02/11/2025,02/11/2025,\"$50,001 - $100,000\",,\"SP Alphabet Inc. - Class A Common Stock (GOOGL) [ST] S 02/11/2025 02/11/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Schwab Brokerage Account\",,,False,100,GOOGL,accepted,house_ptr_structure+v8_1,False,False,False,02/11/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " unt",
+    "result": "S"
+  }
 }

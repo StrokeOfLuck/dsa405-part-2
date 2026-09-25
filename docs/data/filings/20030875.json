@@ -287,5 +287,11 @@
     "raw_date_prefix": "12/29/2023",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030875,Hon. Laurel Lee,Member,FL15,20030875.pdf,2025,1,SP,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,BABA,BABA,ST,S,2023-12-29,2024-01-03,100001.0,250000.0,,\"$100,001 - $250,000\",valid_range,Amended,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030875.pdf,,,SP,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] Filing Status: Amended,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST],S,12/29/2023,01/03/2024,\"$100,001 - $250,000\",,\"2000114315 SP Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] S 12/29/2023 01/03/2024 $100,001 - $250,000 Filing Status: Amended\",,,False,100,BABA,accepted,house_ptr_structure+v8_1,False,False,False,12/29/2023,False\n"
+  "csv_serialized_row": "20030875,Hon. Laurel Lee,Member,FL15,20030875.pdf,2025,1,SP,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,BABA,BABA,ST,S,2023-12-29,2024-01-03,100001.0,250000.0,,\"$100,001 - $250,000\",valid_range,Amended,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030875.pdf,,,SP,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] Filing Status: Amended,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST],S,12/29/2023,01/03/2024,\"$100,001 - $250,000\",,\"2000114315 SP Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] S 12/29/2023 01/03/2024 $100,001 - $250,000 Filing Status: Amended\",,,False,100,BABA,accepted,house_ptr_structure+v8_1,False,False,False,12/29/2023,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": "",
+    "result": "S"
+  }
 }

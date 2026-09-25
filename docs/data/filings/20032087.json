@@ -287,5 +287,11 @@
     "raw_date_prefix": "09/15/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20032087,Hon. Debbie Wasserman Schultz,Member,FL25,20032087.pdf,2025,1,DC,Berry Corporation,Berry Corporation,BRY,BRY,ST,S,2025-09-15,2025-09-16,,,2761.57,,nonstandard_exact,New,,,Dependent Child C,,1,1,table,False,False,,False,0,False,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032087.pdf,low,nonstandard_exact,DC,Berry Corporation (BRY) [ST] Filing Status: New Description: Dependent Child C,Berry Corporation (BRY) [ST],S,09/15/2025,09/16/2025,\"$2,761.57\",,\"DC Berry Corporation (BRY) [ST] S 09/15/2025 09/16/2025 $2,761.57 Filing Status: New Description: Dependent Child C\",nonstandard_exact,low,True,95,BRY,accepted,house_ptr_structure+v8_1,False,False,False,09/15/2025,False\n"
+  "csv_serialized_row": "20032087,Hon. Debbie Wasserman Schultz,Member,FL25,20032087.pdf,2025,1,DC,Berry Corporation,Berry Corporation,BRY,BRY,ST,S,2025-09-15,2025-09-16,,,2761.57,,nonstandard_exact,New,,,Dependent Child C,,1,1,table,False,False,,False,0,False,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032087.pdf,low,nonstandard_exact,DC,Berry Corporation (BRY) [ST] Filing Status: New Description: Dependent Child C,Berry Corporation (BRY) [ST],S,09/15/2025,09/16/2025,\"$2,761.57\",,\"DC Berry Corporation (BRY) [ST] S 09/15/2025 09/16/2025 $2,761.57 Filing Status: New Description: Dependent Child C\",nonstandard_exact,low,True,95,BRY,accepted,house_ptr_structure+v8_1,False,False,False,09/15/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": "",
+    "result": "S"
+  }
 }

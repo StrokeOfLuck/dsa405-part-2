@@ -185,7 +185,7 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
     rules = [
         ("asset", "Clean asset name", "parse_pdf_geometry_v8", 'asset = ASSET_TYPE_RE.sub', "Separate filing details, remove the asset-type marker and accepted ticker, then trim whitespace. The complete function also shows the description fallback and owner cleanup.", ["asset_raw", "ticker", "detail_raw"], ["asset"]),
         ("ticker", "Extract ticker", "extract_ticker_from_context", "def extract_ticker_from_context", "Look for ticker candidates in the asset context and apply the Stage 3 validation rules. This precedes the Stage 4 ticker review.", ["asset_lookup_context", "asset_type"], ["ticker"]),
-        ("transaction_type", "Parse trade type", "extract_core_values", "def extract_core_values", "Use the transaction-code pattern to extract the type, including a partial/full qualifier when present.", ["transaction_type_raw"], ["transaction_type"]),
+        ("transaction_type", "Parse trade type", "extract_core_values", "transaction_type = type_match.group(1).upper()", "Use the transaction-code pattern to extract the type, including a partial/full qualifier when present.", ["transaction_type_raw"], ["transaction_type"]),
         ("transaction_date", "Extract date token", "extract_core_values", "transaction_dates = DATE_RE.findall", "Find the first date token in the clipped column text before converting its format. The next date button shows that conversion.", ["transaction_date_raw"], ["date_token"]),
         ("transaction_date", "Normalize trade date", "to_iso_date", "return datetime.strptime", "Convert the extracted date token to YYYY-MM-DD. Use Extract date token to see how that token was selected from the original text.", ["date_token"], ["transaction_date"]),
         ("amount_min", "Parse amount range", "parse_amount_text", "def parse_amount_text", "Parse the disclosed amount, including continuation text when needed, into numeric bounds and an amount classification.", ["amount_raw", "continuation_raw"], ["amount_min", "amount_max"]),
@@ -197,6 +197,11 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
         card = src(label, "Pinned Stage 3 parser", source_url + f"stage3_extract.py#L{line}", body, explanation, ", ".join(inputs), ", ".join(outputs))
         card.update(start_line=line, parsed_field=field, input_keys=inputs, output_keys=outputs, focus_token=token)
         parsed_cards.append(card)
+    pattern_node = next(node for node in ast.parse(parser).body if isinstance(node, ast.Assign) and any(isinstance(target, ast.Name) and target.id == "TXN_RE" for target in node.targets))
+    pattern_code = "\n".join(parser.splitlines()[pattern_node.lineno-1:pattern_node.end_lineno])
+    pattern_card = src("Show trade matching pattern", "Pinned Stage 3 parser", source_url + f"stage3_extract.py#L{pattern_node.lineno}", pattern_code, "Match a standalone P, S, or E, optionally followed by (partial) or (full). Text outside the match is not included in the parsed trade type.", "transaction_type_raw", "Matched trade token")
+    pattern_card.update(start_line=pattern_node.lineno, parsed_field="transaction_type", input_keys=["transaction_type_raw"], output_keys=["transaction_type"], focus_token='r"(?<!')
+    parsed_cards.append(pattern_card)
     steps["parse"] = parsed_cards + steps["parse"]
     resolve_rules = [
         ("decision", "Explain ticker decision", "resolve_ticker", "def resolve_ticker", "Classify the candidate using asset type, the earlier ticker, source structure, and any reference match. The values below include the recorded validation source.", ["stage3.asset_type", "stage4.ticker_v8_1", "stage4.ticker_candidate_raw"], ["stage4.ticker_parse_status", "stage4.ticker_validation_source"]),
@@ -337,6 +342,14 @@ def enrich_fallback(examples):
             with (OUT / example["csv_url"]).open(encoding="utf-8", newline="") as stream:
                 rows = list(csv.DictReader(stream))
             record = next(row for row in rows if row["transaction_number_in_filing"] == example["spotlight_row"])
+            parser_text = (ROOT / "data/upstream/house-ptr-scraper/src/stage3_extract.py").read_text(encoding="utf-8")
+            txn_node = next(node for node in ast.parse(parser_text).body if isinstance(node, ast.Assign) and any(isinstance(target, ast.Name) and target.id == "TXN_RE" for target in node.targets))
+            pattern = re.compile(ast.literal_eval(txn_node.value.args[0]), re.I)
+            raw_type = example["stage3"]["transaction_type_raw"]
+            match = pattern.search(raw_type)
+            parsed_type = (match.group(1).upper() + (" (" + match.group(2).lower() + ")" if match.group(2) else "")) if match else ""
+            assert parsed_type == example["stage3"]["transaction_type"]
+            example["trade_match"] = {"matched": match.group(0) if match else "", "before": raw_type[:match.start()] if match else raw_type, "after": raw_type[match.end():] if match else "", "result": parsed_type}
             example["csv_record"] = record
             buffer = io.StringIO(newline="")
             writer = csv.writer(buffer, lineterminator="\n")

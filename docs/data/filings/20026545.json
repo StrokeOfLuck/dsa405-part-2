@@ -323,5 +323,11 @@
     "raw_date_prefix": "12/16/2024",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20026545,Hon. Jonathan Jackson,Member,IL01,20026545.pdf,2025,1,JT,General Dynamics Corporation Common Stock,General Dynamics Corporation Common Stock,GD,GD,ST,S,2024-12-16,2025-01-09,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Morgan Stanley Trust Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026545.pdf,,,JT,General Dynamics Corporation Common Stock (GD) [ST] Filing Status: New Subholding Of: Morgan Stanley Trust A,General Dynamics Corporation Common Stock (GD) [ST],S Account,12/16/2024,01/09/2025,\"$15,001 - $50,000\",,\"JT General Dynamics Corporation Common Stock (GD) [ST] S 12/16/2024 01/09/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley Trust Account\",,,False,100,GD,accepted,house_ptr_structure+v8_1,False,False,False,12/16/2024,False\n"
+  "csv_serialized_row": "20026545,Hon. Jonathan Jackson,Member,IL01,20026545.pdf,2025,1,JT,General Dynamics Corporation Common Stock,General Dynamics Corporation Common Stock,GD,GD,ST,S,2024-12-16,2025-01-09,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Morgan Stanley Trust Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026545.pdf,,,JT,General Dynamics Corporation Common Stock (GD) [ST] Filing Status: New Subholding Of: Morgan Stanley Trust A,General Dynamics Corporation Common Stock (GD) [ST],S Account,12/16/2024,01/09/2025,\"$15,001 - $50,000\",,\"JT General Dynamics Corporation Common Stock (GD) [ST] S 12/16/2024 01/09/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley Trust Account\",,,False,100,GD,accepted,house_ptr_structure+v8_1,False,False,False,12/16/2024,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " Account",
+    "result": "S"
+  }
 }

@@ -269,5 +269,11 @@
     "raw_date_prefix": "03/07/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20027937,Hon. Mikie Sherrill,Member,NJ11,20027937.pdf,2025,1,JT,UBS Group AG Registered Ordinary Shares,UBS Group AG Registered Ordinary Shares,UBS,UBS,ST,S (partial),2025-03-07,2025-03-10,250001.0,500000.0,,\"$250,001 - $500,000\",valid_range,New,Brokerage 90126,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027937.pdf,,,JT,UBS Group AG Registered Ordinary Shares (UBS) [ST] Filing Status: New Subholding Of: Brokerage 90126,UBS Group AG Registered Ordinary Shares (UBS) [ST],S (partial),03/07/2025,03/10/2025,\"$250,001 - $500,000\",,\"JT UBS Group AG Registered Ordinary Shares (UBS) [ST] S (partial) 03/07/2025 03/10/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Brokerage 90126\",,,False,100,UBS,accepted,house_ptr_structure+v8_1,False,False,False,03/07/2025,False\n"
+  "csv_serialized_row": "20027937,Hon. Mikie Sherrill,Member,NJ11,20027937.pdf,2025,1,JT,UBS Group AG Registered Ordinary Shares,UBS Group AG Registered Ordinary Shares,UBS,UBS,ST,S (partial),2025-03-07,2025-03-10,250001.0,500000.0,,\"$250,001 - $500,000\",valid_range,New,Brokerage 90126,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027937.pdf,,,JT,UBS Group AG Registered Ordinary Shares (UBS) [ST] Filing Status: New Subholding Of: Brokerage 90126,UBS Group AG Registered Ordinary Shares (UBS) [ST],S (partial),03/07/2025,03/10/2025,\"$250,001 - $500,000\",,\"JT UBS Group AG Registered Ordinary Shares (UBS) [ST] S (partial) 03/07/2025 03/10/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Brokerage 90126\",,,False,100,UBS,accepted,house_ptr_structure+v8_1,False,False,False,03/07/2025,False\n",
+  "trade_match": {
+    "matched": "S (partial)",
+    "before": "",
+    "after": "",
+    "result": "S (partial)"
+  }
 }

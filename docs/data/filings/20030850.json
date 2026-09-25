@@ -305,5 +305,11 @@
     "raw_date_prefix": "07/10/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030850,Hon. Richard W. Allen,Member,GA12,20030850.pdf,2025,1,SP,Charles Schwab Corporation,Charles Schwab Corporation,SCHW,SCHW,ST,P,2025-07-10,2025-08-07,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,\"R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030850.pdf,,,SP,Charles Schwab Corporation (SCHW) [ST] Filing Status: New Subholding Of: R.W. Allen & Associates,Charles Schwab Corporation (SCHW) [ST],\"P s, Inc. > RWA&A -\",07/10/2025 - Securities,08/07/2025,\"$15,001 - $50,000\",,\"SP Charles Schwab Corporation (SCHW) [ST] P 07/10/2025 08/07/2025 $15,001 - $50,000 Filing Status: New Subholding Of: R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,False,100,SCHW,accepted,house_ptr_structure+v8_1,False,False,True,07/10/2025,False\n"
+  "csv_serialized_row": "20030850,Hon. Richard W. Allen,Member,GA12,20030850.pdf,2025,1,SP,Charles Schwab Corporation,Charles Schwab Corporation,SCHW,SCHW,ST,P,2025-07-10,2025-08-07,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,\"R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030850.pdf,,,SP,Charles Schwab Corporation (SCHW) [ST] Filing Status: New Subholding Of: R.W. Allen & Associates,Charles Schwab Corporation (SCHW) [ST],\"P s, Inc. > RWA&A -\",07/10/2025 - Securities,08/07/2025,\"$15,001 - $50,000\",,\"SP Charles Schwab Corporation (SCHW) [ST] P 07/10/2025 08/07/2025 $15,001 - $50,000 Filing Status: New Subholding Of: R.W. Allen & Associates, Inc. > RWA&A - Securities\",,,False,100,SCHW,accepted,house_ptr_structure+v8_1,False,False,True,07/10/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " s, Inc. > RWA&A -",
+    "result": "P"
+  }
 }

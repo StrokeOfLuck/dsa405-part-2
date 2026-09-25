@@ -341,5 +341,11 @@
     "raw_date_prefix": "03/18/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20032149,Hon. Sheri Biggs,Member,SC03,20032149.pdf,2025,1,SP,\"Air Products and Chemicals, Inc. Common Stock\",\"Air Products and Chemicals, Inc. Common Stock\",APD,APD,ST,S,2025-03-18,2025-08-11,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,W.S.B Trust > UBS Financial Services Inc 35,,Professionally managed account.,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf,,,SP,\"Air Products and Chemicals, Inc. Common Stock (APD) [ST] Filing Status: New Subholding Of: W.S.B Trust > UBS Fina Description: Professionally managed acc\",\"Air Products and Chemicals, Inc. Common Stock (APD) [ST]\",S ancial Services Inc count.,03/18/2025 c 35,08/11/2025,\"$15,001 - $50,000\",,\"SP Air Products and Chemicals, Inc. Common Stock (APD) [ST] S 03/18/2025 08/11/2025 $15,001 - $50,000 Filing Status: New Subholding Of: W.S.B Trust > UBS Financial Services Inc 35 Description: Professionally managed account.\",,,False,100,APD,accepted,house_ptr_structure+v8_1,False,False,True,03/18/2025,False\n"
+  "csv_serialized_row": "20032149,Hon. Sheri Biggs,Member,SC03,20032149.pdf,2025,1,SP,\"Air Products and Chemicals, Inc. Common Stock\",\"Air Products and Chemicals, Inc. Common Stock\",APD,APD,ST,S,2025-03-18,2025-08-11,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,W.S.B Trust > UBS Financial Services Inc 35,,Professionally managed account.,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf,,,SP,\"Air Products and Chemicals, Inc. Common Stock (APD) [ST] Filing Status: New Subholding Of: W.S.B Trust > UBS Fina Description: Professionally managed acc\",\"Air Products and Chemicals, Inc. Common Stock (APD) [ST]\",S ancial Services Inc count.,03/18/2025 c 35,08/11/2025,\"$15,001 - $50,000\",,\"SP Air Products and Chemicals, Inc. Common Stock (APD) [ST] S 03/18/2025 08/11/2025 $15,001 - $50,000 Filing Status: New Subholding Of: W.S.B Trust > UBS Financial Services Inc 35 Description: Professionally managed account.\",,,False,100,APD,accepted,house_ptr_structure+v8_1,False,False,True,03/18/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " ancial Services Inc count.",
+    "result": "S"
+  }
 }

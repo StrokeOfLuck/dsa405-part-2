@@ -269,5 +269,11 @@
     "raw_date_prefix": "04/03/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030233,Hon. Victoria Spartz,Member,IN05,20030233.pdf,2025,1,SP,\"Simon Property Group, Inc. Common Stock\",\"Simon Property Group, Inc. Common Stock\",SPG,SPG,ST,P,2025-04-03,2025-04-20,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Charles Schwab Roth IRA,,This Transaction was made by Jason Spartz (spouse) Roth IRA,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030233.pdf,,,SP,\"Simon Property Group, Inc. Common Stock (SPG) [ST] Filing Status: New Subholding Of: Charles Schwab Roth IR Description: This Transaction was made\",\"Simon Property Group, Inc. Common Stock (SPG) [ST]\",P RA e by Jason Spartz,04/03/2025 (spouse) Roth,04/20/2025 IRA,\"$1,001 - $15,000\",,\"SP Simon Property Group, Inc. Common Stock (SPG) [ST] P 04/03/2025 04/20/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Charles Schwab Roth IRA Description: This Transaction was made by Jason Spartz (spouse) Roth IRA\",,,False,100,SPG,accepted,house_ptr_structure+v8_1,False,False,True,04/03/2025,False\n"
+  "csv_serialized_row": "20030233,Hon. Victoria Spartz,Member,IN05,20030233.pdf,2025,1,SP,\"Simon Property Group, Inc. Common Stock\",\"Simon Property Group, Inc. Common Stock\",SPG,SPG,ST,P,2025-04-03,2025-04-20,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Charles Schwab Roth IRA,,This Transaction was made by Jason Spartz (spouse) Roth IRA,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030233.pdf,,,SP,\"Simon Property Group, Inc. Common Stock (SPG) [ST] Filing Status: New Subholding Of: Charles Schwab Roth IR Description: This Transaction was made\",\"Simon Property Group, Inc. Common Stock (SPG) [ST]\",P RA e by Jason Spartz,04/03/2025 (spouse) Roth,04/20/2025 IRA,\"$1,001 - $15,000\",,\"SP Simon Property Group, Inc. Common Stock (SPG) [ST] P 04/03/2025 04/20/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Charles Schwab Roth IRA Description: This Transaction was made by Jason Spartz (spouse) Roth IRA\",,,False,100,SPG,accepted,house_ptr_structure+v8_1,False,False,True,04/03/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " RA e by Jason Spartz",
+    "result": "P"
+  }
 }

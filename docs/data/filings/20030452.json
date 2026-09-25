@@ -305,5 +305,11 @@
     "raw_date_prefix": "05/14/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030452,Hon. Jonathan Jackson,Member,IL01,20030452.pdf,2025,1,JT,\"Church & Dwight Company, Inc. Common Stock\",\"Church & Dwight Company, Inc. Common Stock\",CHD,CHD,ST,S,2025-05-14,2025-06-03,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Morgan Stanley Trust Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030452.pdf,,,JT,\"Church & Dwight Company, Inc. Common Stock (CHD) [ST] Filing Status: New Subholding Of: Morgan Stanley Trust Ac\",\"Church & Dwight Company, Inc. Common Stock (CHD) [ST]\",S ccount,05/14/2025,06/03/2025,\"$15,001 - $50,000\",,\"JT Church & Dwight Company, Inc. Common Stock (CHD) [ST] S 05/14/2025 06/03/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley Trust Account\",,,False,100,CHD,accepted,house_ptr_structure+v8_1,False,False,False,05/14/2025,False\n"
+  "csv_serialized_row": "20030452,Hon. Jonathan Jackson,Member,IL01,20030452.pdf,2025,1,JT,\"Church & Dwight Company, Inc. Common Stock\",\"Church & Dwight Company, Inc. Common Stock\",CHD,CHD,ST,S,2025-05-14,2025-06-03,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Morgan Stanley Trust Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030452.pdf,,,JT,\"Church & Dwight Company, Inc. Common Stock (CHD) [ST] Filing Status: New Subholding Of: Morgan Stanley Trust Ac\",\"Church & Dwight Company, Inc. Common Stock (CHD) [ST]\",S ccount,05/14/2025,06/03/2025,\"$15,001 - $50,000\",,\"JT Church & Dwight Company, Inc. Common Stock (CHD) [ST] S 05/14/2025 06/03/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley Trust Account\",,,False,100,CHD,accepted,house_ptr_structure+v8_1,False,False,False,05/14/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " ccount",
+    "result": "S"
+  }
 }

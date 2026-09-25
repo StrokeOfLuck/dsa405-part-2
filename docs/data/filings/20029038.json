@@ -341,5 +341,11 @@
     "raw_date_prefix": "03/31/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20029038,Hon. Jefferson Shreve,Member,IN06,20029038.pdf,2025,1,,Accenture plc Class A Ordinary Shares,Accenture plc Class A Ordinary Shares,ACN,ACN,ST,S,2025-03-31,2025-04-03,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,CRT - Standard Unit Trust,,Portfolio Rebalance,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029038.pdf,,,,Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: CRT - Standard Unit Tru Description: Portfolio Rebalance,Accenture plc Class A Ordinary Shares (ACN) [ST],S ust,03/31/2025,04/03/2025,\"$15,001 - $50,000\",,\"Accenture plc Class A Ordinary Shares (ACN) [ST] S 03/31/2025 04/03/2025 $15,001 - $50,000 Filing Status: New Subholding Of: CRT - Standard Unit Trust Description: Portfolio Rebalance\",,,False,100,ACN,accepted,house_ptr_structure+v8_1,False,False,False,03/31/2025,False\n"
+  "csv_serialized_row": "20029038,Hon. Jefferson Shreve,Member,IN06,20029038.pdf,2025,1,,Accenture plc Class A Ordinary Shares,Accenture plc Class A Ordinary Shares,ACN,ACN,ST,S,2025-03-31,2025-04-03,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,CRT - Standard Unit Trust,,Portfolio Rebalance,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029038.pdf,,,,Accenture plc Class A Ordinary Shares (ACN) [ST] Filing Status: New Subholding Of: CRT - Standard Unit Tru Description: Portfolio Rebalance,Accenture plc Class A Ordinary Shares (ACN) [ST],S ust,03/31/2025,04/03/2025,\"$15,001 - $50,000\",,\"Accenture plc Class A Ordinary Shares (ACN) [ST] S 03/31/2025 04/03/2025 $15,001 - $50,000 Filing Status: New Subholding Of: CRT - Standard Unit Trust Description: Portfolio Rebalance\",,,False,100,ACN,accepted,house_ptr_structure+v8_1,False,False,False,03/31/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " ust",
+    "result": "S"
+  }
 }

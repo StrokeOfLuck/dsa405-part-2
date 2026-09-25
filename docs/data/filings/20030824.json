@@ -341,5 +341,11 @@
     "raw_date_prefix": "07/14/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030824,Hon. Tim Moore,Member,NC14,20030824.pdf,2025,1,,Centene Corporation Common Stock,Centene Corporation Common Stock,CNC,CNC,ST,P,2025-07-14,2025-08-04,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf,,,,Centene Corporation Common Stock (CNC) [ST] Filing Status: New,Centene Corporation Common Stock (CNC) [ST],P,07/14/2025,08/04/2025,\"$15,001 - $50,000\",,\"Centene Corporation Common Stock (CNC) [ST] P 07/14/2025 08/04/2025 $15,001 - $50,000 Filing Status: New\",,,False,100,CNC,accepted,house_ptr_structure+v8_1,False,False,False,07/14/2025,False\n"
+  "csv_serialized_row": "20030824,Hon. Tim Moore,Member,NC14,20030824.pdf,2025,1,,Centene Corporation Common Stock,Centene Corporation Common Stock,CNC,CNC,ST,P,2025-07-14,2025-08-04,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf,,,,Centene Corporation Common Stock (CNC) [ST] Filing Status: New,Centene Corporation Common Stock (CNC) [ST],P,07/14/2025,08/04/2025,\"$15,001 - $50,000\",,\"Centene Corporation Common Stock (CNC) [ST] P 07/14/2025 08/04/2025 $15,001 - $50,000 Filing Status: New\",,,False,100,CNC,accepted,house_ptr_structure+v8_1,False,False,False,07/14/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": "",
+    "result": "P"
+  }
 }

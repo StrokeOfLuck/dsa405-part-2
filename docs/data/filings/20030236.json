@@ -269,5 +269,11 @@
     "raw_date_prefix": "04/03/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030236,Hon. Max Miller,Member,OH07,20030236.pdf,2025,1,,\"New Water Capital Partners II, LP (GLAS Funds, LP)\",\"New Water Capital Partners II, LP (GLAS Funds, LP)\",,,HN,P,2025-04-03,2025-04-28,,,823.45,,nonstandard_exact,New,2012 Trust,,\"Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)\",,1,1,table,False,False,,False,0,False,False,95,True,30,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030236.pdf,low,nonstandard_exact,,\"New Water Capital Partners II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water\",\"New Water Capital Partners II, LP (GLAS Funds, LP) [HN]\",P Capital Partners,\"04/03/2025 II, LP (GLAS F\",04/28/2025 Funds LP),$823.45,,\"New Water Capital Partners II, LP (GLAS Funds, LP) [HN] P 04/03/2025 04/28/2025 $823.45 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)\",nonstandard_exact,low,True,95,,not_applicable,,False,False,True,04/03/2025,False\n"
+  "csv_serialized_row": "20030236,Hon. Max Miller,Member,OH07,20030236.pdf,2025,1,,\"New Water Capital Partners II, LP (GLAS Funds, LP)\",\"New Water Capital Partners II, LP (GLAS Funds, LP)\",,,HN,P,2025-04-03,2025-04-28,,,823.45,,nonstandard_exact,New,2012 Trust,,\"Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)\",,1,1,table,False,False,,False,0,False,False,95,True,30,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030236.pdf,low,nonstandard_exact,,\"New Water Capital Partners II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water\",\"New Water Capital Partners II, LP (GLAS Funds, LP) [HN]\",P Capital Partners,\"04/03/2025 II, LP (GLAS F\",04/28/2025 Funds LP),$823.45,,\"New Water Capital Partners II, LP (GLAS Funds, LP) [HN] P 04/03/2025 04/28/2025 $823.45 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)\",nonstandard_exact,low,True,95,,not_applicable,,False,False,True,04/03/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " Capital Partners",
+    "result": "P"
+  }
 }

@@ -269,5 +269,11 @@
     "raw_date_prefix": "02/28/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20027900,Hon. Mark Dr Green,Member,TN07,20027900.pdf,2025,1,JT,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests,NGL,NGL,ST,S,2025-02-28,2025-03-05,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Equitable Advisors Investment Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027900.pdf,,,JT,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] Filing Status: New Subholding Of: Equitable Advisors Inve,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST],S estment Account,02/28/2025,03/05/2025,\"$15,001 - $50,000\",,\"JT NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] S 02/28/2025 03/05/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Equitable Advisors Investment Account\",,,False,100,NGL,accepted,house_ptr_structure+v8_1,False,False,False,02/28/2025,False\n"
+  "csv_serialized_row": "20027900,Hon. Mark Dr Green,Member,TN07,20027900.pdf,2025,1,JT,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests,NGL,NGL,ST,S,2025-02-28,2025-03-05,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Equitable Advisors Investment Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027900.pdf,,,JT,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] Filing Status: New Subholding Of: Equitable Advisors Inve,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST],S estment Account,02/28/2025,03/05/2025,\"$15,001 - $50,000\",,\"JT NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests (NGL) [ST] S 02/28/2025 03/05/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Equitable Advisors Investment Account\",,,False,100,NGL,accepted,house_ptr_structure+v8_1,False,False,False,02/28/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " estment Account",
+    "result": "S"
+  }
 }

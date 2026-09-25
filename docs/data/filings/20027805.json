@@ -323,5 +323,11 @@
     "raw_date_prefix": "02/13/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20027805,Hon. Susie Lee,Member,NV03,20027805.pdf,2025,1,,\"Full House Resorts, Inc. - Common Stock\",\"Full House Resorts, Inc. - Common Stock\",FLL,FLL,ST,S (partial),2025-02-13,2025-02-13,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Fidelity Investments Brokerage #1,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027805.pdf,,,,\"Full House Resorts, Inc. - Common Stock (FLL) [ST] Filing Status: New Subholding Of: Fidelity Investments Br\",\"Full House Resorts, Inc. - Common Stock (FLL) [ST]\",S (partial) okerage #1,02/13/2025,02/13/2025,\"$15,001 - $50,000\",,\"Full House Resorts, Inc. - Common Stock (FLL) [ST] S (partial) 02/13/2025 02/13/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Fidelity Investments Brokerage #1\",,,False,100,FLL,accepted,house_ptr_structure+v8_1,False,False,False,02/13/2025,False\n"
+  "csv_serialized_row": "20027805,Hon. Susie Lee,Member,NV03,20027805.pdf,2025,1,,\"Full House Resorts, Inc. - Common Stock\",\"Full House Resorts, Inc. - Common Stock\",FLL,FLL,ST,S (partial),2025-02-13,2025-02-13,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Fidelity Investments Brokerage #1,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027805.pdf,,,,\"Full House Resorts, Inc. - Common Stock (FLL) [ST] Filing Status: New Subholding Of: Fidelity Investments Br\",\"Full House Resorts, Inc. - Common Stock (FLL) [ST]\",S (partial) okerage #1,02/13/2025,02/13/2025,\"$15,001 - $50,000\",,\"Full House Resorts, Inc. - Common Stock (FLL) [ST] S (partial) 02/13/2025 02/13/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Fidelity Investments Brokerage #1\",,,False,100,FLL,accepted,house_ptr_structure+v8_1,False,False,False,02/13/2025,False\n",
+  "trade_match": {
+    "matched": "S (partial)",
+    "before": "",
+    "after": " okerage #1",
+    "result": "S (partial)"
+  }
 }

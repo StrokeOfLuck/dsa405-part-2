@@ -269,5 +269,11 @@
     "raw_date_prefix": "05/28/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030441,Hon. Mark Dr Green,Member,TN07,20030441.pdf,2025,1,JT,\"OUNZ Van Eck Gold Trust ETF, 100% Interest\",\"OUNZ Van Eck Gold Trust ETF, 100% Interest\",,,OT,S,2025-05-28,2025-06-02,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,Equitable Advisors Investment Account,\"Clarksville, TN, US\",sale of ETF OUNZ,,1,1,table,False,False,,False,0,False,False,100,True,37,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030441.pdf,,,JT,\"OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] Filing Status: New Subholding Of: Equitable Advisors Inve Location: Clarksville, TN, US Description: sale of ETF OUNZ\",\"OUNZ Van Eck Gold Trust ETF, 100% Interest [OT]\",S estment Account,05/28/2025,06/02/2025,\"$50,001 - $100,000\",,\"JT OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] S 05/28/2025 06/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Equitable Advisors Investment Account Location: Clarksville, TN, US Description: sale of ETF OUNZ\",,,False,100,,not_applicable,,False,False,False,05/28/2025,False\n"
+  "csv_serialized_row": "20030441,Hon. Mark Dr Green,Member,TN07,20030441.pdf,2025,1,JT,\"OUNZ Van Eck Gold Trust ETF, 100% Interest\",\"OUNZ Van Eck Gold Trust ETF, 100% Interest\",,,OT,S,2025-05-28,2025-06-02,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,Equitable Advisors Investment Account,\"Clarksville, TN, US\",sale of ETF OUNZ,,1,1,table,False,False,,False,0,False,False,100,True,37,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030441.pdf,,,JT,\"OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] Filing Status: New Subholding Of: Equitable Advisors Inve Location: Clarksville, TN, US Description: sale of ETF OUNZ\",\"OUNZ Van Eck Gold Trust ETF, 100% Interest [OT]\",S estment Account,05/28/2025,06/02/2025,\"$50,001 - $100,000\",,\"JT OUNZ Van Eck Gold Trust ETF, 100% Interest [OT] S 05/28/2025 06/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Equitable Advisors Investment Account Location: Clarksville, TN, US Description: sale of ETF OUNZ\",,,False,100,,not_applicable,,False,False,False,05/28/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " estment Account",
+    "result": "S"
+  }
 }

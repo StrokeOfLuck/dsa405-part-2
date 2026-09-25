@@ -269,5 +269,11 @@
     "raw_date_prefix": "07/10/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030673,Hon. Greg Steube,Member,FL17,20030673.pdf,2025,1,SP,GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9),GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9),,,CS,P,2025-07-10,2025-07-15,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,INVESTMENT,,Corporate Note,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030673.pdf,,,SP,GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS] Filing Status: New Subholding Of: INVESTMENT Description: Corporate Note,GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS],P,07/10/2025,07/15/2025,\"$15,001 - $50,000\",,\"SP GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS] P 07/10/2025 07/15/2025 $15,001 - $50,000 Filing Status: New Subholding Of: INVESTMENT Description: Corporate Note\",,,False,100,,not_applicable,,False,False,False,07/10/2025,False\n"
+  "csv_serialized_row": "20030673,Hon. Greg Steube,Member,FL17,20030673.pdf,2025,1,SP,GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9),GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9),,,CS,P,2025-07-10,2025-07-15,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,INVESTMENT,,Corporate Note,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030673.pdf,,,SP,GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS] Filing Status: New Subholding Of: INVESTMENT Description: Corporate Note,GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS],P,07/10/2025,07/15/2025,\"$15,001 - $50,000\",,\"SP GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS] P 07/10/2025 07/15/2025 $15,001 - $50,000 Filing Status: New Subholding Of: INVESTMENT Description: Corporate Note\",,,False,100,,not_applicable,,False,False,False,07/10/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": "",
+    "result": "P"
+  }
 }

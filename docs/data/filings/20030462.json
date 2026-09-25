@@ -341,5 +341,11 @@
     "raw_date_prefix": "05/22/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030462,Hon. Josh Gottheimer,Member,NJ05,20030462.pdf,2025,1,JT,AbbVie Inc. Common Stock,AbbVie Inc. Common Stock,ABBV,ABBV,ST,P,2025-05-22,2025-06-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Morgan Stanley - Select UMA Account # 1,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030462.pdf,,,JT,AbbVie Inc. Common Stock (ABBV) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select,AbbVie Inc. Common Stock (ABBV) [ST],P UMA Account #,05/22/2025 1,06/04/2025,\"$1,001 - $15,000\",,\"JT AbbVie Inc. Common Stock (ABBV) [ST] P 05/22/2025 06/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley - Select UMA Account # 1\",,,False,100,ABBV,accepted,house_ptr_structure+v8_1,False,False,True,05/22/2025,False\n"
+  "csv_serialized_row": "20030462,Hon. Josh Gottheimer,Member,NJ05,20030462.pdf,2025,1,JT,AbbVie Inc. Common Stock,AbbVie Inc. Common Stock,ABBV,ABBV,ST,P,2025-05-22,2025-06-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Morgan Stanley - Select UMA Account # 1,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030462.pdf,,,JT,AbbVie Inc. Common Stock (ABBV) [ST] Filing Status: New Subholding Of: Morgan Stanley - Select,AbbVie Inc. Common Stock (ABBV) [ST],P UMA Account #,05/22/2025 1,06/04/2025,\"$1,001 - $15,000\",,\"JT AbbVie Inc. Common Stock (ABBV) [ST] P 05/22/2025 06/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley - Select UMA Account # 1\",,,False,100,ABBV,accepted,house_ptr_structure+v8_1,False,False,True,05/22/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " UMA Account #",
+    "result": "P"
+  }
 }

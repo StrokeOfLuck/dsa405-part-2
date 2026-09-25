@@ -269,5 +269,11 @@
     "raw_date_prefix": "09/18/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20032200,Hon. Donald Sternoff Beyer Jr,Member,VA08,20032200.pdf,2025,1,JT,Massachusetts St Sch Bld 5.00%,Massachusetts St Sch Bld 5.00%,,,GS,E,2025-09-18,2025-10-02,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,\"Stocks, Bonds, & Mutual Funds\",,redemption of municipal bond,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032200.pdf,,,JT,\"Massachusetts St Sch Bld 5.00% [GS] Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Description: redemption of municipal bo\",Massachusetts St Sch Bld 5.00% [GS],E l Funds ond,09/18/2025,10/02/2025,\"$50,001 - $100,000\",,\"JT Massachusetts St Sch Bld 5.00% [GS] E 09/18/2025 10/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: redemption of municipal bond\",,,False,100,,not_applicable,,False,False,False,09/18/2025,False\n"
+  "csv_serialized_row": "20032200,Hon. Donald Sternoff Beyer Jr,Member,VA08,20032200.pdf,2025,1,JT,Massachusetts St Sch Bld 5.00%,Massachusetts St Sch Bld 5.00%,,,GS,E,2025-09-18,2025-10-02,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,\"Stocks, Bonds, & Mutual Funds\",,redemption of municipal bond,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032200.pdf,,,JT,\"Massachusetts St Sch Bld 5.00% [GS] Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Description: redemption of municipal bo\",Massachusetts St Sch Bld 5.00% [GS],E l Funds ond,09/18/2025,10/02/2025,\"$50,001 - $100,000\",,\"JT Massachusetts St Sch Bld 5.00% [GS] E 09/18/2025 10/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: redemption of municipal bond\",,,False,100,,not_applicable,,False,False,False,09/18/2025,False\n",
+  "trade_match": {
+    "matched": "E",
+    "before": "",
+    "after": " l Funds ond",
+    "result": "E"
+  }
 }

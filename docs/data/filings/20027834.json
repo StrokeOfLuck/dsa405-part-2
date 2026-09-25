@@ -287,5 +287,11 @@
     "raw_date_prefix": "02/06/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20027834,Hon. Scott Scott Franklin,Member,FL18,20027834.pdf,2025,1,JT,\"The Baldwin Insurance Group, Inc. - Class A Common Stock\",\"The Baldwin Insurance Group, Inc. - Class A Common Stock\",BWIN,BWIN,ST,S (partial),2025-02-06,2025-02-07,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Fidelity Joint TBE,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027834.pdf,,,JT,\"The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST] Filing Status: New Subholding Of: Fidelity Joint TBE\",\"The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST]\",S (partial),02/06/2025,02/07/2025,\"$15,001 - $50,000\",,\"JT The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST] S (partial) 02/06/2025 02/07/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Fidelity Joint TBE\",,,False,100,BWIN,accepted,house_ptr_structure+v8_1,False,False,False,02/06/2025,False\n"
+  "csv_serialized_row": "20027834,Hon. Scott Scott Franklin,Member,FL18,20027834.pdf,2025,1,JT,\"The Baldwin Insurance Group, Inc. - Class A Common Stock\",\"The Baldwin Insurance Group, Inc. - Class A Common Stock\",BWIN,BWIN,ST,S (partial),2025-02-06,2025-02-07,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Fidelity Joint TBE,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027834.pdf,,,JT,\"The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST] Filing Status: New Subholding Of: Fidelity Joint TBE\",\"The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST]\",S (partial),02/06/2025,02/07/2025,\"$15,001 - $50,000\",,\"JT The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST] S (partial) 02/06/2025 02/07/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Fidelity Joint TBE\",,,False,100,BWIN,accepted,house_ptr_structure+v8_1,False,False,False,02/06/2025,False\n",
+  "trade_match": {
+    "matched": "S (partial)",
+    "before": "",
+    "after": "",
+    "result": "S (partial)"
+  }
 }

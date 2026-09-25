@@ -305,5 +305,11 @@
     "raw_date_prefix": "12/03/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20033590,Hon. David J. Taylor,Member,OH02,20033590.pdf,2025,1,,Amgen Inc. - Common Stock,Amgen Inc. - Common Stock,AMGN,AMGN,ST,S,2025-12-03,2025-12-05,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown),,,,1,1,table,False,False,,False,0,True,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033590.pdf,low,adjacent transaction has same core signature,,Amgen Inc. - Common Stock (AMGN) [ST] Filing Status: New Subholding Of: David Taylor Trust > Sch,Amgen Inc. - Common Stock (AMGN) [ST],S hwab Joint Broke,12/03/2025 erage #1 (Home,12/05/2025 e Grown),\"$1,001 - $15,000\",,\"Amgen Inc. - Common Stock (AMGN) [ST] S 12/03/2025 12/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)\",adjacent transaction has same core signature,low,True,95,AMGN,accepted,house_ptr_structure+v8_1,False,False,True,12/03/2025,False\n"
+  "csv_serialized_row": "20033590,Hon. David J. Taylor,Member,OH02,20033590.pdf,2025,1,,Amgen Inc. - Common Stock,Amgen Inc. - Common Stock,AMGN,AMGN,ST,S,2025-12-03,2025-12-05,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown),,,,1,1,table,False,False,,False,0,True,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033590.pdf,low,adjacent transaction has same core signature,,Amgen Inc. - Common Stock (AMGN) [ST] Filing Status: New Subholding Of: David Taylor Trust > Sch,Amgen Inc. - Common Stock (AMGN) [ST],S hwab Joint Broke,12/03/2025 erage #1 (Home,12/05/2025 e Grown),\"$1,001 - $15,000\",,\"Amgen Inc. - Common Stock (AMGN) [ST] S 12/03/2025 12/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)\",adjacent transaction has same core signature,low,True,95,AMGN,accepted,house_ptr_structure+v8_1,False,False,True,12/03/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " hwab Joint Broke",
+    "result": "S"
+  }
 }

@@ -269,5 +269,11 @@
     "raw_date_prefix": "11/14/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20033589,Hon. Richard W. Allen,Member,GA12,20033589.pdf,2025,1,,US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4),US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4),,,GS,P,2025-11-14,2025-12-05,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,SCH1,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033589.pdf,,,,US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS] Filing Status: New Subholding Of: SCH1,US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS],P,11/14/2025,12/05/2025,\"$50,001 - $100,000\",,\"US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS] P 11/14/2025 12/05/2025 $50,001 - $100,000 Filing Status: New Subholding Of: SCH1\",,,False,100,,not_applicable,,False,False,False,11/14/2025,False\n"
+  "csv_serialized_row": "20033589,Hon. Richard W. Allen,Member,GA12,20033589.pdf,2025,1,,US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4),US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4),,,GS,P,2025-11-14,2025-12-05,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,SCH1,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033589.pdf,,,,US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS] Filing Status: New Subholding Of: SCH1,US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS],P,11/14/2025,12/05/2025,\"$50,001 - $100,000\",,\"US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS] P 11/14/2025 12/05/2025 $50,001 - $100,000 Filing Status: New Subholding Of: SCH1\",,,False,100,,not_applicable,,False,False,False,11/14/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": "",
+    "result": "P"
+  }
 }

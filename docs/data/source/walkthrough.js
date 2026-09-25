@@ -147,6 +147,72 @@
       if(activeStep!=="source"||!card?.source_guide)return;
       const box=document.createElement("span");box.className="runtime-values";box.setAttribute("role","note");addText(box,"strong","Read this line in plain English");addText(box,"span",card.source_guide.translation,"runtime-note");pre.querySelector(".focused")?.after(box);
     }
+    function showWhy(card){
+      const stage=$(activeStep);if(!stage)return;
+      const old=stage.querySelector(".why-panel"),priorParent=old?.parentElement;
+      const clicked=document.activeElement?.closest("dd");
+      old?.remove();
+      const ex=currentExample;if(!card||!ex?.stage3||activeStep==="source")return;
+      const s=ex.stage3,r=ex.stage4,q=v=>JSON.stringify(v??"");
+      let original,rule,change,result,why,links=[],match=null;
+      if(activeStep==="parse"&&card.parsed_field){
+        const field=card.parsed_field;
+        if(field==="transaction_type"){
+          match=ex.trade_match;original=q(s.transaction_type_raw);rule="Find a standalone P, S, or E, optionally followed by (partial) or (full). Matching ignores letter case.";
+          change=match?.matched?`Matched ${q(match.matched)}. Outside the match: ${q(match.before)} before and ${q(match.after)} after.`:"No recognized trade token was found.";
+          result=q(s.transaction_type);why="The rule extracts a recognized token; it does not interpret the leftover text. Word boundaries prevent matching a code embedded inside a longer word. The raw field stays preserved.";
+          links=stepCode.parse.filter(c=>c.parsed_field===field).map(c=>[c.label==="Show trade matching pattern"?"Show matching rule":"Show the extraction line",c]);
+        }else if(field==="asset"){
+          original=q(s.asset_raw);rule="Take the name before Filing Status:, remove the asset-type marker and accepted ticker parenthetical, then trim whitespace. The function also handles a leaked owner code or a description fallback.";
+          change=`Asset type recorded: ${q(s.asset_type)}. Ticker extracted separately: ${q(s.ticker)}. Filing details are kept separately from the presentation name.`;result=q(s.asset);why="Separate the company/asset name from metadata so each can be analyzed as its own field. The original asset text stays available for checking.";
+        }else if(field==="ticker"){
+          original=q(s.asset_lookup_context);rule="Find parenthetical candidates, keep those that pass the plausibility checks, and choose the last accepted candidate in the context.";
+          change=s.ticker?`Stage 3 selected ${q(s.ticker)}.`:"Stage 3 returned an empty ticker; no candidate was accepted.";result=q(s.ticker);why="Parentheses may contain other text, so the parser applies a rule before choosing a ticker. Stage 4 reviews the result separately.";
+        }else if(field==="transaction_date"){
+          original=q(s.transaction_date_raw);rule="Find the first date-shaped token, then convert month/day/year to YYYY-MM-DD. The date audit later checks for extra text or disagreement.";
+          change=`Token found: ${q(s.date_token)} → stored date: ${q(s.transaction_date)}.`;result=q(s.transaction_date);why="A consistent date format makes dates easier to compare. The transaction date can be earlier than the filing year. A failed conversion is not silently turned into a valid date.";
+          links=stepCode.parse.filter(c=>c.parsed_field===field).map(c=>[c.label,c]);
+        }else if(field==="amount_min"){
+          original=q(s.amount_raw);rule="Read money values from the amount field and permitted continuation prefix. Recognize standard ranges, exact amounts, or open-ended wording using separate rules.";
+          change=`Saved classification: ${q(ex.csv_record.amount_status)}; category: ${q(ex.csv_record.amount_category)}.`;
+          result=`Minimum: ${q(s.amount_min)}\nMaximum: ${q(s.amount_max)}\nExact amount: ${q(ex.csv_record.amount_exact)}`;why="Dollar signs and commas are formatting. Bounds describe the disclosed range; they do not reveal the exact trade amount. Empty bounds must not be treated as zero.";
+        }else{
+          original=`Asset: ${q(s.asset)}\nTicker: ${q(s.ticker)}\nDate: ${q(s.transaction_date)}\nAmount: ${q(s.amount_raw)}`;rule="Run validation checks and collect review reasons; the flag reflects whether reasons remain.";
+          change=s.review_reason?`Recorded reasons: ${s.review_reason}`:"No review reasons were recorded for this transaction.";result=`needs_review = ${q(s.needs_review)}`;why="A flag asks for inspection. No flag means these checks found no recorded issue, not that the row has been independently proven correct.";
+        }
+      }else if(activeStep==="resolve"&&card.resolve_field){
+        const status=r.ticker_parse_status,source=r.ticker_validation_source;
+        const decisions={not_applicable:"Asset type is not ST, so this resolver skips candidate extraction and retains the earlier ticker.",missing_candidate:"No candidate and no earlier ticker were found.",legacy_only_review:"No new candidate was found; the earlier ticker is retained for review.",validated:"The candidate matched the configured reference symbols.",accepted:source==="house_ptr_structure+v8_1"?"The candidate equals the earlier ticker, so the resolver accepts it.":"The source candidate fits the structural length rule, so the resolver accepts it.",ambiguous_preserved:"The longer candidate is preserved for review; the resolved ticker is left empty.",accepted_long_existing:"The saved status records acceptance of a longer existing ticker."};
+        original=`Earlier asset: ${q(r.asset_v8_1)}\nEarlier ticker: ${q(r.ticker_v8_1)}\nCandidate: ${q(r.ticker_candidate_raw)}`;
+        rule=card.resolve_field==="asset"?"Remove only the accepted ticker parenthetical from the presentation name; keep the original value.":card.resolve_field==="review"?"Remove obsolete missing-ticker warnings if a ticker was resolved; add or retain applicable reasons and recompute the flag.":"Classify the candidate using asset type, the earlier ticker, source structure, and any reference match.";
+        change=card.resolve_field==="review"?`Earlier reasons: ${q(r.review_reason_v8_1)}\nCurrent reasons: ${q(r.review_reason)}`:card.resolve_field==="asset"?`Asset changed: ${r.asset_changed_by_ticker_resolver}`:(decisions[status]||`Recorded decision: ${status}`);
+        result=card.resolve_field==="asset"?q(r.asset_v8_2_cleaned):card.resolve_field==="review"?`Needs review: ${r.needs_review}\nLevel: ${q(r.review_level)}`:`Ticker: ${q(r.ticker_v8_2_cleaned)}\nDecision: ${status}\nValidation source: ${q(source)}`;
+        why="Preserve earlier evidence and make the resolver's decision inspectable. Structural acceptance is not independent confirmation that the ticker identifies the right security.";
+      }else if(activeStep==="audit"&&card.audit_field){
+        const d=auditValues(),key=card.audit_field;original=`Original date text: ${q(d.raw)}\nParser date: ${q(d.date)}`;rule=card.explanation;
+        change=key==="raw_date_has_extra_text"?(d[key]?"The entire text does not match the date-only pattern.":"The entire text matches the date-shaped pattern. This alone does not validate the calendar date."):key==="raw_date_prefix"?`Leading date-shaped token: ${q(d.raw_date_prefix)}`:d[key]?"The valid leading date differs from the parser date.":"No disagreement was flagged: either the dates agree or the prefix is missing/invalid.";
+        result=`${key} = ${q(d[key])}`;why=(auditExample?"Teaching example; the filing is unchanged. ":"")+"These extra columns make uncertainty visible without overwriting the original date or parser result.";
+      }else if(activeStep==="csv"&&card.csv_action){
+        const field=csvSelectedField,value=ex.csv_record[field];original=`${field} = ${q(value)}`;rule="Write columns in table order. Quote fields containing commas, quotes, or line breaks; double any quotes inside a quoted field. index=False omits the extra DataFrame index.";
+        change=/[",\r\n]/.test(value)?"This value requires CSV quoting to keep it in one field.":value===""?"This is an empty CSV field, not a zero.":"This value can be written without surrounding CSV quotes.";result=csvEncode(value)||"(empty field)";why="CSV preserves field boundaries as text. Reading software decides how to interpret numbers, dates, and booleans.";
+        let target=null;
+        if(field.startsWith("raw_date_")||field==="date_prefix_disagrees")target=stepCode.audit.find(c=>c.audit_field===field);
+        else if(["ticker_v8_2_cleaned","ticker_candidate_raw","ticker_parse_status","asset_v8_2_cleaned","needs_review"].includes(field))target=stepCode.resolve.find(c=>c.resolve_field===({ticker_v8_2_cleaned:"ticker",ticker_candidate_raw:"candidate",ticker_parse_status:"decision",asset_v8_2_cleaned:"asset",needs_review:"review"}[field]));
+        else target=stepCode.parse.find(c=>c.parsed_field===({amount_max:"amount_min",transaction_date_raw:"transaction_date",transaction_type_raw:"transaction_type",asset_raw:"asset",amount_raw:"amount_min",ticker_v8_1:"ticker",asset_v8_1:"asset"}[field]||field));
+        if(target)links.push(["Go to the step that explains this field",target]);
+      }else if(activeStep==="text"&&activeGeometry){
+        const g=activeGeometry,f=g.fields.find(f=>f.name===activeField);original=q(f?f.before:g.before);rule="Combine the row's vertical boundaries with the column's horizontal boundaries, then read embedded text inside that rectangle. Repair known encoded characters and normalize whitespace.";
+        change=`Observed route: ${g.method}. Selected area: ${(f?f.rect:g.physical_rect).map(v=>v.toFixed(2)).join(", ")} PDF points.`;result=q(f?f.after:g.after);why="PDF text is positioned on a page, not stored as spreadsheet cells. These boundaries help separate fields, but a rectangle can capture stray neighboring text. Step 03 interprets what was captured.";
+      }else return;
+      const box=document.createElement("div");box.className="why-panel";box.setAttribute("role","note");addText(box,"h3","How this value was processed");
+      for(const [label,value] of [["Original",original],["Rule",rule],["What matched or changed",change],["Result",result],["Why",why]]){addText(box,"strong",label);addText(box,label==="Original"||label==="Result"?"pre":"p",value);}
+      if(match?.matched){const display=addText(box,"p","Matched part of the original: ");display.append(document.createTextNode(match.before));addText(display,"mark",match.matched);display.append(document.createTextNode(match.after));}
+      if(!links.length)links.push(["Show this rule in the code",card]);
+      const controls=addText(box,"div","","learning-controls");for(const [label,target] of links){const button=addText(controls,"button",label,"parsed-value");button.type="button";button.addEventListener("click",()=>{const step=Object.keys(stepCode).find(key=>stepCode[key].includes(target));if(step&&step!==activeStep)selectStep(step);showCode(target);});}
+      if(clicked&&stage.contains(clicked))clicked.closest(".box").append(box);
+      else if(priorParent&&priorParent!==stage&&stage.contains(priorParent))priorParent.append(box);
+      else stage.querySelector(".stage-head").after(box);
+    }
     function wireResolveFields(){
       const groups={"before-fields":["asset","ticker"],"after-fields":["asset","ticker","candidate","decision","review"]};
       for(const [id,keys] of Object.entries(groups)) [...$(id).querySelectorAll("dd")].forEach((dd,i)=>{
@@ -244,6 +310,7 @@
         if(index>=0)card={...card,focus_line:card.full_start_line+index};
       }
       updateSourceGuide(sourceOverride?null:card);
+      showWhy(sourceOverride?null:card);
       const request=++codeRequest;
       $("code-title").textContent=sourceOverride?sourceOverride.name:card.source;
       $("code-explanation").textContent=sourceOverride?sourceOverride.label:card.explanation;
@@ -257,7 +324,7 @@
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
-        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=workflow-v12");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=explain-v13");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
         if(request!==codeRequest)return;
         const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
         if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
@@ -313,14 +380,14 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=workflow-v12");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=explain-v13");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=workflow-v12`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=explain-v13`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}

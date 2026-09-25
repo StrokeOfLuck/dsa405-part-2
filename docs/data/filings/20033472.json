@@ -305,5 +305,11 @@
     "raw_date_prefix": "10/01/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20033472,Hon. Scott H. Peters,Member,CA50,20033472.pdf,2025,1,SP,San Francisco CA Sewer Util,San Francisco CA Sewer Util,,,GS,S,2025-10-01,2025-10-31,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033472.pdf,,,SP,San Francisco CA Sewer Util [GS] Filing Status: New,San Francisco CA Sewer Util [GS],S,10/01/2025,10/31/2025,\"$50,001 - $100,000\",,\"SP San Francisco CA Sewer Util [GS] S 10/01/2025 10/31/2025 $50,001 - $100,000 Filing Status: New\",,,False,100,,not_applicable,,False,False,False,10/01/2025,False\n"
+  "csv_serialized_row": "20033472,Hon. Scott H. Peters,Member,CA50,20033472.pdf,2025,1,SP,San Francisco CA Sewer Util,San Francisco CA Sewer Util,,,GS,S,2025-10-01,2025-10-31,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033472.pdf,,,SP,San Francisco CA Sewer Util [GS] Filing Status: New,San Francisco CA Sewer Util [GS],S,10/01/2025,10/31/2025,\"$50,001 - $100,000\",,\"SP San Francisco CA Sewer Util [GS] S 10/01/2025 10/31/2025 $50,001 - $100,000 Filing Status: New\",,,False,100,,not_applicable,,False,False,False,10/01/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": "",
+    "result": "S"
+  }
 }

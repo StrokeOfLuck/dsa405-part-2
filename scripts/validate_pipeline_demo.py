@@ -35,6 +35,9 @@ def main():
         assert len(records) == ex["rows"]
         assert all(row["filing_id"] == ex["filing_id"] for row in records)
         record = next(r for r in records if r["transaction_number_in_filing"] == ex["spotlight_row"])
+        trade = ex["trade_match"]
+        assert trade["before"] + trade["matched"] + trade["after"] == ex["stage3"]["transaction_type_raw"]
+        assert trade["result"] == ex["stage3"]["transaction_type"]
         assert ex["csv_record"] == record
         assert next(csv.reader(io.StringIO(ex["csv_serialized_row"]))) == list(record.values())
         assert record["asset_raw"] == ex["stage3"]["asset_raw"]

@@ -287,5 +287,11 @@
     "raw_date_prefix": "08/07/2024",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030884,Hon. Daniel Meuser,Member,PA09,20030884.pdf,2025,1,SP,NVIDIA Corporation - Common Stock,NVIDIA Corporation - Common Stock,NVDA,NVDA,ST,S (partial),2024-08-07,2024-08-07,250001.0,500000.0,,\"$250,001 - $500,000\",valid_range,New,Schwab Brokerage Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030884.pdf,,,SP,NVIDIA Corporation - Common Stock (NVDA) [ST] Filing Status: New Subholding Of: Schwab Brokerage Acco,NVIDIA Corporation - Common Stock (NVDA) [ST],S (partial) ount,08/07/2024,08/07/2024,\"$250,001 - $500,000\",,\"SP NVIDIA Corporation - Common Stock (NVDA) [ST] S (partial) 08/07/2024 08/07/2024 $250,001 - $500,000 Filing Status: New Subholding Of: Schwab Brokerage Account\",,,False,100,NVDA,accepted,house_ptr_structure+v8_1,False,False,False,08/07/2024,False\n"
+  "csv_serialized_row": "20030884,Hon. Daniel Meuser,Member,PA09,20030884.pdf,2025,1,SP,NVIDIA Corporation - Common Stock,NVIDIA Corporation - Common Stock,NVDA,NVDA,ST,S (partial),2024-08-07,2024-08-07,250001.0,500000.0,,\"$250,001 - $500,000\",valid_range,New,Schwab Brokerage Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030884.pdf,,,SP,NVIDIA Corporation - Common Stock (NVDA) [ST] Filing Status: New Subholding Of: Schwab Brokerage Acco,NVIDIA Corporation - Common Stock (NVDA) [ST],S (partial) ount,08/07/2024,08/07/2024,\"$250,001 - $500,000\",,\"SP NVIDIA Corporation - Common Stock (NVDA) [ST] S (partial) 08/07/2024 08/07/2024 $250,001 - $500,000 Filing Status: New Subholding Of: Schwab Brokerage Account\",,,False,100,NVDA,accepted,house_ptr_structure+v8_1,False,False,False,08/07/2024,False\n",
+  "trade_match": {
+    "matched": "S (partial)",
+    "before": "",
+    "after": " ount",
+    "result": "S (partial)"
+  }
 }

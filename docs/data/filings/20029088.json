@@ -323,5 +323,11 @@
     "raw_date_prefix": "03/27/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20029088,Hon. Lloyd Doggett,Member,TX37,20029088.pdf,2025,1,,\"Home Depot, Inc.\",\"Home Depot, Inc.\",HD,HD,ST,P,2025-03-27,2025-04-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,,,Reinvest shares,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029088.pdf,,,,\"Home Depot, Inc. (HD) [ST] Filing Status: New Description: Reinvest shares\",\"Home Depot, Inc. (HD) [ST]\",P,03/27/2025,04/04/2025,\"$1,001 - $15,000\",,\"Home Depot, Inc. (HD) [ST] P 03/27/2025 04/04/2025 $1,001 - $15,000 Filing Status: New Description: Reinvest shares\",,,False,100,HD,accepted,house_ptr_structure+v8_1,False,False,False,03/27/2025,False\n"
+  "csv_serialized_row": "20029088,Hon. Lloyd Doggett,Member,TX37,20029088.pdf,2025,1,,\"Home Depot, Inc.\",\"Home Depot, Inc.\",HD,HD,ST,P,2025-03-27,2025-04-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,,,Reinvest shares,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029088.pdf,,,,\"Home Depot, Inc. (HD) [ST] Filing Status: New Description: Reinvest shares\",\"Home Depot, Inc. (HD) [ST]\",P,03/27/2025,04/04/2025,\"$1,001 - $15,000\",,\"Home Depot, Inc. (HD) [ST] P 03/27/2025 04/04/2025 $1,001 - $15,000 Filing Status: New Description: Reinvest shares\",,,False,100,HD,accepted,house_ptr_structure+v8_1,False,False,False,03/27/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": "",
+    "result": "P"
+  }
 }

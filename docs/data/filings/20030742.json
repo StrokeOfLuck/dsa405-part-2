@@ -287,5 +287,11 @@
     "raw_date_prefix": "07/15/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030742,Hon. Max Miller,Member,OH07,20030742.pdf,2025,1,,\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",,,HN,P,2025-07-15,2025-07-27,,,647.63,,nonstandard_exact,New,2012 Trust,,\"Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",,1,1,table,False,False,,False,0,False,False,95,True,30,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf,low,nonstandard_exact,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventur\",\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN]\",\"P res Fund II, LP (G\",\"07/15/2025 GLAS Funds, LP\",07/27/2025 P),$647.63,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 07/15/2025 07/27/2025 $647.63 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",nonstandard_exact,low,True,95,,not_applicable,,False,False,True,07/15/2025,False\n"
+  "csv_serialized_row": "20030742,Hon. Max Miller,Member,OH07,20030742.pdf,2025,1,,\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",,,HN,P,2025-07-15,2025-07-27,,,647.63,,nonstandard_exact,New,2012 Trust,,\"Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",,1,1,table,False,False,,False,0,False,False,95,True,30,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf,low,nonstandard_exact,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventur\",\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN]\",\"P res Fund II, LP (G\",\"07/15/2025 GLAS Funds, LP\",07/27/2025 P),$647.63,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 07/15/2025 07/27/2025 $647.63 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",nonstandard_exact,low,True,95,,not_applicable,,False,False,True,07/15/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " res Fund II, LP (G",
+    "result": "P"
+  }
 }

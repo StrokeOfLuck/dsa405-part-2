@@ -341,5 +341,11 @@
     "raw_date_prefix": "12/31/2024",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20026597,Hon. Kevin Hern,Member,OK01,20026597.pdf,2025,1,JT,AGCO Corporation Common Stock,AGCO Corporation Common Stock,AGCO,AGCO,ST,S,2024-12-31,2025-01-02,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,Hern Family Revocable Trust > Brokerage Investment Account,,sell to close,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf,,,JT,AGCO Corporation Common Stock (AGCO) [ST] Filing Status: New Subholding Of: Hern Family Revocable Description: sell to close,AGCO Corporation Common Stock (AGCO) [ST],S Trust > Brokerag,12/31/2024 ge Investment A,01/02/2025 Account,\"$50,001 - $100,000\",,\"JT AGCO Corporation Common Stock (AGCO) [ST] S 12/31/2024 01/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Hern Family Revocable Trust > Brokerage Investment Account Description: sell to close\",,,False,100,AGCO,accepted,house_ptr_structure+v8_1,False,False,True,12/31/2024,False\n"
+  "csv_serialized_row": "20026597,Hon. Kevin Hern,Member,OK01,20026597.pdf,2025,1,JT,AGCO Corporation Common Stock,AGCO Corporation Common Stock,AGCO,AGCO,ST,S,2024-12-31,2025-01-02,50001.0,100000.0,,\"$50,001 - $100,000\",valid_range,New,Hern Family Revocable Trust > Brokerage Investment Account,,sell to close,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf,,,JT,AGCO Corporation Common Stock (AGCO) [ST] Filing Status: New Subholding Of: Hern Family Revocable Description: sell to close,AGCO Corporation Common Stock (AGCO) [ST],S Trust > Brokerag,12/31/2024 ge Investment A,01/02/2025 Account,\"$50,001 - $100,000\",,\"JT AGCO Corporation Common Stock (AGCO) [ST] S 12/31/2024 01/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Hern Family Revocable Trust > Brokerage Investment Account Description: sell to close\",,,False,100,AGCO,accepted,house_ptr_structure+v8_1,False,False,True,12/31/2024,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": " Trust > Brokerag",
+    "result": "S"
+  }
 }

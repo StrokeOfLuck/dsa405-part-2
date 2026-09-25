@@ -269,5 +269,11 @@
     "raw_date_prefix": "09/15/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20032230,Hon. Debbie Wasserman Schultz,Member,FL25,20032230.pdf,2025,1,,Berry Corporation,Berry Corporation,BRY,BRY,ST,S,2025-09-15,2025-09-16,,,1972.55,,nonstandard_exact,New,,,Asset held in an IRA,,1,1,table,False,False,,False,0,False,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032230.pdf,low,nonstandard_exact,,Berry Corporation (BRY) [ST] Filing Status: New Description: Asset held in an IRA,Berry Corporation (BRY) [ST],S,09/15/2025,09/16/2025,\"$1,972.55\",,\"Berry Corporation (BRY) [ST] S 09/15/2025 09/16/2025 $1,972.55 Filing Status: New Description: Asset held in an IRA\",nonstandard_exact,low,True,95,BRY,accepted,house_ptr_structure+v8_1,False,False,False,09/15/2025,False\n"
+  "csv_serialized_row": "20032230,Hon. Debbie Wasserman Schultz,Member,FL25,20032230.pdf,2025,1,,Berry Corporation,Berry Corporation,BRY,BRY,ST,S,2025-09-15,2025-09-16,,,1972.55,,nonstandard_exact,New,,,Asset held in an IRA,,1,1,table,False,False,,False,0,False,False,95,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032230.pdf,low,nonstandard_exact,,Berry Corporation (BRY) [ST] Filing Status: New Description: Asset held in an IRA,Berry Corporation (BRY) [ST],S,09/15/2025,09/16/2025,\"$1,972.55\",,\"Berry Corporation (BRY) [ST] S 09/15/2025 09/16/2025 $1,972.55 Filing Status: New Description: Asset held in an IRA\",nonstandard_exact,low,True,95,BRY,accepted,house_ptr_structure+v8_1,False,False,False,09/15/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": "",
+    "result": "S"
+  }
 }

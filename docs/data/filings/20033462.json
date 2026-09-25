@@ -287,5 +287,11 @@
     "raw_date_prefix": "11/12/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20033462,Hon. Marjorie Taylor Greene,Member,GA14,20033462.pdf,2025,1,,\"Automatic Data Processing, Inc. - Common Stock\",\"Automatic Data Processing, Inc. - Common Stock\",ADP,ADP,ST,P,2025-11-12,2025-11-13,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033462.pdf,,,,\"Automatic Data Processing, Inc. - Common Stock (ADP) [ST] Filing Status: New\",\"Automatic Data Processing, Inc. - Common Stock (ADP) [ST]\",P,11/12/2025,11/13/2025,\"$15,001 - $50,000\",,\"Automatic Data Processing, Inc. - Common Stock (ADP) [ST] P 11/12/2025 11/13/2025 $15,001 - $50,000 Filing Status: New\",,,False,100,ADP,accepted,house_ptr_structure+v8_1,False,False,False,11/12/2025,False\n"
+  "csv_serialized_row": "20033462,Hon. Marjorie Taylor Greene,Member,GA14,20033462.pdf,2025,1,,\"Automatic Data Processing, Inc. - Common Stock\",\"Automatic Data Processing, Inc. - Common Stock\",ADP,ADP,ST,P,2025-11-12,2025-11-13,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033462.pdf,,,,\"Automatic Data Processing, Inc. - Common Stock (ADP) [ST] Filing Status: New\",\"Automatic Data Processing, Inc. - Common Stock (ADP) [ST]\",P,11/12/2025,11/13/2025,\"$15,001 - $50,000\",,\"Automatic Data Processing, Inc. - Common Stock (ADP) [ST] P 11/12/2025 11/13/2025 $15,001 - $50,000 Filing Status: New\",,,False,100,ADP,accepted,house_ptr_structure+v8_1,False,False,False,11/12/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": "",
+    "result": "P"
+  }
 }

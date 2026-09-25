@@ -341,5 +341,11 @@
     "raw_date_prefix": "09/17/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20032106,Cleo Fields,Member,LA06,20032106.pdf,2025,1,,Alphabet Inc. - Class C Capital Stock,Alphabet Inc. - Class C Capital Stock,GOOG,GOOG,ST,P,2025-09-17,2025-09-17,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Morgan Stanley - E*TRADE #2,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032106.pdf,,,,Alphabet Inc. - Class C Capital Stock (GOOG) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*TRA,Alphabet Inc. - Class C Capital Stock (GOOG) [ST],P ADE #2,09/17/2025,09/17/2025,\"$15,001 - $50,000\",,\"Alphabet Inc. - Class C Capital Stock (GOOG) [ST] P 09/17/2025 09/17/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley - E*TRADE #2\",,,False,100,GOOG,accepted,house_ptr_structure+v8_1,False,False,False,09/17/2025,False\n"
+  "csv_serialized_row": "20032106,Cleo Fields,Member,LA06,20032106.pdf,2025,1,,Alphabet Inc. - Class C Capital Stock,Alphabet Inc. - Class C Capital Stock,GOOG,GOOG,ST,P,2025-09-17,2025-09-17,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,Morgan Stanley - E*TRADE #2,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032106.pdf,,,,Alphabet Inc. - Class C Capital Stock (GOOG) [ST] Filing Status: New Subholding Of: Morgan Stanley - E*TRA,Alphabet Inc. - Class C Capital Stock (GOOG) [ST],P ADE #2,09/17/2025,09/17/2025,\"$15,001 - $50,000\",,\"Alphabet Inc. - Class C Capital Stock (GOOG) [ST] P 09/17/2025 09/17/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley - E*TRADE #2\",,,False,100,GOOG,accepted,house_ptr_structure+v8_1,False,False,False,09/17/2025,False\n",
+  "trade_match": {
+    "matched": "P",
+    "before": "",
+    "after": " ADE #2",
+    "result": "P"
+  }
 }

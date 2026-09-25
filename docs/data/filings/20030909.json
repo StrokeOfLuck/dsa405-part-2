@@ -341,5 +341,11 @@
     "raw_date_prefix": "07/21/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030909,Hon. Julie Johnson,Member,TX32,20030909.pdf,2025,3,JT,Chevron Corporation Common Stock,Chevron Corporation Common Stock,CVX,CVX,ST,E,2025-07-21,2025-08-05,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Merrill Lynch Tax Efficient Core,,Hess Corp. stock exchanged for Chevron Corp. stock following merger,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf,,,JT,Chevron Corporation Common Stock (CVX) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Efficie Description: Hess Corp. stock exchanged,Chevron Corporation Common Stock (CVX) [ST],E ent Core d for Chevron Cor,07/21/2025 rp. stock follow,08/05/2025 wing merger,\"$1,001 - $15,000\",,\"JT Chevron Corporation Common Stock (CVX) [ST] E 07/21/2025 08/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch Tax Efficient Core Description: Hess Corp. stock exchanged for Chevron Corp. stock following merger\",,,False,100,CVX,accepted,house_ptr_structure+v8_1,False,False,True,07/21/2025,False\n"
+  "csv_serialized_row": "20030909,Hon. Julie Johnson,Member,TX32,20030909.pdf,2025,3,JT,Chevron Corporation Common Stock,Chevron Corporation Common Stock,CVX,CVX,ST,E,2025-07-21,2025-08-05,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Merrill Lynch Tax Efficient Core,,Hess Corp. stock exchanged for Chevron Corp. stock following merger,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf,,,JT,Chevron Corporation Common Stock (CVX) [ST] Filing Status: New Subholding Of: Merrill Lynch Tax Efficie Description: Hess Corp. stock exchanged,Chevron Corporation Common Stock (CVX) [ST],E ent Core d for Chevron Cor,07/21/2025 rp. stock follow,08/05/2025 wing merger,\"$1,001 - $15,000\",,\"JT Chevron Corporation Common Stock (CVX) [ST] E 07/21/2025 08/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch Tax Efficient Core Description: Hess Corp. stock exchanged for Chevron Corp. stock following merger\",,,False,100,CVX,accepted,house_ptr_structure+v8_1,False,False,True,07/21/2025,False\n",
+  "trade_match": {
+    "matched": "E",
+    "before": "",
+    "after": " ent Core d for Chevron Cor",
+    "result": "E"
+  }
 }

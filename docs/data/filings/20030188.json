@@ -269,5 +269,11 @@
     "raw_date_prefix": "03/31/2025",
     "date_prefix_disagrees": "False"
   },
-  "csv_serialized_row": "20030188,Hon. Thomas Suozzi,Member,NY03,20030188.pdf,2025,1,,Global Industrial Company Common Stock,Global Industrial Company Common Stock,GIC,GIC,ST,S,2025-03-31,2025-04-01,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030188.pdf,,,,Global Industrial Company Common Stock (GIC) [ST] Filing Status: New,Global Industrial Company Common Stock (GIC) [ST],S,03/31/2025,04/01/2025,\"$15,001 - $50,000\",,\"Global Industrial Company Common Stock (GIC) [ST] S 03/31/2025 04/01/2025 $15,001 - $50,000 Filing Status: New\",,,False,100,GIC,accepted,house_ptr_structure+v8_1,False,False,False,03/31/2025,False\n"
+  "csv_serialized_row": "20030188,Hon. Thomas Suozzi,Member,NY03,20030188.pdf,2025,1,,Global Industrial Company Common Stock,Global Industrial Company Common Stock,GIC,GIC,ST,S,2025-03-31,2025-04-01,15001.0,50000.0,,\"$15,001 - $50,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030188.pdf,,,,Global Industrial Company Common Stock (GIC) [ST] Filing Status: New,Global Industrial Company Common Stock (GIC) [ST],S,03/31/2025,04/01/2025,\"$15,001 - $50,000\",,\"Global Industrial Company Common Stock (GIC) [ST] S 03/31/2025 04/01/2025 $15,001 - $50,000 Filing Status: New\",,,False,100,GIC,accepted,house_ptr_structure+v8_1,False,False,False,03/31/2025,False\n",
+  "trade_match": {
+    "matched": "S",
+    "before": "",
+    "after": "",
+    "result": "S"
+  }
 }
