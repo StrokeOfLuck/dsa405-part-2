@@ -66,6 +66,13 @@ def main():
                 start = card["full_start_line"] - 1
                 assert lines[start:start + len(full)] == full, card["label"]
     assert seen == {i for i, cell in enumerate(notebook["cells"]) if cell["cell_type"] == "code" and cell["source"]}
+    assert len(data["sources"]) == 8
+    for source in data["sources"]:
+        original = (ROOT / "data/upstream/house-ptr-scraper/src" / source["name"]
+                    if "house-ptr-scraper/blob" in source["url"] else ROOT / source["url"].split("/main/")[1])
+        saved = (DOCS / source["text_url"]).read_text(encoding="utf-8")
+        assert saved == original.read_text(encoding="utf-8"), source["name"]
+        assert len(saved.splitlines()) == source["lines"]
     print(f"PASS: {len(ids)} PDFs, {parsed} traced filings, {rows} CSV rows, all notebook cells and source lines")
 
 

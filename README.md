@@ -14,6 +14,8 @@ This is a **separate class project**. It copies 2025 source files, builds two tr
 4. Start with each highlighted code line, then expand its complete function or Colab cell. **Show all code** expands every block, including every notebook code cell.
 5. Download the selected filing's CSV. The notebook's `p2.to_csv(...)` writes the full-year file; the walkthrough's download is a filtered copy.
 
+The opening guide explains the execution order from the rebuild command to the final CSV. **View full source code for this example**, directly beneath the illustrated geometry code, expands the actual row/column functions with GitHub links. It follows the selected field and parser route. **Complete source files** at the bottom loads all eight project/engine files used here, including their helper functions, with links to their origins. Every notebook code cell is available in the steps above; third-party library implementations are not bundled.
+
 Geometry is observed at the exact point where the pinned parser accepts a new transaction after duplicate handling. `scripts/trace_geometry.py` adds an in-memory observer without editing the upstream source or changing its parsing decisions. The builder reruns that parser and checks the observed fields against the rebuilt CSV before publishing a highlight. Continuations can contribute additional text to the final transaction. Coordinates use PDF points from the top-left; the illustrated code substitutes the selected rectangle's numeric values.
 
 After the full 2025 rebuild, regenerate the static examples with:
