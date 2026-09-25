@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20030619",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Florida Dev Fin Corp Healthcare Facs Rev 4.00 % Due Nov 15, 2035",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20030619",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "University Kans Hos 4%36 SYST HLTH Due 03/01/36",

@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20032250",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Laura Friedman",
       "owner": "",
       "asset_v8_2_cleaned": "Paramount Skydance Corporation - Class B Common Stock",

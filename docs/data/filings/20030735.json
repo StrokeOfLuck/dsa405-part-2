@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20030735",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Neal Patrick MD, Facs Dunn",
       "owner": "",
       "asset_v8_2_cleaned": "Capital One Financial Corporation Depositary shares each representing a 1/40th interest in a share of Fixed Rate Non-Cumulative Perpetual Preferred Stock, Series I of the Issuer",

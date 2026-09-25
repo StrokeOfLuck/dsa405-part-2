@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20033325",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Donald Sternoff Beyer Jr",
       "owner": "JT",
       "asset_v8_2_cleaned": "Connecticut St SPL Tax 5.00% 01/01/37",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20033325",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Donald Sternoff Beyer Jr",
       "owner": "JT",
       "asset_v8_2_cleaned": "King Cnty Wash 4.00% 12/01/32",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20033325",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Donald Sternoff Beyer Jr",
       "owner": "JT",
       "asset_v8_2_cleaned": "North Allegheny PA Sch 5.00% 05/01/2030",
@@ -227,6 +231,7 @@
     },
     {
       "filing_id": "20033325",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Donald Sternoff Beyer Jr",
       "owner": "JT",
       "asset_v8_2_cleaned": "St John Baptist Parish Var 06/01/37",

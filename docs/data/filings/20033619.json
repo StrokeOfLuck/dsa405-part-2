@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,25 @@
   "csv_preview": [
     {
       "filing_id": "20033619",
+      "transaction_number_in_filing": "91",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests",
+      "ticker_v8_2_cleaned": "LB",
+      "transaction_type": "P",
+      "transaction_date": "2025-11-21",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "11/21/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20033619",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Abbott Laboratories Common Stock",
@@ -193,6 +213,7 @@
     },
     {
       "filing_id": "20033619",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Advanced Micro Devices, Inc.",
@@ -210,6 +231,7 @@
     },
     {
       "filing_id": "20033619",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Alexandria Real Estate Equities, Inc. Common Stock",
@@ -227,6 +249,7 @@
     },
     {
       "filing_id": "20033619",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
@@ -236,23 +259,6 @@
       "amount_min": "15001.0",
       "amount_max": "50000.0",
       "amount_category": "$15,001 - $50,000",
-      "needs_review": "False",
-      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
-      "raw_date_has_extra_text": "False",
-      "raw_date_prefix": "11/19/2025",
-      "date_prefix_disagrees": "False"
-    },
-    {
-      "filing_id": "20033619",
-      "politician": "Hon. Gilbert Cisneros",
-      "owner": "",
-      "asset_v8_2_cleaned": "ALIBABA GROUP HOLDING LTD",
-      "ticker_v8_2_cleaned": "BABAF",
-      "transaction_type": "P",
-      "transaction_date": "2025-11-19",
-      "amount_min": "1001.0",
-      "amount_max": "15000.0",
-      "amount_category": "$1,001 - $15,000",
       "needs_review": "False",
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
       "raw_date_has_extra_text": "False",

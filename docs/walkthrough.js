@@ -105,14 +105,14 @@
     const stepObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){document.querySelectorAll(".journey a").forEach(link=>{if(link.hash==="#"+entry.target.id)link.setAttribute("aria-current","step");else link.removeAttribute("aria-current")})}},{rootMargin:"-10% 0px -70% 0px"});
     sections.forEach(section=>stepObserver.observe(section));
     async function start(){
-      const response=await fetch("data/examples.json?v=geometry-v2");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=geometry-v3");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       $("expand-code").addEventListener("click",()=>document.querySelectorAll(".code-reveal,.full-block").forEach(d=>d.open=true));
       $("collapse-code").addEventListener("click",()=>document.querySelectorAll(".code-reveal,.full-block").forEach(d=>d.open=false));
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=geometry-v3`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}

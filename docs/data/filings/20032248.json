@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20032248",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "AJINOMOTO CO INC",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20032248",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20032248",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
@@ -227,6 +231,7 @@
     },
     {
       "filing_id": "20032248",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Amdocs Limited - Ordinary Shares",
@@ -244,6 +249,7 @@
     },
     {
       "filing_id": "20032248",
+      "transaction_number_in_filing": "5",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Anaheim CA Elementary School District GO Bonds",

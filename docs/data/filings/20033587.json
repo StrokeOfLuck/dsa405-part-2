@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20033587",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "New Jersey ST Transn TR FD Auth SYS BDS 5.00% Due Jun 15, 2035",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20033587",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Tarrant CNTY Tex Cultural Ed Facs Fin 5.00 % Due Nov 15, 2051",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20033587",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "TX Trans Commn TPK 5%42 TPK Tran Due 08/15/42",
@@ -227,6 +231,7 @@
     },
     {
       "filing_id": "20033587",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Washington ST MTR Veh Fuel Tax Related 5.00 % Due Aug 1, 2028",

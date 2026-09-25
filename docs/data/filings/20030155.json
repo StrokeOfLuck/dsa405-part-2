@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20030155",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Thomas H. Kean Jr",
       "owner": "",
       "asset_v8_2_cleaned": "Illumina, Inc. - Common Stock",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20030155",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Thomas H. Kean Jr",
       "owner": "",
       "asset_v8_2_cleaned": "nVent Electric plc Ordinary Shares",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20030155",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Thomas H. Kean Jr",
       "owner": "",
       "asset_v8_2_cleaned": "nVent Electric plc Ordinary Shares",

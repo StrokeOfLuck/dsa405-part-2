@@ -23,7 +23,7 @@ WORK = ROOT / "data" / "work"
 OUT = ROOT / "docs"
 SOURCE_COMMIT = "510945b2b1d600dd90b183858b86419926b81e65"
 DISPLAY_FIELDS = [
-    "filing_id", "politician", "owner", "asset_v8_2_cleaned",
+    "filing_id", "transaction_number_in_filing", "politician", "owner", "asset_v8_2_cleaned",
     "ticker_v8_2_cleaned", "transaction_type", "transaction_date",
     "amount_min", "amount_max", "amount_category", "needs_review",
     "original_pdf_url", "raw_date_has_extra_text", "raw_date_prefix",
@@ -339,7 +339,7 @@ def main() -> None:
             "csv_url": f"data/csv/{csv_name}",
             "csv_columns": len(finished.columns),
             "preview_columns": DISPLAY_FIELDS,
-            "csv_preview": [text_record(row, DISPLAY_FIELDS) for _, row in finished.head(5).iterrows()],
+            "csv_preview": [text_record(row, DISPLAY_FIELDS) for _, row in pd.concat([finished.loc[[index]], finished.drop(index).head(4)]).iterrows()],
             "changed_stage4_values": int(
                 (second.asset_v8_1 != second.asset_v8_2_cleaned).sum()
                 + (second.ticker_v8_1 != second.ticker_v8_2_cleaned).sum()

@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20030340",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Scott H. Peters",
       "owner": "SP",
       "asset_v8_2_cleaned": "Kent Street Group LLC",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20030340",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Scott H. Peters",
       "owner": "SP",
       "asset_v8_2_cleaned": "U.S Treasury Bills",

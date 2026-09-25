@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,25 @@
   "csv_preview": [
     {
       "filing_id": "20030288",
+      "transaction_number_in_filing": "9",
+      "politician": "Hon. Gilbert Cisneros",
+      "owner": "",
+      "asset_v8_2_cleaned": "CACI International, Inc. Class A Common Stock",
+      "ticker_v8_2_cleaned": "CACI",
+      "transaction_type": "S",
+      "transaction_date": "2025-04-08",
+      "amount_min": "15001.0",
+      "amount_max": "50000.0",
+      "amount_category": "$15,001 - $50,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030288.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "04/08/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030288",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Agios Pharmaceuticals, Inc. - Common Stock",
@@ -193,6 +213,7 @@
     },
     {
       "filing_id": "20030288",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Alkami Technology, Inc. - Common Stock",
@@ -210,6 +231,7 @@
     },
     {
       "filing_id": "20030288",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Alkami Technology, Inc. - Common Stock",
@@ -227,6 +249,7 @@
     },
     {
       "filing_id": "20030288",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Gilbert Cisneros",
       "owner": "",
       "asset_v8_2_cleaned": "Amazon.com, Inc. - Common Stock",
@@ -240,23 +263,6 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030288.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "04/29/2025",
-      "date_prefix_disagrees": "False"
-    },
-    {
-      "filing_id": "20030288",
-      "politician": "Hon. Gilbert Cisneros",
-      "owner": "",
-      "asset_v8_2_cleaned": "Aramark Common Stock",
-      "ticker_v8_2_cleaned": "ARMK",
-      "transaction_type": "P",
-      "transaction_date": "2025-04-14",
-      "amount_min": "1001.0",
-      "amount_max": "15000.0",
-      "amount_category": "$1,001 - $15,000",
-      "needs_review": "False",
-      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030288.pdf",
-      "raw_date_has_extra_text": "False",
-      "raw_date_prefix": "04/14/2025",
       "date_prefix_disagrees": "False"
     }
   ],

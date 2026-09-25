@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20032246",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Josh Gottheimer",
       "owner": "JT",
       "asset_v8_2_cleaned": "Commvault Systems, Inc. - Common Stock",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20032246",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Josh Gottheimer",
       "owner": "JT",
       "asset_v8_2_cleaned": "Diageo plc Common Stock",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20032246",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Josh Gottheimer",
       "owner": "JT",
       "asset_v8_2_cleaned": "Independence Realty Trust, Inc. Common Stock",
@@ -227,6 +231,7 @@
     },
     {
       "filing_id": "20032246",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Josh Gottheimer",
       "owner": "JT",
       "asset_v8_2_cleaned": "Intuitive Surgical, Inc. - Common Stock",
@@ -244,6 +249,7 @@
     },
     {
       "filing_id": "20032246",
+      "transaction_number_in_filing": "5",
       "politician": "Hon. Josh Gottheimer",
       "owner": "JT",
       "asset_v8_2_cleaned": "M3 INC UNSP/ADR",

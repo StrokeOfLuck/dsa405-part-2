@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,25 @@
   "csv_preview": [
     {
       "filing_id": "20030433",
+      "transaction_number_in_filing": "7",
+      "politician": "Hon. Rob Bresnahan",
+      "owner": "",
+      "asset_v8_2_cleaned": "CALL INVESCO QQQ SER 1",
+      "ticker_v8_2_cleaned": "",
+      "transaction_type": "S",
+      "transaction_date": "2025-05-01",
+      "amount_min": "1001.0",
+      "amount_max": "15000.0",
+      "amount_category": "$1,001 - $15,000",
+      "needs_review": "False",
+      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030433.pdf",
+      "raw_date_has_extra_text": "True",
+      "raw_date_prefix": "05/01/2025",
+      "date_prefix_disagrees": "False"
+    },
+    {
+      "filing_id": "20030433",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Rob Bresnahan",
       "owner": "",
       "asset_v8_2_cleaned": "Advanced Micro Devices, Inc.",
@@ -193,6 +213,7 @@
     },
     {
       "filing_id": "20030433",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Rob Bresnahan",
       "owner": "",
       "asset_v8_2_cleaned": "Agilent Technologies, Inc. Common Stock",
@@ -210,6 +231,7 @@
     },
     {
       "filing_id": "20030433",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Rob Bresnahan",
       "owner": "",
       "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
@@ -227,6 +249,7 @@
     },
     {
       "filing_id": "20030433",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Rob Bresnahan",
       "owner": "",
       "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
@@ -240,23 +263,6 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030433.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "05/07/2025",
-      "date_prefix_disagrees": "False"
-    },
-    {
-      "filing_id": "20030433",
-      "politician": "Hon. Rob Bresnahan",
-      "owner": "",
-      "asset_v8_2_cleaned": "Amcor plc Ordinary Shares",
-      "ticker_v8_2_cleaned": "AMCR",
-      "transaction_type": "P",
-      "transaction_date": "2025-05-15",
-      "amount_min": "1001.0",
-      "amount_max": "15000.0",
-      "amount_category": "$1,001 - $15,000",
-      "needs_review": "False",
-      "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030433.pdf",
-      "raw_date_has_extra_text": "False",
-      "raw_date_prefix": "05/15/2025",
       "date_prefix_disagrees": "False"
     }
   ],

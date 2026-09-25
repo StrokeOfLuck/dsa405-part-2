@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20033447",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Mike Kelly",
       "owner": "SP",
       "asset_v8_2_cleaned": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20033447",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Mike Kelly",
       "owner": "SP",
       "asset_v8_2_cleaned": "Maryland St Dept of Transport Ser B Rev 5% due 10/1/32",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20033447",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Mike Kelly",
       "owner": "SP",
       "asset_v8_2_cleaned": "Seattle WA Muni Light & Pw Ser C Rev 5% due 9/1/26",

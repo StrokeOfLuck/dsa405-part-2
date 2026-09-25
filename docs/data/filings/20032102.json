@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20032102",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Oklahoma City Okla Go BDS Ser. 2023 4.00 % Due Mar 1, 2035",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20032102",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Southeast Energy Auth Coop Dist Ala 5.00% Due Sep 1, 2035",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20032102",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Tennessee Energy Ac 5%35 Edr Idr Due Dec 1, 2035",

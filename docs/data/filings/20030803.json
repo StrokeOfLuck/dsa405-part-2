@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20030803",
+      "transaction_number_in_filing": "1",
       "politician": "Cleo Fields",
       "owner": "",
       "asset_v8_2_cleaned": "Advanced Micro Devices, Inc.",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20030803",
+      "transaction_number_in_filing": "2",
       "politician": "Cleo Fields",
       "owner": "",
       "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20030803",
+      "transaction_number_in_filing": "3",
       "politician": "Cleo Fields",
       "owner": "",
       "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
@@ -227,6 +231,7 @@
     },
     {
       "filing_id": "20030803",
+      "transaction_number_in_filing": "4",
       "politician": "Cleo Fields",
       "owner": "",
       "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",
@@ -244,6 +249,7 @@
     },
     {
       "filing_id": "20030803",
+      "transaction_number_in_filing": "5",
       "politician": "Cleo Fields",
       "owner": "",
       "asset_v8_2_cleaned": "Alphabet Inc. - Class C Capital Stock",

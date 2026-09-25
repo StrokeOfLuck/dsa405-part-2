@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20027912",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Debbie Wasserman Schultz",
       "owner": "DC",
       "asset_v8_2_cleaned": "Hurco Companies, Inc. - Common Stock",

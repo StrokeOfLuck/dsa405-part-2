@@ -158,6 +158,7 @@
   "csv_columns": 64,
   "preview_columns": [
     "filing_id",
+    "transaction_number_in_filing",
     "politician",
     "owner",
     "asset_v8_2_cleaned",
@@ -176,6 +177,7 @@
   "csv_preview": [
     {
       "filing_id": "20029070",
+      "transaction_number_in_filing": "1",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00% Due Nov 1, 2029",
@@ -193,6 +195,7 @@
     },
     {
       "filing_id": "20029070",
+      "transaction_number_in_filing": "2",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Colorado Health Fac 5% Hosp HLTH Due 08/01/49",
@@ -210,6 +213,7 @@
     },
     {
       "filing_id": "20029070",
+      "transaction_number_in_filing": "3",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Florida Dev Fin Corp Healthcare Facs Rev 4.00% Due Nov 15, 2035",
@@ -227,6 +231,7 @@
     },
     {
       "filing_id": "20029070",
+      "transaction_number_in_filing": "4",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Florida HSG Fin Corp Homeowner MTG Rev 2.15% Due Jul 1, 2029",
@@ -244,6 +249,7 @@
     },
     {
       "filing_id": "20029070",
+      "transaction_number_in_filing": "5",
       "politician": "Hon. Suzan K. DelBene",
       "owner": "JT",
       "asset_v8_2_cleaned": "Honolulu HI City & 4% Go Utx Due 10/01/32",

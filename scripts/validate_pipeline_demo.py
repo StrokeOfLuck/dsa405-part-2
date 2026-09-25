@@ -34,6 +34,7 @@ def main():
         assert all(row["filing_id"] == ex["filing_id"] for row in records)
         record = next(r for r in records if r["transaction_number_in_filing"] == ex["spotlight_row"])
         assert record["asset_raw"] == ex["stage3"]["asset_raw"]
+        assert ex["csv_preview"][0]["transaction_number_in_filing"] == ex["spotlight_row"]
         g = ex["geometry"]
         assert g["page"] == int(record["page"]) == ex["page"]
         for field in g["fields"]:
