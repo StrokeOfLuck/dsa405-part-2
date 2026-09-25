@@ -152,7 +152,10 @@
     "ticker_validation_source": "house_ptr_structure+v8_1",
     "asset_changed_by_ticker_resolver": "False",
     "ticker_changed": "False",
-    "needs_review": "True"
+    "needs_review": "True",
+    "review_reason_v8_1": "adjacent transaction has same core signature",
+    "review_reason": "adjacent transaction has same core signature",
+    "review_level": "low"
   },
   "p2": {
     "raw_date_has_extra_text": true,

@@ -37,6 +37,8 @@ def main():
         assert record["asset_raw"] == ex["stage3"]["asset_raw"]
         for key in ["asset_lookup_context", "asset_type", "continuation_raw", "detail_raw"]:
             assert ex["stage3"][key] == record[key]
+        for key, value in ex["stage4"].items():
+            assert value == record[key], (ex["filing_id"], key)
         token = ex["stage3"]["date_token"]
         try:
             normalized = datetime.strptime(token, "%m/%d/%Y").strftime("%Y-%m-%d")

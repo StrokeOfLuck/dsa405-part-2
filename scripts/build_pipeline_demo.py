@@ -197,6 +197,23 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
         card.update(start_line=line, parsed_field=field, input_keys=inputs, output_keys=outputs, focus_token=token)
         parsed_cards.append(card)
     steps["parse"] = parsed_cards + steps["parse"]
+    resolve_rules = [
+        ("decision", "Explain ticker decision", "resolve_ticker", "def resolve_ticker", "Classify the candidate using asset type, the earlier ticker, source structure, and any reference match. The values below include the recorded validation source.", ["stage3.asset_type", "stage4.ticker_v8_1", "stage4.ticker_candidate_raw"], ["stage4.ticker_parse_status", "stage4.ticker_validation_source"]),
+        ("candidate", "Explain candidate", "resolve_ticker", "candidate = extract_ticker_candidate", "A candidate is a proposed ticker found in source text. Non-stock assets skip candidate extraction. Use Find candidate in source text to inspect the helper used for stocks.", ["stage3.asset_type", "stage3.asset_lookup_context", "stage3.asset_raw", "stage3.asset"], ["stage4.ticker_candidate_raw", "stage4.ticker_parse_status"]),
+        ("ticker", "Explain final ticker", "resolve_ticker", "def resolve_ticker", "The resolver returns the ticker used in Stage 4. Compare the preserved earlier ticker, proposed candidate, and final ticker below.", ["stage3.asset_type", "stage4.ticker_v8_1", "stage4.ticker_candidate_raw"], ["stage4.ticker_v8_2_cleaned", "stage4.ticker_parse_status", "stage4.ticker_validation_source"]),
+        ("asset", "Explain asset cleanup", "remove_resolved_ticker_from_asset", "if not asset or not ticker:", "Remove the accepted ticker parenthetical from the presentation asset name. If asset or ticker is empty, return the asset unchanged. Source evidence remains preserved.", ["stage4.asset_v8_1", "stage4.ticker_v8_2_cleaned"], ["stage4.asset_v8_2_cleaned", "stage4.asset_changed_by_ticker_resolver"]),
+        ("review", "Explain review flag", "rebuild_review_fields", "if not reasons:", "Update ticker-related warnings while retaining unrelated reasons. Any remaining reason sets needs_review to true; a flag requests review and does not itself prove an error.", ["stage4.review_reason_v8_1", "stage3.asset_type", "stage4.ticker_v8_2_cleaned", "stage4.ticker_parse_status"], ["stage4.review_reason", "stage4.review_level", "stage4.needs_review"]),
+    ]
+    resolve_cards = []
+    for field, label, name, token, explanation, inputs, outputs in resolve_rules:
+        body, line = function_source(resolver, name)
+        card = src(label, "Pinned Stage 4 resolver", source_url + f"stage4_clean.py#L{line}", body, explanation, ", ".join(inputs), ", ".join(outputs))
+        card.update(start_line=line, resolve_field=field, input_keys=inputs, output_keys=outputs, focus_token=token)
+        resolve_cards.append(card)
+    body, line = function_source(resolver, "extract_ticker_candidate")
+    card = src("Find candidate in source text", "Pinned Stage 4 resolver", source_url + f"stage4_clean.py#L{line}", body, "For stock assets, search the preserved asset evidence in priority order and take the last compact parenthetical before [ST]. This helper is skipped for non-stock assets; its code is available here to study.", "Preserved asset evidence", "Proposed ticker")
+    card.update(start_line=line, focus_token="candidates = symbol_like_parentheticals")
+    steps["resolve"] = resolve_cards + [card] + steps["resolve"]
     for group in steps.values():
         for item in group:
             if item["kind"] == "notebook":
@@ -377,7 +394,7 @@ def main() -> None:
                 "asset_v8_1", "asset_v8_2_cleaned", "ticker_v8_1",
                 "ticker_v8_2_cleaned", "ticker_candidate_raw", "ticker_parse_status",
                 "ticker_validation_source", "asset_changed_by_ticker_resolver",
-                "ticker_changed", "needs_review",
+                "ticker_changed", "needs_review", "review_reason_v8_1", "review_reason", "review_level",
             ]),
             "p2": {
                 "raw_date_has_extra_text": bool(c.raw_date_has_extra_text),
