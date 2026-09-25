@@ -99,8 +99,11 @@
       $("source-guide")?.remove();
       const panel=document.createElement("div");panel.id="source-guide";panel.className="box source-guide";
       $("source").querySelector(".stage-head").after(panel);
-      addText(panel,"h3","Follow the setup, one small step at a time");
+      addText(panel,"h3","Step 01: setup and starting the pipeline");
       addText(panel,"p","This page shows a saved run. Clicking a lesson changes the explanation and code highlight; it does not install anything or rerun Python.");
+      addText(panel,"p","These seven lessons explain setup and the command that launches extraction. They are not seven separate stages of the whole project. The six tabs above follow the full journey:");
+      const journey=addText(panel,"p","01 Get the PDFs ready → 02 Read PDF regions → 03 Separate transaction fields → 04 Review tickers → 05 Add class date checks → 06 Write the final CSV.");
+      addText(panel,"p","The complete project source is available on the left. Highlights explain selected operations for this saved transaction, rather than showing every instruction executing. Step 01 starts the parser work that tabs 02–04 explain; those tabs do not run it again.");
       const controls=addText(panel,"div","","learning-controls");controls.id="source-lesson-buttons";
       for(const card of stepCode.source.filter(c=>c.source_guide)){const button=addText(controls,"button",card.label,"parsed-value");button.type="button";button.dataset.label=card.label;button.addEventListener("click",()=>showCode(card));}
       const content=addText(panel,"div","");content.id="source-lesson-content";content.setAttribute("aria-live","polite");
@@ -233,7 +236,7 @@
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
-        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=intro-v10");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=journey-v11");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
         if(request!==codeRequest)return;
         const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
         if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
@@ -289,14 +292,14 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=intro-v10");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=journey-v11");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=intro-v10`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=journey-v11`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}

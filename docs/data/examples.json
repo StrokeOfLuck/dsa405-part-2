@@ -51,7 +51,7 @@
         "focus_code": "    subprocess.run([sys.executable,\"-m\",\"pip\",\"install\",\"-q\",\"-r\",\"requirements.txt\"],check=True)"
       },
       {
-        "label": "3. Start the rebuild",
+        "label": "3. Run the PDF-to-CSV pipeline",
         "source": "Colab cell 3",
         "kind": "notebook",
         "url": "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo=9052b914",
@@ -59,11 +59,11 @@
         "start_line": 1,
         "explanation": "Ask Python to run scripts/rebuild_2025.py. That script coordinates the archive checks and parser stages.",
         "reads": "Project code and Python tools",
-        "makes": "A rebuild process and its log messages",
+        "makes": "The PDF-to-CSV process and its log messages",
         "focus_token": "result=subprocess.run",
         "source_guide": {
           "what": "Ask Python to run scripts/rebuild_2025.py. That script coordinates the archive checks and parser stages.",
-          "why": "One command starts the preparation and extraction work in order. The following lessons open that script to show what this command calls.",
+          "why": "Run this when you want to reproduce the transaction CSVs from the archived PDFs. The webpage already has saved results. The next lessons explain the script this command starts; the notebook adds its class audit and final CSV afterward.",
           "translation": "The list contains the program and script to run. stdout=log sends normal messages to the log file; stderr=STDOUT sends errors there too. This line launches the work; it does not itself read transaction fields."
         },
         "full_code": "# Bring in tools we need:\n# Path works with file and folder names; os moves between folders.\n# subprocess runs a command (like Git) from Python; sys tells us which Python is running.\nfrom pathlib import Path\nimport os, subprocess, sys\n\n# Find the rest of this project. Colab opens the notebook, but may not have its files yet.\nif not Path(\"scripts/rebuild_2025.py\").exists():\n    # If we started inside the notebooks folder, go up one folder.\n    if Path(\"../scripts/rebuild_2025.py\").exists():\n        os.chdir(\"..\")\n    else:\n        # Otherwise, download a copy of this GitHub project into dsa405-part-2.\n        target = Path(\"dsa405-part-2\")\n        if not (target / \"scripts/rebuild_2025.py\").exists():\n            # Run Git only if the copy is missing. check=True stops if the download fails.\n            subprocess.run([\"git\",\"clone\",\"--depth\",\"1\",\"https://github.com/StrokeOfLuck/dsa405-part-2.git\",str(target)],check=True)\n        os.chdir(target)\n\n# Try importing a Colab-only tool to see whether this notebook is running in Colab.\ntry:\n    import google.colab  # available in Colab, absent in a normal local notebook\nexcept ImportError:\n    # Outside Colab, there is nothing to install automatically here.\n    pass\nelse:\n    # In Colab, install the packages listed in requirements.txt.\n    # sys.executable makes sure we install them for the Python running this notebook.\n    subprocess.run([sys.executable,\"-m\",\"pip\",\"install\",\"-q\",\"-r\",\"requirements.txt\"],check=True)\n\n# Save the rebuild's messages in a text file called rebuild.log.\nlog_path=Path(\"data/work/rebuild.log\")\nlog_path.parent.mkdir(parents=True,exist_ok=True)\n# Run the rebuild script: it checks the PDFs and makes the Stage 3 and Stage 4 CSVs.\n# Send its messages and errors to the log instead of printing pages of output here.\nwith log_path.open(\"w\") as log:\n    result=subprocess.run([sys.executable,\"scripts/rebuild_2025.py\"],stdout=log,stderr=subprocess.STDOUT)\n# A result of 0 means the script finished successfully. Show its last 18 messages.\nprint(\"Pipeline result:\",result.returncode)\nprint(\"\\n\".join(log_path.read_text(errors=\"replace\").splitlines()[-18:]))\n# If the script failed, stop here so later cells do not read old or incomplete CSVs.\nif result.returncode:\n    raise RuntimeError(f\"Pipeline failed. Inspect {log_path} for the stage and error.\")",
@@ -4007,7 +4007,7 @@
       "label": "Webpage · Interactive controls and rendering",
       "url": "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/docs/walkthrough.js",
       "text_url": "data/source/walkthrough.js",
-      "lines": 310
+      "lines": 313
     }
   ]
 }
