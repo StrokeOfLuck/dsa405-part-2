@@ -2,12 +2,13 @@
     const $=id=>document.getElementById(id);
     const addText=(parent,tag,value,className)=>{const el=document.createElement(tag);el.textContent=value==null||value===""?"—":String(value);if(className)el.className=className;parent.append(el);return el};
     function fields(id,entries){const root=$(id);root.replaceChildren();for(const [label,value,raw] of entries){addText(root,"dt",label);addText(root,"dd",value,raw?"raw mono":"")}}
-    let allCodeCards=[],currentExample=null;
+    let allCodeCards=[],currentExample=null,auditExample=null,csvSelectedField="asset_v8_2_cleaned",csvSelectedRecord=null;
     let stepCode={},sourceFiles=[],activeStep="source",codeRequest=0;
     const sourceCache=new Map();
     function renderCode(code){stepCode=code;allCodeCards=Object.values(code).flat();}
     function render(ex){
-      currentExample=ex;
+      currentExample=ex;auditExample=null;csvSelectedRecord=null;
+      document.querySelectorAll(".learning-panel").forEach(panel=>panel.remove());
       $("selected-member").textContent=ex.politician;$("selected-info").textContent=`Filing ${ex.filing_id} · ${ex.rows} parsed transactions`;$("open-pdf").href=ex.pdf_url;$("pdf-link").href=ex.pdf_url;$("pdf-image").src=ex.pdf_image;$("pdf-image").alt=`Page ${ex.page} of House PTR filing ${ex.filing_id} for ${ex.politician}`;
       $("pdf-caption").textContent=`Filing ${ex.filing_id} · page ${ex.page} of ${ex.page_count} page${ex.page_count===1?"":"s"}`;
       const summary=$("summary");summary.replaceChildren();for(const [name,value] of [["Member",ex.politician],["District",ex.state_district],["Filing",ex.filing_id],["Transactions",ex.rows],["Following row",ex.spotlight_row]]){const p=addText(summary,"span",`${name}: ${value}`,"pill");}
@@ -33,8 +34,65 @@
       const audit=$("audit-cards");audit.replaceChildren();for(const [title,value,desc] of [["Extra text in raw date?",p.raw_date_has_extra_text?"Yes":"No","Checks whether the entire original date field is only a date."],["Leading date found",p.raw_date_prefix||"None","Pulls a date from the beginning of the original text, if present."],["Does it disagree?",p.date_prefix_disagrees?"Yes — inspect PDF":"No","Compares that leading date with the normalized transaction date."]]){const card=document.createElement("div");card.className="box";addText(card,"span",title);addText(card,"strong",value);addText(card,"span",desc);audit.append(card)}
       const table=document.createElement("table"),head=document.createElement("thead"),hrow=document.createElement("tr");for(const col of ex.preview_columns)addText(hrow,"th",col.replaceAll("_"," "));head.append(hrow);table.append(head);const body=document.createElement("tbody");for(const row of ex.csv_preview){const tr=document.createElement("tr");for(const col of ex.preview_columns)addText(tr,"td",row[col]);body.append(tr)}table.append(body);$("preview").replaceChildren(table);
       $("csv-description").textContent=`${ex.rows} transaction row${ex.rows===1?"":"s"} · ${ex.csv_columns} columns · filing ${ex.filing_id}`;$("download").href=ex.csv_url;$("download").download=`house_ptr_${ex.filing_id}_p2.csv`;
+      setupAuditLearning();setupCsvLearning();
+      if(activeStep==="audit"||activeStep==="csv")selectStep(activeStep);
       if(activeStep==="parse")selectParsedField("asset");
       if(activeStep==="resolve")selectResolveField("decision");
+    }
+    function selectLearning(kind,key){const card=stepCode[kind].find(c=>kind==="audit"?c.audit_field===key:c.csv_action===key);if(card)showCode(card);}
+    function auditValues(){return auditExample||{raw:currentExample.stage3.transaction_date_raw,date:currentExample.stage3.transaction_date,...currentExample.p2};}
+    function setupAuditLearning(){
+      const panel=document.createElement("div");panel.className="box learning-panel";$("audit-cards").before(panel);
+      addText(panel,"h3","Explore the date checks");addText(panel,"p","Teaching examples only change this explanation. They do not change the filing or its CSV.");
+      const controls=addText(panel,"div","","learning-controls"),context=addText(panel,"pre","");
+      const examples=[
+        ["This transaction",null],
+        ["Extra text",{raw:"11/19/2025 extra text",date:"2025-11-19",raw_date_has_extra_text:true,raw_date_prefix:"11/19/2025",date_prefix_disagrees:false}],
+        ["Different dates",{raw:"11/19/2025",date:"2025-11-20",raw_date_has_extra_text:false,raw_date_prefix:"11/19/2025",date_prefix_disagrees:true}],
+        ["Invalid date",{raw:"13/40/2025",date:"",raw_date_has_extra_text:false,raw_date_prefix:"13/40/2025",date_prefix_disagrees:false}]
+      ];
+      function refresh(label){const data=auditValues();context.textContent=`${auditExample?"Teaching example: "+label:"Saved transaction"}\nOriginal date text = ${JSON.stringify(data.raw)}\nParser date = ${JSON.stringify(data.date)}`;
+        const keys=["raw_date_has_extra_text","raw_date_prefix","date_prefix_disagrees"];
+        [...$("audit-cards").children].forEach((card,i)=>{let button=card.querySelector("button");if(!button){const strong=card.querySelector("strong");button=document.createElement("button");button.type="button";button.className="parsed-value";strong.replaceWith(button);button.addEventListener("click",()=>selectLearning("audit",keys[i]));}button.textContent=i===1?(data[keys[i]]||"No prefix"):(data[keys[i]]?"Yes":"No");button.setAttribute("aria-label",`Explain ${keys[i]}: ${button.textContent}`);});
+      }
+      for(const [label,data] of examples){const button=addText(controls,"button",label,"parsed-value");button.type="button";button.setAttribute("aria-pressed",String(data===null));button.addEventListener("click",()=>{auditExample=data;for(const b of controls.children)b.setAttribute("aria-pressed",String(b===button));refresh(label);selectLearning("audit",data?.date_prefix_disagrees||label==="Invalid date"?"date_prefix_disagrees":"raw_date_has_extra_text");});}
+      refresh("This transaction");
+    }
+    function csvEncode(value){const text=String(value??"");return /[",\r\n]/.test(text)?'"'+text.replaceAll('"','""')+'"':text;}
+    function setupCsvLearning(){
+      const panel=document.createElement("div");panel.className="box learning-panel";$("csv").querySelector(".stage-head").after(panel);
+      addText(panel,"h3","Inspect the transaction you followed");addText(panel,"p","Choose any column or click a value in the first preview row. See the saved value, its position, and how it is written into CSV text.");
+      const label=addText(panel,"label","CSV column"),select=document.createElement("select");select.id="csv-column";label.htmlFor=select.id;
+      for(const key of Object.keys(currentExample.csv_record)){const option=addText(select,"option",key);option.value=key;}
+      if(!Object.hasOwn(currentExample.csv_record,csvSelectedField))csvSelectedField=Object.keys(currentExample.csv_record)[0];
+      select.value=csvSelectedField;panel.append(select);select.addEventListener("change",()=>{csvSelectedField=select.value;selectLearning("csv","field");});
+      const controls=addText(panel,"div","","learning-controls");
+      for(const [key,title] of [["field","Inspect this field"],["row","See complete CSV record"],["index","Why index=False?"]]){const button=addText(controls,"button",title,"parsed-value");button.type="button";button.addEventListener("click",()=>selectLearning("csv",key));}
+      const previewRow=$("preview").querySelector("tbody tr");
+      if(previewRow)[...previewRow.children].forEach((td,i)=>{const value=td.textContent;td.replaceChildren();const button=addText(td,"button",value,"parsed-value");button.type="button";const key=currentExample.preview_columns[i];button.setAttribute("aria-label",`Inspect CSV ${key}`);button.addEventListener("click",()=>{csvSelectedField=key;select.value=key;selectLearning("csv","field");});});
+    }
+    function showLearningValues(pre,card){
+      if(!currentExample?.stage3)return;
+      const isAudit=activeStep==="audit"&&card?.audit_field,isCsv=activeStep==="csv"&&card?.csv_action;if(!isAudit&&!isCsv)return;
+      const box=document.createElement("span");box.className="runtime-values";box.setAttribute("role","note");addText(box,"strong",card.label);
+      if(isAudit){const data=auditValues(),key=card.audit_field;
+        addText(box,"span",auditExample?"Illustrative teaching example — filing unchanged.":"Saved audit result for this transaction.","runtime-note");
+        addText(box,"span",`transaction_date_raw = ${JSON.stringify(data.raw)}\ntransaction_date = ${JSON.stringify(data.date)}`,"runtime-output");
+        if(key==="date_prefix_disagrees")addText(box,"span",`raw_date_prefix = ${JSON.stringify(data.raw_date_prefix)}\nA missing or invalid prefix cannot trigger this flag.`,"runtime-output");
+        addText(box,"strong","Result");addText(box,"span",`${key} = ${JSON.stringify(data[key])}`,"runtime-output");
+      }else{const record=currentExample.csv_record,keys=Object.keys(record),field=csvSelectedField,value=record[field];
+        addText(box,"span",`Saved transaction ${currentExample.spotlight_row} · ${keys.length} columns. The notebook writes the full year; this download contains this filing.`,"runtime-note");
+        if(card.csv_action==="field"){
+          addText(box,"strong",`Column ${keys.indexOf(field)+1}: ${field}`);addText(box,"span",`Saved value = ${JSON.stringify(value)}`,"runtime-output");addText(box,"strong","CSV field text");addText(box,"span",csvEncode(value)||"(empty field between separators)","runtime-output");
+          addText(box,"span",/[",\r\n]/.test(value)?"This value needs surrounding quotes. Any quote inside it is doubled. Quoting keeps its commas or line breaks inside one field.":"This value needs no CSV quotes. CSV does not store a Python data type; software interprets the text when reading it.","runtime-note");
+          addText(box,"span",field.startsWith("raw_date_")||field==="date_prefix_disagrees"?"Created by the Part 2 date checks in step 05.":field.includes("v8_1")?"Preserved earlier value for comparison with Stage 4.":"Carried into the final table from the parser/resolver. Steps 03 and 04 explain those transformations.","runtime-note");
+        }else if(card.csv_action==="row"){
+          addText(box,"strong","Header — column names in order");addText(box,"span",keys.map(csvEncode).join(","),"runtime-output");addText(box,"strong","One complete saved transaction record");addText(box,"span",currentExample.csv_serialized_row,"runtime-output");
+        }else{
+          addText(box,"span",`index=False: ${keys.slice(0,3).join(",")},…\nIllustration with index=True: ,${keys.slice(0,3).join(",")},…\nThe extra first column would hold the DataFrame index. The real transaction_number_in_filing column is kept.`,"runtime-output");
+        }
+      }
+      pre.querySelector(".focused")?.after(box);
     }
     function wireResolveFields(){
       const groups={"before-fields":["asset","ticker"],"after-fields":["asset","ticker","candidate","decision","review"]};
@@ -137,7 +195,7 @@
       $("code-explanation").textContent=sourceOverride?sourceOverride.label:card.explanation;
       $("code-origin").href=sourceOverride?sourceOverride.url:card.url;
       for(const button of $("step-code-choices").children)button.setAttribute("aria-pressed",String(button.dataset.label===card?.label&&!sourceOverride));
-      document.querySelectorAll(".parsed-value:not(.resolve-value)").forEach(button=>button.setAttribute("aria-pressed",String(!sourceOverride&&card?.parsed_field===button.dataset.field)));
+      document.querySelectorAll("#parsed-fields .parsed-value,#raw-fields .parsed-value").forEach(button=>button.setAttribute("aria-pressed",String(!sourceOverride&&card?.parsed_field===button.dataset.field)));
       document.querySelectorAll(".resolve-value").forEach(button=>button.setAttribute("aria-pressed",String(!sourceOverride&&card?.resolve_field===button.dataset.resolveField)));
       const source=sourceOverride|| (card.kind!=="notebook"?sourceFiles.find(f=>f.name===card.url.split("/").pop().split("#")[0]):null);
       $("code-file").value=source?source.name:"notebook";
@@ -145,7 +203,7 @@
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
-        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=resolve-v8");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=learn-v9");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
         if(request!==codeRequest)return;
         const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
         if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
@@ -153,6 +211,7 @@
         if(!sourceOverride)showRuntimeValues(pre,card);
         if(!sourceOverride)showParsedValues(pre,card);
         if(!sourceOverride)showResolveValues(pre,card);
+        if(!sourceOverride)showLearningValues(pre,card);
         const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-(pre.querySelector(".runtime-values")?12:80);
       }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
     }
@@ -199,14 +258,14 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=resolve-v8");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=learn-v9");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=resolve-v8`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=learn-v9`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}

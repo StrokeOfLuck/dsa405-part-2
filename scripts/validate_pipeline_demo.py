@@ -1,5 +1,6 @@
 """Validate every published example, not just the default browser selection."""
 import csv
+import io
 import json
 from datetime import datetime
 from pathlib import Path
@@ -34,6 +35,8 @@ def main():
         assert len(records) == ex["rows"]
         assert all(row["filing_id"] == ex["filing_id"] for row in records)
         record = next(r for r in records if r["transaction_number_in_filing"] == ex["spotlight_row"])
+        assert ex["csv_record"] == record
+        assert next(csv.reader(io.StringIO(ex["csv_serialized_row"]))) == list(record.values())
         assert record["asset_raw"] == ex["stage3"]["asset_raw"]
         for key in ["asset_lookup_context", "asset_type", "continuation_raw", "detail_raw"]:
             assert ex["stage3"][key] == record[key]

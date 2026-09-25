@@ -7,6 +7,7 @@ No source PDFs or pipeline CSVs are edited.
 from __future__ import annotations
 
 import csv
+import io
 import ast
 import re
 import xml.etree.ElementTree as ET
@@ -214,6 +215,26 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
     card = src("Find candidate in source text", "Pinned Stage 4 resolver", source_url + f"stage4_clean.py#L{line}", body, "For stock assets, search the preserved asset evidence in priority order and take the last compact parenthetical before [ST]. This helper is skipped for non-stock assets; its code is available here to study.", "Preserved asset evidence", "Proposed ticker")
     card.update(start_line=line, focus_token="candidates = symbol_like_parentheticals")
     steps["resolve"] = resolve_cards + [card] + steps["resolve"]
+    audit_cards = []
+    for key, label, token, explanation in [
+        ("raw_date_has_extra_text", "Check the whole date field", 'p2["raw_date_has_extra_text"]', "fullmatch checks the entire string against a date-shaped pattern. Extra text, a blank, or a different format fails this pattern. This is not a calendar-validity check."),
+        ("raw_date_prefix", "Extract the leading date", 'p2["raw_date_prefix"]', "The ^ anchor searches only at the beginning. It keeps a date-shaped prefix even if text follows. No prefix becomes an empty string."),
+        ("date_prefix_disagrees", "Compare dates", 'p2["date_prefix_disagrees"]', "Convert the prefix to YYYY-MM-DD, then compare with the parser date. Invalid or missing prefixes become empty; those do not trigger this disagreement flag. No flag is not proof of a valid date."),
+    ]:
+        card = dict(steps["audit"][0])
+        card.update(label=label, audit_field=key, focus_token=token, explanation=explanation)
+        audit_cards.append(card)
+    steps["audit"] = audit_cards + steps["audit"]
+    csv_cards = []
+    for key, label, explanation in [
+        ("field", "Inspect a CSV field", "Follow a saved value into its CSV column. CSV stores text; commas, quotes, and line breaks inside a value require quoting. Click a preview cell or choose any column."),
+        ("row", "See the serialized row", "The writer serializes all columns in order into one CSV record. Values containing line breaks can span physical lines. The preview below shows the complete transaction followed on this page."),
+        ("index", "Why index=False?", "index=False omits pandas' extra row index. It does not remove real columns such as filing_id or transaction_number_in_filing. The notebook writes the whole-year table; this page downloads the selected filing."),
+    ]:
+        card = dict(steps["csv"][0])
+        card.update(label=label, csv_action=key, focus_token="p2.to_csv", explanation=explanation)
+        csv_cards.append(card)
+    steps["csv"] = csv_cards + steps["csv"]
     for group in steps.values():
         for item in group:
             if item["kind"] == "notebook":
@@ -255,6 +276,14 @@ def enrich_fallback(examples):
     reasons = dict(zip(fallback.filing_id, fallback.review_reason))
     for example in examples:
         if example["status"] != "no_parsed_rows":
+            with (OUT / example["csv_url"]).open(encoding="utf-8", newline="") as stream:
+                rows = list(csv.DictReader(stream))
+            record = next(row for row in rows if row["transaction_number_in_filing"] == example["spotlight_row"])
+            example["csv_record"] = record
+            buffer = io.StringIO(newline="")
+            writer = csv.writer(buffer, lineterminator="\n")
+            writer.writerow(record.values())
+            example["csv_serialized_row"] = buffer.getvalue()
             tokens = re.findall(r"\d{1,2}/\d{1,2}/\d{4}", example["stage3"]["transaction_date_raw"])
             example["stage3"]["date_token"] = tokens[0] if tokens else ""
             continue
