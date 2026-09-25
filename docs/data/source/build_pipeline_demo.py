@@ -102,8 +102,8 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
 
     steps = {
         "source": [nb(3, "1 · Get the project and rebuild the 2025 CSVs",
-            "Colab first finds or clones this Part 2 repository, installs packages, and runs the rebuild script. The script fetches the pinned scraper and verifies PDF copies before parsing.",
-            "GitHub repo + data/raw/2025_pdf_manifest.csv",
+            "Colab first finds or clones this Part 2 repository, installs packages, and runs the rebuild script. The script verifies the committed raw PDFs against the manifest, copies them into data/work/, then fetches only the pinned scraper code needed to parse them.",
+            "GitHub repo + data/raw/2025_pdfs/ + manifest",
             "data/work/01_pdfs/2025/*.pdf → transactions_raw.csv → transactions_resolved.csv")],
         "text": [src("How this page renders and reads the PDF", "Webpage snapshot builder",
             "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/build_pipeline_demo.py",
@@ -165,10 +165,10 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
     }
     rebuild = (ROOT / "scripts/rebuild_2025.py").read_text(encoding="utf-8")
     for name, label, explanation in [
-        ("copy_verified_source", "Verify the PDF copies", "Check each PDF's SHA-256 against the manifest before the parser reads it."),
+        ("prepare_working_copy", "Verify raw data and make working copies", "Check each committed raw PDF's SHA-256 against the manifest, then copy the verified bytes into data/work/ for parsing."),
         ("main", "Run Stage 3, Stage 4, then publish", "The rebuild runs each Python stage in order. The Colab notebook later reads their saved CSVs.")]:
         body, line = function_source(rebuild, name)
-        card = src(label, "Project rebuild script", "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/rebuild_2025.py", body, explanation, "Pinned archive + manifest", "Verified PDFs + transaction CSVs")
+        card = src(label, "Project rebuild script", "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/rebuild_2025.py", body, explanation, "Committed data/raw snapshot + manifest", "Verified working copies + transaction CSVs")
         card["start_line"] = line
         steps["source"].append(card)
     for name, label, explanation in [
@@ -258,15 +258,15 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
          "Project code and Python tools", "The PDF-to-CSV process and its log messages",
          "The list contains the program and script to run. stdout=log sends normal messages to the log file; stderr=STDOUT sends errors there too. This line launches the work; it does not itself read transaction fields."),
         ("Choose a fixed archive", "checkout_source", 'if current != SOURCE_COMMIT:',
-         "Get the archived scraper project and select its recorded Git version, including the 2025 PDFs.",
-         "A fixed version lets the class work from the same code and source documents instead of a moving live dataset.",
-         "Archive repository and SOURCE_COMMIT", "The recorded code and 2025 source files",
+         "Get the scraper code and select its recorded Git version. The 2025 PDFs are already preserved separately in this repository's data/raw/ folder.",
+         "A fixed parser version keeps the extraction code reproducible, while the committed data/raw/ snapshot keeps the source documents fixed separately.",
+         "Parser repository and SOURCE_COMMIT", "The recorded parser code",
          "A commit is a saved Git version. SOURCE_COMMIT identifies the version this project expects. The code checks the current version and switches if needed."),
-        ("Check the PDF copies", "copy_verified_source", 'assert sha256(working) == row["sha256"]',
-         "Copy the archived PDFs into a working folder and check their digital fingerprints against the manifest.",
+        ("Verify raw PDFs and make working copies", "prepare_working_copy", 'assert original_hash == row["sha256"]',
+         "Verify each PDF already committed in data/raw/ against the manifest, then copy the verified bytes into data/work/ so the parser never writes to the raw source folder.",
          "This checks that the parser gets the expected file bytes. It does not prove the disclosure is accurate or that parsing will succeed.",
-         "515 archived PDFs and a manifest (file checklist)", "Verified working PDF copies",
-         "sha256 computes a file fingerprint. == compares it with the recorded fingerprint. assert stops the run if they differ. The surrounding loop repeats these checks for each file."),
+         "515 committed raw PDFs and a manifest (file checklist)", "Verified working PDF copies",
+         "sha256 computes a file fingerprint. The first assert proves the committed raw PDF matches the recorded fingerprint; only then is that file copied into data/work/."),
         ("Run the parser stages", "main", 'for stage in (',
          "Run Stage 3 to extract transactions, Stage 4 to review tickers, then publish the parser's output files locally.",
          "Each stage uses the previous stage's results. Later notebook cells load these CSVs, add the class audit, and write the final Part 2 CSV.",
@@ -373,9 +373,9 @@ def source_catalog():
     folder.mkdir(parents=True, exist_ok=True)
     entries = []
     upstream = ROOT / "data/upstream/house-ptr-scraper/src"
-    files = [(ROOT / "scripts/rebuild_2025.py", "1 · Fetch, verify, and run the pipeline"),
-             (upstream / "stage1_download.py", "Original Stage 1 · Download PDFs (not rerun in Project 2)"),
-             (upstream / "stage2_verify.py", "Original Stage 2 · Verify coverage (not rerun in Project 2)"),
+    files = [(ROOT / "scripts/rebuild_2025.py", "1 · Verify raw data and run the pinned parser"),
+             (upstream / "stage1_download.py", "Original scraper Stage 1 · Historical downloader (not used for P2 raw input)"),
+             (upstream / "stage2_verify.py", "Original scraper Stage 2 · Historical coverage check (not used for P2 raw input)"),
              (upstream / "config.py", "1 · Parser paths and configuration"),
              (upstream / "stage3_extract.py", "2–3 · Complete geometry parser and CSV writer"),
              (upstream / "stage4_clean.py", "4 · Complete ticker resolver and CSV writer"),
