@@ -27,8 +27,8 @@
     <div id="status" role="status"></div>
     <div id="content" class="hidden">
       <div class="summary" id="summary"></div>
-      <div class="box boxpad route-guide"><h2>Start here: how the PDF becomes a CSV</h2><p>The notebook starts a rebuild script. That script fetches the pinned archive, verifies the PDFs, runs the geometry parser, and runs the ticker resolver. The notebook then loads those CSVs, audits them, and saves the final Part 2 CSV.</p><ol>
-<li><a href="#source">Get and verify the PDF</a> — Colab cell 3 → <code>rebuild_2025.py</code> → verified PDF copies.</li>
+      <div class="box boxpad route-guide"><h2>Start here: how the PDF becomes a CSV</h2><p>The notebook starts a rebuild script. That script verifies the immutable PDFs already committed in <code>data/raw/</code>, copies them into <code>data/work/</code>, fetches only the pinned parser code, then runs the geometry parser and ticker resolver. The notebook loads those CSVs, audits them, and saves the final Part 2 CSV.</p><ol>
+<li><a href="#source">Verify the raw PDF</a> — Colab cell 3 → <code>data/raw/2025_pdfs/</code> → manifest check → working copy.</li>
 <li><a href="#text">Find a row and read its columns</a> — <code>stage3_extract.py</code> uses rectangles and embedded text. Click a field to inspect it.</li>
 <li><a href="#parse">Build transaction fields</a> — Stage 3 interprets dates, amounts, and assets, then writes <code>transactions_raw.csv</code>.</li>
 <li><a href="#resolve">Review tickers</a> — Stage 4 writes <code>transactions_resolved.csv</code>, preserving earlier values.</li>
@@ -48,7 +48,7 @@
       <section class="stage" id="csv"><div class="stage-head"><div class="num">6</div><div><h2>The downloadable CSV</h2><p>Each line is one transaction from this filing. The download includes every row and every Stage 4 plus Part 2 column; the preview starts with the transaction traced above, followed by up to four other rows.</p></div></div><div class="box"><div class="table-wrap" id="preview"></div><div class="csv-actions"><p id="csv-description"></p><a class="btn" id="download" download href="#">Download this filing's CSV ↓</a></div></div><details class="code-reveal" id="code-csv"><summary>See the actual code for this step</summary><div class="code-sources"></div></details></section>
     </div>
     <section id="source-library" class="stage box boxpad"><h2>Complete source files</h2><p>Read every line of the project and parser files used by this walkthrough, including imports, constants, helpers, and CSV writing. Each file loads when expanded. The original notebook cells appear in the six steps above, with links to Colab.</p><div id="source-files"></div></section>
-    <footer><p><strong>Source and limits.</strong> Official House PTR PDFs, archived in the <a href="https://github.com/StrokeOfLuck/house-ptr-scraper">House PTR scraper</a>, processed by the pinned parser in the <a href="https://github.com/StrokeOfLuck/dsa405-part-2">DSA 405 Part 2 repository</a>. This is a fixed teaching snapshot, not a live feed or independent verification of every disclosed trade.</p><p id="provenance"></p></footer>
+    <footer><p><strong>Source and limits.</strong> Official House PTR PDFs preserved as an immutable snapshot in <a href="https://github.com/StrokeOfLuck/dsa405-part-2">this Part 2 repository</a>, processed with parser code pinned to the recorded <a href="https://github.com/StrokeOfLuck/house-ptr-scraper">House PTR scraper</a> commit. This is a fixed teaching snapshot, not a live feed or independent verification of every disclosed trade.</p><p id="provenance"></p></footer>
   </main>
   <script src="walkthrough.js?v=explain-v13"></script>
 
