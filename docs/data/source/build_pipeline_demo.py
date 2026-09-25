@@ -235,6 +235,55 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
         card.update(label=label, csv_action=key, focus_token="p2.to_csv", explanation=explanation)
         csv_cards.append(card)
     steps["csv"] = csv_cards + steps["csv"]
+    # Student guide links plain-language lessons to unchanged original source.
+    source_lessons = [
+        ("Find the project", None, 'if not Path("scripts/rebuild_2025.py").exists()',
+         "Find the folder containing this project's code. If it is missing, download a copy from GitHub.",
+         "Opening a notebook does not guarantee that its supporting scripts are on the computer. We need those files before Python can run them.",
+         "A notebook session", "The project folder is available",
+         "Path describes a file location. exists() asks whether it is there. if runs the indented instructions only when its condition is true."),
+        ("Prepare Python", None, 'subprocess.run([sys.executable,"-m","pip"',
+         "When running in Colab, install the Python packages listed in requirements.txt.",
+         "The parser uses tools for PDFs and tables that Python does not include by itself. This gives the notebook those tools.",
+         "requirements.txt — the package list", "Required Python packages installed in Colab",
+         "subprocess.run starts another command. sys.executable selects this session's Python. pip install installs packages. check=True stops if the command fails. Outside Colab, this block is skipped."),
+        ("Start the rebuild", None, 'result=subprocess.run',
+         "Ask Python to run scripts/rebuild_2025.py. That script coordinates the archive checks and parser stages.",
+         "One command starts the preparation and extraction work in order. The following lessons open that script to show what this command calls.",
+         "Project code and Python tools", "A rebuild process and its log messages",
+         "The list contains the program and script to run. stdout=log sends normal messages to the log file; stderr=STDOUT sends errors there too. This line launches the work; it does not itself read transaction fields."),
+        ("Choose a fixed archive", "checkout_source", 'if current != SOURCE_COMMIT:',
+         "Get the archived scraper project and select its recorded Git version, including the 2025 PDFs.",
+         "A fixed version lets the class work from the same code and source documents instead of a moving live dataset.",
+         "Archive repository and SOURCE_COMMIT", "The recorded code and 2025 source files",
+         "A commit is a saved Git version. SOURCE_COMMIT identifies the version this project expects. The code checks the current version and switches if needed."),
+        ("Check the PDF copies", "copy_verified_source", 'assert sha256(working) == row["sha256"]',
+         "Copy the archived PDFs into a working folder and check their digital fingerprints against the manifest.",
+         "This checks that the parser gets the expected file bytes. It does not prove the disclosure is accurate or that parsing will succeed.",
+         "515 archived PDFs and a manifest (file checklist)", "Verified working PDF copies",
+         "sha256 computes a file fingerprint. == compares it with the recorded fingerprint. assert stops the run if they differ. The surrounding loop repeats these checks for each file."),
+        ("Run the parser stages", "main", 'for stage in (',
+         "Run Stage 3 to extract transactions, Stage 4 to review tickers, then publish the parser's output files locally.",
+         "Each stage uses the previous stage's results. Later notebook cells load these CSVs, add the class audit, and write the final Part 2 CSV.",
+         "Verified PDFs and archived parser code", "Raw and resolved transaction CSVs",
+         "for repeats the indented command for each script name, in order. Here publish_latest.py prepares local output files; it is not publishing this website. Walkthrough tabs 02–04 unpack the parsing work."),
+        ("Check that it finished", None, 'if result.returncode:',
+         "Check the rebuild's exit code and stop the notebook if the rebuild failed. Read rebuild.log to find the cause.",
+         "Continuing after an error could make later cells use old or incomplete CSVs. Stopping makes the failure visible.",
+         "The rebuild's return code and log", "Continue on success, or an error explaining where to look",
+         "returncode is the command's result: 0 means success. A nonzero value makes this if run. raise RuntimeError stops the cell with an error message."),
+    ]
+    guided_cards = []
+    for index, (label, name, token, what, why, reads, makes, translation) in enumerate(source_lessons, 1):
+        if name is None:
+            card = nb(3, f"{index}. {label}", what, reads, makes)
+        else:
+            body, line = function_source(rebuild, name)
+            card = src(f"{index}. {label}", "Project rebuild script", "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/scripts/rebuild_2025.py", body, what, reads, makes)
+            card["start_line"] = line
+        card.update(focus_token=token, source_guide=dict(what=what, why=why, translation=translation))
+        guided_cards.append(card)
+    steps["source"] = guided_cards
     for group in steps.values():
         for item in group:
             if item["kind"] == "notebook":

@@ -1,6 +1,6 @@
 
     const $=id=>document.getElementById(id);
-    const addText=(parent,tag,value,className)=>{const el=document.createElement(tag);el.textContent=value==null||value===""?"—":String(value);if(className)el.className=className;parent.append(el);return el};
+    const addText=(parent,tag,value,className)=>{const el=document.createElement(tag);el.textContent=value===""&&["div","details"].includes(tag)?"":value==null||value===""?"—":String(value);if(className)el.className=className;parent.append(el);return el};
     function fields(id,entries){const root=$(id);root.replaceChildren();for(const [label,value,raw] of entries){addText(root,"dt",label);addText(root,"dd",value,raw?"raw mono":"")}}
     let allCodeCards=[],currentExample=null,auditExample=null,csvSelectedField="asset_v8_2_cleaned",csvSelectedRecord=null;
     let stepCode={},sourceFiles=[],activeStep="source",codeRequest=0;
@@ -15,6 +15,7 @@
       const facts=$("facts");facts.replaceChildren();for(const [name,value] of [["Member",ex.politician],["District",ex.state_district],["Filing ID",ex.filing_id],["Pages",ex.page_count],["Transactions parsed",ex.rows],["Row followed below",ex.spotlight_row]]){addText(facts,"dt",name);addText(facts,"dd",value)}
       $("raw-text").textContent=(ex.raw_pdf_text||"No embedded text was extracted from this page. It may be scanned; inspect the original PDF.")+(ex.raw_text_truncated?"\n\n… page excerpt ends here; open the PDF for the full document.":"");
       renderGeometry(ex);
+      setupSourceGuide();
       const noRows=ex.status==="no_parsed_rows";
       $("no-rows").classList.toggle("hidden",!noRows);$("no-rows").textContent=ex.status_note||"";
       for(const id of ["parse","resolve","audit","csv"])$(id).classList.toggle("no-transactions",noRows);
@@ -93,6 +94,34 @@
         }
       }
       pre.querySelector(".focused")?.after(box);
+    }
+    function setupSourceGuide(){
+      $("source-guide")?.remove();
+      const panel=document.createElement("div");panel.id="source-guide";panel.className="box source-guide";
+      $("source").querySelector(".stage-head").after(panel);
+      addText(panel,"h3","Follow the setup, one small step at a time");
+      addText(panel,"p","This page shows a saved run. Clicking a lesson changes the explanation and code highlight; it does not install anything or rerun Python.");
+      const controls=addText(panel,"div","","learning-controls");controls.id="source-lesson-buttons";
+      for(const card of stepCode.source.filter(c=>c.source_guide)){const button=addText(controls,"button",card.label,"parsed-value");button.type="button";button.dataset.label=card.label;button.addEventListener("click",()=>showCode(card));}
+      const content=addText(panel,"div","");content.id="source-lesson-content";content.setAttribute("aria-live","polite");
+      const note=addText(panel,"details","");addText(note,"summary","How does the PDF picture fit in?");addText(note,"p",`The image below is a preview of filing ${currentExample.filing_id}. Its highlight identifies the transaction followed later. The website draws that preview from saved data; the setup code on the left prepares files for the Python parser. In step 02, we inspect the actual PDF regions the parser read.`);
+      if(activeStep==="source")showCode(stepCode.source[0]);else updateSourceGuide(stepCode.source[0]);
+    }
+    function updateSourceGuide(card){
+      const content=$("source-lesson-content");if(!content||activeStep!=="source")return;
+      for(const button of $("source-lesson-buttons").children)button.setAttribute("aria-pressed",String(button.dataset.label===card?.label));
+      content.replaceChildren();
+      if(!card?.source_guide){addText(content,"p","You are browsing source code. Choose a numbered lesson above to return to its explanation.");return;}
+      const guide=card.source_guide;
+      addText(content,"h3",card.label);addText(content,"strong","What happens");addText(content,"p",guide.what);addText(content,"strong","Why we do it");addText(content,"p",guide.why);
+      const flow=addText(content,"div","","guide-flow");addText(flow,"strong","Starts with");addText(flow,"p",card.reads);addText(flow,"strong","After this code runs");addText(flow,"p",card.makes);
+      const controls=addText(content,"div","","learning-controls"),cards=stepCode.source.filter(c=>c.source_guide),index=cards.findIndex(c=>c.label===card.label);
+      for(const [next,label] of [[index-1,"← Previous lesson"],[index+1,"Next lesson →"]])if(cards[next]){const button=addText(controls,"button",label,"parsed-value");button.type="button";button.addEventListener("click",()=>showCode(cards[next]));}
+      if(index===cards.length-1){const link=addText(controls,"a","Continue to 02 · PDF geometry →","btn");link.href="#text";}
+    }
+    function showSourceTranslation(pre,card){
+      if(activeStep!=="source"||!card?.source_guide)return;
+      const box=document.createElement("span");box.className="runtime-values";box.setAttribute("role","note");addText(box,"strong","Read this line in plain English");addText(box,"span",card.source_guide.translation,"runtime-note");pre.querySelector(".focused")?.after(box);
     }
     function wireResolveFields(){
       const groups={"before-fields":["asset","ticker"],"after-fields":["asset","ticker","candidate","decision","review"]};
@@ -190,6 +219,7 @@
         const index=lines.findIndex((line,i)=>line.includes('"ticker_parse_status": "'+status+'"')&&lines[i+1]?.includes('"ticker_validation_source": "'+currentExample.stage4.ticker_validation_source+'"'));
         if(index>=0)card={...card,focus_line:card.full_start_line+index};
       }
+      updateSourceGuide(sourceOverride?null:card);
       const request=++codeRequest;
       $("code-title").textContent=sourceOverride?sourceOverride.name:card.source;
       $("code-explanation").textContent=sourceOverride?sourceOverride.label:card.explanation;
@@ -203,7 +233,7 @@
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
-        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=learn-v9");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=intro-v10");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
         if(request!==codeRequest)return;
         const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
         if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
@@ -212,6 +242,7 @@
         if(!sourceOverride)showParsedValues(pre,card);
         if(!sourceOverride)showResolveValues(pre,card);
         if(!sourceOverride)showLearningValues(pre,card);
+        if(!sourceOverride)showSourceTranslation(pre,card);
         const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-(pre.querySelector(".runtime-values")?12:80);
       }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
     }
@@ -258,14 +289,14 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=learn-v9");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=intro-v10");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=learn-v9`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=intro-v10`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}
