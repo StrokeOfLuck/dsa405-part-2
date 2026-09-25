@@ -284,6 +284,15 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
         card.update(focus_token=token, source_guide=dict(what=what, why=why, translation=translation))
         guided_cards.append(card)
     steps["source"] = guided_cards
+    for filename, label, token, what, why in [
+        ("stage1_download.py", "Original Stage 1: download PDFs", "pdf_path.write_bytes", "Read the House filing index, select PTR entries, and download their PDF files.", "This is the original live collection step. Project 2 does not run it: it retrieves the already archived 2025 PDFs from the recorded Git version."),
+        ("stage2_verify.py", "Original Stage 2: verify coverage", "missing_docids =", "Compare expected filing IDs from the House index with local PDF filenames. Include parser checkpoint status when available.", "This checks collection coverage. Project 2 does not run this live verification script; it checks its fixed PDF copies against the manifest instead. File fingerprints do not establish coverage of today's live index."),
+    ]:
+        text = (ROOT / "data/upstream/house-ptr-scraper/src" / filename).read_text(encoding="utf-8")
+        body, line = function_source(text, "run")
+        card = src(label, "Pinned Stage 1/2 archive scripts", source_url + filename + f"#L{line}", body, what, "House filing index and archive files", "Downloaded PDFs" if filename.startswith("stage1") else "Coverage and verification reports")
+        card.update(start_line=line, focus_token=token, workflow_only=True, source_guide=dict(what=what, why=why, translation="This is original scraper code, shown for context. The Project 2 rebuild skips this script and reuses the fixed archive."))
+        steps["source"].append(card)
     for group in steps.values():
         for item in group:
             if item["kind"] == "notebook":
@@ -352,6 +361,8 @@ def source_catalog():
     entries = []
     upstream = ROOT / "data/upstream/house-ptr-scraper/src"
     files = [(ROOT / "scripts/rebuild_2025.py", "1 · Fetch, verify, and run the pipeline"),
+             (upstream / "stage1_download.py", "Original Stage 1 · Download PDFs (not rerun in Project 2)"),
+             (upstream / "stage2_verify.py", "Original Stage 2 · Verify coverage (not rerun in Project 2)"),
              (upstream / "config.py", "1 · Parser paths and configuration"),
              (upstream / "stage3_extract.py", "2–3 · Complete geometry parser and CSV writer"),
              (upstream / "stage4_clean.py", "4 · Complete ticker resolver and CSV writer"),

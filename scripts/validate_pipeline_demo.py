@@ -80,7 +80,7 @@ def main():
                 start = card["full_start_line"] - 1
                 assert lines[start:start + len(full)] == full, card["label"]
     assert seen == {i for i, cell in enumerate(notebook["cells"]) if cell["cell_type"] == "code" and cell["source"]}
-    assert len(data["sources"]) == 8
+    assert len(data["sources"]) == 10
     for source in data["sources"]:
         original = (ROOT / "data/upstream/house-ptr-scraper/src" / source["name"]
                     if "house-ptr-scraper/blob" in source["url"] else ROOT / source["url"].split("/main/")[1])

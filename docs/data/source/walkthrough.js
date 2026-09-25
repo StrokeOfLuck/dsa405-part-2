@@ -99,13 +99,34 @@
       $("source-guide")?.remove();
       const panel=document.createElement("div");panel.id="source-guide";panel.className="box source-guide";
       $("source").querySelector(".stage-head").after(panel);
+      $("workflow-map")?.remove();
+      const map=document.createElement("div");map.id="workflow-map";map.className="box source-guide";panel.before(map);
+      addText(map,"h3","Where this project enters the original workflow");
+      addText(map,"p","The original scraper has four numbered stages. Project 2 reuses its archived inputs, then runs extraction and cleanup. The website tab numbers are lesson numbers, not scraper stage numbers.");
+      const list=document.createElement("ol");list.className="workflow-list";map.append(list);
+      const rows=[
+        ["Original Stage 1 · Download PDFs","stage1_download.py","Not rerun here — reuse the 2025 PDF archive.","download"],
+        ["Original Stage 2 · Verify collection coverage","stage2_verify.py","Not rerun here — original index-versus-files audit. It can also read existing parser checkpoints.","verify"],
+        ["Project 2 entry · Retrieve and check the archive","rebuild_2025.py","Get the fixed Git version and verify 515 PDF copies against the manifest. This checks the saved archive, not today's live filing list.","archive"],
+        ["Original Stage 3 · Extract transactions","stage3_extract.py","Runs on the verified PDFs → transactions_raw.csv. Website tabs 02 and 03 explain this same script.","parse"],
+        ["Original Stage 4 · Review tickers","stage4_clean.py","Runs on extracted rows → transactions_resolved.csv. Website tab 04 explains this script.","resolve"],
+        ["Prepare parser output files","publish_latest.py","Runs after Stage 4 and prepares local parser output files for downstream use.","publish"],
+        ["Class notebook · Audit and final CSV","Colab cell 21","Load the saved tables, add date checks, then write house_ptr_2025_p2.csv. Website tabs 05 and 06 explain these operations.","audit"]
+      ];
+      for(const [title,file,description,key] of rows){const li=document.createElement("li");list.append(li);addText(li,"strong",title);addText(li,"p",description);const button=addText(li,"button","See code: "+file,"parsed-value");button.type="button";button.addEventListener("click",()=>{
+        if(key==="download"||key==="verify")showCode(stepCode.source.find(c=>c.workflow_only&&c.url.includes(key==="download"?"stage1_download.py":"stage2_verify.py")));
+        else if(key==="archive")showCode(stepCode.source.find(c=>c.label.includes("Check the PDF copies")));
+        else if(key==="publish")showCode(stepCode.source[0],sourceFiles.find(f=>f.name==="publish_latest.py"));
+        else selectStep(key);
+      });}
+
       addText(panel,"h3","Step 01: setup and starting the pipeline");
       addText(panel,"p","This page shows a saved run. Clicking a lesson changes the explanation and code highlight; it does not install anything or rerun Python.");
       addText(panel,"p","These seven lessons explain setup and the command that launches extraction. They are not seven separate stages of the whole project. The six tabs above follow the full journey:");
       const journey=addText(panel,"p","01 Get the PDFs ready → 02 Read PDF regions → 03 Separate transaction fields → 04 Review tickers → 05 Add class date checks → 06 Write the final CSV.");
       addText(panel,"p","The complete project source is available on the left. Highlights explain selected operations for this saved transaction, rather than showing every instruction executing. Step 01 starts the parser work that tabs 02–04 explain; those tabs do not run it again.");
       const controls=addText(panel,"div","","learning-controls");controls.id="source-lesson-buttons";
-      for(const card of stepCode.source.filter(c=>c.source_guide)){const button=addText(controls,"button",card.label,"parsed-value");button.type="button";button.dataset.label=card.label;button.addEventListener("click",()=>showCode(card));}
+      for(const card of stepCode.source.filter(c=>c.source_guide&&!c.workflow_only)){const button=addText(controls,"button",card.label,"parsed-value");button.type="button";button.dataset.label=card.label;button.addEventListener("click",()=>showCode(card));}
       const content=addText(panel,"div","");content.id="source-lesson-content";content.setAttribute("aria-live","polite");
       const note=addText(panel,"details","");addText(note,"summary","How does the PDF picture fit in?");addText(note,"p",`The image below is a preview of filing ${currentExample.filing_id}. Its highlight identifies the transaction followed later. The website draws that preview from saved data; the setup code on the left prepares files for the Python parser. In step 02, we inspect the actual PDF regions the parser read.`);
       if(activeStep==="source")showCode(stepCode.source[0]);else updateSourceGuide(stepCode.source[0]);
@@ -118,8 +139,8 @@
       const guide=card.source_guide;
       addText(content,"h3",card.label);addText(content,"strong","What happens");addText(content,"p",guide.what);addText(content,"strong","Why we do it");addText(content,"p",guide.why);
       const flow=addText(content,"div","","guide-flow");addText(flow,"strong","Starts with");addText(flow,"p",card.reads);addText(flow,"strong","After this code runs");addText(flow,"p",card.makes);
-      const controls=addText(content,"div","","learning-controls"),cards=stepCode.source.filter(c=>c.source_guide),index=cards.findIndex(c=>c.label===card.label);
-      for(const [next,label] of [[index-1,"← Previous lesson"],[index+1,"Next lesson →"]])if(cards[next]){const button=addText(controls,"button",label,"parsed-value");button.type="button";button.addEventListener("click",()=>showCode(cards[next]));}
+      const controls=addText(content,"div","","learning-controls"),cards=stepCode.source.filter(c=>c.source_guide&&!c.workflow_only),index=cards.findIndex(c=>c.label===card.label);
+      for(const [next,label] of [[index-1,"← Previous lesson"],[index+1,"Next lesson →"]])if(index>=0&&cards[next]){const button=addText(controls,"button",label,"parsed-value");button.type="button";button.addEventListener("click",()=>showCode(cards[next]));}
       if(index===cards.length-1){const link=addText(controls,"a","Continue to 02 · PDF geometry →","btn");link.href="#text";}
     }
     function showSourceTranslation(pre,card){
@@ -236,7 +257,7 @@
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
-        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=journey-v11");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=workflow-v12");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
         if(request!==codeRequest)return;
         const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
         if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
@@ -292,14 +313,14 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=journey-v11");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=workflow-v12");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=journey-v11`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=workflow-v12`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}
