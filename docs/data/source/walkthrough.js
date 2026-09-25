@@ -73,6 +73,21 @@
       if(card)showCode(card);
     }
     function renderSourceLibrary(sources){sourceFiles=sources;}
+    function showRuntimeValues(pre,card){
+      if(activeStep!=="text"||!activeGeometry||!card||!/^def (extract_row_columns|clip_text|clean_space|normalize_house_pdf_text|table_row_items|date_anchor_items)\(/.test(card.full_code))return;
+      const g=activeGeometry,field=g.fields.find(f=>f.name===activeField);
+      const rect=field?field.rect:g.physical_rect;
+      const box=document.createElement("span");box.className="runtime-values";box.setAttribute("role","note");box.setAttribute("aria-label","Values for the selected PDF field");
+      addText(box,"strong",field?`This loop pass: ${field.name}`:"This physical row");
+      addText(box,"span","Saved parser trace · values change with your selection.","runtime-note");
+      const values=document.createElement("span");values.className="runtime-input";
+      values.textContent=(field?`name = ${JSON.stringify(field.name)}   |   `:"")+`PDF page ${g.page}\nx0 = ${rect[0].toFixed(2)}    x1 = ${rect[2].toFixed(2)}\ny0 = ${rect[1].toFixed(2)}    y1 = ${rect[3].toFixed(2)}\nrect = fitz.Rect(${rect.map(n=>n.toFixed(2)).join(", ")})`;
+      box.append(values);
+      addText(box,"strong",field?`Returned → output[${JSON.stringify(field.name)}]`:"Row text after cleanup");
+      const result=addText(box,"span",JSON.stringify(field?field.after:g.after),"runtime-output");result.dataset.field=activeField;
+      const details=document.createElement("details");addText(details,"summary","Compare the text before cleanup");addText(details,"span",JSON.stringify(field?field.before:g.before),"runtime-output");box.append(details);
+      const focus=pre.querySelector(".focused");if(focus)focus.after(box);
+    }
     async function showCode(card,sourceOverride){
       const request=++codeRequest;
       $("code-title").textContent=sourceOverride?sourceOverride.name:card.source;
@@ -85,12 +100,13 @@
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
-        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=split-v5");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=values-v6");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
         if(request!==codeRequest)return;
         const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
         if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
         $("code-body").replaceChildren(pre);
-        const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-80;
+        if(!sourceOverride)showRuntimeValues(pre,card);
+        const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-(pre.querySelector(".runtime-values")?12:80);
       }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
     }
     function selectStep(id){
@@ -136,14 +152,14 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=split-v5");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=values-v6");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=split-v5`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=values-v6`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}
