@@ -32,13 +32,13 @@ Open `http://localhost:8000/`. The builder writes `docs/data/examples.json` (ind
 
 ## Where the data comes from
 
-The source is the official U.S. House periodic transaction disclosure PDFs. `data/raw/2025_pdf_manifest.csv` records the filename, size, SHA-256, and pinned scraper commit for each of **515 archived 2025 PDFs**. The source code and archived files are fetched from scraper commit `510945b2b1d600dd90b183858b86419926b81e65`. The 2025 disclosure XML index is also copied. The files total about 51 MB.
+The source is the official U.S. House periodic transaction disclosure PDFs. This repository now preserves the complete pinned 2025 source snapshot directly in `data/raw/`: **515 unmodified PDFs** in `data/raw/2025_pdfs/`, the House disclosure index `data/raw/2025FD.xml`, `data/raw/2025_pdf_manifest.csv`, and `data/raw/SOURCES.md`. The manifest records each PDF's filename, size, SHA-256, and pinned scraper commit. The 515 PDFs total about 51 MB.
 
-To keep this assignment repo small, the 515 PDFs are copied **when the notebook runs** into `data/work/01_pdfs/2025/` and checked against the committed manifest. The code only reads `data/raw/2025_pdf_manifest.csv`; it never writes in `data/raw/`. The original archived PDFs remain untouched in the scraper repository. The PDF bytes are not committed as 515 duplicate Git blobs. The first run requires Git and Internet access. Colab runtimes are temporary, so save the executed notebook before leaving.
+The raw files were copied byte-for-byte from scraper commit `510945b2b1d600dd90b183858b86419926b81e65`. Project code never writes to `data/raw/`. When the notebook runs, `scripts/rebuild_2025.py` verifies the committed PDFs against the manifest and copies them into `data/work/01_pdfs/2025/` before parsing. The pinned scraper repository is still fetched for the parser source code, but the raw dataset itself is contained in this repository.
 
 ## Run
 
-**Colab:** Click the button above, then choose **Runtime → Run all**. The notebook clones this P2 repo into the Colab session, installs its dependencies, copies and checks the 2025 files in its working folder, runs the PDF parser and ticker resolver, and displays the audit. This is a full-year CPU run and can take several minutes. If the runtime stops, running it again can resume from the parser checkpoint.
+**Colab:** Click the button above, then choose **Runtime → Run all**. The notebook clones this P2 repo into the Colab session, installs its dependencies, verifies the committed `data/raw/` snapshot, copies those files into its working folder, runs the pinned PDF parser and ticker resolver, and displays the audit. This is a full-year CPU run and can take several minutes. If the runtime stops, running it again can resume from the parser checkpoint.
 
 **Local:** Use Python 3.10+ and Git. From the repo root:
 
