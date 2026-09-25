@@ -3,33 +3,9 @@
     const addText=(parent,tag,value,className)=>{const el=document.createElement(tag);el.textContent=value==null||value===""?"—":String(value);if(className)el.className=className;parent.append(el);return el};
     function fields(id,entries){const root=$(id);root.replaceChildren();for(const [label,value,raw] of entries){addText(root,"dt",label);addText(root,"dd",value,raw?"raw mono":"")}}
     let allCodeCards=[];
-    function renderCode(code){
-      allCodeCards=Object.values(code).flat();
-      for(const [stage,snippets] of Object.entries(code)){
-        const details=$(`code-${stage}`),host=details?.querySelector(".code-sources");
-        if(!host)continue;
-        details.open=true;
-        const cellCount=snippets.filter(s=>s.kind==="notebook").length;
-        details.querySelector("summary").textContent=`Code for this step · ${cellCount?`${cellCount} Colab section${cellCount===1?"":"s"}`:"Parser and PDF source code"}${cellCount&&snippets.some(s=>s.kind==="engine")?" + parser/source code":""}`;
-        host.replaceChildren();
-        for(const item of snippets){
-          const article=document.createElement("article");article.className="source-snippet";
-          const head=document.createElement("header");
-          const title=document.createElement("strong");title.textContent=item.label;
-          const link=document.createElement("a");link.href=item.url;link.target="_blank";link.rel="noopener";link.textContent=`Open ${item.source} ↗`;
-          head.append(title,link);article.append(head);
-          const tag=document.createElement("span");tag.className="code-tag";tag.textContent=item.kind==="notebook"?"Original Colab code · complete cell or contiguous section":"Under the hood · exact excerpt outside the Colab notebook";article.append(tag);
-          const explanation=document.createElement("p");explanation.textContent=item.explanation;article.append(explanation);
-          const flow=document.createElement("div");flow.className="file-flow";for(const [name,value] of [["Reads",item.reads],["Produces",item.makes]]){const badge=document.createElement("span");const bold=document.createElement("b");bold.textContent=name+": ";badge.append(bold,document.createTextNode(value));flow.append(badge);if(name==="Reads")flow.append(document.createTextNode("→"))}article.append(flow);
-          article.append(codeBlock(item.focus_code,item.focus_line,item.focus_line));
-          const full=document.createElement("details");full.className="full-block";
-          addText(full,"summary","See this line in the complete code block");
-          full.append(codeBlock(item.full_code,item.full_start_line,item.focus_line));article.append(full);
-          full.addEventListener("toggle",()=>{if(full.open){const pre=full.querySelector("pre"),focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-80;}});
-          host.append(article);
-        }
-      }
-    }
+    let stepCode={},sourceFiles=[],activeStep="source",codeRequest=0;
+    const sourceCache=new Map();
+    function renderCode(code){stepCode=code;allCodeCards=Object.values(code).flat();}
     function render(ex){
       $("selected-member").textContent=ex.politician;$("selected-info").textContent=`Filing ${ex.filing_id} · ${ex.rows} parsed transactions`;$("open-pdf").href=ex.pdf_url;$("pdf-link").href=ex.pdf_url;$("pdf-image").src=ex.pdf_image;$("pdf-image").alt=`Page ${ex.page} of House PTR filing ${ex.filing_id} for ${ex.politician}`;
       $("pdf-caption").textContent=`Filing ${ex.filing_id} · page ${ex.page} of ${ex.page_count} page${ex.page_count===1?"":"s"}`;
@@ -91,31 +67,58 @@
       sheet.style.top=`-${100*top/(bottom-top)}%`;
     }
     function showGeometrySource(isField){
-      const names=isField?["extract_row_columns","clip_text","clean_space","normalize_house_pdf_text"]:
-        [activeGeometry.method==="date_anchor_recovery"?"date_anchor_items":"table_row_items","extract_row_columns","clip_text","clean_space"];
-      const host=$("geometry-source-cards");host.replaceChildren();
-      for(const name of names){
-        const item=allCodeCards.find(card=>card.full_code.startsWith(`def ${name}(`));
-        if(!item)continue;
-        const article=document.createElement("article");article.className="source-snippet";
-        const head=document.createElement("header");addText(head,"strong",name+"()");
-        const link=addText(head,"a","Open original source on GitHub ↗");link.href=item.url;link.target="_blank";link.rel="noopener";article.append(head);
-        addText(article,"p",item.explanation);article.append(codeBlock(item.full_code,item.full_start_line,item.focus_line));host.append(article);
-      }
+      if(activeStep!=="text"||!$("code-pane"))return;
+      const name=isField?"extract_row_columns":activeGeometry.method==="date_anchor_recovery"?"date_anchor_items":"table_row_items";
+      const card=allCodeCards.find(c=>c.full_code.startsWith(`def ${name}(`));
+      if(card)showCode(card);
     }
-    function renderSourceLibrary(sources){
-      for(const source of sources){
-        const details=document.createElement("details");details.className="source-file";
-        addText(details,"summary",`${source.name} · ${source.lines.toLocaleString()} lines · ${source.label}`);
-        const link=addText(details,"a","Open original source on GitHub ↗");link.href=source.url;link.target="_blank";link.rel="noopener";
-        const status=addText(details,"p","Expand to load the complete file.");
-        let loaded=false,loading=false;
-        details.addEventListener("toggle",async()=>{if(!details.open||loaded||loading)return;loading=true;status.textContent="Loading complete source…";
-          try{const response=await fetch(source.text_url+"?v=source-v4");if(!response.ok)throw Error(String(response.status));
-            const text=await response.text();details.append(codeBlock(text,1,null));status.remove();loaded=true;
-          }catch(error){status.textContent=`Could not load source (${error.message}). Close and reopen to retry, or use the GitHub link.`;}finally{loading=false;}
-        });$("source-files").append(details);
-      }
+    function renderSourceLibrary(sources){sourceFiles=sources;}
+    async function showCode(card,sourceOverride){
+      const request=++codeRequest;
+      $("code-title").textContent=sourceOverride?sourceOverride.name:card.source;
+      $("code-explanation").textContent=sourceOverride?sourceOverride.label:card.explanation;
+      $("code-origin").href=sourceOverride?sourceOverride.url:card.url;
+      for(const button of $("step-code-choices").children)button.setAttribute("aria-pressed",String(button.dataset.label===card?.label&&!sourceOverride));
+      const source=sourceOverride|| (card.kind!=="notebook"?sourceFiles.find(f=>f.name===card.url.split("/").pop().split("#")[0]):null);
+      $("code-file").value=source?source.name:"notebook";
+      $("code-reading").textContent=source?"Complete file · highlighted function and current line":"Complete notebook cell · current line highlighted";
+      $("code-body").textContent="Loading source…";
+      try{
+        let text=card?.full_code,start=card?.full_start_line||1;
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=split-v5");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(request!==codeRequest)return;
+        const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
+        if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
+        $("code-body").replaceChildren(pre);
+        const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-80;
+      }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
+    }
+    function selectStep(id){
+      if(!stepCode[id])return;activeStep=id;
+      for(const section of document.querySelectorAll("#visual-pane section.stage"))section.hidden=section.id!==id;
+      document.querySelectorAll(".journey a").forEach(a=>{if(a.hash==="#"+id)a.setAttribute("aria-current","step");else a.removeAttribute("aria-current");});
+      const cards=[...stepCode[id]];
+      if(id==="text")cards.unshift(...stepCode.parse.filter(c=>c.kind==="engine"));
+      $("step-code-choices").replaceChildren();
+      for(const card of cards){const button=addText($("step-code-choices"),"button",card.label);button.type="button";button.dataset.label=card.label;button.addEventListener("click",()=>showCode(card));}
+      showCode(cards[0]);
+      if(id==="text"&&activeGeometry)showGeometrySource(activeField!=="row");
+      $("visual-pane").scrollTop=0;
+    }
+    function setupSplit(){
+      document.querySelector(".route-guide")?.remove();document.querySelector(".code-guide")?.remove();$("source-library")?.remove();
+      document.querySelectorAll(".code-reveal").forEach(el=>el.remove());
+      document.querySelectorAll('a[href="#source-library"]').forEach(el=>el.remove());
+      const intro=document.createElement("p");intro.className="split-intro";intro.textContent="Follow the PDF to CSV: choose a step, read its highlighted code on the left, and explore the PDF and results on the right.";
+      const nav=document.querySelector(".journey");nav.before(intro);
+      const split=document.createElement("div");split.id="split-workspace";
+      split.innerHTML=`<aside id="code-pane" aria-label="Source code"><div class="code-toolbar"><div><span class="eyebrow">Code</span><h2 id="code-title"></h2></div><a id="code-origin" target="_blank" rel="noopener">Open original source ↗</a></div><p id="code-explanation"></p><div id="step-code-choices" role="group" aria-label="Code blocks for this step"></div><label for="code-file">Browse a complete source file</label><select id="code-file"><option value="notebook">Notebook cell for this step</option></select><small id="code-reading"></small><div id="code-body"></div></aside><div id="visual-pane" aria-label="PDF and pipeline results"></div>`;
+      nav.after(split);
+      document.querySelectorAll("#content section.stage").forEach(section=>$("visual-pane").append(section));
+      for(const source of sourceFiles){const option=addText($("code-file"),"option",source.name);option.value=source.name;}
+      $("code-file").addEventListener("change",event=>{const source=sourceFiles.find(f=>f.name===event.target.value);showCode(stepCode[activeStep].find(c=>c.kind==="notebook")||stepCode.source[0],source);});
+      document.addEventListener("click",event=>{const link=event.target.closest('a[href^="#"]');if(link&&stepCode[link.hash.slice(1)]){event.preventDefault();selectStep(link.hash.slice(1));}});
+      selectStep(stepCode[location.hash.slice(1)]?location.hash.slice(1):"source");
     }
     function renderGeometry(ex){
       activeGeometry=ex.geometry;$("geometry-inspector").classList.toggle("hidden",!ex.geometry);
@@ -132,18 +135,15 @@
     const sections=[...document.querySelectorAll("section.stage")];
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
-    const stepObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){document.querySelectorAll(".journey a").forEach(link=>{if(link.hash==="#"+entry.target.id)link.setAttribute("aria-current","step");else link.removeAttribute("aria-current")})}},{rootMargin:"-10% 0px -70% 0px"});
-    sections.forEach(section=>stepObserver.observe(section));
     async function start(){
-      const response=await fetch("data/examples.json?v=source-v4");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=split-v5");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
-      $("expand-code").addEventListener("click",()=>document.querySelectorAll(".code-reveal,.full-block,.source-file").forEach(d=>d.open=true));
-      $("collapse-code").addEventListener("click",()=>document.querySelectorAll(".code-reveal,.full-block,.source-file").forEach(d=>d.open=false));
+      setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=source-v4`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=split-v5`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}
