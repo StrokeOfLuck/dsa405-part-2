@@ -105,7 +105,7 @@
     const stepObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){document.querySelectorAll(".journey a").forEach(link=>{if(link.hash==="#"+entry.target.id)link.setAttribute("aria-current","step");else link.removeAttribute("aria-current")})}},{rootMargin:"-10% 0px -70% 0px"});
     sections.forEach(section=>stepObserver.observe(section));
     async function start(){
-      const response=await fetch("data/examples.json");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=geometry-v2");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       $("expand-code").addEventListener("click",()=>document.querySelectorAll(".code-reveal,.full-block").forEach(d=>d.open=true));
       $("collapse-code").addEventListener("click",()=>document.querySelectorAll(".code-reveal,.full-block").forEach(d=>d.open=false));
