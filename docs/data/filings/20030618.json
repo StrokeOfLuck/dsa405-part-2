@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Home Depot, Inc. (HD) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Home Depot, Inc. (HD) [ST] P 06/18/2025 07/05/2025 $1,001 - $15,000 Filing Status: New Description: Reinvest shares",
+    "date_token": "06/18/2025"
   },
   "stage4": {
     "asset_v8_1": "Home Depot, Inc.",

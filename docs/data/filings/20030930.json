@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "AbbVie Inc. Common Stock (ABBV) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "AbbVie Inc. Common Stock (ABBV) [ST] P 09/26/2024 08/01/2025 $1,001 - $15,000 Filing Status: New Comments: This investment is held within a publicly available, widely held independently managed portfolio over which I have no authority to exercise control over or influence the financial interests held by the portfolio. The assets of the portfolio are widely diversified, and all investment decisions are made solely by the independent manager, without my input or direction.",
+    "date_token": "09/26/2024"
   },
   "stage4": {
     "asset_v8_1": "AbbVie Inc. Common Stock",

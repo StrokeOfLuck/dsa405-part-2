@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Capital One Financial Corporation Common Stock (COF) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "JT Capital One Financial Corporation Common Stock (COF) [ST] E 05/19/2025 06/06/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch Tax Efficient Core Description: Discover Financial Services stock exchanged for Capital One Financial Services stock following merger",
+    "date_token": "05/19/2025"
   },
   "stage4": {
     "asset_v8_1": "Capital One Financial Corporation Common Stock",

@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE [GS] P 10/27/2025 11/03/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Judith S. Clark Irrevocable Trust",
+    "date_token": "10/27/2025"
   },
   "stage4": {
     "asset_v8_1": "UNITED STATES TREAS SER AU- 2026; 4.625%; 11/15/2026 NTS NOTE",

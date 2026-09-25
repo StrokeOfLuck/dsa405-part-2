@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "State Street Corporation Common Stock (STT) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP State Street Corporation Common Stock (STT) [ST] S 02/18/2025 02/19/2025 $15,001 - $50,000 Filing Status: New Description: RSU distribution",
+    "date_token": "02/18/2025"
   },
   "stage4": {
     "asset_v8_1": "State Street Corporation Common Stock",

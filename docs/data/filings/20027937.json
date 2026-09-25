@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "UBS Group AG Registered Ordinary Shares (UBS) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "JT UBS Group AG Registered Ordinary Shares (UBS) [ST] S (partial) 03/07/2025 03/10/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Brokerage 90126",
+    "date_token": "03/07/2025"
   },
   "stage4": {
     "asset_v8_1": "UBS Group AG Registered Ordinary Shares",

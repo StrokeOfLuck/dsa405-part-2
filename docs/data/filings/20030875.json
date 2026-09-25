@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "2000114315 SP Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA) [ST] S 12/29/2023 01/03/2024 $100,001 - $250,000 Filing Status: Amended",
+    "date_token": "12/29/2023"
   },
   "stage4": {
     "asset_v8_1": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",

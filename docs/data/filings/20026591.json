@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Abbott Laboratories Common Stock (ABT) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Abbott Laboratories Common Stock (ABT) [ST] P 12/16/2024 01/06/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership",
+    "date_token": "12/16/2024"
   },
   "stage4": {
     "asset_v8_1": "Abbott Laboratories Common Stock",

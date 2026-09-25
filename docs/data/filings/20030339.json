@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "BNP Paribas MTN 4/9/2030 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "JT BNP Paribas MTN 4/9/2030 [CS] P 04/04/2025 04/04/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Hern Family Foundation Description: Buy to open",
+    "date_token": "04/04/2025"
   },
   "stage4": {
     "asset_v8_1": "BNP Paribas MTN 4/9/2030",

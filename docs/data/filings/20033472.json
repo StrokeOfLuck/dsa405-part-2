@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "San Francisco CA Sewer Util [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "SP San Francisco CA Sewer Util [GS] S 10/01/2025 10/31/2025 $50,001 - $100,000 Filing Status: New",
+    "date_token": "10/01/2025"
   },
   "stage4": {
     "asset_v8_1": "San Francisco CA Sewer Util",

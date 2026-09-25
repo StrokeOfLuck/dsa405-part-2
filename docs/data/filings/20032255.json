@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "BlackRock, Inc. Common Stock (BLK) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "BlackRock, Inc. Common Stock (BLK) [ST] S (partial) 09/18/2025 10/08/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Growth Partners Roth IRA",
+    "date_token": "09/18/2025"
   },
   "stage4": {
     "asset_v8_1": "BlackRock, Inc. Common Stock",

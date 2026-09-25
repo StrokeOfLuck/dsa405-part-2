@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Danaher Corporation Common Stock (DHR) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Danaher Corporation Common Stock (DHR) [ST] P 06/11/2025 07/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership",
+    "date_token": "06/11/2025"
   },
   "stage4": {
     "asset_v8_1": "Danaher Corporation Common Stock",

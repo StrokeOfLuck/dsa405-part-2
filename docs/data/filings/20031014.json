@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "SIMON PPTY GROUP LP NOTE CALL MAKE WHOLE 5.12500% 10/01/2035 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "SIMON PPTY GROUP LP NOTE CALL MAKE WHOLE 5.12500% 10/01/2035 [CS] P 08/18/2025 09/02/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Bill's IRA Description: 828807EA1",
+    "date_token": "08/18/2025"
   },
   "stage4": {
     "asset_v8_1": "SIMON PPTY GROUP LP NOTE CALL MAKE WHOLE 5.12500% 10/01/2035",

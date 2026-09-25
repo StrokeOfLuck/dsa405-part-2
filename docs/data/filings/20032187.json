@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Mercato Partners Traverse IV QP, LP (GLAS Funds, LP) [HN]",
+    "asset_type": "HN",
+    "continuation_raw": "",
+    "detail_raw": "Mercato Partners Traverse IV QP, LP (GLAS Funds, LP) [HN] P 10/27/2025 10/28/2025 $1,001 - $15,000 Filing Status: New Subholding Of: 2012 Trust Description: Capital call for $1,256",
+    "date_token": "10/27/2025"
   },
   "stage4": {
     "asset_v8_1": "Mercato Partners Traverse IV QP, LP (GLAS Funds, LP)",

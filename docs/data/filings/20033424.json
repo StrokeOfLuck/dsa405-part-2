@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Alphabet Inc. - Class A Common Stock (GOOGL) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Alphabet Inc. - Class A Common Stock (GOOGL) [ST] P 10/23/2025 10/23/2025 $100,001 - $250,000 Filing Status: New Subholding Of: Morgan Stanley - E*TRADE #2",
+    "date_token": "10/23/2025"
   },
   "stage4": {
     "asset_v8_1": "Alphabet Inc. - Class A Common Stock",

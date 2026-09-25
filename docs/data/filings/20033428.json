@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Procter & Gamble Company (PG) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Procter & Gamble Company (PG) [ST] P 11/06/2025 11/07/2025 $15,001 - $50,000 Filing Status: New",
+    "date_token": "11/06/2025"
   },
   "stage4": {
     "asset_v8_1": "Procter & Gamble Company",

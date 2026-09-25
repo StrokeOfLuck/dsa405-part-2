@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Comcast 6.50% maturing 11/15/35 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "Comcast 6.50% maturing 11/15/35 [CS] P 01/16/2025 01/31/2025 $15,001 - $50,000 Filing Status: New Subholding Of: CRT - Standard Unit Trust Description: Part of monthly rebalance",
+    "date_token": "01/16/2025"
   },
   "stage4": {
     "asset_v8_1": "Comcast 6.50% maturing 11/15/35",

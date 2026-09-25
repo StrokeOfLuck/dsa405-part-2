@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Carnival Corporation Common Stock (CCL) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Carnival Corporation Common Stock (CCL) [ST] S 03/14/2025 03/14/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Suzanne K Lee Trust > Fidelity Brokerage 402",
+    "date_token": "03/14/2025"
   },
   "stage4": {
     "asset_v8_1": "Carnival Corporation Common Stock",

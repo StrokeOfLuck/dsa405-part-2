@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Florida Dev Fin Corp Healthcare Facs Rev 4.00 % Due Nov 15, 2035 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Florida Dev Fin Corp Healthcare Facs Rev 4.00 % Due Nov 15, 2035 [GS] S 06/18/2025 06/18/2025 $250,001 - $500,000 Filing Status: New",
+    "date_token": "06/18/2025"
   },
   "stage4": {
     "asset_v8_1": "Florida Dev Fin Corp Healthcare Facs Rev 4.00 % Due Nov 15, 2035",

@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Paramount Skydance Corporation - Class B Common Stock (PSKY) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Paramount Skydance Corporation - Class B Common Stock (PSKY) [ST] E 08/07/2025 08/31/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Fidelity Brokerage Services, LLC Description: Paramount Class B Stock (PARA) exchanged for Paramount Skydance Class B Stock (PSKY) following merger",
+    "date_token": "08/07/2025"
   },
   "stage4": {
     "asset_v8_1": "Paramount Skydance Corporation - Class B Common Stock",

@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "2000137338 CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15 [GS] P 04/01/2025 05/06/2025 $1,001 - $15,000 Filing Status: Deleted Subholding Of: Trust 2 Description: Interest",
+    "date_token": "04/01/2025"
   },
   "stage4": {
     "asset_v8_1": "CHASKA MN ELEC REVENUE REF - SER A DTD 10/01/15",

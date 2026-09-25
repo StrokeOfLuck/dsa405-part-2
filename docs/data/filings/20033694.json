@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "KKR Real Estate Select Trust Class U [RS]",
+    "asset_type": "RS",
+    "continuation_raw": "",
+    "detail_raw": "SP KKR Real Estate Select Trust Class U [RS] P 11/04/2025 12/08/2025 $1,001 - $15,000 Filing Status: New Subholding Of: W.S.B Trust > UBS Financial Services 26 Description: Dividend reinvestment in a professionally managed account.",
+    "date_token": "11/04/2025"
   },
   "stage4": {
     "asset_v8_1": "KKR Real Estate Select Trust Class U",

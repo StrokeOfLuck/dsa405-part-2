@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Amcor plc Ordinary Shares (AMCR) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Amcor plc Ordinary Shares (AMCR) [ST] P 08/15/2025 09/02/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership",
+    "date_token": "08/15/2025"
   },
   "stage4": {
     "asset_v8_1": "Amcor plc Ordinary Shares",

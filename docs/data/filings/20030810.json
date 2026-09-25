@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "TuHURA Biosciences, Inc. - Common Stock (HURA) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP TuHURA Biosciences, Inc. - Common Stock (HURA) [ST] P 07/13/2025 08/03/2025 $50,001 - $100,000 Filing Status: New",
+    "date_token": "07/13/2025"
   },
   "stage4": {
     "asset_v8_1": "TuHURA Biosciences, Inc. - Common Stock",

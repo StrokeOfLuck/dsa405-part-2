@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "GOVERNMENT NATIONAL MORTGAGE ASSOCIATION POOL MB0260 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "GOVERNMENT NATIONAL MORTGAGE ASSOCIATION POOL MB0260 [CS] P 03/28/2025 03/31/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley Smith Barney LLC IRA Description: Corporate Bond; Maturity Date - 03/20/2055; Coupon Rate - 6% Fixed",
+    "date_token": "03/28/2025"
   },
   "stage4": {
     "asset_v8_1": "GOVERNMENT NATIONAL MORTGAGE ASSOCIATION POOL MB0260",

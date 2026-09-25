@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Connecticut St Ser A Go 5% due 1/15/28 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "SP Connecticut St Ser A Go 5% due 1/15/28 [GS] S 07/17/2025 08/12/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "date_token": "07/17/2025"
   },
   "stage4": {
     "asset_v8_1": "Connecticut St Ser A Go 5% due 1/15/28",

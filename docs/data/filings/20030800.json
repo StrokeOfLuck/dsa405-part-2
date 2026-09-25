@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "OnSolve LLC Shares [PS]",
+    "asset_type": "PS",
+    "continuation_raw": "",
+    "detail_raw": "OnSolve LLC Shares [PS] S 07/31/2024 12/18/2024 $15,001 - $50,000 Filing Status: New Subholding Of: VCECN Holdings LLC Location: New York, NY, US Description: AI technology company",
+    "date_token": "07/31/2024"
   },
   "stage4": {
     "asset_v8_1": "OnSolve LLC Shares",

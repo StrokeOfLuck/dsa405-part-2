@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Tomball TX 889858AE6 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "Tomball TX 889858AE6 [CS] P 08/25/2025 09/12/2025 $100,001 - $250,000 Filing Status: New Subholding Of: FMS IRA Description: Bond",
+    "date_token": "08/25/2025"
   },
   "stage4": {
     "asset_v8_1": "Tomball TX 889858AE6",

@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00 % Due Nov 1, 2029 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Arizona Indl Dev Auth Rev BDS Lincoln 5.00 % Due Nov 1, 2029 [GS] S (partial) 07/16/2025 07/16/2025 $15,001 - $50,000 Filing Status: New",
+    "date_token": "07/16/2025"
   },
   "stage4": {
     "asset_v8_1": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00 % Due Nov 1, 2029",

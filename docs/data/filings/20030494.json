@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Accenture plc Class A Ordinary Shares (ACN) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Accenture plc Class A Ordinary Shares (ACN) [ST] P 08/07/2024 05/19/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Fidelity Roth IRA Comments: Our broker purchased shares of 29 stocks in my spouse's Roth IRA on 8/7/24 in order to rebalance the portfolio in accordance with the firm's investment strategy for accounts that size. He failed to notify me of these transactions and it wasn't discovered until I was attempting to reconcile our investment holdings for my 2024 Financial Disclosure.",
+    "date_token": "08/07/2024"
   },
   "stage4": {
     "asset_v8_1": "Accenture plc Class A Ordinary Shares",

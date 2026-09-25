@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Oklahoma City Okla Go BDS Ser. 2023 4.00 % Due Mar 1, 2035 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Oklahoma City Okla Go BDS Ser. 2023 4.00 % Due Mar 1, 2035 [GS] S 09/12/2025 09/12/2025 $250,001 - $500,000 Filing Status: New",
+    "date_token": "09/12/2025"
   },
   "stage4": {
     "asset_v8_1": "Oklahoma City Okla Go BDS Ser. 2023 4.00 % Due Mar 1, 2035",

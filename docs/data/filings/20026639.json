@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "True",
     "review_reason": "adjacent transaction has same core signature",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "BoodleAI [PS]",
+    "asset_type": "PS",
+    "continuation_raw": "",
+    "detail_raw": "BoodleAI [PS] E 12/24/2024 12/27/2024 $50,001 - $100,000 Filing Status: New Location: US Description: Simple Agreement for Future Equity. Mandatory conversion of preferred stock for common stock.",
+    "date_token": "12/24/2024"
   },
   "stage4": {
     "asset_v8_1": "BoodleAI",

@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "ABB LTD SPONS ADR (ABBNY) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP ABB LTD SPONS ADR (ABBNY) [ST] S 08/08/2025 08/08/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Baird Trust Company TTEE FBO/Inherited Beneficiary IRA/John Eldridge Deceased IRA/Sara Smith Beneficiary Comments: This stock was part of the Inherited Beneficiary IRA spouse received upon the death of her father in 2021. Spouse has chosen to divest of all the stocks contained within this IRA. As this is an Inherited Beneficiary IRA, there are no capital gains on this sale.",
+    "date_token": "08/08/2025"
   },
   "stage4": {
     "asset_v8_1": "ABB LTD SPONS ADR",

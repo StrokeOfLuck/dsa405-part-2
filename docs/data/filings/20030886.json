@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Planet Labs PBC Class A Common Stock (PL) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Planet Labs PBC Class A Common Stock (PL) [ST] S 03/27/2025 03/27/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Hummingbird Circle Trust Comments: This position was sold at a loss on 3/27/2025 as part of my divestments to avoid possible conflicts of interest. This PTR is being submitted to ensure full transparency and compliance with all disclosure requirements. As of 3/28/2025, neither I nor my wife hold any single company publicly-traded stocks.",
+    "date_token": "03/27/2025"
   },
   "stage4": {
     "asset_v8_1": "Planet Labs PBC Class A Common Stock",

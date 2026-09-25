@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Amazon.com, Inc. - Common Stock (AMZN) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Amazon.com, Inc. - Common Stock (AMZN) [ST] S 10/29/2024 04/02/2025 $15,001 - $50,000 Filing Status: New Subholding Of: PERSHING LLC",
+    "date_token": "10/29/2024"
   },
   "stage4": {
     "asset_v8_1": "Amazon.com, Inc. - Common Stock",

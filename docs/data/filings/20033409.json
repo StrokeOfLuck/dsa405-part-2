@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "McKesson Corporation Common Stock (MCK) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "McKesson Corporation Common Stock (MCK) [ST] S 10/08/2025 11/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley IRA",
+    "date_token": "10/08/2025"
   },
   "stage4": {
     "asset_v8_1": "McKesson Corporation Common Stock",

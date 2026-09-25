@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Massachusetts St Sch Bld 5.00% [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Massachusetts St Sch Bld 5.00% [GS] E 09/18/2025 10/02/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: redemption of municipal bond",
+    "date_token": "09/18/2025"
   },
   "stage4": {
     "asset_v8_1": "Massachusetts St Sch Bld 5.00%",

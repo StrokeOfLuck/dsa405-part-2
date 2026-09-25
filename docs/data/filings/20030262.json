@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "University of Washington 4.00% 12/01/33 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT University of Washington 4.00% 12/01/33 [GS] P 04/08/2025 05/02/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: 30,000 units University of Washington 4.00% maturing 12/01/33",
+    "date_token": "04/08/2025"
   },
   "stage4": {
     "asset_v8_1": "University of Washington 4.00% 12/01/33",

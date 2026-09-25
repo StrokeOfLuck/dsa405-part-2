@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "CompoSecure, Inc. - Class A Common Stock (CMPO) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "CompoSecure, Inc. - Class A Common Stock (CMPO) [ST] P 01/10/2025 01/10/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Charles Schwab Brokerage Account 1",
+    "date_token": "01/10/2025"
   },
   "stage4": {
     "asset_v8_1": "CompoSecure, Inc. - Class A Common Stock",

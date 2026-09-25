@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Liberty Broadband Corporation - Class C Common Stock (LBRDK) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Liberty Broadband Corporation - Class C Common Stock (LBRDK) [ST] E 07/15/2025 08/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: State Street Bank & Trust Co. SP Description: Corporate action resulting in an exchange to new shares of LBRDK",
+    "date_token": "07/15/2025"
   },
   "stage4": {
     "asset_v8_1": "Liberty Broadband Corporation - Class C Common Stock",

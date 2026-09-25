@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "3M Company Common Stock (MMM) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "JT 3M Company Common Stock (MMM) [ST] S (partial) 11/13/2025 12/05/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Chase Brokerage Account (3935)",
+    "date_token": "11/13/2025"
   },
   "stage4": {
     "asset_v8_1": "3M Company Common Stock",

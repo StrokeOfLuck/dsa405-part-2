@@ -135,7 +135,12 @@
     "amount_max": "",
     "needs_review": "True",
     "review_reason": "nonstandard_exact",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Berry Corporation (BRY) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "DC Berry Corporation (BRY) [ST] S 09/15/2025 09/16/2025 $2,761.57 Filing Status: New Description: Dependent Child C",
+    "date_token": "09/15/2025"
   },
   "stage4": {
     "asset_v8_1": "Berry Corporation",

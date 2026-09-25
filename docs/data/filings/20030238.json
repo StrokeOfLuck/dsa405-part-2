@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Accenture plc Class A Ordinary Shares (ACN) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Accenture plc Class A Ordinary Shares (ACN) [ST] S 04/08/2025 04/08/2025 $15,001 - $50,000 Filing Status: New Subholding Of: JP Morgan Brokerage Account",
+    "date_token": "04/08/2025"
   },
   "stage4": {
     "asset_v8_1": "Accenture plc Class A Ordinary Shares",

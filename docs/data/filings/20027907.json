@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Intek Plastics LLC [OI]",
+    "asset_type": "OI",
+    "continuation_raw": "",
+    "detail_raw": "Intek Plastics LLC [OI] P 02/20/2025 02/20/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Investment Fund 1 Description: Plastics",
+    "date_token": "02/20/2025"
   },
   "stage4": {
     "asset_v8_1": "Intek Plastics LLC",

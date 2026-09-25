@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "California State GO Call 12/1/27 4% due 12/1/47 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "SP California State GO Call 12/1/27 4% due 12/1/47 [GS] S (partial) 06/12/2025 07/01/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "date_token": "06/12/2025"
   },
   "stage4": {
     "asset_v8_1": "California State GO Call 12/1/27 4% due 12/1/47",

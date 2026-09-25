@@ -135,7 +135,12 @@
     "amount_max": "1000000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Full House Resorts, Inc. - Common Stock (FLL) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Full House Resorts, Inc. - Common Stock (FLL) [ST] S 07/23/2025 07/23/2025 $500,001 - $1,000,000 Filing Status: New Subholding Of: Suzanne K Lee Trust > Fidelity Investments Brokerage 249",
+    "date_token": "07/23/2025"
   },
   "stage4": {
     "asset_v8_1": "Full House Resorts, Inc. - Common Stock",

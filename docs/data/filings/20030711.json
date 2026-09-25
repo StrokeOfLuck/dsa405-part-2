@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Palantir Technologies Inc. - Class A Common Stock (PLTR) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Palantir Technologies Inc. - Class A Common Stock (PLTR) [ST] P 07/15/2025 07/16/2025 $1,001 - $15,000 Filing Status: New",
+    "date_token": "07/15/2025"
   },
   "stage4": {
     "asset_v8_1": "Palantir Technologies Inc. - Class A Common Stock",

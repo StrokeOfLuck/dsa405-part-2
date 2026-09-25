@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4) [GS] P 11/14/2025 12/05/2025 $50,001 - $100,000 Filing Status: New Subholding Of: SCH1",
+    "date_token": "11/14/2025"
   },
   "stage4": {
     "asset_v8_1": "US TREASUR NOTE 3.75% DUE 08/15/27 (91282CLG4)",

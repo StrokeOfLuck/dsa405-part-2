@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS] S 05/15/2025 06/09/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Bill's IRA Description: 594918BJ2",
+    "date_token": "05/15/2025"
   },
   "stage4": {
     "asset_v8_1": "MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025",

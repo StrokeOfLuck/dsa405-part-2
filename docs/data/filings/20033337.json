@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Apple Inc. - Common Stock (AAPL) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Apple Inc. - Common Stock (AAPL) [ST] S (partial) 10/22/2025 10/22/2025 $100,001 - $250,000 Filing Status: New Description: Contribution of 382 shares held personally to Trinity University in Washington, DC.",
+    "date_token": "10/22/2025"
   },
   "stage4": {
     "asset_v8_1": "Apple Inc. - Common Stock",

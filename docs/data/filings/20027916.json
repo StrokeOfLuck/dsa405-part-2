@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "S&P Global Inc. Common Stock (SPGI) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "S&P Global Inc. Common Stock (SPGI) [ST] S 02/11/2025 03/06/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Daniel Goldman 1997 Trust > DSG Investment Holdings LLC > Brokerage",
+    "date_token": "02/11/2025"
   },
   "stage4": {
     "asset_v8_1": "S&P Global Inc. Common Stock",

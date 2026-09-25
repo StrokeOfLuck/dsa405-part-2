@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "AbbVie Inc. Common Stock (ABBV) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP AbbVie Inc. Common Stock (ABBV) [ST] S 10/30/2025 11/01/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Charles Schwab Brokerage Account 924",
+    "date_token": "10/30/2025"
   },
   "stage4": {
     "asset_v8_1": "AbbVie Inc. Common Stock",

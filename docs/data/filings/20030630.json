@@ -135,7 +135,12 @@
     "amount_max": "5000000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Broadcom Inc. - Common Stock (AVGO) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Broadcom Inc. - Common Stock (AVGO) [ST] P 06/20/2025 06/20/2025 $1,000,001 - $5,000,000 Filing Status: New Description: Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.",
+    "date_token": "06/20/2025"
   },
   "stage4": {
     "asset_v8_1": "Broadcom Inc. - Common Stock",

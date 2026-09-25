@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "United States Treas Bills Maturity 11/13/2025 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "United States Treas Bills Maturity 11/13/2025 [GS] P 05/19/2025 05/19/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Stephens Advantage Account",
+    "date_token": "05/19/2025"
   },
   "stage4": {
     "asset_v8_1": "United States Treas Bills Maturity 11/13/2025",

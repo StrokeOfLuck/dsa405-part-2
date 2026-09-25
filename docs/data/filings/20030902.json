@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Ballard Power Systems, Inc. - Common Shares (BLDP) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Ballard Power Systems, Inc. - Common Shares (BLDP) [ST] S 07/31/2024 08/11/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Vivien G Scott IRA Description: 1000 shares @ 2.295 net 2204.03",
+    "date_token": "07/31/2024"
   },
   "stage4": {
     "asset_v8_1": "Ballard Power Systems, Inc. - Common Shares",

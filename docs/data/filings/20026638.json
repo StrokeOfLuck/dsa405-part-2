@@ -135,7 +135,12 @@
     "amount_max": "1000000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Seven Bridges Emerging Markets Fund Series [HN]",
+    "asset_type": "HN",
+    "continuation_raw": "",
+    "detail_raw": "Seven Bridges Emerging Markets Fund Series [HN] S 12/31/2024 01/22/2025 $500,001 - $1,000,000 Filing Status: New Subholding Of: Randall R. Kaplan Irrevocable GST FBO Kathy Manning & Descendants > Randall Robert Kaplan Alaska LLC Description: Hedge fund. Fund manager letter on file with the Committee on Ethics.",
+    "date_token": "12/31/2024"
   },
   "stage4": {
     "asset_v8_1": "Seven Bridges Emerging Markets Fund Series",

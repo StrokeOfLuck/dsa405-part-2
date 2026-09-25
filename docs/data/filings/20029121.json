@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "True",
     "review_reason": "adjacent transaction has same core signature",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Broadcom Inc. - Common Stock (AVGO) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Broadcom Inc. - Common Stock (AVGO) [ST] P 03/21/2025 04/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Trust 1",
+    "date_token": "03/21/2025"
   },
   "stage4": {
     "asset_v8_1": "Broadcom Inc. - Common Stock",

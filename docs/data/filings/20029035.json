@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Alpine Investors IX, LP (GLAS Funds, LP) [HN]",
+    "asset_type": "HN",
+    "continuation_raw": "",
+    "detail_raw": "Alpine Investors IX, LP (GLAS Funds, LP) [HN] S (partial) 03/10/2025 03/27/2025 $1,001 - $15,000 Filing Status: New Subholding Of: 2012 Trust Description: Distribution from Alpine Investors IX LP of $2,202.88",
+    "date_token": "03/10/2025"
   },
   "stage4": {
     "asset_v8_1": "Alpine Investors IX, LP (GLAS Funds, LP)",

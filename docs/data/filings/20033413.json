@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Genprex, Inc. - Common Stock (GNPX) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Genprex, Inc. - Common Stock (GNPX) [ST] P 10/29/2025 11/03/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Schwab One",
+    "date_token": "10/29/2025"
   },
   "stage4": {
     "asset_v8_1": "Genprex, Inc. - Common Stock",

@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "SP GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9) [CS] P 07/10/2025 07/15/2025 $15,001 - $50,000 Filing Status: New Subholding Of: INVESTMENT Description: Corporate Note",
+    "date_token": "07/10/2025"
   },
   "stage4": {
     "asset_v8_1": "GENERAL MTRS FINL CO INC NOTE 5.40000% 04/06/2026 CALL MAKE WHOLE ( 37045XEF9)",

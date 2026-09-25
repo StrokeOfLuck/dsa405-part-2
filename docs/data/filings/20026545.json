@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "General Dynamics Corporation Common Stock (GD) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "JT General Dynamics Corporation Common Stock (GD) [ST] S 12/16/2024 01/09/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Morgan Stanley Trust Account",
+    "date_token": "12/16/2024"
   },
   "stage4": {
     "asset_v8_1": "General Dynamics Corporation Common Stock",

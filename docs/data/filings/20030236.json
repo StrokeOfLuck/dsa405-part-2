@@ -135,7 +135,12 @@
     "amount_max": "",
     "needs_review": "True",
     "review_reason": "nonstandard_exact",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "New Water Capital Partners II, LP (GLAS Funds, LP) [HN]",
+    "asset_type": "HN",
+    "continuation_raw": "",
+    "detail_raw": "New Water Capital Partners II, LP (GLAS Funds, LP) [HN] P 04/03/2025 04/28/2025 $823.45 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for New Water Capital Partners II, LP (GLAS Funds LP)",
+    "date_token": "04/03/2025"
   },
   "stage4": {
     "asset_v8_1": "New Water Capital Partners II, LP (GLAS Funds, LP)",

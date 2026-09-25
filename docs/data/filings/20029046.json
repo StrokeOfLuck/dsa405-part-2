@@ -135,7 +135,12 @@
     "amount_max": "1000000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Echo Street GoodCo Select, LP [HN]",
+    "asset_type": "HN",
+    "continuation_raw": "",
+    "detail_raw": "2000115357 SP Echo Street GoodCo Select, LP [HN] S 01/05/2024 02/02/2024 $500,001 - $1,000,000 Filing Status: Deleted Subholding Of: The 2011 Randall R. Kaplan Living Trust Description: Hedge Fund. Fund manager letter on file with the Committee on Ethics.",
+    "date_token": "01/05/2024"
   },
   "stage4": {
     "asset_v8_1": "Echo Street GoodCo Select, LP",

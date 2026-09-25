@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "International Business Machines Corporation Common Stock (IBM) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "JT International Business Machines Corporation Common Stock (IBM) [ST] S (partial) 08/12/2025 09/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley - Select UMA Account # 1",
+    "date_token": "08/12/2025"
   },
   "stage4": {
     "asset_v8_1": "International Business Machines Corporation Common Stock",

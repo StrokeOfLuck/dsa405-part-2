@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "True",
     "review_reason": "adjacent transaction has same core signature",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "AT&T Inc. (T) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "AT&T Inc. (T) [ST] P 07/18/2025 07/31/2025 $1,001 - $15,000 Filing Status: New Subholding Of: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)",
+    "date_token": "07/18/2025"
   },
   "stage4": {
     "asset_v8_1": "AT&T Inc.",

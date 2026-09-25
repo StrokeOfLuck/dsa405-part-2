@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "JT The Baldwin Insurance Group, Inc. - Class A Common Stock (BWIN) [ST] S (partial) 02/06/2025 02/07/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Fidelity Joint TBE",
+    "date_token": "02/06/2025"
   },
   "stage4": {
     "asset_v8_1": "The Baldwin Insurance Group, Inc. - Class A Common Stock",

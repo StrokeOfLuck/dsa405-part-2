@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Pacific Co B1 Bond - San Marcos 10/4/27 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "JT Pacific Co B1 Bond - San Marcos 10/4/27 [CS] P 09/30/2025 09/30/2025 $250,001 - $500,000 Filing Status: New Description: Real estate bond",
+    "date_token": "09/30/2025"
   },
   "stage4": {
     "asset_v8_1": "Pacific Co B1 Bond - San Marcos 10/4/27",

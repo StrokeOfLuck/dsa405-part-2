@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "SP Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26 [GS] S 10/17/2025 11/11/2025 $50,001 - $100,000 Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "date_token": "10/17/2025"
   },
   "stage4": {
     "asset_v8_1": "Indiana St Fin Auth Revenue Ser B Rev 5% due 2/1/26",

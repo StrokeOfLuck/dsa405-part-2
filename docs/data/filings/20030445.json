@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Union Pacific Corporation Common Stock (UNP) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Union Pacific Corporation Common Stock (UNP) [ST] P 04/21/2025 05/03/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Fidelity Roth IRA",
+    "date_token": "04/21/2025"
   },
   "stage4": {
     "asset_v8_1": "Union Pacific Corporation Common Stock",

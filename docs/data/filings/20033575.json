@@ -135,7 +135,12 @@
     "amount_max": "25000000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Bank of Montreal 13-Month Digital Buffer Note [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "Bank of Montreal 13-Month Digital Buffer Note [CS] P 11/13/2025 11/13/2025 $5,000,001 - $25,000,000 Filing Status: New Subholding Of: Advisory Account holding Structured Notes Description: Structured Note",
+    "date_token": "11/13/2025"
   },
   "stage4": {
     "asset_v8_1": "Bank of Montreal 13-Month Digital Buffer Note",

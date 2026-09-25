@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Oklahoma Cnt OK Independent 3:00% 07/01/25 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Oklahoma Cnt OK Independent 3:00% 07/01/25 [GS] E 07/01/2025 07/27/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: Bond Reached Maturity",
+    "date_token": "07/01/2025"
   },
   "stage4": {
     "asset_v8_1": "Oklahoma Cnt OK Independent 3:00% 07/01/25",

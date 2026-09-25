@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "True",
     "review_reason": "adjacent transaction has same core signature",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Apple Inc. - Common Stock (AAPL) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Apple Inc. - Common Stock (AAPL) [ST] S 10/30/2025 10/31/2025 $1,001 - $15,000 Filing Status: New Subholding Of: David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+    "date_token": "10/30/2025"
   },
   "stage4": {
     "asset_v8_1": "Apple Inc. - Common Stock",

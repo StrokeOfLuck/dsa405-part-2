@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Minneapolis-Saint Paul, MN Municipal Bond [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "Minneapolis-Saint Paul, MN Municipal Bond [GS] P 07/18/2025 07/28/2025 $100,001 - $250,000 Filing Status: New Subholding Of: JP Morgan Brokerage Account #4 Description: Minneapolis-Saint Paul, MN Municipal Bond Comments: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+    "date_token": "07/18/2025"
   },
   "stage4": {
     "asset_v8_1": "Minneapolis-Saint Paul, MN Municipal Bond",

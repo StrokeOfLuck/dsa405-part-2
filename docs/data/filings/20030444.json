@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Illinois ST Sales Tax Rev JR Oblig 4.00% Due Jun 15, 2030 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Illinois ST Sales Tax Rev JR Oblig 4.00% Due Jun 15, 2030 [GS] P 05/27/2025 05/27/2025 $1,001 - $15,000 Filing Status: New",
+    "date_token": "05/27/2025"
   },
   "stage4": {
     "asset_v8_1": "Illinois ST Sales Tax Rev JR Oblig 4.00% Due Jun 15, 2030",

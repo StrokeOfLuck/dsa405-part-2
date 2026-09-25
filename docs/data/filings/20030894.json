@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Toronto Dominion Bank (TD) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Toronto Dominion Bank (TD) [ST] S 06/04/2024 08/07/2025 $15,001 - $50,000 Filing Status: New Description: Sale of stock that was an asset of the Donald W. Norcross IRA account. The proceeds of the sale remain invested in the IRA account.",
+    "date_token": "06/04/2024"
   },
   "stage4": {
     "asset_v8_1": "Toronto Dominion Bank",

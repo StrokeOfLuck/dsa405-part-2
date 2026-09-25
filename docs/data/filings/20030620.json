@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Meta Platforms, Inc. - Class A Common Stock (META) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Meta Platforms, Inc. - Class A Common Stock (META) [ST] P 06/30/2025 07/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch SEP IRA",
+    "date_token": "06/30/2025"
   },
   "stage4": {
     "asset_v8_1": "Meta Platforms, Inc. - Class A Common Stock",

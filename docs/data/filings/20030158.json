@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "American Express Company Common Stock (AXP) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "American Express Company Common Stock (AXP) [ST] P 04/09/2025 04/11/2025 $1,001 - $15,000 Filing Status: New Description: Part of quarterly rebalance",
+    "date_token": "04/09/2025"
   },
   "stage4": {
     "asset_v8_1": "American Express Company Common Stock",

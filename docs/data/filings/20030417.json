@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Bitcoin [CT]",
+    "asset_type": "CT",
+    "continuation_raw": "",
+    "detail_raw": "Bitcoin [CT] P 01/29/2025 01/29/2025 $100,001 - $250,000 Filing Status: New",
+    "date_token": "01/29/2025"
   },
   "stage4": {
     "asset_v8_1": "Bitcoin",

@@ -135,7 +135,12 @@
     "amount_max": "500000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED [GS] S 10/21/2025 10/21/2025 $250,001 - $500,000 Filing Status: New Subholding Of: Fidelity Trust",
+    "date_token": "10/21/2025"
   },
   "stage4": {
     "asset_v8_1": "CENTRE CNTY PA HOSP AUTH REV HOSP REV 5% 11/15/2046 BDS MT NITTANYMED",

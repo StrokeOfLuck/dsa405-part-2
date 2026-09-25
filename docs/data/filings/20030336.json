@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Netflix, Inc. - Common Stock (NFLX) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "2000137143 Netflix, Inc. - Common Stock (NFLX) [ST] S 04/17/2025 04/17/2025 $1,001 - $15,000 Filing Status: Amended Subholding Of: JP Morgan Brokerage Account #2",
+    "date_token": "04/17/2025"
   },
   "stage4": {
     "asset_v8_1": "Netflix, Inc. - Common Stock",

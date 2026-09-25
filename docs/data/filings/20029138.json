@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Adobe Inc. - Common Stock (ADBE) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Adobe Inc. - Common Stock (ADBE) [ST] P 04/09/2025 04/10/2025 $1,001 - $15,000 Filing Status: New",
+    "date_token": "04/09/2025"
   },
   "stage4": {
     "asset_v8_1": "Adobe Inc. - Common Stock",

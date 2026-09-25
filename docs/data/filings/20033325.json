@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Connecticut St SPL Tax 5.00% 01/01/37 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Connecticut St SPL Tax 5.00% 01/01/37 [GS] P 10/22/2025 11/02/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Stocks, Bonds, & Mutual Funds Description: 40,000 units of Connecticut St SPL Tax 5.00% 01/01/37",
+    "date_token": "10/22/2025"
   },
   "stage4": {
     "asset_v8_1": "Connecticut St SPL Tax 5.00% 01/01/37",

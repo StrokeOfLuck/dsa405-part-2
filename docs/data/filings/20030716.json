@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Arista Networks, Inc. Common Stock (ANET) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Arista Networks, Inc. Common Stock (ANET) [ST] S (partial) 07/03/2025 07/22/2025 $1,001 - $15,000 Filing Status: New",
+    "date_token": "07/03/2025"
   },
   "stage4": {
     "asset_v8_1": "Arista Networks, Inc. Common Stock",

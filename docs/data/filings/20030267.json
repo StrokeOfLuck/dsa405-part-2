@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "SMX Industrial Solutions [OI]",
+    "asset_type": "OI",
+    "continuation_raw": "",
+    "detail_raw": "SMX Industrial Solutions [OI] P 04/10/2025 04/10/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Investment Fund 1 Description: Advanced Fabrication & Welding Solutions Company",
+    "date_token": "04/10/2025"
   },
   "stage4": {
     "asset_v8_1": "SMX Industrial Solutions",

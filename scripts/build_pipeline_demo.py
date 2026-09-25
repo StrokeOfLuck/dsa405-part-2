@@ -181,6 +181,22 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
         card = src(label, "Pinned Stage 3 parser", source_url + f"stage3_extract.py#L{line}", body, explanation, "PDF geometry / text", "Transaction fields")
         card["start_line"] = line
         steps["text"].append(card)
+    rules = [
+        ("asset", "Clean asset name", "parse_pdf_geometry_v8", 'asset = ASSET_TYPE_RE.sub', "Separate filing details, remove the asset-type marker and accepted ticker, then trim whitespace. The complete function also shows the description fallback and owner cleanup.", ["asset_raw", "ticker", "detail_raw"], ["asset"]),
+        ("ticker", "Extract ticker", "extract_ticker_from_context", "def extract_ticker_from_context", "Look for ticker candidates in the asset context and apply the Stage 3 validation rules. This precedes the Stage 4 ticker review.", ["asset_lookup_context", "asset_type"], ["ticker"]),
+        ("transaction_type", "Parse trade type", "extract_core_values", "def extract_core_values", "Use the transaction-code pattern to extract the type, including a partial/full qualifier when present.", ["transaction_type_raw"], ["transaction_type"]),
+        ("transaction_date", "Extract date token", "extract_core_values", "transaction_dates = DATE_RE.findall", "Find the first date token in the clipped column text before converting its format. The next date button shows that conversion.", ["transaction_date_raw"], ["date_token"]),
+        ("transaction_date", "Normalize trade date", "to_iso_date", "return datetime.strptime", "Convert the extracted date token to YYYY-MM-DD. Use Extract date token to see how that token was selected from the original text.", ["date_token"], ["transaction_date"]),
+        ("amount_min", "Parse amount range", "parse_amount_text", "def parse_amount_text", "Parse the disclosed amount, including continuation text when needed, into numeric bounds and an amount classification.", ["amount_raw", "continuation_raw"], ["amount_min", "amount_max"]),
+        ("needs_review", "Check review reasons", "parse_pdf_geometry_v8", "reasons = []", "Collect validation issues after parsing, then set the review flag from that list. Scroll through this section for the individual checks.", ["asset", "ticker", "transaction_date", "amount_raw"], ["needs_review", "review_reason"]),
+    ]
+    parsed_cards = []
+    for field, label, name, token, explanation, inputs, outputs in rules:
+        body, line = function_source(parser, name)
+        card = src(label, "Pinned Stage 3 parser", source_url + f"stage3_extract.py#L{line}", body, explanation, ", ".join(inputs), ", ".join(outputs))
+        card.update(start_line=line, parsed_field=field, input_keys=inputs, output_keys=outputs, focus_token=token)
+        parsed_cards.append(card)
+    steps["parse"] = parsed_cards + steps["parse"]
     for group in steps.values():
         for item in group:
             if item["kind"] == "notebook":
@@ -207,6 +223,8 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
                 preferred = ["result=subprocess.run"]
             elif item["source"] == "Colab cell 7":
                 preferred = ["raw=pd.read_csv"]
+            if "focus_token" in item:
+                preferred = [item["focus_token"]]
             chosen = next((i for token in preferred for i, line in enumerate(lines) if token in line), next((i for i, line in enumerate(lines) if line.strip() and not line.lstrip().startswith("#")), 0))
             item["focus_line"] = item["start_line"] + chosen
             item["focus_code"] = lines[chosen]
@@ -220,6 +238,8 @@ def enrich_fallback(examples):
     reasons = dict(zip(fallback.filing_id, fallback.review_reason))
     for example in examples:
         if example["status"] != "no_parsed_rows":
+            tokens = re.findall(r"\d{1,2}/\d{1,2}/\d{4}", example["stage3"]["transaction_date_raw"])
+            example["stage3"]["date_token"] = tokens[0] if tokens else ""
             continue
         member = members.get(example["filing_id"])
         if member is not None:
@@ -351,6 +371,7 @@ def main() -> None:
                 "transaction_type", "transaction_date_raw", "transaction_date",
                 "amount_raw", "amount_min", "amount_max", "needs_review",
                 "review_reason", "page_parse_method",
+                "asset_lookup_context", "asset_type", "continuation_raw", "detail_raw",
             ]),
             "stage4": text_record(b, [
                 "asset_v8_1", "asset_v8_2_cleaned", "ticker_v8_1",

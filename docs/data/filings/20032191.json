@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "J P Morgan Chase & Co Depositary Shares, each representing a 1/400th interest in a share of JPMorgan Chase & Co. 4.75% Non-Cumulative Preferred Stock, Series GG (JPM$J) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "J P Morgan Chase & Co Depositary Shares, each representing a 1/400th interest in a share of JPMorgan Chase & Co. 4.75% Non-Cumulative Preferred Stock, Series GG (JPM$J) [ST] S (partial) 09/04/2025 09/16/2025 $1,001 - $15,000 Filing Status: New Subholding Of: IRA #2",
+    "date_token": "09/04/2025"
   },
   "stage4": {
     "asset_v8_1": "J P Morgan Chase & Co Depositary Shares, each representing a 1/400th interest in a share of JPMorgan Chase & Co. 4.75% Non-Cumulative Preferred Stock, Series GG",

@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Direxion Daily Small Cap Bull 3X ETF - TNA [OT]",
+    "asset_type": "OT",
+    "continuation_raw": "",
+    "detail_raw": "Direxion Daily Small Cap Bull 3X ETF - TNA [OT] S 01/02/2025 02/05/2025 $100,001 - $250,000 Filing Status: New Location: US Description: ETF",
+    "date_token": "01/02/2025"
   },
   "stage4": {
     "asset_v8_1": "Direxion Daily Small Cap Bull 3X ETF - TNA",

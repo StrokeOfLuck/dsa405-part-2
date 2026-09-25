@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "AtriCure, Inc. - Common Stock (ATRC) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "AtriCure, Inc. - Common Stock (ATRC) [ST] P 05/06/2025 06/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: 150 Main Street Trust > Bank of America",
+    "date_token": "05/06/2025"
   },
   "stage4": {
     "asset_v8_1": "AtriCure, Inc. - Common Stock",

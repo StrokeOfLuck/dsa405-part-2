@@ -135,7 +135,12 @@
     "amount_max": "1000000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Austin Tex Indpt SCH Dist Unltd Tax Ref 5.00% Due Aug 1, 2028 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "JT Austin Tex Indpt SCH Dist Unltd Tax Ref 5.00% Due Aug 1, 2028 [GS] S 02/12/2025 02/12/2025 $500,001 - $1,000,000 Filing Status: New",
+    "date_token": "02/12/2025"
   },
   "stage4": {
     "asset_v8_1": "Austin Tex Indpt SCH Dist Unltd Tax Ref 5.00% Due Aug 1, 2028",

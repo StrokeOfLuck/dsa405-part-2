@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "AIX Ventures Fund II, LP (GLAS Funds, LP) [HN]",
+    "asset_type": "HN",
+    "continuation_raw": "",
+    "detail_raw": "AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 01/17/2025 01/31/2025 $1,001 - $15,000 Filing Status: New Subholding Of: 2012 Trust Description: Capital call for AIX Ventures Fund II, LP for $3,500",
+    "date_token": "01/17/2025"
   },
   "stage4": {
     "asset_v8_1": "AIX Ventures Fund II, LP (GLAS Funds, LP)",

@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "United States Treasury Notes; 3.875%; Due 1-15-26 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "United States Treasury Notes; 3.875%; Due 1-15-26 [GS] P 02/05/2025 06/11/2025 $15,001 - $50,000 Filing Status: New",
+    "date_token": "02/05/2025"
   },
   "stage4": {
     "asset_v8_1": "United States Treasury Notes; 3.875%; Due 1-15-26",

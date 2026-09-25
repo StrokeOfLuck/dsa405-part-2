@@ -135,7 +135,12 @@
     "amount_max": "250000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "US Treasury Bill [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "US Treasury Bill [GS] P 03/25/2025 03/26/2025 $100,001 - $250,000 Filing Status: New",
+    "date_token": "03/25/2025"
   },
   "stage4": {
     "asset_v8_1": "US Treasury Bill",

@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "True",
     "review_reason": "adjacent transaction has same core signature",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "American Express Company Common Stock (AXP) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "DC American Express Company Common Stock (AXP) [ST] P 10/10/2025 10/31/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley Active Assets (6)",
+    "date_token": "10/10/2025"
   },
   "stage4": {
     "asset_v8_1": "American Express Company Common Stock",

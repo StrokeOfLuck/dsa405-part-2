@@ -1,6 +1,7 @@
 """Validate every published example, not just the default browser selection."""
 import csv
 import json
+from datetime import datetime
 from pathlib import Path
 
 from PIL import Image
@@ -34,6 +35,14 @@ def main():
         assert all(row["filing_id"] == ex["filing_id"] for row in records)
         record = next(r for r in records if r["transaction_number_in_filing"] == ex["spotlight_row"])
         assert record["asset_raw"] == ex["stage3"]["asset_raw"]
+        for key in ["asset_lookup_context", "asset_type", "continuation_raw", "detail_raw"]:
+            assert ex["stage3"][key] == record[key]
+        token = ex["stage3"]["date_token"]
+        try:
+            normalized = datetime.strptime(token, "%m/%d/%Y").strftime("%Y-%m-%d")
+        except ValueError:
+            normalized = token
+        assert normalized == ex["stage3"]["transaction_date"]
         assert ex["csv_preview"][0]["transaction_number_in_filing"] == ex["spotlight_row"]
         g = ex["geometry"]
         assert g["page"] == int(record["page"]) == ex["page"]

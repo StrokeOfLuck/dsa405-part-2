@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Simon Property Group, Inc. Common Stock (SPG) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Simon Property Group, Inc. Common Stock (SPG) [ST] P 02/03/2025 02/07/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Charles Schwab Roth IRA Description: This Transaction was made by Jason Spartz (spouse) Roth IRA",
+    "date_token": "02/03/2025"
   },
   "stage4": {
     "asset_v8_1": "Simon Property Group, Inc. Common Stock",

@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Automatic Data Processing, Inc. - Common Stock (ADP) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "Automatic Data Processing, Inc. - Common Stock (ADP) [ST] P 11/12/2025 11/13/2025 $15,001 - $50,000 Filing Status: New",
+    "date_token": "11/12/2025"
   },
   "stage4": {
     "asset_v8_1": "Automatic Data Processing, Inc. - Common Stock",

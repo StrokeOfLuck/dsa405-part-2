@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Questek International, LLC [PS]",
+    "asset_type": "PS",
+    "continuation_raw": "",
+    "detail_raw": "2000140313 Questek International, LLC [PS] S 06/09/2025 06/09/2025 $1,001 - $15,000 Filing Status: Amended Subholding Of: 25 - Other Individual Investments Location: US Description: Redeemed stock with the company",
+    "date_token": "06/09/2025"
   },
   "stage4": {
     "asset_v8_1": "Questek International, LLC",

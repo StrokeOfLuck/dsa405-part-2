@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Brown & Brown, Inc. Common Stock (BRO) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "DC Brown & Brown, Inc. Common Stock (BRO) [ST] P 11/20/2025 12/01/2025 $1,001 - $15,000 Filing Status: New",
+    "date_token": "11/20/2025"
   },
   "stage4": {
     "asset_v8_1": "Brown & Brown, Inc. Common Stock",

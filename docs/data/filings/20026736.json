@@ -135,7 +135,12 @@
     "amount_max": "100000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "MAI Managed [PS]",
+    "asset_type": "PS",
+    "continuation_raw": "",
+    "detail_raw": "MAI Managed [PS] S (partial) 01/10/2025 02/07/2025 $50,001 - $100,000 Filing Status: New Subholding Of: David P. Joyce Trust Location: US Description: MAI Managed funds",
+    "date_token": "01/10/2025"
   },
   "stage4": {
     "asset_v8_1": "MAI Managed",

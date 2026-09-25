@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Accenture plc Class A Ordinary Shares (ACN) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Accenture plc Class A Ordinary Shares (ACN) [ST] S 09/12/2025 10/02/2025 $1,001 - $15,000 Filing Status: New Subholding Of: LIVTR",
+    "date_token": "09/12/2025"
   },
   "stage4": {
     "asset_v8_1": "Accenture plc Class A Ordinary Shares",

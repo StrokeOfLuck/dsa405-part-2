@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "VLG FL CDD #14 [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "JT VLG FL CDD #14 [CS] P 10/14/2025 10/14/2025 $1,001 - $15,000 Filing Status: New Subholding Of: FMS Description: VLG FL CDD #14",
+    "date_token": "10/14/2025"
   },
   "stage4": {
     "asset_v8_1": "VLG FL CDD #14",

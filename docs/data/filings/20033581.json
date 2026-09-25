@@ -135,7 +135,12 @@
     "amount_max": "",
     "needs_review": "True",
     "review_reason": "missing_range_bound",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Innovex International, Inc. Common Stock (INVX) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "DC Innovex International, Inc. Common Stock (INVX) [ST] S 11/25/2025 11/26/2025 $1,140.00 Filing Status: New Description: Dependent Child C",
+    "date_token": "11/25/2025"
   },
   "stage4": {
     "asset_v8_1": "Innovex International, Inc. Common Stock",

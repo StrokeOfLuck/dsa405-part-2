@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Illinois St Toll Highway Auth Senior- Ser Rev 5% due 1/1/27 [GS]",
+    "asset_type": "GS",
+    "continuation_raw": "",
+    "detail_raw": "SP Illinois St Toll Highway Auth Senior- Ser Rev 5% due 1/1/27 [GS] S (partial) 09/30/2025 10/08/2025 $15,001 - $50,000 Filing Status: New Subholding Of: Victoria Kelly Trust ICA",
+    "date_token": "09/30/2025"
   },
   "stage4": {
     "asset_v8_1": "Illinois St Toll Highway Auth Senior- Ser Rev 5% due 1/1/27",

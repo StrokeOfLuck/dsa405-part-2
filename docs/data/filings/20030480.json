@@ -135,7 +135,12 @@
     "amount_max": "50000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Farmers & Merchants Bancorp, Inc. (FMAO) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "SP Farmers & Merchants Bancorp, Inc. (FMAO) [ST] P 06/05/2025 06/05/2025 $15,001 - $50,000 Filing Status: New Description: Compensation",
+    "date_token": "06/05/2025"
   },
   "stage4": {
     "asset_v8_1": "Farmers & Merchants Bancorp, Inc.",

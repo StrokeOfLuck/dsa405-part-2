@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "BANK AMERICA CORP SER N MTN 6.20400% 11/10/2028 CALL MAKE WHOLE [CS]",
+    "asset_type": "CS",
+    "continuation_raw": "",
+    "detail_raw": "BANK AMERICA CORP SER N MTN 6.20400% 11/10/2028 CALL MAKE WHOLE [CS] P 03/06/2025 03/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Bill's IRA Description: 06051GLC1",
+    "date_token": "03/06/2025"
   },
   "stage4": {
     "asset_v8_1": "BANK AMERICA CORP SER N MTN 6.20400% 11/10/2028 CALL MAKE WHOLE",

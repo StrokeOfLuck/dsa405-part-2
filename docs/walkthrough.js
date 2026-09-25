@@ -2,11 +2,12 @@
     const $=id=>document.getElementById(id);
     const addText=(parent,tag,value,className)=>{const el=document.createElement(tag);el.textContent=value==null||value===""?"—":String(value);if(className)el.className=className;parent.append(el);return el};
     function fields(id,entries){const root=$(id);root.replaceChildren();for(const [label,value,raw] of entries){addText(root,"dt",label);addText(root,"dd",value,raw?"raw mono":"")}}
-    let allCodeCards=[];
+    let allCodeCards=[],currentExample=null;
     let stepCode={},sourceFiles=[],activeStep="source",codeRequest=0;
     const sourceCache=new Map();
     function renderCode(code){stepCode=code;allCodeCards=Object.values(code).flat();}
     function render(ex){
+      currentExample=ex;
       $("selected-member").textContent=ex.politician;$("selected-info").textContent=`Filing ${ex.filing_id} · ${ex.rows} parsed transactions`;$("open-pdf").href=ex.pdf_url;$("pdf-link").href=ex.pdf_url;$("pdf-image").src=ex.pdf_image;$("pdf-image").alt=`Page ${ex.page} of House PTR filing ${ex.filing_id} for ${ex.politician}`;
       $("pdf-caption").textContent=`Filing ${ex.filing_id} · page ${ex.page} of ${ex.page_count} page${ex.page_count===1?"":"s"}`;
       const summary=$("summary");summary.replaceChildren();for(const [name,value] of [["Member",ex.politician],["District",ex.state_district],["Filing",ex.filing_id],["Transactions",ex.rows],["Following row",ex.spotlight_row]]){const p=addText(summary,"span",`${name}: ${value}`,"pill");}
@@ -20,16 +21,37 @@
       for(const id of ["raw-fields","parsed-fields","before-fields","after-fields","audit-cards","preview"])$(id).replaceChildren();
       $("download").classList.toggle("hidden",noRows);
       const url=new URL(location.href);url.searchParams.set("filing",ex.filing_id);history.replaceState(null,"",url);
-      if(noRows){$("resolver-note").textContent="No parsed row is available to trace through Stage 4. The code below is still available to study.";$("csv-description").textContent=ex.status_note;return;}
+      if(noRows){$("resolver-note").textContent="No parsed row is available to trace through Stage 4. The code below is still available to study.";$("csv-description").textContent=ex.status_note;selectStep(activeStep);return;}
       const s=ex.stage3,r=ex.stage4,p=ex.p2;
       fields("raw-fields",[["Asset text",s.asset_raw,true],["Trade code text",s.transaction_type_raw,true],["Trade date text",s.transaction_date_raw,true],["Amount text",s.amount_raw,true],["PDF row method",s.page_parse_method]]);
       fields("parsed-fields",[["Asset",s.asset],["Ticker",s.ticker],["Trade type",s.transaction_type],["Trade date",s.transaction_date],["Amount minimum",s.amount_min],["Amount maximum",s.amount_max],["Needs review",s.needs_review]]);
+      wireParsedFields();
       fields("before-fields",[["Asset",r.asset_v8_1],["Ticker",r.ticker_v8_1]]);
       fields("after-fields",[["Asset",r.asset_v8_2_cleaned],["Ticker",r.ticker_v8_2_cleaned],["Candidate",r.ticker_candidate_raw],["Decision",r.ticker_parse_status],["Review flag",r.needs_review]]);
       $("resolver-note").textContent=ex.changed_stage4_values?`Across this filing, ${ex.changed_stage4_values} asset or ticker cells changed in Stage 4. The old values remain in the CSV.`:"The resolver classified the candidate, but the asset and ticker text did not change in this filing. The old values are still retained for comparison.";
       const audit=$("audit-cards");audit.replaceChildren();for(const [title,value,desc] of [["Extra text in raw date?",p.raw_date_has_extra_text?"Yes":"No","Checks whether the entire original date field is only a date."],["Leading date found",p.raw_date_prefix||"None","Pulls a date from the beginning of the original text, if present."],["Does it disagree?",p.date_prefix_disagrees?"Yes — inspect PDF":"No","Compares that leading date with the normalized transaction date."]]){const card=document.createElement("div");card.className="box";addText(card,"span",title);addText(card,"strong",value);addText(card,"span",desc);audit.append(card)}
       const table=document.createElement("table"),head=document.createElement("thead"),hrow=document.createElement("tr");for(const col of ex.preview_columns)addText(hrow,"th",col.replaceAll("_"," "));head.append(hrow);table.append(head);const body=document.createElement("tbody");for(const row of ex.csv_preview){const tr=document.createElement("tr");for(const col of ex.preview_columns)addText(tr,"td",row[col]);body.append(tr)}table.append(body);$("preview").replaceChildren(table);
       $("csv-description").textContent=`${ex.rows} transaction row${ex.rows===1?"":"s"} · ${ex.csv_columns} columns · filing ${ex.filing_id}`;$("download").href=ex.csv_url;$("download").download=`house_ptr_${ex.filing_id}_p2.csv`;
+      if(activeStep==="parse")selectParsedField("asset");
+    }
+    function wireParsedFields(){
+      const groups={"parsed-fields":["asset","ticker","transaction_type","transaction_date","amount_min","amount_min","needs_review"],"raw-fields":["asset","transaction_type","transaction_date","amount_min",null]};
+      for(const [id,keys] of Object.entries(groups)){
+        [...$(id).querySelectorAll("dd")].forEach((dd,i)=>{if(!keys[i])return;const value=dd.textContent;dd.replaceChildren();const button=addText(dd,"button",value,"parsed-value");button.type="button";button.dataset.field=keys[i];button.setAttribute("aria-label",`Explain ${dd.previousElementSibling.textContent}: ${value}`);button.addEventListener("click",()=>selectParsedField(keys[i]));});
+      }
+    }
+    function selectParsedField(field){
+      const candidates=stepCode.parse.filter(c=>c.parsed_field===field);
+      const card=field==="transaction_date"?candidates.find(c=>c.label==="Normalize trade date"):candidates[0];
+      if(card)showCode(card);
+    }
+    function showParsedValues(pre,card){
+      if(activeStep!=="parse"||!card?.parsed_field||!currentExample?.stage3)return;
+      const box=document.createElement("span");box.className="runtime-values";box.setAttribute("role","note");
+      addText(box,"strong",card.label+" · this transaction");
+      addText(box,"span","Saved input and output; highlighted code shows the rule, not an instruction-by-instruction execution trace.","runtime-note");
+      for(const [label,keys] of [["Input",card.input_keys],["Result",card.output_keys]]){addText(box,"strong",label);for(const key of keys)addText(box,"span",`${key} = ${JSON.stringify(currentExample.stage3[key]??"")}`,"runtime-output");}
+      pre.querySelector(".focused")?.after(box);
     }
     function codeBlock(text,start,focus){
       const pre=document.createElement("pre"),code=document.createElement("code");
@@ -94,18 +116,20 @@
       $("code-explanation").textContent=sourceOverride?sourceOverride.label:card.explanation;
       $("code-origin").href=sourceOverride?sourceOverride.url:card.url;
       for(const button of $("step-code-choices").children)button.setAttribute("aria-pressed",String(button.dataset.label===card?.label&&!sourceOverride));
+      document.querySelectorAll(".parsed-value").forEach(button=>button.setAttribute("aria-pressed",String(!sourceOverride&&card?.parsed_field===button.dataset.field)));
       const source=sourceOverride|| (card.kind!=="notebook"?sourceFiles.find(f=>f.name===card.url.split("/").pop().split("#")[0]):null);
       $("code-file").value=source?source.name:"notebook";
       $("code-reading").textContent=source?"Complete file · highlighted function and current line":"Complete notebook cell · current line highlighted";
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
-        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=values-v6");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
+        if(source){start=1;if(!sourceCache.has(source.name)){const response=await fetch(source.text_url+"?v=parse-v7");if(!response.ok)throw Error(String(response.status));sourceCache.set(source.name,await response.text());}text=sourceCache.get(source.name);}
         if(request!==codeRequest)return;
         const pre=codeBlock(text,start,sourceOverride?null:card.focus_line);pre.tabIndex=0;pre.setAttribute("aria-label","Complete source code");
         if(!sourceOverride){const first=card.full_start_line,last=first+card.full_code.split("\n").length-1;[...pre.querySelectorAll(".code-line")].forEach((row,i)=>{if(start+i>=first&&start+i<=last)row.classList.add("relevant");});}
         $("code-body").replaceChildren(pre);
         if(!sourceOverride)showRuntimeValues(pre,card);
+        if(!sourceOverride)showParsedValues(pre,card);
         const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-(pre.querySelector(".runtime-values")?12:80);
       }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
     }
@@ -152,14 +176,14 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=values-v6");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=parse-v7");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=values-v6`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=parse-v7`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}

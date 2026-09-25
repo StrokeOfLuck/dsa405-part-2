@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "AbbVie Inc. Common Stock (ABBV) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "AbbVie Inc. Common Stock (ABBV) [ST] P 05/05/2025 05/06/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Marjorie IRA",
+    "date_token": "05/05/2025"
   },
   "stage4": {
     "asset_v8_1": "AbbVie Inc. Common Stock",

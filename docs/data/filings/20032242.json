@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "A.O. Smith Corporation Common Stock (AOS) [ST]",
+    "asset_type": "ST",
+    "continuation_raw": "",
+    "detail_raw": "JT A.O. Smith Corporation Common Stock (AOS) [ST] S 09/25/2025 10/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Merrill Lynch Long Term Growth",
+    "date_token": "09/25/2025"
   },
   "stage4": {
     "asset_v8_1": "A.O. Smith Corporation Common Stock",

@@ -135,7 +135,12 @@
     "amount_max": "15000.0",
     "needs_review": "False",
     "review_reason": "",
-    "page_parse_method": "table"
+    "page_parse_method": "table",
+    "asset_lookup_context": "Apollo Debt Solutions BDC Class S [OT]",
+    "asset_type": "OT",
+    "continuation_raw": "",
+    "detail_raw": "SP Apollo Debt Solutions BDC Class S [OT] P 10/29/2025 11/07/2025 $1,001 - $15,000 Filing Status: New Subholding Of: W.S.B Trust > UBS Financial Services 26 Location: US Description: Dividend reinvestment in a professionally managed account – Business Development Company.",
+    "date_token": "10/29/2025"
   },
   "stage4": {
     "asset_v8_1": "Apollo Debt Solutions BDC Class S",
