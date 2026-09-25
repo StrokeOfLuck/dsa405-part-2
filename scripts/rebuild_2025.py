@@ -1,4 +1,4 @@
-"""Copy pinned 2025 House PTR PDFs into a working folder and run the parser."""
+"""Verify committed raw 2025 House PTR files, copy them to work/, and run the pinned parser."""
 
 from __future__ import annotations
 
@@ -44,21 +44,21 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def copy_verified_source(source: Path) -> None:
+def copy_verified_source() -> None:
     with MANIFEST.open(newline="", encoding="utf-8") as stream:
         rows = list(csv.DictReader(stream))
     assert len(rows) == 515 and all(row["source_commit"] == SOURCE_COMMIT for row in rows)
     work_pdfs = WORK / "01_pdfs" / "2025"
     work_pdfs.mkdir(parents=True, exist_ok=True)
     for row in rows:
-        original = source / "data" / "01_pdfs" / "2025" / row["filename"]
+        original = RAW / "2025_pdfs" / row["filename"]
         assert original.stat().st_size == int(row["bytes"]), original
         working = work_pdfs / row["filename"]
         if not working.exists() or sha256(working) != row["sha256"]:
             shutil.copy2(original, working)
         assert sha256(working) == row["sha256"], working
     assert len(list(work_pdfs.glob("*.pdf"))) == len(rows), "PDF count differs from manifest"
-    index = source / "data" / "02_xml_indexes" / "2025FD.xml"
+    index = RAW / "2025FD.xml"
     (WORK / "02_xml_indexes").mkdir(parents=True, exist_ok=True)
     copied_index = WORK / "02_xml_indexes" / "2025FD.xml"
     if not copied_index.exists() or sha256(copied_index) != sha256(index):
@@ -73,7 +73,7 @@ def main() -> None:
     args = parser.parse_args()
     source = args.source_dir.resolve() if args.source_dir else SOURCE
     checkout_source(source)
-    copy_verified_source(source)
+    copy_verified_source()
     env = os.environ.copy()
     env.update(HOUSE_PTR_ROOT=str(WORK), HOUSE_PTR_START_YEAR="2025", HOUSE_PTR_END_YEAR="2025")
     if args.max_new_pdfs:
