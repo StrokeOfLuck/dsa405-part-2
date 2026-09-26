@@ -22,6 +22,6 @@ These are Sean’s chosen self-assessment scores, confirmed in chat. They are no
 
 These scores reflect the documented method and decisions; they do not claim that every transaction has been manually verified. Of 206 original parser-flagged rows, three have recorded human decisions and 203 remain unreviewed. Two additional unflagged rows were checked. One missing-range amount case and date warnings remain for review. The 66 PDFs without extracted rows remain archived. A fresh Colab installation has not been independently tested.
 
-Sean confirmed the overall exceptions-and-limitations review on September 26, 2026. This does not claim individual review of the 203 remaining flagged rows. A final notebook check and Moodle submission remain outstanding. With more time, the next priorities would be additional PDF review of date and amount exceptions and an independent reproduction in another environment.
+Sean confirmed the overall exceptions-and-limitations review on September 26, 2026. This does not claim individual review of the 203 remaining flagged rows.
 
 **AI assistance:** ChatGPT helped draft this evidence mapping. Sean selected and confirmed all five self-scores; the instructor determines the awarded grade.
