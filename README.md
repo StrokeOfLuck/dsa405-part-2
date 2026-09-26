@@ -1,12 +1,12 @@
 # DSA 405 · Project 2: Data Audit, Cleaning Log & Provenance
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb)
+
 **Sean Ryan · Fall 2026 · `sryan3`**
 
 This project audits reported U.S. House financial transactions extracted from 2025 disclosure PDFs. It explains how the data was produced, checks its quality, documents cleaning decisions and preserves the evidence needed to reverse those decisions. P2 covers this one source. Committee data and joins belong to P3.
 
 **[Open the interactive project](https://strokeofluck.github.io/dsa405-part-2/docs/index.html)** · **[Read the executed notebook](https://strokeofluck.github.io/dsa405-part-2/docs/P2-notebook.html)** · **[Submission readiness](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#submission-readiness)**
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb)
 
 [Original House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper) · [This P2 repository](https://github.com/StrokeOfLuck/dsa405-part-2) · [Instructor's P2 requirements](https://github.com/jon-holt/DSA-405-Student/blob/main/assignments/projects/DSA405_P2_AuditCleaningLog_FA26.md) · [Course rubrics](https://github.com/jon-holt/DSA-405-Student/blob/main/course/DSA405_ProjectRubrics_FA26.md)
 
