@@ -1,0 +1,30 @@
+{
+  "rows": 7667,
+  "raw_columns": 50,
+  "resolved_columns": 61,
+  "p2_columns": 66,
+  "dictionary_fields": 66,
+  "log_decisions": 19,
+  "corrected_rows": 1,
+  "corrected_value_cells": 2,
+  "reviewed_rows": 5,
+  "raw_files_unchanged": 518,
+  "raw_date_flags": 640,
+  "date_disagreements": 0,
+  "unresolved_amount_rows": 1,
+  "not_found_checks": [
+    "exact duplicates",
+    "duplicate filing+row keys",
+    "sentinel tokens",
+    "replacement character (encoding)",
+    "leading-zero IDs",
+    "total/subtotal labels",
+    "nonempty amount min > max"
+  ],
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "PyMuPDF": "1.28.2"
+  }
+}

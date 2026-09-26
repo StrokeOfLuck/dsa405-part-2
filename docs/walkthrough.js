@@ -337,6 +337,14 @@
         const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-(pre.querySelector(".runtime-values")?12:80);
       }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
     }
+    function openEvidence(id){
+      const target=document.getElementById(id); if(!target)return false;
+      const stage=target.closest('section.stage'); if(stage)selectStep(stage.id);
+      let parent=target; while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement;}
+      requestAnimationFrame(()=>{target.scrollIntoView({block:'start',behavior:'smooth'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});
+      document.querySelectorAll('[data-evidence]').forEach(a=>{if(a.dataset.evidence===id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});
+      return true;
+    }
     function selectStep(id){
       if(!stepCode[id])return;activeStep=id;
       for(const section of document.querySelectorAll("#visual-pane section.stage"))section.hidden=section.id!==id;
@@ -398,4 +406,5 @@
       await choose(examples.some(e=>e.filing_id===initial)?initial:randomId());
       $("provenance").textContent=`2025 archive · ${data.batch_pdf_count} verified PDFs · ${data.batch_transaction_count.toLocaleString()} parsed rows · ${data.parsed_filing_count} filings with rows · ${data.sample_size-data.parsed_filing_count} without parsed rows · parser ${data.source_commit.slice(0,12)}. ${data.selection}`;
     }
-    start().catch(error=>{$("status").className="error";$("status").textContent=`The walkthrough could not load: ${error.message}. Open through a web server or GitHub Pages.`});
+    document.addEventListener('click',event=>{const link=event.target.closest('[data-evidence]');if(link){event.preventDefault();if(openEvidence(link.dataset.evidence))history.replaceState(null,'','#'+link.dataset.evidence);}});
+    start().then(()=>{if(!stepCode[location.hash.slice(1)])openEvidence(location.hash.slice(1));}).catch(error=>{$("status").className="error";$("status").textContent=`The walkthrough could not load: ${error.message}. Open through a web server or GitHub Pages.`});
