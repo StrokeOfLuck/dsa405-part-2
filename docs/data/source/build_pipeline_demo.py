@@ -63,9 +63,9 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
     cells = notebook["cells"]
     code = lambda index: "".join(cells[index]["source"])
     notebook_url = "https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb#scrollTo="
-    source_url = f"https://github.com/StrokeOfLuck/house-ptr-scraper/blob/{SOURCE_COMMIT}/src/"
-    parser = (ROOT / "data/upstream/house-ptr-scraper/src/stage3_extract.py").read_text(encoding="utf-8")
-    resolver = (ROOT / "data/upstream/house-ptr-scraper/src/stage4_clean.py").read_text(encoding="utf-8")
+    source_url = f"https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/vendor/house-ptr-scraper/src/"
+    parser = (ROOT / "vendor/house-ptr-scraper/src/stage3_extract.py").read_text(encoding="utf-8")
+    resolver = (ROOT / "vendor/house-ptr-scraper/src/stage4_clean.py").read_text(encoding="utf-8")
     builder = Path(__file__).read_text(encoding="utf-8")
 
     def nb(index: int, label: str, explanation: str, reads: str, makes: str,
@@ -102,7 +102,7 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
 
     steps = {
         "source": [nb(3, "1 · Get the project and rebuild the 2025 CSVs",
-            "Colab first finds or clones this Part 2 repository, installs packages, and runs the rebuild script. The script verifies the committed raw PDFs against the manifest, copies them into data/work/, then fetches only the pinned scraper code needed to parse them.",
+            "Colab first finds or clones this Part 2 repository, installs packages, and runs the rebuild script. The script verifies the committed raw PDFs against the manifest, copies them into data/work/, then verifies and runs the bundled scraper code needed to parse them.",
             "GitHub repo + data/raw/2025_pdfs/ + manifest",
             "data/work/01_pdfs/2025/*.pdf → transactions_raw.csv → transactions_resolved.csv")],
         "text": [src("How this page renders and reads the PDF", "Webpage snapshot builder",
@@ -257,11 +257,11 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
          "Run this when you want to reproduce the transaction CSVs from the archived PDFs. The webpage already has saved results. The next lessons explain the script this command starts; the notebook adds its class audit and final CSV afterward.",
          "Project code and Python tools", "The PDF-to-CSV process and its log messages",
          "The list contains the program and script to run. stdout=log sends normal messages to the log file; stderr=STDOUT sends errors there too. This line launches the work; it does not itself read transaction fields."),
-        ("Choose a fixed archive", "checkout_source", 'if current != SOURCE_COMMIT:',
-         "Get the scraper code and select its recorded Git version. The 2025 PDFs are already preserved separately in this repository's data/raw/ folder.",
+        ("Choose a fixed archive", "verify_parser", 'for name, expected in manifest.items():',
+         "Verify the bundled scraper code against its recorded checksums. The 2025 PDFs are already preserved separately in this repository's data/raw/ folder.",
          "A fixed parser version keeps the extraction code reproducible, while the committed data/raw/ snapshot keeps the source documents fixed separately.",
-         "Parser repository and SOURCE_COMMIT", "The recorded parser code",
-         "A commit is a saved Git version. SOURCE_COMMIT identifies the version this project expects. The code checks the current version and switches if needed."),
+         "Bundled Python files and SHA256.json", "The recorded parser code",
+         "A commit is a saved Git version. SOURCE_COMMIT identifies the version this project expects. The code checks the bundled files against their recorded fingerprints and stops if they differ."),
         ("Verify raw PDFs and make working copies", "prepare_working_copy", 'assert original_hash == row["sha256"]',
          "Verify each PDF already committed in data/raw/ against the manifest, then copy the verified bytes into data/work/ so the parser never writes to the raw source folder.",
          "This checks that the parser gets the expected file bytes. It does not prove the disclosure is accurate or that parsing will succeed.",
@@ -293,7 +293,7 @@ def code_examples() -> dict[str, list[dict[str, str | int]]]:
         ("stage1_download.py", "Original Stage 1: download PDFs", "pdf_path.write_bytes", "Read the House filing index, select PTR entries, and download their PDF files.", "This is the original live collection step. Project 2 does not run it: it retrieves the already archived 2025 PDFs from the recorded Git version."),
         ("stage2_verify.py", "Original Stage 2: verify coverage", "missing_docids =", "Compare expected filing IDs from the House index with local PDF filenames. Include parser checkpoint status when available.", "This checks collection coverage. Project 2 does not run this live verification script; it checks its fixed PDF copies against the manifest instead. File fingerprints do not establish coverage of today's live index."),
     ]:
-        text = (ROOT / "data/upstream/house-ptr-scraper/src" / filename).read_text(encoding="utf-8")
+        text = (ROOT / "vendor/house-ptr-scraper/src" / filename).read_text(encoding="utf-8")
         body, line = function_source(text, "run")
         card = src(label, "Pinned Stage 1/2 archive scripts", source_url + filename + f"#L{line}", body, what, "House filing index and archive files", "Downloaded PDFs" if filename.startswith("stage1") else "Coverage and verification reports")
         card.update(start_line=line, focus_token=token, workflow_only=True, source_guide=dict(what=what, why=why, translation="This is original scraper code, shown for context. The Project 2 rebuild skips this script and reuses the fixed archive."))
@@ -342,7 +342,7 @@ def enrich_fallback(examples):
             with (OUT / example["csv_url"]).open(encoding="utf-8", newline="") as stream:
                 rows = list(csv.DictReader(stream))
             record = next(row for row in rows if row["transaction_number_in_filing"] == example["spotlight_row"])
-            parser_text = (ROOT / "data/upstream/house-ptr-scraper/src/stage3_extract.py").read_text(encoding="utf-8")
+            parser_text = (ROOT / "vendor/house-ptr-scraper/src/stage3_extract.py").read_text(encoding="utf-8")
             txn_node = next(node for node in ast.parse(parser_text).body if isinstance(node, ast.Assign) and any(isinstance(target, ast.Name) and target.id == "TXN_RE" for target in node.targets))
             pattern = re.compile(ast.literal_eval(txn_node.value.args[0]), re.I)
             raw_type = example["stage3"]["transaction_type_raw"]
@@ -372,7 +372,7 @@ def source_catalog():
     folder = OUT / "data/source"
     folder.mkdir(parents=True, exist_ok=True)
     entries = []
-    upstream = ROOT / "data/upstream/house-ptr-scraper/src"
+    upstream = ROOT / "vendor/house-ptr-scraper/src"
     files = [(ROOT / "scripts/rebuild_2025.py", "1 · Verify raw data and run the pinned parser"),
              (upstream / "stage1_download.py", "Original scraper Stage 1 · Historical downloader (not used for P2 raw input)"),
              (upstream / "stage2_verify.py", "Original scraper Stage 2 · Historical coverage check (not used for P2 raw input)"),
@@ -386,7 +386,7 @@ def source_catalog():
     for path, label in files:
         text = path.read_text(encoding="utf-8")
         (folder / path.name).write_text(text, encoding="utf-8")
-        url = (f"https://github.com/StrokeOfLuck/house-ptr-scraper/blob/{SOURCE_COMMIT}/src/{path.name}"
+        url = (f"https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/vendor/house-ptr-scraper/src/{path.name}"
                if path.parent == upstream else "https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/" + path.relative_to(ROOT).as_posix())
         entries.append({"name": path.name, "label": label, "url": url,
                         "text_url": "data/source/" + path.name, "lines": len(text.splitlines())})
@@ -521,7 +521,7 @@ def main() -> None:
         "batch_pdf_count": 515,
         "batch_transaction_count": len(raw),
         "sample_size": len(examples),
-        "selection": "Random selection covers every PDF in the archived 2025 manifest. Filings without parsed rows are shown explicitly. Each parsed filing follows one observed transaction through the saved pipeline.",
+        "selection": "Random selection uses only filings with parsed transactions. Filings without parsed rows remain in the archive and audit counts but are excluded from the picker. Each selected filing follows one observed transaction through the saved pipeline.",
         "code": code_examples(),
         "sources": source_catalog(),
         "parsed_filing_count": sum(e["rows"] > 0 for e in examples),

@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import json
 import os
 import shutil
 import subprocess
@@ -12,9 +13,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_URL = "https://github.com/StrokeOfLuck/house-ptr-scraper.git"
 SOURCE_COMMIT = "510945b2b1d600dd90b183858b86419926b81e65"
-SOURCE = ROOT / "data" / "upstream" / "house-ptr-scraper"
+SOURCE = ROOT / "vendor" / "house-ptr-scraper"
 RAW = ROOT / "data" / "raw"
 WORK = ROOT / "data" / "work"
 MANIFEST = RAW / "2025_pdf_manifest.csv"
@@ -24,16 +24,14 @@ def run(*args: str, cwd: Path | None = None, env: dict | None = None) -> None:
     subprocess.run(args, cwd=cwd, env=env, check=True)
 
 
-def checkout_parser(source: Path) -> None:
-    if not (source / ".git").exists():
-        source.parent.mkdir(parents=True, exist_ok=True)
-        run("git", "clone", "--depth", "1", "--filter=blob:none", "--sparse", SOURCE_URL, str(source))
-    current = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=source, text=True).strip()
-    if current != SOURCE_COMMIT:
-        run("git", "fetch", "--depth", "1", "origin", SOURCE_COMMIT, cwd=source)
-        run("git", "checkout", "--detach", SOURCE_COMMIT, cwd=source)
-    run("git", "sparse-checkout", "set", "src", cwd=source)
-    assert subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=source, text=True).strip() == SOURCE_COMMIT
+def verify_parser(source: Path) -> None:
+    """Verify the bundled code; no Git checkout or network access is needed."""
+    manifest = json.loads((SOURCE / "SHA256.json").read_text(encoding="utf-8"))
+    for name, expected in manifest.items():
+        path = source / "src" / name
+        if not path.is_file() or sha256(path) != expected:
+            raise ValueError(f"Bundled parser hash mismatch: {path}")
+    print(f"Verified {len(manifest)} bundled parser files from {SOURCE_COMMIT}", flush=True)
 
 
 def sha256(path: Path) -> str:
@@ -70,11 +68,11 @@ def prepare_working_copy() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source-dir", type=Path, help="Existing parser checkout for testing; must be the pinned commit")
+    parser.add_argument("--source-dir", type=Path, help="Optional local source directory; files must match the bundled manifest")
     parser.add_argument("--max-new-pdfs", type=int, help="Pilot only: parse at most N new PDFs this run")
     args = parser.parse_args()
     source = args.source_dir.resolve() if args.source_dir else SOURCE
-    checkout_parser(source)
+    verify_parser(source)
     prepare_working_copy()
     env = os.environ.copy()
     env.update(HOUSE_PTR_ROOT=str(WORK), HOUSE_PTR_START_YEAR="2025", HOUSE_PTR_END_YEAR="2025")

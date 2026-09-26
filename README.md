@@ -49,17 +49,21 @@ This pipeline reads digital PDFs with selectable text. Handwritten or scanned fo
 
 Raw inputs are preserved under [data/raw/](data/raw/): 515 PDFs, the XML index, a [SHA-256 manifest](data/raw/2025_pdf_manifest.csv), and [source notes](data/raw/SOURCES.md). They were copied from scraper commit `510945b2b1d600dd90b183858b86419926b81e65`. Project code verifies the archived files and copies them to `data/work/` before parsing; it does not write to `data/raw/`.
 
+## Bundled source code
+
+All five scripts and `config.py` are included in [vendor/house-ptr-scraper/src/](vendor/house-ptr-scraper/src/). [Source provenance](vendor/house-ptr-scraper/SOURCE.md) records their original commit and checksums. They are unchanged copies, and the rebuild uses these local files. The original repository is retained as attribution, not a runtime dependency.
+
 ## Five focused Python stages
 
 The original automation has five scripts. Geometry is intentional: PDF text positions and column boundaries help associate values with the right transaction, whereas continuous text can mix neighboring fields.
 
-1. **Collect the PDFs.** [stage1_download.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage1_download.py) reads the official filing index and downloads disclosure documents.
-2. **Verify the collection.** [stage2_verify.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage2_verify.py) checks the index against available PDFs to identify missing documents.
-3. **Extract using geometry.** [stage3_extract.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage3_extract.py) uses text positions and column boundaries to extract transaction fields and records uncertainty.
-4. **Clean up tickers and related fields.** [stage4_clean.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage4_clean.py) resolves ticker candidates, cleans related asset text and updates ticker-related flags while preserving prior values. It is not a general date or amount correction stage.
-5. **Prepare CSV outputs.** [publish_latest.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/publish_latest.py) prepares the processed tables for downstream use.
+1. **Collect the PDFs.** [stage1_download.py](https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/vendor/house-ptr-scraper/src/stage1_download.py) reads the official filing index and downloads disclosure documents.
+2. **Verify the collection.** [stage2_verify.py](https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/vendor/house-ptr-scraper/src/stage2_verify.py) checks the index against available PDFs to identify missing documents.
+3. **Extract using geometry.** [stage3_extract.py](https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/vendor/house-ptr-scraper/src/stage3_extract.py) uses text positions and column boundaries to extract transaction fields and records uncertainty.
+4. **Clean up tickers and related fields.** [stage4_clean.py](https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/vendor/house-ptr-scraper/src/stage4_clean.py) resolves ticker candidates, cleans related asset text and updates ticker-related flags while preserving prior values. It is not a general date or amount correction stage.
+5. **Prepare CSV outputs.** [publish_latest.py](https://github.com/StrokeOfLuck/dsa405-part-2/blob/main/vendor/house-ptr-scraper/src/publish_latest.py) prepares the processed tables for downstream use.
 
-For P2, [rebuild_2025.py](scripts/rebuild_2025.py) verifies the committed archive against its manifest, makes working copies and runs the pinned extraction, cleanup and export scripts. It does not redownload the raw PDFs or rerun the original live collection process. The notebook then performs the audit and documented P2 corrections. The website's six lesson tabs are not six scraper stages.
+For P2, [rebuild_2025.py](scripts/rebuild_2025.py) verifies the committed archive against its manifest, makes working copies and verifies and runs the bundled extraction, cleanup and export scripts. It does not redownload the raw PDFs or rerun the original live collection process. The notebook then performs the audit and documented P2 corrections. The website's six lesson tabs are not six scraper stages.
 
 ## Original flags, human decisions and remaining uncertainty
 
@@ -78,7 +82,7 @@ The website explains why each original flag appeared and what to check in the PD
 
 ## Reproduce the notebook
 
-Use **Python 3.12 and Git**. The successful saved run used Python 3.12.14 on Windows. Internet access is needed to install dependencies and retrieve the pinned parser source.
+Use **Python 3.12**. The successful saved run used Python 3.12.14 on Windows. Internet access is needed to obtain P2 and install dependencies. The parser code is bundled in `vendor/house-ptr-scraper/`; P2 does not fetch the original PTR repository. A downloaded ZIP can be used instead of Git.
 
 1. Clone this repository and open a terminal in its root.
 2. Create and activate a virtual environment using your usual Python tooling.
@@ -102,7 +106,7 @@ This command does not replace the notebook audit or apply its P2 review decision
 
 **Colab:** use the badge above and choose Runtime → Run all. The setup cell clones the repository and installs dependencies. A fresh Colab installation/run has not been independently verified.
 
-**Verified execution:** all eight code cells have successful saved outputs. The initial run rebuilt extraction in a fresh working folder; subsequent fresh-kernel runs reused the parser checkpoint while executing every notebook cell. All 518 raw files were unchanged by hashes. The installed environment passes `pip check`. [requirements.txt](requirements.txt) pins nine direct packages to those installed versions; it is not a full cross-platform environment lock.
+**Verified execution:** on September 26, 2026, all eight code cells passed in a fresh kernel after moving the old parser working folder aside. All 515 PDFs were processed from scratch using the six bundled source files, with no PTR repository download. The result retained 7,667 rows and all raw-file hash checks passed. All eight code cells have successful saved outputs. The initial run rebuilt extraction in a fresh working folder; subsequent fresh-kernel runs reused the parser checkpoint while executing every notebook cell. All 518 raw files were unchanged by hashes. The installed environment passes `pip check`. [requirements.txt](requirements.txt) pins nine direct packages to those installed versions; it is not a full cross-platform environment lock.
 
 ## Files and website refresh
 

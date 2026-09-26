@@ -7,3 +7,4 @@ data/upstream/
 .ipynb_checkpoints/
 __pycache__/
 .venv/
+data/work-before-standalone/

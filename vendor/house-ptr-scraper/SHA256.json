@@ -1,0 +1,8 @@
+{
+  "config.py": "fd8dfec14a7d2f4284b3bdc2af8efad5a69bbcdd9a11a9ed88ac72ece1326f25",
+  "publish_latest.py": "f03ad6b04501551700b146e89d2ade593435419c65485d6af6f8ae81eb954204",
+  "stage1_download.py": "db3d2b6168f03acbbd644eb0db3209de96c5af0b1c58820bdc69cd0240b4b2b2",
+  "stage2_verify.py": "d686d61cbff59e43b2881742c939cd684de43b020a86ea01b61ade290f913853",
+  "stage3_extract.py": "4e6969d4c142cd8256d25e0f4643ca91bdc70704b427a9baa9c9fc7e771ba850",
+  "stage4_clean.py": "3683d29354d3c2087f74f0102e869877036e2dcce334900e4355c8414c96dafc"
+}

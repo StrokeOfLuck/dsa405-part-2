@@ -14,7 +14,7 @@ import fitz
 
 
 def load_parser(root):
-    source = root / "data/upstream/house-ptr-scraper/src/stage3_extract.py"
+    source = root / "vendor/house-ptr-scraper/src/stage3_extract.py"
     text = source.read_text(encoding="utf-8")
     tree = ast.parse(text, filename=str(source))
     end = next(n.end_lineno for n in tree.body if isinstance(n, ast.FunctionDef)

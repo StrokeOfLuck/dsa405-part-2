@@ -174,8 +174,8 @@
           links=stepCode.parse.filter(c=>c.parsed_field===field).map(c=>[c.label,c]);
         }else if(field==="amount_min"){
           original=q(s.amount_raw);rule="Read money values from the amount field and permitted continuation prefix. Recognize standard ranges, exact amounts, or open-ended wording using separate rules.";
-          change=`Saved classification: ${q(ex.csv_record.amount_status)}; category: ${q(ex.csv_record.amount_category)}.`;
-          result=`Minimum: ${q(s.amount_min)}\nMaximum: ${q(s.amount_max)}\nExact amount: ${q(ex.csv_record.amount_exact)}`;why="Dollar signs and commas are formatting. Bounds describe the disclosed range; they do not reveal the exact trade amount. Empty bounds must not be treated as zero.";
+          change=`Saved classification: ${q(s.amount_status)}; category: ${q(ex.csv_record.amount_category)}.`;
+          result=`Minimum: ${q(s.amount_min)}\nMaximum: ${q(s.amount_max)}\nExact amount: ${q(s.amount_exact)}`;why="Dollar signs and commas are formatting. Bounds describe the disclosed range; they do not reveal the exact trade amount. Empty bounds must not be treated as zero.";
         }else{
           original=`Asset: ${q(s.asset)}\nTicker: ${q(s.ticker)}\nDate: ${q(s.transaction_date)}\nAmount: ${q(s.amount_raw)}`;rule="Run validation checks and collect review reasons; the flag reflects whether reasons remain.";
           change=s.review_reason?`Recorded reasons: ${s.review_reason}`:"No review reasons were recorded for this transaction.";result=`needs_review = ${q(s.needs_review)}`;why="A flag asks for inspection. No flag means these checks found no recorded issue, not that the row has been independently proven correct.";
@@ -320,7 +320,7 @@
       document.querySelectorAll(".resolve-value").forEach(button=>button.setAttribute("aria-pressed",String(!sourceOverride&&card?.resolve_field===button.dataset.resolveField)));
       const source=sourceOverride|| (card.kind!=="notebook"?sourceFiles.find(f=>f.name===card.url.split("/").pop().split("#")[0]):null);
       $("code-file").value=source?source.name:"notebook";
-      $("code-reading").textContent=source?"Complete file · highlighted function and current line":"Complete notebook cell · current line highlighted";
+      $("code-reading").textContent=source?"Complete file · highlighted function and current line":"Saved teaching cell · current line highlighted";
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
@@ -337,8 +337,33 @@
         const focus=pre.querySelector(".focused");if(focus)pre.scrollTop+=focus.getBoundingClientRect().top-pre.getBoundingClientRect().top-(pre.querySelector(".runtime-values")?12:80);
       }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
     }
+    function openEvidence(id){
+      if(id==='audit-diagnosis')id='audit-inventory';
+      const target=document.getElementById(id); if(!target)return false;
+      const stage=target.closest('section.stage'); if(stage)selectStep(stage.id);
+      $('split-workspace').classList.add('evidence-mode');
+      let branch=target;
+      while(branch && branch!==stage){
+        for(const sibling of branch.parentElement.children){if(sibling!==branch)sibling.classList.add('evidence-hidden');}
+        branch=branch.parentElement;
+      }
+      const titles={'submission-readiness':'Submission readiness','audit-inventory':'Diagnosis and audit findings','data-dictionary':'Data dictionary','cleaning-execution':'Cleaning execution','cleaning-log':'Original flags and review decisions','review-provenance':'Provenance brief','reproducibility':'Tidy structure and reproducibility'};
+      const toolbar=document.createElement('div');toolbar.id='evidence-toolbar';
+      addText(toolbar,'h2',titles[id]||'Grading evidence');
+      const back=addText(toolbar,'button','Return to code walkthrough');back.type='button';back.className='btn secondary';
+      back.addEventListener('click',()=>{selectStep(activeStep);history.replaceState(null,'','#'+activeStep);});
+      $('visual-pane').prepend(toolbar);
+      let parent=target; while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement;}
+      requestAnimationFrame(()=>{$('split-workspace').scrollIntoView({block:'start',behavior:'smooth'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});
+      document.querySelectorAll('[data-evidence]').forEach(a=>{if(a.dataset.evidence===id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});
+      return true;
+    }
     function selectStep(id){
       if(!stepCode[id])return;activeStep=id;
+      $('split-workspace')?.classList.remove('evidence-mode');
+      $('evidence-toolbar')?.remove();
+      document.querySelectorAll('.evidence-hidden').forEach(el=>el.classList.remove('evidence-hidden'));
+      document.querySelectorAll('[data-evidence]').forEach(a=>a.removeAttribute('aria-current'));
       for(const section of document.querySelectorAll("#visual-pane section.stage"))section.hidden=section.id!==id;
       document.querySelectorAll(".journey a").forEach(a=>{if(a.hash==="#"+id)a.setAttribute("aria-current","step");else a.removeAttribute("aria-current");});
       const cards=[...stepCode[id]];
@@ -380,22 +405,27 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=explain-v13");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=original-review-v2");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
+      const readable=examples.filter(e=>e.status==="parsed" && Number(e.rows)>0);
+      if(!readable.length)throw Error("No filings with parsed transactions are available.");
+      document.querySelector('.picker-note').textContent=`${readable.length.toLocaleString()} parsed filings available · ${examples.length.toLocaleString()} PDFs archived. This walkthrough focuses on digital PDFs with selectable text. Handwritten or scanned forms need a more complex extraction approach, such as OCR. The ${examples.length-readable.length} PDFs without extracted transactions remain in the archive.`;
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=explain-v13`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=original-review-v2`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}
       }
-      function randomId(){const pool=examples.filter(e=>e.filing_id!==currentId);return pool[Math.floor(Math.random()*pool.length)].filing_id;}
+      function randomId(){const others=readable.filter(e=>e.filing_id!==currentId);const pool=others.length?others:readable;return pool[Math.floor(Math.random()*pool.length)].filing_id;}
       $("random").addEventListener("click",()=>choose(randomId()));
       const initial=new URL(location.href).searchParams.get("filing");
-      await choose(examples.some(e=>e.filing_id===initial)?initial:randomId());
+      await choose(readable.some(e=>e.filing_id===initial)?initial:randomId());
+
       $("provenance").textContent=`2025 archive · ${data.batch_pdf_count} verified PDFs · ${data.batch_transaction_count.toLocaleString()} parsed rows · ${data.parsed_filing_count} filings with rows · ${data.sample_size-data.parsed_filing_count} without parsed rows · parser ${data.source_commit.slice(0,12)}. ${data.selection}`;
     }
-    start().catch(error=>{$("status").className="error";$("status").textContent=`The walkthrough could not load: ${error.message}. Open through a web server or GitHub Pages.`});
+    document.addEventListener('click',event=>{const link=event.target.closest('[data-evidence]');if(link){event.preventDefault();if(openEvidence(link.dataset.evidence))history.replaceState(null,'','#'+link.dataset.evidence);}});
+    start().then(()=>{if(!stepCode[location.hash.slice(1)])openEvidence(location.hash.slice(1));}).catch(error=>{$("status").className="error";$("status").textContent=`The walkthrough could not load: ${error.message}. Open through a web server or GitHub Pages.`});

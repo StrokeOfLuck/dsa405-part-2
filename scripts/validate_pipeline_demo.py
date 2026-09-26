@@ -78,14 +78,14 @@ def main():
             else:
                 filename = card["url"].split("/main/")[-1].split("#")[0]
                 if "Pinned Stage" in card["source"]:
-                    filename = "data/upstream/house-ptr-scraper/src/" + card["url"].split("/")[-1].split("#")[0]
+                    filename = "vendor/house-ptr-scraper/src/" + card["url"].split("/")[-1].split("#")[0]
                 lines = (ROOT / filename).read_text(encoding="utf-8").splitlines()
                 start = card["full_start_line"] - 1
                 assert lines[start:start + len(full)] == full, card["label"]
     assert seen == {i for i, cell in enumerate(notebook["cells"]) if cell["cell_type"] == "code" and cell["source"]}
     assert len(data["sources"]) == 10
     for source in data["sources"]:
-        original = (ROOT / "data/upstream/house-ptr-scraper/src" / source["name"]
+        original = (ROOT / "vendor/house-ptr-scraper/src" / source["name"]
                     if "house-ptr-scraper/blob" in source["url"] else ROOT / source["url"].split("/main/")[1])
         saved = (DOCS / source["text_url"]).read_text(encoding="utf-8")
         assert saved == original.read_text(encoding="utf-8"), source["name"]

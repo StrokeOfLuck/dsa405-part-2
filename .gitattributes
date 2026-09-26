@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve the exact bundled source bytes used by SHA256.json on every platform.
+vendor/house-ptr-scraper/src/*.py -text
