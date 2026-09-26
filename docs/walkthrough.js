@@ -347,7 +347,7 @@
         for(const sibling of branch.parentElement.children){if(sibling!==branch)sibling.classList.add('evidence-hidden');}
         branch=branch.parentElement;
       }
-      const titles={'audit-inventory':'Diagnosis and audit findings','data-dictionary':'Data dictionary','cleaning-execution':'Cleaning execution','cleaning-log':'Original flags and review decisions','review-provenance':'Provenance brief','reproducibility':'Tidy structure and reproducibility'};
+      const titles={'submission-readiness':'Submission readiness','audit-inventory':'Diagnosis and audit findings','data-dictionary':'Data dictionary','cleaning-execution':'Cleaning execution','cleaning-log':'Original flags and review decisions','review-provenance':'Provenance brief','reproducibility':'Tidy structure and reproducibility'};
       const toolbar=document.createElement('div');toolbar.id='evidence-toolbar';
       addText(toolbar,'h2',titles[id]||'Grading evidence');
       const back=addText(toolbar,'button','Return to code walkthrough');back.type='button';back.className='btn secondary';

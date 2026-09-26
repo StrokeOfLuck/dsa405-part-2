@@ -17,7 +17,7 @@ This is a **separate class project**. It copies 2025 source files, builds two tr
 
 [![Open the visual walkthrough — follow a real PDF to CSV with clickable explanations and highlighted code](docs/assets/walkthrough-button.svg)](https://strokeofluck.github.io/dsa405-part-2/docs/index.html)
 
-Follow a random 2025 PTR from its PDF page to a downloadable CSV containing **all rows from that filing**. The button draws from all **515 archived PDFs**, with no dropdown. Of these, 449 produced 7,667 transaction rows; the other 66 show an explicit fallback result without inventing a transaction or CSV. The archive is a pinned snapshot, not a live list of every filing currently available.
+Follow a random 2025 PTR from its PDF page to a downloadable CSV containing **all rows from that filing**. The button draws from the **449 filings with parsed transactions**, producing 7,667 rows. All 515 PDFs remain archived; the 66 without parsed rows are excluded from random selection. The archive is a pinned snapshot, not a live list of every filing currently available.
 
 1. The selected filing's member, ID, and row count fill the selection box.
 2. The PDF inspector highlights the actual physical row. Select a column to see its clipping rectangle, embedded text, and text after the parser's character/whitespace cleanup.
@@ -49,7 +49,7 @@ The raw files were copied byte-for-byte from scraper commit `510945b2b1d600dd90b
 
 **Colab:** Click the button above, then choose **Runtime → Run all**. The notebook clones this P2 repo into the Colab session, installs its dependencies, verifies the committed `data/raw/` snapshot, copies those files into its working folder, runs the pinned PDF parser and ticker resolver, and displays the audit. This is a full-year CPU run and can take several minutes. If the runtime stops, running it again can resume from the parser checkpoint.
 
-**Local:** Use Python 3.10+ and Git. From the repo root:
+**Local:** Use Python 3.12 and Git (the saved run used Python 3.12.14). From the repo root:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -95,3 +95,7 @@ To refresh the same-page dictionary and cleaning log after rerunning the noteboo
 Under **05 · Audit**, the website displays original flags alongside decisions, PDF evidence, before/after values and reversal instructions. Filters only change what is displayed; they do not save new decisions. The separate cleaning-log download button was removed; the required notebook log retains general cleaning steps too.
 
 After running the notebook, run `python scripts/export_p2_review.py` to refresh the dictionary, original-flag reviews, and all individual filing CSVs from the same corrected dataset. Stage 3 teaching examples retain original parser values; final CSV previews/downloads contain the reviewed P2 values.
+
+## Submission readiness
+
+The walkthrough sidebar links to a readiness checklist separating completed deliverables from remaining student actions. All nine direct dependencies in `requirements.txt` are pinned to the installed versions used for the successful Python 3.12.14 notebook run. `python -m pip check` passes in that environment; this does not establish a fresh Colab installation. Outstanding items are review of unresolved data issues, confirmation of the self-scored rubric and Bench Check, and Moodle submission.

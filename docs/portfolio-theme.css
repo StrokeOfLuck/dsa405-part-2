@@ -18,3 +18,5 @@ body>header{background:#f8f9fa;color:var(--ink);padding:17px 30px;border-bottom:
 .flag-explanation{margin:12px 0;padding:12px 15px;background:var(--card);border-left:3px solid var(--teal)}.flag-explanation h4{margin:0 0 8px}.technical-flags{font-size:.9rem;color:var(--muted)}#reproducibility li{margin:14px 0}.review-status{margin-top:5px}
 
 .evidence-hidden{display:none!important}#split-workspace.evidence-mode{grid-template-columns:minmax(0,1fr)}.evidence-mode #code-pane{display:none}.evidence-mode #visual-pane{height:auto;max-height:none;min-height:0;overflow:visible}.evidence-mode .p2-review{margin:0;border:0;padding:0}.evidence-mode #visual-pane .stage{margin:0}#evidence-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:20px}#evidence-toolbar h2{font:600 1.5rem 'Source Sans Pro',sans-serif;margin:0}
+
+.readiness-callout{padding:12px;margin:14px 0;background:#eef4fc;border:1px solid #d5e2f4;border-radius:7px}.readiness-callout a{font-weight:700}.readiness-list li{padding:12px 0;border-bottom:1px solid var(--line)}
