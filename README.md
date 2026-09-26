@@ -84,6 +84,23 @@ The website explains why each original flag appeared and what to check in the PD
 
 ## Reproduce the notebook
 
+### Run in Google Colab
+
+Use Colab to open and run the notebook in your browser. You do not need to install Python or Git on your computer.
+
+1. Click **Open in Colab** at the top of this README, or [open the P2 notebook here](https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb). Sign in to your Google account if prompted.
+2. Choose **File → Save a copy in Drive** so you can keep your own notebook and results. Work in that copy, and name it `DSA405_002_FA26_P2_sryan3.ipynb`.
+3. Click **Connect** to start a runtime. A standard CPU runtime is sufficient; this project does not require a GPU or TPU.
+4. Choose **Runtime → Run all**. The first code cell downloads this P2 repository into Colab, installs the packages, verifies the archived PDFs and bundled parser code, and rebuilds the transaction tables. You do not need to upload the PDFs or run the five scripts separately. Allow several minutes for the first run.
+5. Wait until all **eight code cells** finish. The setup should report `Pipeline result: 0`; the final validation should show **7,667 rows**, **66 final columns**, **19 cleaning-log decisions**, and **518 unchanged raw files**. If a cell raises an error, resolve it before treating the run as complete. The setup log is `data/work/rebuild.log` inside the downloaded project folder.
+6. Save your copy, then choose **File → Download → Download .ipynb**. Keep the required filename above and check that the downloaded notebook includes the results beneath the code cells. This is the notebook file to upload to Moodle, alongside the repository link and self-scored rubric.
+
+Colab's temporary runtime files can disappear when the session ends, so save/download the executed notebook before leaving. See [Google's Colab FAQ](https://research.google.com/colaboratory/faq.html) for notebook storage and downloads.
+
+**Validation status:** the complete notebook has been verified locally on Python 3.12.14. A fresh Colab run has not yet been independently verified; its Python/package environment may differ.
+
+### Run locally instead
+
 Use **Python 3.12**. The successful saved run used Python 3.12.14 on Windows. Internet access is needed to obtain P2 and install dependencies. The parser code is bundled in `vendor/house-ptr-scraper/`; P2 does not fetch the original PTR repository. A downloaded ZIP can be used instead of Git.
 
 1. Clone this repository and open a terminal in its root.
@@ -105,8 +122,6 @@ python scripts/rebuild_2025.py
 ```
 
 This command does not replace the notebook audit or apply its P2 review decisions. A later notebook run can reuse the parser checkpoint.
-
-**Colab:** use the badge above and choose Runtime → Run all. The setup cell clones the repository and installs dependencies. A fresh Colab installation/run has not been independently verified.
 
 **Verified execution:** on September 26, 2026, all eight code cells passed in a fresh kernel after moving the old parser working folder aside. All 515 PDFs were processed from scratch using the six bundled source files, with no PTR repository download. The result retained 7,667 rows and all raw-file hash checks passed. All eight code cells have successful saved outputs. The initial run rebuilt extraction in a fresh working folder; subsequent fresh-kernel runs reused the parser checkpoint while executing every notebook cell. All 518 raw files were unchanged by hashes. The installed environment passes `pip check`. [requirements.txt](requirements.txt) pins nine direct packages to those installed versions; it is not a full cross-platform environment lock.
 
