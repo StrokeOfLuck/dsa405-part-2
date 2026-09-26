@@ -82,3 +82,7 @@ The main walkthrough now includes the source-review evidence and checklist under
 ## September 26 confirmation
 
 Sean confirmed self-scores of 4 (Excellent) on all five criteria; the resulting self-assessment is 100%, not an instructor-awarded grade. Current evidence and limitations are in [SELF_ASSESSMENT.md](SELF_ASSESSMENT.md). Sean also reported completing Bench Check 1 today. Final data/notebook review and Moodle submission remain. Earlier pending rubric and scheduling notes above are historical.
+
+## Overall limitations review confirmed
+
+On September 26, 2026, Sean confirmed that he reviewed the outstanding exceptions and documented the remaining limitations. This completes the overall review checklist item, not individual adjudication of all rows. The 203 rows without recorded human decisions remain flagged and labeled unreviewed. Final notebook check and Moodle submission remain.

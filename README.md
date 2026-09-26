@@ -137,9 +137,10 @@ Due **October 1, 2026, 11:59 PM**, according to the P2 handout.
 - [x] Raw inputs are preserved; row/column accounting reconciles.
 - [x] README includes purpose, source and reproduction steps.
 - [x] Direct dependency versions are pinned.
-- [ ] Review outstanding exceptions and document unresolved limitations.
+- [x] Reviewed the outstanding exceptions and documented the remaining limitations. Unresolved rows remain flagged for future review. Sean confirmed the overall review on September 26, 2026; 203 rows remain individually unreviewed.
 - [x] Self-scored rubric confirmed by Sean on September 26, 2026: all five criteria scored 4.
 - [x] Bench Check 1 completed September 26, 2026, as reported by Sean.
+- [ ] Final check of the saved notebook before upload.
 - [ ] Submit the notebook, this repository link and confirmed rubric to Moodle.
 
 The website is supplementary. Moodle submission remains outstanding; Sean reported completing Bench Check 1. AI assisted with code, documentation and review presentation; Sean confirmed the four manual review cases. The notebook includes the assistance disclosure.
