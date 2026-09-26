@@ -12,3 +12,5 @@ body>header{background:#f8f9fa;color:var(--ink);padding:17px 30px;border-bottom:
 @media(max-width:430px){.grading-nav ol{grid-template-columns:1fr}}
 
 .review-item{border-top:1px solid var(--line);padding:9px 0}.review-status{display:block;font-size:.85rem;color:var(--teal-dark)}#review-state{display:block;width:100%;padding:10px;margin:6px 0 14px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}#cleaning-log label{display:block;margin:10px 0 5px}.review-item summary{overflow-wrap:anywhere}
+
+.hero .intro-source{margin-top:16px;font-size:.94rem}.intro-source a{font-weight:600}
