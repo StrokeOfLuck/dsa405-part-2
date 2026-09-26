@@ -3,6 +3,41 @@ import csv
 import html
 import json
 
+FLAG_GUIDANCE = {
+    'adjacent transaction has same core signature': (
+        'A neighboring transaction looks very similar',
+        'The parser found adjacent entries with matching owner, asset text, trade type, transaction date, notification date and extracted amount values. They appeared in different PDF locations, so it kept them separate and asked for review.',
+        'Compare both entries in the PDF, including descriptions and quantities. Matching dates and dollar bands alone do not prove duplication. Keep separate trades; remove a row only if the source confirms an extraction duplicate.'),
+    'notification date before transaction date': (
+        'The notification date is earlier than the trade date',
+        'The extracted dates appear in an unexpected order. This could come from a source entry or from reading the wrong text or column.',
+        'Compare both date cells with the PDF. Correct an extraction mistake only when the source supports it. If the PDF itself shows that order, preserve it and document the discrepancy.'),
+    'implausible notification date year': (
+        'The notification year falls outside the parser’s expected window',
+        'The year is earlier than 2012 or more than one year after the filing-index year. For this 2025 archive, that means earlier than 2012 or later than 2026. This is a checking rule, not proof that the date is wrong.',
+        'Read the year in the PDF and compare it with the extracted notification date. Check for a misread digit or misplaced text before changing anything.'),
+    'nonstandard_exact': (
+        'The form reports an exact amount instead of a usual dollar band',
+        'The parser found a single dollar amount. It flags this unusual format even when the amount was extracted correctly.',
+        'Confirm the exact amount in the PDF. If it matches, retain it as an exact value and leave range bounds blank. Do not invent a dollar band.'),
+    'missing_range_bound': (
+        'The amount could not be interpreted as a complete range',
+        'The original parser could not supply both range endpoints. The form may show an exact amount, an incomplete range, or text the parser misread.',
+        'Read the amount cell in the PDF. Record an exact amount only if it is explicitly shown; restore range endpoints only when supported. Otherwise leave the uncertainty documented.')
+}
+
+def flag_guidance(row):
+    reasons=[reason.strip() for reason in row['review_reason'].split(';') if reason.strip()]
+    if not reasons:
+        return '<p><strong>Why this row is included:</strong> This was an additional source check or a companion row in a reviewed pair. The original parser did not flag this row.</p>'
+    blocks=[]
+    for reason in reasons:
+        title,meaning,check=FLAG_GUIDANCE.get(reason,('Parser review requested',reason,'Compare the extracted fields with the linked source PDF before deciding whether to keep or correct them.'))
+        blocks.append('<div class="flag-explanation"><h4>'+html.escape(title)+'</h4><p><strong>Why it was flagged:</strong> '+html.escape(meaning)+'</p><p><strong>What to check:</strong> '+html.escape(check)+'</p></div>')
+    level=row['review_level']
+    blocks.append('<p><strong>Review priority:</strong> '+('Low. The parser treats this as a caution to inspect, rather than an automatic correction.' if level=='low' else 'High. The parser found a date or amount issue that deserves closer inspection.')+' The priority is a parser rule, not a confidence percentage or a human verdict.</p>')
+    return ''.join(blocks)
+
 def render_review(root):
     with (root/'data/clean/house_ptr_2025_p2.csv').open(encoding='utf-8',newline='') as f:
         rows=list(csv.DictReader(f))
@@ -22,7 +57,8 @@ def render_review(root):
         flag=row['review_reason'] or 'No original parser flag — additional source check'
         card=f'<details class="review-item" data-review-state="{status}"'+(' hidden' if saved else '')+'>'
         card+=f'<summary>{esc(row["politician"])} · {esc(key[0])}/{esc(key[1])}<span class="review-status">{label}</span></summary>'
-        card+=f'<p><strong>Original flag:</strong> {esc(flag)}</p><p><code>needs_review = {esc(row["needs_review"])}</code> · <code>review_level = {esc(row["review_level"] or "blank")}</code> · <code>possible_adjacent_same_signature = {esc(row["possible_adjacent_same_signature"])}</code></p>'
+        card+=flag_guidance(row)
+        card+=f'<details class="technical-flags"><summary>Original parser fields</summary><p><strong>Original flag:</strong> {esc(flag)}</p><p><code>needs_review = {esc(row["needs_review"])}</code> means the parser requested inspection. <code>review_level = {esc(row["review_level"] or "blank")}</code> is its priority. <code>possible_adjacent_same_signature = {esc(row["possible_adjacent_same_signature"])}</code> records whether it found a similar neighboring entry.</p></details>'
         card+=f'<p>{esc(row["asset_v8_2_cleaned"])} · {esc(row["transaction_date"])} · {esc(row["amount_raw"])}</p><p><a href="{esc(pdf,quote=True)}" target="_blank" rel="noopener">Open original PDF · page {esc(row["page"])} ↗</a></p>'
         if saved:
             d,r=saved

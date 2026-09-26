@@ -14,3 +14,5 @@ body>header{background:#f8f9fa;color:var(--ink);padding:17px 30px;border-bottom:
 .review-item{border-top:1px solid var(--line);padding:9px 0}.review-status{display:block;font-size:.85rem;color:var(--teal-dark)}#review-state{display:block;width:100%;padding:10px;margin:6px 0 14px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}#cleaning-log label{display:block;margin:10px 0 5px}.review-item summary{overflow-wrap:anywhere}
 
 .hero .intro-source{margin-top:16px;font-size:.94rem}.intro-source a{font-weight:600}
+
+.flag-explanation{margin:12px 0;padding:12px 15px;background:var(--card);border-left:3px solid var(--teal)}.flag-explanation h4{margin:0 0 8px}.technical-flags{font-size:.9rem;color:var(--muted)}#reproducibility li{margin:14px 0}.review-status{margin-top:5px}
