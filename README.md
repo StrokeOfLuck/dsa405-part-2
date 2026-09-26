@@ -1,101 +1,145 @@
-# DSA 405 — P2: House PTR PDF audit and cleaning log
+# DSA 405 · Project 2: Data Audit, Cleaning Log & Provenance
+
+**Sean Ryan · Fall 2026 · `sryan3`**
+
+This project audits reported U.S. House financial transactions extracted from 2025 disclosure PDFs. It explains how the data was produced, checks its quality, documents cleaning decisions and preserves the evidence needed to reverse those decisions. P2 covers this one source. Committee data and joins belong to P3.
+
+**[Open the interactive project](https://strokeofluck.github.io/dsa405-part-2/docs/index.html)** · **[Read the executed notebook](https://strokeofluck.github.io/dsa405-part-2/docs/P2-notebook.html)** · **[Submission readiness](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#submission-readiness)**
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StrokeOfLuck/dsa405-part-2/blob/main/notebooks/DSA405_002_FA26_P2_sryan3.ipynb)
 
-This is a **separate class project**. It copies 2025 source files, builds two transaction CSVs with the [House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper)'s original parser and ticker resolver, then audits the differences. It does not alter the scraper repository.
+[Original House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper) · [This P2 repository](https://github.com/StrokeOfLuck/dsa405-part-2) · [Instructor's P2 requirements](https://github.com/jon-holt/DSA-405-Student/blob/main/assignments/projects/DSA405_P2_AuditCleaningLog_FA26.md) · [Course rubrics](https://github.com/jon-holt/DSA-405-Student/blob/main/course/DSA405_ProjectRubrics_FA26.md)
 
-## Review progress
+## Start here for grading
 
-**[Open the visual progress preview](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#audit)** — source-PDF excerpts, approved review decisions, the approved provenance brief, and the remaining submission checklist.
+The required deliverable is [DSA405_002_FA26_P2_sryan3.ipynb](notebooks/DSA405_002_FA26_P2_sryan3.ipynb), with saved outputs. It contains all five required sections, in order:
 
-[Review decision record](REVIEW_PROGRESS.md). The notebook has now executed successfully with saved outputs: 7,667 rows, 66 final columns, 66 dictionary entries and 19 logged decisions. The approved $2,000 correction is applied to one row with old values preserved. Sean still needs to review the self-assessment, confirm Bench Check scheduling and submit to Moodle.
+1. Systematic audit of extracted source data.
+2. Data dictionary for all final P2 columns.
+3. Quantified cleaning log and reviewed decisions.
+4. Row and column accounting.
+5. Provenance brief, 166 words.
 
-- **[Read the executed notebook](https://strokeofluck.github.io/dsa405-part-2/docs/P2-notebook.html)**
-- **[Review the self-assessment draft](SELF_ASSESSMENT_DRAFT.md)** (proposed scores, not yet confirmed by Sean)
+The website is a supplementary way to inspect the same work. Its grading links open focused evidence views; the pipeline tabs show code and source examples.
 
-## Visual walkthrough
+| Grading criterion | Weight | Evidence in this project | Open the evidence |
+|---|---:|---|---|
+| Diagnosis & data dictionary | ×2 | Loaded and intended types, missing counts/rates, distinct values, numeric ranges, short categorical domains, defect checks and defects not found. All 66 final fields have dictionary entries. | [Audit](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#audit-inventory) · [Dictionary](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#data-dictionary) · notebook sections 1–2 |
+| Cleaning execution | ×2 | Source-supported retention decisions and one exact-amount correction. Before-values and original flags are retained; alternatives and uncertainty are explained. | [Cleaning decisions](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#cleaning-execution) · notebook section 3 |
+| **Cleaning log** | **×3** | **19 numbered decisions**, each with affected counts, rationale, information loss and reversal instructions. Human-review entries are generated from the recorded decisions used by the website. | [Original flags and reviews](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#cleaning-log) · [Full notebook log](https://strokeofluck.github.io/dsa405-part-2/docs/P2-notebook.html#3.-Quantified-cleaning-log-and-reviewed-decisions) |
+| Provenance brief | ×1 | A 166-word explanation of the producer, purpose, coverage and limitations, including digital versus scanned/handwritten PDFs. | [Provenance](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#review-provenance) · notebook section 5 |
+| Tidy structure & reproducibility | ×2 | One extracted transaction per row, reconciled row/column accounting, preserved raw files, successful saved execution, this README and exact direct dependency versions. | [Reproducibility](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#reproducibility) · [requirements.txt](requirements.txt) · notebook sections 4 and setup |
 
-[![Open the visual walkthrough — follow a real PDF to CSV with clickable explanations and highlighted code](docs/assets/walkthrough-button.svg)](https://strokeofluck.github.io/dsa405-part-2/docs/index.html)
+These links identify supporting work, not awarded grades. [SELF_ASSESSMENT_DRAFT.md](SELF_ASSESSMENT_DRAFT.md) contains proposed scores that Sean must confirm or revise.
 
-Follow a random 2025 PTR from its PDF page to a downloadable CSV containing **all rows from that filing**. The button draws from the **449 filings with parsed transactions**, producing 7,667 rows. All 515 PDFs remain archived; the 66 without parsed rows are excluded from random selection. The archive is a pinned snapshot, not a live list of every filing currently available.
+## Data source and scope
 
-1. The selected filing's member, ID, and row count fill the selection box.
-2. The PDF inspector highlights the actual physical row. Select a column to see its clipping rectangle, embedded text, and text after the parser's character/whitespace cleanup.
-3. Follow that transaction through Stage 3 fields, Stage 4 ticker decisions, and Part 2 date checks.
-4. Read the complete source file or notebook cell in the left panel. The relevant function and line are highlighted; code-block buttons expose every notebook cell in its matching step.
-5. Download the selected filing's CSV. The notebook's `p2.to_csv(...)` writes the full-year file; the walkthrough's download is a filtered copy.
+| Coverage | Saved result |
+|---|---:|
+| Archived PDFs | 515 |
+| Filings with extracted transactions | 449 |
+| PDFs without extracted transaction rows | 66 |
+| Transaction rows retained | 7,667 |
+| Extracted / resolver / final P2 columns | 50 / 61 / 66 |
+| Rows removed by the P2 notebook | 0 |
 
-The walkthrough uses a synchronized split view: complete source code on the left, PDF and results on the right. Choose a pipeline step to show its code and visual together. Click a PDF field to highlight the clipping function, or use the code-block buttons to inspect other functions and notebook cells for that step. The source-file selector exposes all ten complete files and the original-source link opens GitHub or Colab. On narrow screens the code and visuals stack. Third-party library implementations are not bundled.
+The source is the [House Clerk's financial disclosure collection](https://disclosures-clerk.house.gov/FinancialDisclosure), using its [2025 filing index (XML)](https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025FD.xml). The repository contains a fixed archive, not a live inventory. `source_year = 2025` identifies the filing-index year; earlier transaction dates are retained.
 
-Geometry is observed at the exact point where the pinned parser accepts a new transaction after duplicate handling. `scripts/trace_geometry.py` adds an in-memory observer without editing the upstream source or changing its parsing decisions. The builder reruns that parser and checks the observed fields against the rebuilt CSV before publishing a highlight. Continuations can contribute additional text to the final transaction. Coordinates use PDF points from the top-left; the illustrated code substitutes the selected rectangle's numeric values.
+This pipeline reads digital PDFs with selectable text. Handwritten or scanned forms need a more complex approach, such as OCR, which this pipeline does not perform. The 66 PDFs without extracted rows remain archived; zero extracted rows does not establish that a document reports no transactions. The website's random picker selects only the 449 filings with parsed transactions.
 
-After the full 2025 rebuild, regenerate the static examples with:
+Raw inputs are preserved under [data/raw/](data/raw/): 515 PDFs, the XML index, a [SHA-256 manifest](data/raw/2025_pdf_manifest.csv), and [source notes](data/raw/SOURCES.md). They were copied from scraper commit `510945b2b1d600dd90b183858b86419926b81e65`. Project code verifies the archived files and copies them to `data/work/` before parsing; it does not write to `data/raw/`.
 
-```bash
-python scripts/build_pipeline_demo.py
-python scripts/validate_pipeline_demo.py
-python -m http.server 8000 --directory docs
-```
+## Five focused Python stages
 
-Open `http://localhost:8000/`. The builder writes `docs/data/examples.json` (index and code), 515 individual records under `docs/data/filings/`, 515 page images, and 449 per-filing CSVs. Each image shows the selected transaction's page, which may be later than page one. The browser fetches only the selected record and image, then caches the record for that session. A `?filing=20033604` link opens a specific filing. Validation checks every asset, row count, field highlight, code line, notebook cell, and CSV audit value. Source PDFs and pipeline CSVs remain unchanged.
+The original automation has five scripts. Geometry is intentional: PDF text positions and column boundaries help associate values with the right transaction, whereas continuous text can mix neighboring fields.
 
-## Where the data comes from
+1. **Collect the PDFs.** [stage1_download.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage1_download.py) reads the official filing index and downloads disclosure documents.
+2. **Verify the collection.** [stage2_verify.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage2_verify.py) checks the index against available PDFs to identify missing documents.
+3. **Extract using geometry.** [stage3_extract.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage3_extract.py) uses text positions and column boundaries to extract transaction fields and records uncertainty.
+4. **Clean up tickers and related fields.** [stage4_clean.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/stage4_clean.py) resolves ticker candidates, cleans related asset text and updates ticker-related flags while preserving prior values. It is not a general date or amount correction stage.
+5. **Prepare CSV outputs.** [publish_latest.py](https://github.com/StrokeOfLuck/house-ptr-scraper/blob/510945b2b1d600dd90b183858b86419926b81e65/src/publish_latest.py) prepares the processed tables for downstream use.
 
-The source is the official U.S. House periodic transaction disclosure PDFs. This repository now preserves the complete pinned 2025 source snapshot directly in `data/raw/`: **515 unmodified PDFs** in `data/raw/2025_pdfs/`, the House disclosure index `data/raw/2025FD.xml`, `data/raw/2025_pdf_manifest.csv`, and `data/raw/SOURCES.md`. The manifest records each PDF's filename, size, SHA-256, and pinned scraper commit. The 515 PDFs total about 51 MB.
+For P2, [rebuild_2025.py](scripts/rebuild_2025.py) verifies the committed archive against its manifest, makes working copies and runs the pinned extraction, cleanup and export scripts. It does not redownload the raw PDFs or rerun the original live collection process. The notebook then performs the audit and documented P2 corrections. The website's six lesson tabs are not six scraper stages.
 
-The raw files were copied byte-for-byte from scraper commit `510945b2b1d600dd90b183858b86419926b81e65`. Project code never writes to `data/raw/`. When the notebook runs, `scripts/rebuild_2025.py` verifies the committed PDFs against the manifest and copies them into `data/work/01_pdfs/2025/` before parsing. The pinned scraper repository is still fetched for the parser source code, but the raw dataset itself is contained in this repository.
+## Original flags, human decisions and remaining uncertainty
 
-## Run
+[decisions.json](data/review/decisions.json) records four confirmed review cases covering five rows:
 
-**Colab:** Click the button above, then choose **Runtime → Run all**. The notebook clones this P2 repo into the Colab session, installs its dependencies, verifies the committed `data/raw/` snapshot, copies those files into its working folder, runs the pinned PDF parser and ticker resolver, and displays the audit. This is a full-year CPU run and can take several minutes. If the runtime stops, running it again can resume from the parser checkpoint.
+1. Retain the January 13 date after checking the PDF.
+2. Retain two similar transactions because their quantities differ.
+3. Retain the reported exact $800 amount with blank range bounds.
+4. Restore the explicitly reported $2,000 amount in one row, changing two value cells.
 
-**Local:** Use Python 3.12 and Git (the saved run used Python 3.12.14). From the repo root:
+The notebook validates each decision's recorded flags and before-values against the parser output, applies the correction and generates its manual cleaning-log entries from the same records. Original `needs_review`, `review_reason` and `review_level` fields remain as history. A recorded outcome does not automatically clear unrelated issues.
+
+Of **206 originally flagged rows**, three have recorded human decisions and **203 remain unreviewed**. Two additional unflagged rows were checked. One missing-range amount case remains unresolved, and date warnings remain for source review. There are 640 raw-date shape flags and zero readable-prefix disagreements; neither result establishes that all dates are correct. Targeted PDF reviews are not a dataset-wide accuracy estimate.
+
+The website explains why each original flag appeared and what to check in the PDF. Its filters change the display only; they do not save new decisions. The required notebook log also records general extraction and cleaning decisions beyond these five reviewed rows.
+
+## Reproduce the notebook
+
+Use **Python 3.12 and Git**. The successful saved run used Python 3.12.14 on Windows. Internet access is needed to install dependencies and retrieve the pinned parser source.
+
+1. Clone this repository and open a terminal in its root.
+2. Create and activate a virtual environment using your usual Python tooling.
+3. Install the exact direct dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
+python -m pip check
+```
+
+4. Open [the notebook](notebooks/DSA405_002_FA26_P2_sryan3.ipynb) in a notebook editor, select that environment, restart the kernel and run all cells. The setup cell calls the rebuild script automatically.
+5. Save the notebook with its outputs. The final cells check accounting, row keys, preserved values, the CSV round-trip, raw-file hashes and the two-cell correction.
+
+To run only the extraction/cleanup pipeline from the terminal:
+
+```bash
 python scripts/rebuild_2025.py
 ```
 
-Then open `notebooks/DSA405_002_FA26_P2_sryan3.ipynb` and run all cells. It will reuse the checked files and parser checkpoint. Run the notebook from a restarted kernel before submission.
+This command does not replace the notebook audit or apply its P2 review decisions. A later notebook run can reuse the parser checkpoint.
 
-## Generated files
+**Colab:** use the badge above and choose Runtime → Run all. The setup cell clones the repository and installs dependencies. A fresh Colab installation/run has not been independently verified.
 
-- `data/work/04_transactions/transactions_raw.csv`: V8.1 extraction from 2025 PDFs.
-- `data/work/04_transactions/transactions_resolved.csv`: V8.2 after ticker and asset cleanup. In this 2025 batch the resolver added classifications and audit columns but changed **zero** of the six compared values.
-- `data/clean/house_ptr_2025_p2.csv`: V8.2 plus three date-audit fields, two pre-P2 amount backups and the approved correction to filing 20033320, transaction 1 ($2,000 exact amount).
-- `data/work/06_public/house_ptr_transactions_latest.csv` and `house_ptr_transactions_web.csv`: standalone published outputs from this P2 copy.
-- `data/work/05_status/checkpoint.csv` and `data/work/04_transactions/needs_fallback.csv`: extraction status and PDFs that need fallback review.
+**Verified execution:** all eight code cells have successful saved outputs. The initial run rebuilt extraction in a fresh working folder; subsequent fresh-kernel runs reused the parser checkpoint while executing every notebook cell. All 518 raw files were unchanged by hashes. The installed environment passes `pip check`. [requirements.txt](requirements.txt) pins nine direct packages to those installed versions; it is not a full cross-platform environment lock.
 
-Generated files are ignored by Git and recreated by the notebook. `source_year = 2025` means the **filing index year**, not necessarily the transaction year. The notebook logs Stage 3 parsing decisions, Stage 4 classifications, selected manual retention decisions and the single-row P2 correction with exact counts and reversal instructions. It found 640 raw date text fields with extra PDF text but zero disagreements between the leading raw date and the resolved transaction date. V8.1 values remain beside V8.2 results. It does not claim that Stage 3 PDF extraction is error-free; review flagged cases against the linked source PDFs.
+## Files and website refresh
 
-## Submission
+| Location | Purpose |
+|---|---|
+| [notebooks/](notebooks/) | Required notebook with saved outputs |
+| [data/raw/](data/raw/) | Immutable PDF archive, index and manifest |
+| [data/review/decisions.json](data/review/decisions.json) | Confirmed human review decisions |
+| `data/work/` | Recreated parser working files and checkpoints, ignored by Git |
+| `data/clean/` | Notebook-generated final CSV, dictionary, log, audit, accounting and validation summary, ignored by Git |
+| [docs/data/house_ptr_2025_p2.csv](docs/data/house_ptr_2025_p2.csv) | Published copy of the corrected full dataset |
+| [docs/](docs/) | Supplementary walkthrough and notebook HTML |
+| [SELF_ASSESSMENT_DRAFT.md](SELF_ASSESSMENT_DRAFT.md) | Proposed rubric scores for student confirmation |
 
-Inspect the audit exceptions and a sample of original PDFs, document any manual changes in the numbered cleaning log, save executed notebook outputs, and submit the notebook and repo link with the course's self-scored rubric. P2 uses one source; committee rosters and joins remain for P3.
+After rerunning the notebook, refresh the dictionary, review view and all 449 individual filing downloads:
 
-## Current validation and remaining review
+```bash
+python scripts/export_p2_review.py
+python -m http.server 8000 --directory docs
+```
 
-The saved notebook was executed from a fresh Python kernel. The initial run rebuilt all 515 PDFs in a fresh working folder; the final run reused that parser checkpoint while rerunning every notebook cell. The notebook checks raw-file hashes before/after, row keys, column accounting, the CSV round-trip, and that only two original value cells changed. Software versions are recorded in the final output. Execution was local on Windows, not independently repeated in Colab.
+Open `http://localhost:8000/`. Final filing downloads match the corrected notebook dataset. Earlier pipeline steps deliberately show original parser values; saved teaching snippets explain those steps, while the submitted notebook contains the current complete audit and correction code. Clicking the website does not rerun Python.
 
-The reviewed PDF copies were hash-matched to the committed archive. These are targeted source checks, not an accuracy estimate for the whole dataset. One unresolved missing-range amount case remains flagged. Preserve the original review flags as history; the P2 log records human decisions separately.
+For changes to PDF geometry examples, [build_pipeline_demo.py](scripts/build_pipeline_demo.py), [trace_geometry.py](scripts/trace_geometry.py) and [validate_pipeline_demo.py](scripts/validate_pipeline_demo.py) provide the separate demo-building workflow. Rerun the P2 export after rebuilding demo assets so final filing downloads retain the reviewed corrections.
 
-The walkthrough demonstrates the original parsing stages and the corrected final P2 output. Individual filing CSV downloads match the executed notebook's `data/clean/house_ptr_2025_p2.csv`. No upstream scraper files were changed.
+## Submission checklist
 
-Raw PDFs originate at `https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/<filing_id>.pdf`; the exact archive comes from scraper commit `510945b2b1d600dd90b183858b86419926b81e65` and was copied into this repository on September 25, 2026.
+Due **October 1, 2026, 11:59 PM**, according to the P2 handout.
 
-Required Moodle package: `DSA405_002_FA26_P2_sryan3.ipynb`, this repository link, and Sean's confirmed self-scored rubric. The HTML pages are supplementary. Bench Check scheduling and Moodle submission remain Sean's responsibility and have not been performed here.
+- [x] All five required sections are in one notebook, in order.
+- [x] Successful fresh-kernel execution with saved outputs is recorded.
+- [x] Raw inputs are preserved; row/column accounting reconciles.
+- [x] README includes purpose, source and reproduction steps.
+- [x] Direct dependency versions are pinned.
+- [ ] Review outstanding exceptions and document unresolved limitations.
+- [ ] Confirm or revise the self-scored rubric.
+- [ ] Confirm Bench Check arrangements and be ready to explain the code.
+- [ ] Submit the notebook, this repository link and confirmed rubric to Moodle.
 
-The main walkthrough now includes the source-review evidence and checklist under **05 · Audit**, and the complete generated data dictionary under **06 · CSV**. The old review-page URL redirects there.
-
-To refresh the same-page dictionary and cleaning log after rerunning the notebook, run `python scripts/export_p2_review.py` from the repository root. This copies the corrected full-year CSV and generated reference tables into `docs/data/`.
-
-## Original flags and human review
-
-`data/review/decisions.json` records the four confirmed decisions covering five rows. The notebook validates original flags and before-values, applies the approved correction, and generates the manual cleaning-log entries from these records. Original flags remain unchanged; human outcomes do not automatically clear unrelated issues. Of 206 flagged rows, three have recorded decisions and 203 remain unreviewed; two additional unflagged rows were checked.
-
-Under **05 · Audit**, the website displays original flags alongside decisions, PDF evidence, before/after values and reversal instructions. Filters only change what is displayed; they do not save new decisions. The separate cleaning-log download button was removed; the required notebook log retains general cleaning steps too.
-
-After running the notebook, run `python scripts/export_p2_review.py` to refresh the dictionary, original-flag reviews, and all individual filing CSVs from the same corrected dataset. Stage 3 teaching examples retain original parser values; final CSV previews/downloads contain the reviewed P2 values.
-
-## Submission readiness
-
-The walkthrough sidebar links to a readiness checklist separating completed deliverables from remaining student actions. All nine direct dependencies in `requirements.txt` are pinned to the installed versions used for the successful Python 3.12.14 notebook run. `python -m pip check` passes in that environment; this does not establish a fresh Colab installation. Outstanding items are review of unresolved data issues, confirmation of the self-scored rubric and Bench Check, and Moodle submission.
+The website is supplementary. No Moodle submission or Bench Check scheduling has been performed by this workflow. AI assisted with code, documentation and review presentation; Sean confirmed the four manual review cases. The notebook includes the assistance disclosure.
