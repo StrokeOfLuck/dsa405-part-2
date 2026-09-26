@@ -393,6 +393,9 @@
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
+      const readable=examples.filter(e=>e.status==="parsed" && Number(e.rows)>0);
+      if(!readable.length)throw Error("No filings with parsed transactions are available.");
+      document.querySelector('.picker-note').textContent=`${examples.length.toLocaleString()} archived filings · ${readable.length.toLocaleString()} with parsed transactions available here. ${examples.length-readable.length} without parsed rows are excluded from this picker, but retained in the archive and audit. This is a saved parser run, not a live scrape.`;
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
         try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=explain-v13`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
@@ -400,10 +403,11 @@
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}
       }
-      function randomId(){const pool=examples.filter(e=>e.filing_id!==currentId);return pool[Math.floor(Math.random()*pool.length)].filing_id;}
+      function randomId(){const others=readable.filter(e=>e.filing_id!==currentId);const pool=others.length?others:readable;return pool[Math.floor(Math.random()*pool.length)].filing_id;}
       $("random").addEventListener("click",()=>choose(randomId()));
       const initial=new URL(location.href).searchParams.get("filing");
-      await choose(examples.some(e=>e.filing_id===initial)?initial:randomId());
+      await choose(readable.some(e=>e.filing_id===initial)?initial:randomId());
+      if(initial && !readable.some(e=>e.filing_id===initial))document.querySelector('.picker-note').append(' The requested filing is not in the parsed set; a parsed filing has been selected instead.');
       $("provenance").textContent=`2025 archive · ${data.batch_pdf_count} verified PDFs · ${data.batch_transaction_count.toLocaleString()} parsed rows · ${data.parsed_filing_count} filings with rows · ${data.sample_size-data.parsed_filing_count} without parsed rows · parser ${data.source_commit.slice(0,12)}. ${data.selection}`;
     }
     document.addEventListener('click',event=>{const link=event.target.closest('[data-evidence]');if(link){event.preventDefault();if(openEvidence(link.dataset.evidence))history.replaceState(null,'','#'+link.dataset.evidence);}});

@@ -521,7 +521,7 @@ def main() -> None:
         "batch_pdf_count": 515,
         "batch_transaction_count": len(raw),
         "sample_size": len(examples),
-        "selection": "Random selection covers every PDF in the archived 2025 manifest. Filings without parsed rows are shown explicitly. Each parsed filing follows one observed transaction through the saved pipeline.",
+        "selection": "Random selection uses only filings with parsed transactions. Filings without parsed rows remain in the archive and audit counts but are excluded from the picker. Each selected filing follows one observed transaction through the saved pipeline.",
         "code": code_examples(),
         "sources": source_catalog(),
         "parsed_filing_count": sum(e["rows"] > 0 for e in examples),
