@@ -338,15 +338,32 @@
       }catch(error){if(request===codeRequest)$("code-body").textContent=`Could not load source (${error.message}). Use the original source link above.`;}
     }
     function openEvidence(id){
+      if(id==='audit-diagnosis')id='audit-inventory';
       const target=document.getElementById(id); if(!target)return false;
       const stage=target.closest('section.stage'); if(stage)selectStep(stage.id);
+      $('split-workspace').classList.add('evidence-mode');
+      let branch=target;
+      while(branch && branch!==stage){
+        for(const sibling of branch.parentElement.children){if(sibling!==branch)sibling.classList.add('evidence-hidden');}
+        branch=branch.parentElement;
+      }
+      const titles={'audit-inventory':'Diagnosis and audit findings','data-dictionary':'Data dictionary','cleaning-execution':'Cleaning execution','cleaning-log':'Original flags and review decisions','review-provenance':'Provenance brief','reproducibility':'Tidy structure and reproducibility'};
+      const toolbar=document.createElement('div');toolbar.id='evidence-toolbar';
+      addText(toolbar,'h2',titles[id]||'Grading evidence');
+      const back=addText(toolbar,'button','Return to code walkthrough');back.type='button';back.className='btn secondary';
+      back.addEventListener('click',()=>{selectStep(activeStep);history.replaceState(null,'','#'+activeStep);});
+      $('visual-pane').prepend(toolbar);
       let parent=target; while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement;}
-      requestAnimationFrame(()=>{target.scrollIntoView({block:'start',behavior:'smooth'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});
+      requestAnimationFrame(()=>{$('split-workspace').scrollIntoView({block:'start',behavior:'smooth'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});
       document.querySelectorAll('[data-evidence]').forEach(a=>{if(a.dataset.evidence===id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});
       return true;
     }
     function selectStep(id){
       if(!stepCode[id])return;activeStep=id;
+      $('split-workspace')?.classList.remove('evidence-mode');
+      $('evidence-toolbar')?.remove();
+      document.querySelectorAll('.evidence-hidden').forEach(el=>el.classList.remove('evidence-hidden'));
+      document.querySelectorAll('[data-evidence]').forEach(a=>a.removeAttribute('aria-current'));
       for(const section of document.querySelectorAll("#visual-pane section.stage"))section.hidden=section.id!==id;
       document.querySelectorAll(".journey a").forEach(a=>{if(a.hash==="#"+id)a.setAttribute("aria-current","step");else a.removeAttribute("aria-current");});
       const cards=[...stepCode[id]];
