@@ -140,7 +140,9 @@
     "asset_type": "HN",
     "continuation_raw": "",
     "detail_raw": "AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 07/15/2025 07/27/2025 $647.63 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)",
-    "date_token": "07/15/2025"
+    "date_token": "07/15/2025",
+    "amount_exact": "647.63",
+    "amount_status": "nonstandard_exact"
   },
   "stage4": {
     "asset_v8_1": "AIX Ventures Fund II, LP (GLAS Funds, LP)",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20030742.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf",
       "raw_date_has_extra_text": "True",
       "raw_date_prefix": "07/15/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "647.63",
+      "amount_status": "nonstandard_exact"
     },
     {
       "filing_id": "20030742",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "07/15/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -285,9 +293,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "True",
     "raw_date_prefix": "07/15/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "647.63",
+    "amount_status_before_p2": "nonstandard_exact"
   },
-  "csv_serialized_row": "20030742,Hon. Max Miller,Member,OH07,20030742.pdf,2025,1,,\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",,,HN,P,2025-07-15,2025-07-27,,,647.63,,nonstandard_exact,New,2012 Trust,,\"Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",,1,1,table,False,False,,False,0,False,False,95,True,30,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf,low,nonstandard_exact,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventur\",\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN]\",\"P res Fund II, LP (G\",\"07/15/2025 GLAS Funds, LP\",07/27/2025 P),$647.63,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 07/15/2025 07/27/2025 $647.63 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",nonstandard_exact,low,True,95,,not_applicable,,False,False,True,07/15/2025,False\n",
+  "csv_serialized_row": "20030742,Hon. Max Miller,Member,OH07,20030742.pdf,2025,1,,\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",\"AIX Ventures Fund II, LP (GLAS Funds, LP)\",,,HN,P,2025-07-15,2025-07-27,,,647.63,,nonstandard_exact,New,2012 Trust,,\"Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",,1,1,table,False,False,,False,0,False,False,95,True,30,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf,low,nonstandard_exact,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventur\",\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN]\",\"P res Fund II, LP (G\",\"07/15/2025 GLAS Funds, LP\",07/27/2025 P),$647.63,,\"AIX Ventures Fund II, LP (GLAS Funds, LP) [HN] P 07/15/2025 07/27/2025 $647.63 Filing Status: New Subholding Of: 2012 Trust Description: Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)\",nonstandard_exact,low,True,95,,not_applicable,,False,False,True,07/15/2025,False,647.63,nonstandard_exact\n",
   "trade_match": {
     "matched": "P",
     "before": "",

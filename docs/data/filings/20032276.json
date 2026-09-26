@@ -140,7 +140,9 @@
     "asset_type": "OT",
     "continuation_raw": "",
     "detail_raw": "IWM Option [OT] P 09/15/2025 09/22/2025 $1,001 - $15,000 Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25 Comments: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
-    "date_token": "09/15/2025"
+    "date_token": "09/15/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "IWM Option",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20032276.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
       "raw_date_has_extra_text": "True",
       "raw_date_prefix": "09/15/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032276",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "09/15/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032276",
@@ -235,7 +243,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
       "raw_date_has_extra_text": "True",
       "raw_date_prefix": "09/15/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032276",
@@ -253,7 +263,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "09/16/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032276",
@@ -271,7 +283,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
       "raw_date_has_extra_text": "True",
       "raw_date_prefix": "09/16/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -339,9 +353,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "True",
     "raw_date_prefix": "09/15/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20032276,Hon. Rob Bresnahan,Member,PA08,20032276.pdf,2025,1,,IWM Option,IWM Option,,,OT,P,2025-09-15,2025-09-22,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,LPL Account I,US,CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25,\"All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.\",1,1,table,False,False,,False,0,False,False,100,True,44,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf,,,,\"IWM Option [OT] Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL Comments: All investment decisions rela advisors. I have no role in, nor am inform transaction was planned and executed by\",IWM Option [OT],\"P 2000 $175 EXP 0 ated to my persona med of, specific inv y a financial adviso\",09/15/2025 09/19/25 al financial por vestment decisi or.,09/22/2025 rtfolio are delegat ions prior to their,\"$1,001 - $15,000 ed to professional fin r execution. According\",,\"IWM Option [OT] P 09/15/2025 09/22/2025 $1,001 - $15,000 Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25 Comments: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.\",,,False,100,,not_applicable,,False,False,True,09/15/2025,False\n",
+  "csv_serialized_row": "20032276,Hon. Rob Bresnahan,Member,PA08,20032276.pdf,2025,1,,IWM Option,IWM Option,,,OT,P,2025-09-15,2025-09-22,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,LPL Account I,US,CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25,\"All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.\",1,1,table,False,False,,False,0,False,False,100,True,44,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf,,,,\"IWM Option [OT] Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL Comments: All investment decisions rela advisors. I have no role in, nor am inform transaction was planned and executed by\",IWM Option [OT],\"P 2000 $175 EXP 0 ated to my persona med of, specific inv y a financial adviso\",09/15/2025 09/19/25 al financial por vestment decisi or.,09/22/2025 rtfolio are delegat ions prior to their,\"$1,001 - $15,000 ed to professional fin r execution. According\",,\"IWM Option [OT] P 09/15/2025 09/22/2025 $1,001 - $15,000 Filing Status: New Subholding Of: LPL Account I Location: US Description: CALL ISHARES RUSSELL 2000 $175 EXP 09/19/25 Comments: All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.\",,,False,100,,not_applicable,,False,False,True,09/15/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "P",
     "before": "",

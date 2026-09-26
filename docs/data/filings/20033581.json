@@ -140,7 +140,9 @@
     "asset_type": "ST",
     "continuation_raw": "",
     "detail_raw": "DC Innovex International, Inc. Common Stock (INVX) [ST] S 11/25/2025 11/26/2025 $1,140.00 Filing Status: New Description: Dependent Child C",
-    "date_token": "11/25/2025"
+    "date_token": "11/25/2025",
+    "amount_exact": "",
+    "amount_status": "missing_range_bound"
   },
   "stage4": {
     "asset_v8_1": "Innovex International, Inc. Common Stock",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20033581.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033581.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "11/25/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "missing_range_bound"
     }
   ],
   "changed_stage4_values": 0,
@@ -267,9 +273,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "False",
     "raw_date_prefix": "11/25/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "missing_range_bound"
   },
-  "csv_serialized_row": "20033581,Hon. Debbie Wasserman Schultz,Member,FL25,20033581.pdf,2025,1,DC,\"Innovex International, Inc. Common Stock\",\"Innovex International, Inc. Common Stock\",INVX,INVX,ST,S,2025-11-25,2025-11-26,,,,,missing_range_bound,New,,,Dependent Child C,,1,1,table,False,False,,False,0,False,False,80,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033581.pdf,high,missing_range_bound,DC,\"Innovex International, Inc. Common Stock (INVX) [ST] Filing Status: New Description: Dependent Child C\",\"Innovex International, Inc. Common Stock (INVX) [ST]\",S,11/25/2025,11/26/2025,\"$1,140.00\",,\"DC Innovex International, Inc. Common Stock (INVX) [ST] S 11/25/2025 11/26/2025 $1,140.00 Filing Status: New Description: Dependent Child C\",missing_range_bound,high,True,80,INVX,accepted,house_ptr_structure+v8_1,False,False,False,11/25/2025,False\n",
+  "csv_serialized_row": "20033581,Hon. Debbie Wasserman Schultz,Member,FL25,20033581.pdf,2025,1,DC,\"Innovex International, Inc. Common Stock\",\"Innovex International, Inc. Common Stock\",INVX,INVX,ST,S,2025-11-25,2025-11-26,,,,,missing_range_bound,New,,,Dependent Child C,,1,1,table,False,False,,False,0,False,False,80,True,20,True,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033581.pdf,high,missing_range_bound,DC,\"Innovex International, Inc. Common Stock (INVX) [ST] Filing Status: New Description: Dependent Child C\",\"Innovex International, Inc. Common Stock (INVX) [ST]\",S,11/25/2025,11/26/2025,\"$1,140.00\",,\"DC Innovex International, Inc. Common Stock (INVX) [ST] S 11/25/2025 11/26/2025 $1,140.00 Filing Status: New Description: Dependent Child C\",missing_range_bound,high,True,80,INVX,accepted,house_ptr_structure+v8_1,False,False,False,11/25/2025,False,,missing_range_bound\n",
   "trade_match": {
     "matched": "S",
     "before": "",

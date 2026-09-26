@@ -78,7 +78,7 @@ The saved notebook was executed from a fresh Python kernel. The initial run rebu
 
 The reviewed PDF copies were hash-matched to the committed archive. These are targeted source checks, not an accuracy estimate for the whole dataset. One unresolved missing-range amount case remains flagged. Preserve the original review flags as history; the P2 log records human decisions separately.
 
-The existing interactive walkthrough still demonstrates the original parser output and three date checks. Use the executed notebook's `data/clean/house_ptr_2025_p2.csv` for the manually corrected P2 dataset. No upstream scraper files were changed.
+The walkthrough demonstrates the original parsing stages and the corrected final P2 output. Individual filing CSV downloads match the executed notebook's `data/clean/house_ptr_2025_p2.csv`. No upstream scraper files were changed.
 
 Raw PDFs originate at `https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/<filing_id>.pdf`; the exact archive comes from scraper commit `510945b2b1d600dd90b183858b86419926b81e65` and was copied into this repository on September 25, 2026.
 
@@ -87,3 +87,11 @@ Required Moodle package: `DSA405_002_FA26_P2_sryan3.ipynb`, this repository link
 The main walkthrough now includes the source-review evidence and checklist under **05 · Audit**, and the complete generated data dictionary under **06 · CSV**. The old review-page URL redirects there.
 
 To refresh the same-page dictionary and cleaning log after rerunning the notebook, run `python scripts/export_p2_review.py` from the repository root. This copies the corrected full-year CSV and generated reference tables into `docs/data/`.
+
+## Original flags and human review
+
+`data/review/decisions.json` records the four confirmed decisions covering five rows. The notebook validates original flags and before-values, applies the approved correction, and generates the manual cleaning-log entries from these records. Original flags remain unchanged; human outcomes do not automatically clear unrelated issues. Of 206 flagged rows, three have recorded decisions and 203 remain unreviewed; two additional unflagged rows were checked.
+
+Under **05 · Audit**, the website displays original flags alongside decisions, PDF evidence, before/after values and reversal instructions. Filters only change what is displayed; they do not save new decisions. The separate cleaning-log download button was removed; the required notebook log retains general cleaning steps too.
+
+After running the notebook, run `python scripts/export_p2_review.py` to refresh the dictionary, original-flag reviews, and all individual filing CSVs from the same corrected dataset. Stage 3 teaching examples retain original parser values; final CSV previews/downloads contain the reviewed P2 values.

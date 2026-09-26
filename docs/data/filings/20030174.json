@@ -140,7 +140,9 @@
     "asset_type": "CS",
     "continuation_raw": "",
     "detail_raw": "MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS] S 05/15/2025 06/09/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Bill's IRA Description: 594918BJ2",
-    "date_token": "05/15/2025"
+    "date_token": "05/15/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20030174.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030174.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "05/15/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20030174",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030174.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "06/09/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -285,9 +293,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "False",
     "raw_date_prefix": "05/15/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20030174,Hon. William R. Keating,Member,MA09,20030174.pdf,2025,1,,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025,,,CS,S,2025-05-15,2025-06-09,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Bill's IRA,,594918BJ2,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030174.pdf,,,,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS] Filing Status: New Subholding Of: Bill's IRA Description: 594918BJ2,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS],S,05/15/2025,06/09/2025,\"$1,001 - $15,000\",,\"MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS] S 05/15/2025 06/09/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Bill's IRA Description: 594918BJ2\",,,False,100,,not_applicable,,False,False,False,05/15/2025,False\n",
+  "csv_serialized_row": "20030174,Hon. William R. Keating,Member,MA09,20030174.pdf,2025,1,,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025,,,CS,S,2025-05-15,2025-06-09,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Bill's IRA,,594918BJ2,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030174.pdf,,,,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS] Filing Status: New Subholding Of: Bill's IRA Description: 594918BJ2,MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS],S,05/15/2025,06/09/2025,\"$1,001 - $15,000\",,\"MICROSOFT CORP NOTE CALL MAKE WHOLE 3.12500% 11/03/2025 [CS] S 05/15/2025 06/09/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Bill's IRA Description: 594918BJ2\",,,False,100,,not_applicable,,False,False,False,05/15/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "S",
     "before": "",

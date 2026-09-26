@@ -140,7 +140,9 @@
     "asset_type": "ST",
     "continuation_raw": "",
     "detail_raw": "Coca-Cola Company (KO) [ST] P 04/01/2025 05/04/2025 $1,001 - $15,000 Filing Status: New Description: Reinvest shares",
-    "date_token": "04/01/2025"
+    "date_token": "04/01/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "Coca-Cola Company",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20030285.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030285.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "04/01/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -267,9 +273,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "False",
     "raw_date_prefix": "04/01/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20030285,Hon. Lloyd Doggett,Member,TX37,20030285.pdf,2025,1,,Coca-Cola Company,Coca-Cola Company,KO,KO,ST,P,2025-04-01,2025-05-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,,,Reinvest shares,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030285.pdf,,,,Coca-Cola Company (KO) [ST] Filing Status: New Description: Reinvest shares,Coca-Cola Company (KO) [ST],P,04/01/2025,05/04/2025,\"$1,001 - $15,000\",,\"Coca-Cola Company (KO) [ST] P 04/01/2025 05/04/2025 $1,001 - $15,000 Filing Status: New Description: Reinvest shares\",,,False,100,KO,accepted,house_ptr_structure+v8_1,False,False,False,04/01/2025,False\n",
+  "csv_serialized_row": "20030285,Hon. Lloyd Doggett,Member,TX37,20030285.pdf,2025,1,,Coca-Cola Company,Coca-Cola Company,KO,KO,ST,P,2025-04-01,2025-05-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,,,Reinvest shares,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030285.pdf,,,,Coca-Cola Company (KO) [ST] Filing Status: New Description: Reinvest shares,Coca-Cola Company (KO) [ST],P,04/01/2025,05/04/2025,\"$1,001 - $15,000\",,\"Coca-Cola Company (KO) [ST] P 04/01/2025 05/04/2025 $1,001 - $15,000 Filing Status: New Description: Reinvest shares\",,,False,100,KO,accepted,house_ptr_structure+v8_1,False,False,False,04/01/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "P",
     "before": "",

@@ -10,3 +10,5 @@ body>header{background:#f8f9fa;color:var(--ink);padding:17px 30px;border-bottom:
 @media(max-width:1150px){.hero{grid-template-columns:1fr}.hero h1{font-size:2rem}.page-layout{grid-template-columns:215px minmax(0,1fr)}.grading-nav{margin-left:15px;padding-right:12px}.page-layout main{padding:24px 18px}}
 @media(max-width:760px){.page-layout{display:block}.grading-nav{position:static;margin:20px 18px 0;border-right:0;border-bottom:1px solid var(--line);padding:0 0 16px}.grading-nav ol{display:grid;grid-template-columns:1fr 1fr;gap:8px}.grading-nav li{margin:0}.grading-nav h2{font-size:19px}.page-layout main{padding:22px 16px}header .sub{display:none}.hero h1{font-size:2rem}#code-pane{height:45vh}}
 @media(max-width:430px){.grading-nav ol{grid-template-columns:1fr}}
+
+.review-item{border-top:1px solid var(--line);padding:9px 0}.review-status{display:block;font-size:.85rem;color:var(--teal-dark)}#review-state{display:block;width:100%;padding:10px;margin:6px 0 14px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}#cleaning-log label{display:block;margin:10px 0 5px}.review-item summary{overflow-wrap:anywhere}

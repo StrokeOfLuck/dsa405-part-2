@@ -140,7 +140,9 @@
     "asset_type": "HN",
     "continuation_raw": "",
     "detail_raw": "2000115357 SP Echo Street GoodCo Select, LP [HN] S 01/05/2024 02/02/2024 $500,001 - $1,000,000 Filing Status: Deleted Subholding Of: The 2011 Randall R. Kaplan Living Trust Description: Hedge Fund. Fund manager letter on file with the Committee on Ethics.",
-    "date_token": "01/05/2024"
+    "date_token": "01/05/2024",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "Echo Street GoodCo Select, LP",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20029046.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029046.pdf",
       "raw_date_has_extra_text": "True",
       "raw_date_prefix": "01/05/2024",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20029046",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029046.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "01/16/2024",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -285,9 +293,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "True",
     "raw_date_prefix": "01/05/2024",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20029046,Hon. Kathy Manning,Former Member,NC06,20029046.pdf,2025,1,SP,\"Echo Street GoodCo Select, LP\",\"Echo Street GoodCo Select, LP\",,,HN,S,2024-01-05,2024-02-02,500001.0,1000000.0,,\"$500,001 - $1,000,000\",valid_range,Deleted,The 2011 Randall R. Kaplan Living Trust,,Hedge Fund. Fund manager letter on file with the Committee on Ethics.,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029046.pdf,,,SP,\"Echo Street GoodCo Select, LP [HN] Filing Status: Deleted Subholding Of: The 2011 Randall R. K Description: Hedge Fund. Fund mana\",\"Echo Street GoodCo Select, LP [HN]\",S Kaplan Living Tru ager letter on file,01/05/2024 ust with the Comm,02/02/2024 mittee on Ethics.,\"$500,001 - $1,000,000\",,\"2000115357 SP Echo Street GoodCo Select, LP [HN] S 01/05/2024 02/02/2024 $500,001 - $1,000,000 Filing Status: Deleted Subholding Of: The 2011 Randall R. Kaplan Living Trust Description: Hedge Fund. Fund manager letter on file with the Committee on Ethics.\",,,False,100,,not_applicable,,False,False,True,01/05/2024,False\n",
+  "csv_serialized_row": "20029046,Hon. Kathy Manning,Former Member,NC06,20029046.pdf,2025,1,SP,\"Echo Street GoodCo Select, LP\",\"Echo Street GoodCo Select, LP\",,,HN,S,2024-01-05,2024-02-02,500001.0,1000000.0,,\"$500,001 - $1,000,000\",valid_range,Deleted,The 2011 Randall R. Kaplan Living Trust,,Hedge Fund. Fund manager letter on file with the Committee on Ethics.,,1,1,table,False,False,,False,0,False,False,100,True,30,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029046.pdf,,,SP,\"Echo Street GoodCo Select, LP [HN] Filing Status: Deleted Subholding Of: The 2011 Randall R. K Description: Hedge Fund. Fund mana\",\"Echo Street GoodCo Select, LP [HN]\",S Kaplan Living Tru ager letter on file,01/05/2024 ust with the Comm,02/02/2024 mittee on Ethics.,\"$500,001 - $1,000,000\",,\"2000115357 SP Echo Street GoodCo Select, LP [HN] S 01/05/2024 02/02/2024 $500,001 - $1,000,000 Filing Status: Deleted Subholding Of: The 2011 Randall R. Kaplan Living Trust Description: Hedge Fund. Fund manager letter on file with the Committee on Ethics.\",,,False,100,,not_applicable,,False,False,True,01/05/2024,False,,valid_range\n",
   "trade_match": {
     "matched": "S",
     "before": "",

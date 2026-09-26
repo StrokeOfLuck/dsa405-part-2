@@ -1,0 +1,161 @@
+[
+  {
+    "id": "date",
+    "filing_id": "20024346",
+    "page": 4,
+    "decision": "keep",
+    "reviewed_by": "Sean Ryan",
+    "reason": "PDF page 4 places 01/13/2025 in the transaction-date cell; 01/17/25 belongs to the option description.",
+    "action": "Retained 2025-01-13",
+    "column": "transaction_date",
+    "affected_count": 1,
+    "count_unit": "reviewed rows",
+    "what_is_lost": "Nothing; no values or rows changed. Count is rows reviewed, not modifications.",
+    "how_to_reverse": "No transformation to reverse; compare filing 20024346, rows 27 and the preserved PDF. Original flags remain.",
+    "rows": [
+      {
+        "transaction_number_in_filing": "27",
+        "original_flags": {
+          "needs_review": "False",
+          "review_level": "",
+          "review_reason": "",
+          "possible_adjacent_same_signature": "False"
+        },
+        "before": {
+          "transaction_date": "2025-01-13"
+        },
+        "after": {
+          "transaction_date": "2025-01-13"
+        }
+      }
+    ]
+  },
+  {
+    "id": "similar",
+    "filing_id": "20026517",
+    "page": 1,
+    "decision": "keep",
+    "reviewed_by": "Sean Ryan",
+    "reason": "PDF page 1 lists 15,000 units and 5,000 units separately; matching asset/date/band alone is insufficient for deletion.",
+    "action": "Retained both similar rows",
+    "column": "transaction rows",
+    "affected_count": 2,
+    "count_unit": "reviewed rows",
+    "what_is_lost": "Nothing; no values or rows changed. Count is rows reviewed, not modifications.",
+    "how_to_reverse": "No transformation to reverse; compare filing 20026517, rows 3, 4 and the preserved PDF. Original flags remain.",
+    "rows": [
+      {
+        "transaction_number_in_filing": "3",
+        "original_flags": {
+          "needs_review": "True",
+          "review_level": "low",
+          "review_reason": "adjacent transaction has same core signature",
+          "possible_adjacent_same_signature": "True"
+        },
+        "before": {
+          "description": "15,000 units Oklahoma County, OK, Indep 3.00% 07/01/25",
+          "amount_min": "1001.0",
+          "amount_max": "15000.0"
+        },
+        "after": {
+          "description": "15,000 units Oklahoma County, OK, Indep 3.00% 07/01/25",
+          "amount_min": "1001.0",
+          "amount_max": "15000.0"
+        }
+      },
+      {
+        "transaction_number_in_filing": "4",
+        "original_flags": {
+          "needs_review": "False",
+          "review_level": "",
+          "review_reason": "",
+          "possible_adjacent_same_signature": "False"
+        },
+        "before": {
+          "description": "5,000 units Oklahoma County, OK, Indep 3.00% 07/01/25",
+          "amount_min": "1001.0",
+          "amount_max": "15000.0"
+        },
+        "after": {
+          "description": "5,000 units Oklahoma County, OK, Indep 3.00% 07/01/25",
+          "amount_min": "1001.0",
+          "amount_max": "15000.0"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exact800",
+    "filing_id": "20027995",
+    "page": 2,
+    "decision": "keep",
+    "reviewed_by": "Sean Ryan",
+    "reason": "PDF page 2 explicitly reports $800.00; inventing a disclosure range would lose precision.",
+    "action": "Retained exact 800.0 and blank range bounds",
+    "column": "amount_exact",
+    "affected_count": 1,
+    "count_unit": "reviewed rows",
+    "what_is_lost": "Nothing; no values or rows changed. Count is rows reviewed, not modifications.",
+    "how_to_reverse": "No transformation to reverse; compare filing 20027995, rows 8 and the preserved PDF. Original flags remain.",
+    "rows": [
+      {
+        "transaction_number_in_filing": "8",
+        "original_flags": {
+          "needs_review": "True",
+          "review_level": "low",
+          "review_reason": "nonstandard_exact",
+          "possible_adjacent_same_signature": "False"
+        },
+        "before": {
+          "amount_exact": "800.0",
+          "amount_status": "nonstandard_exact",
+          "amount_min": "",
+          "amount_max": ""
+        },
+        "after": {
+          "amount_exact": "800.0",
+          "amount_status": "nonstandard_exact",
+          "amount_min": "",
+          "amount_max": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "exact2000",
+    "filing_id": "20033320",
+    "page": 1,
+    "decision": "correct",
+    "reviewed_by": "Sean Ryan",
+    "reason": "PDF page 1 explicitly reports $2,000.00. Leaving it unknown discards readable evidence; inferring a range invents a bound.",
+    "action": "Set 2000.0 and nonstandard_exact (one row, two cells)",
+    "column": "amount_exact, amount_status",
+    "affected_count": 2,
+    "count_unit": "value cells",
+    "what_is_lost": "Nothing; raw text, PDF, prior values and original review flags remain.",
+    "how_to_reverse": "For filing 20033320 row 1, restore amount_exact from amount_exact_before_p2 and amount_status from amount_status_before_p2.",
+    "rows": [
+      {
+        "transaction_number_in_filing": "1",
+        "original_flags": {
+          "needs_review": "True",
+          "review_level": "high",
+          "review_reason": "missing_range_bound",
+          "possible_adjacent_same_signature": "False"
+        },
+        "before": {
+          "amount_exact": "",
+          "amount_status": "missing_range_bound",
+          "amount_min": "",
+          "amount_max": ""
+        },
+        "after": {
+          "amount_exact": "2000.0",
+          "amount_status": "nonstandard_exact",
+          "amount_min": "",
+          "amount_max": ""
+        }
+      }
+    ]
+  }
+]

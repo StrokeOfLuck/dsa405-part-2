@@ -140,7 +140,9 @@
     "asset_type": "ST",
     "continuation_raw": "",
     "detail_raw": "DC Brown & Brown, Inc. Common Stock (BRO) [ST] P 11/20/2025 12/01/2025 $1,001 - $15,000 Filing Status: New",
-    "date_token": "11/20/2025"
+    "date_token": "11/20/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "Brown & Brown, Inc. Common Stock",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20033604.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "11/20/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033604",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "11/17/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033604",
@@ -235,7 +243,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "11/17/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033604",
@@ -253,7 +263,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "11/03/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033604",
@@ -271,7 +283,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "11/17/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -339,9 +353,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "False",
     "raw_date_prefix": "11/20/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20033604,Hon. April McClain Delaney,Member,MD06,20033604.pdf,2025,1,DC,\"Brown & Brown, Inc. Common Stock\",\"Brown & Brown, Inc. Common Stock\",BRO,BRO,ST,P,2025-11-20,2025-12-01,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf,,,DC,\"Brown & Brown, Inc. Common Stock (BRO) [ST] Filing Status: New\",\"Brown & Brown, Inc. Common Stock (BRO) [ST]\",P,11/20/2025,12/01/2025,\"$1,001 - $15,000\",,\"DC Brown & Brown, Inc. Common Stock (BRO) [ST] P 11/20/2025 12/01/2025 $1,001 - $15,000 Filing Status: New\",,,False,100,BRO,accepted,house_ptr_structure+v8_1,False,False,False,11/20/2025,False\n",
+  "csv_serialized_row": "20033604,Hon. April McClain Delaney,Member,MD06,20033604.pdf,2025,1,DC,\"Brown & Brown, Inc. Common Stock\",\"Brown & Brown, Inc. Common Stock\",BRO,BRO,ST,P,2025-11-20,2025-12-01,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,,,,,1,1,table,False,False,,False,0,False,False,100,True,10,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf,,,DC,\"Brown & Brown, Inc. Common Stock (BRO) [ST] Filing Status: New\",\"Brown & Brown, Inc. Common Stock (BRO) [ST]\",P,11/20/2025,12/01/2025,\"$1,001 - $15,000\",,\"DC Brown & Brown, Inc. Common Stock (BRO) [ST] P 11/20/2025 12/01/2025 $1,001 - $15,000 Filing Status: New\",,,False,100,BRO,accepted,house_ptr_structure+v8_1,False,False,False,11/20/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "P",
     "before": "",

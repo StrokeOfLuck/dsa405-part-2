@@ -140,7 +140,9 @@
     "asset_type": "ST",
     "continuation_raw": "",
     "detail_raw": "Danaher Corporation Common Stock (DHR) [ST] P 09/03/2025 10/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership",
-    "date_token": "09/03/2025"
+    "date_token": "09/03/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "Danaher Corporation Common Stock",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20032269.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "09/03/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032269",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "09/03/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032269",
@@ -235,7 +243,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "09/03/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032269",
@@ -253,7 +263,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "09/25/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20032269",
@@ -271,7 +283,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "09/12/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -339,9 +353,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "False",
     "raw_date_prefix": "09/03/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20032269,Hon. Thomas H. Kean Jr,Member,NJ07,20032269.pdf,2025,1,,Danaher Corporation Common Stock,Danaher Corporation Common Stock,DHR,DHR,ST,P,2025-09-03,2025-10-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Kean Family Partnership,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf,,,,Danaher Corporation Common Stock (DHR) [ST] Filing Status: New Subholding Of: Kean Family Partnership,Danaher Corporation Common Stock (DHR) [ST],P p,09/03/2025,10/04/2025,\"$1,001 - $15,000\",,\"Danaher Corporation Common Stock (DHR) [ST] P 09/03/2025 10/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership\",,,False,100,DHR,accepted,house_ptr_structure+v8_1,False,False,False,09/03/2025,False\n",
+  "csv_serialized_row": "20032269,Hon. Thomas H. Kean Jr,Member,NJ07,20032269.pdf,2025,1,,Danaher Corporation Common Stock,Danaher Corporation Common Stock,DHR,DHR,ST,P,2025-09-03,2025-10-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Kean Family Partnership,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf,,,,Danaher Corporation Common Stock (DHR) [ST] Filing Status: New Subholding Of: Kean Family Partnership,Danaher Corporation Common Stock (DHR) [ST],P p,09/03/2025,10/04/2025,\"$1,001 - $15,000\",,\"Danaher Corporation Common Stock (DHR) [ST] P 09/03/2025 10/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Kean Family Partnership\",,,False,100,DHR,accepted,house_ptr_structure+v8_1,False,False,False,09/03/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "P",
     "before": "",

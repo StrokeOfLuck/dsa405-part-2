@@ -140,7 +140,9 @@
     "asset_type": "OT",
     "continuation_raw": "",
     "detail_raw": "SP iShares Core S&P 500 ETF (IVV) [OT] P 10/14/2025 10/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have reported it on past PTRs and Annual FDs. I didn't see an option besides \"Other\" for entering it.",
-    "date_token": "10/14/2025"
+    "date_token": "10/14/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "iShares Core S&P 500 ETF",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20033327.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
       "raw_date_has_extra_text": "True",
       "raw_date_prefix": "10/14/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033327",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "10/14/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033327",
@@ -235,7 +243,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
       "raw_date_has_extra_text": "True",
       "raw_date_prefix": "10/14/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033327",
@@ -253,7 +263,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "10/14/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033327",
@@ -271,7 +283,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "10/14/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -339,9 +353,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "True",
     "raw_date_prefix": "10/14/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20033327,Hon. Scott Scott Franklin,Member,FL18,20033327.pdf,2025,1,SP,iShares Core S&P 500 ETF,iShares Core S&P 500 ETF,IVV,IVV,OT,P,2025-10-14,2025-10-21,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Fidelity Roth IRA,US,\"IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have reported it on past PTRs and Annual FDs. I didn't see an option besides \"\"Other\"\" for entering it.\",,1,1,table,False,False,,False,0,False,False,100,True,37,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf,,,SP,iShares Core S&P 500 ETF (IVV) [OT] Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 reported it on past PTRs and Annual FDs,iShares Core S&P 500 ETF (IVV) [OT],P 0 ETF) isn't shown . I didn't see an op,\"10/14/2025 n as an option i ption besides \"\"\",\"10/21/2025 in the Stocks drop \"\"Other\"\" for enterin\",\"$1,001 - $15,000 pdown list, even thoug ng it.\",,\"SP iShares Core S&P 500 ETF (IVV) [OT] P 10/14/2025 10/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have reported it on past PTRs and Annual FDs. I didn't see an option besides \"\"Other\"\" for entering it.\",,,False,100,,not_applicable,,False,False,True,10/14/2025,False\n",
+  "csv_serialized_row": "20033327,Hon. Scott Scott Franklin,Member,FL18,20033327.pdf,2025,1,SP,iShares Core S&P 500 ETF,iShares Core S&P 500 ETF,IVV,IVV,OT,P,2025-10-14,2025-10-21,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Fidelity Roth IRA,US,\"IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have reported it on past PTRs and Annual FDs. I didn't see an option besides \"\"Other\"\" for entering it.\",,1,1,table,False,False,,False,0,False,False,100,True,37,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf,,,SP,iShares Core S&P 500 ETF (IVV) [OT] Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 reported it on past PTRs and Annual FDs,iShares Core S&P 500 ETF (IVV) [OT],P 0 ETF) isn't shown . I didn't see an op,\"10/14/2025 n as an option i ption besides \"\"\",\"10/21/2025 in the Stocks drop \"\"Other\"\" for enterin\",\"$1,001 - $15,000 pdown list, even thoug ng it.\",,\"SP iShares Core S&P 500 ETF (IVV) [OT] P 10/14/2025 10/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Fidelity Roth IRA Location: US Description: IVV (iShares Core S&P 500 ETF) isn't shown as an option in the Stocks dropdown list, even though I have reported it on past PTRs and Annual FDs. I didn't see an option besides \"\"Other\"\" for entering it.\",,,False,100,,not_applicable,,False,False,True,10/14/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "P",
     "before": "",

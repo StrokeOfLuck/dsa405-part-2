@@ -7916,7 +7916,7 @@ C:\Users\Sean\Documents\Codex\2026-09-25\so-x20\work\finish-p2\data\work\06_publ
 Published metadata:
 C:\Users\Sean\Documents\Codex\2026-09-25\so-x20\work\finish-p2\data\work\06_public\house_ptr_metadata.json
 {
-  "updated_at": "2026-09-25T23:24:50-04:00",
+  "updated_at": "2026-09-25T23:43:35-04:00",
   "transactions": 7667,
   "public_table_rows": 7667,
   "public_table_columns": 20,
@@ -9837,7 +9837,23 @@ that the original PDF was empty.</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># The transformation is deterministic and limited to Sean's approved record.</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Human outcomes extend the original parser review flags; they do not overwrite them.</span>
+<span class="c1"># This single decision file also generates the website review and notebook cleaning log.</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="n">review_decisions</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="s2">"data/review/decisions.json"</span><span class="p">)</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">))</span>
+<span class="k">assert</span> <span class="nb">len</span><span class="p">({</span><span class="n">d</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">review_decisions</span><span class="p">})</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">review_decisions</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">decision</span> <span class="ow">in</span> <span class="n">review_decisions</span><span class="p">:</span>
+    <span class="k">assert</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"decision"</span><span class="p">]</span> <span class="ow">in</span> <span class="p">{</span><span class="s2">"keep"</span><span class="p">,</span> <span class="s2">"correct"</span><span class="p">}</span>
+    <span class="k">for</span> <span class="n">reviewed</span> <span class="ow">in</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"rows"</span><span class="p">]:</span>
+        <span class="n">mask</span> <span class="o">=</span> <span class="n">clean</span><span class="o">.</span><span class="n">filing_id</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="n">decision</span><span class="p">[</span><span class="s2">"filing_id"</span><span class="p">])</span> <span class="o">&amp;</span> <span class="n">clean</span><span class="o">.</span><span class="n">transaction_number_in_filing</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="n">reviewed</span><span class="p">[</span><span class="s2">"transaction_number_in_filing"</span><span class="p">])</span>
+        <span class="k">assert</span> <span class="n">mask</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span>
+        <span class="n">original</span> <span class="o">=</span> <span class="n">clean</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">field</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="p">{</span><span class="o">**</span><span class="n">reviewed</span><span class="p">[</span><span class="s2">"original_flags"</span><span class="p">],</span> <span class="o">**</span><span class="n">reviewed</span><span class="p">[</span><span class="s2">"before"</span><span class="p">]}</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">assert</span> <span class="n">original</span><span class="p">[</span><span class="n">field</span><span class="p">]</span> <span class="o">==</span> <span class="n">value</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Review input changed: </span><span class="si">{</span><span class="n">decision</span><span class="p">[</span><span class="s1">'id'</span><span class="p">]</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2">"</span>
+        <span class="k">if</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"decision"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"keep"</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="n">reviewed</span><span class="p">[</span><span class="s2">"before"</span><span class="p">]</span> <span class="o">==</span> <span class="n">reviewed</span><span class="p">[</span><span class="s2">"after"</span><span class="p">]</span>
+
+<span class="c1"># The transformation is deterministic and limited to Sean's approved record.</span>
 <span class="c1"># It is previewed for dictionary completeness and used again in the cleaning section.</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">build_p2</span><span class="p">(</span><span class="n">frame</span><span class="p">):</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">frame</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -9848,13 +9864,15 @@ that the original PDF was empty.</p>
     <span class="n">result</span><span class="p">[</span><span class="s2">"date_prefix_disagrees"</span><span class="p">]</span> <span class="o">=</span> <span class="n">prefix</span><span class="o">.</span><span class="n">ne</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">prefix</span><span class="o">.</span><span class="n">ne</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">transaction_date</span><span class="p">)</span>
     <span class="n">result</span><span class="p">[</span><span class="s2">"amount_exact_before_p2"</span><span class="p">]</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">amount_exact</span>
     <span class="n">result</span><span class="p">[</span><span class="s2">"amount_status_before_p2"</span><span class="p">]</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">amount_status</span>
-    <span class="n">selected</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">filing_id</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">"20033320"</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">result</span><span class="o">.</span><span class="n">transaction_number_in_filing</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">"1"</span><span class="p">)</span>
-    <span class="k">assert</span> <span class="n">selected</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">"Approved correction must match exactly one row"</span>
-    <span class="k">assert</span> <span class="n">result</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">selected</span><span class="p">,</span> <span class="s2">"amount_raw"</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"$2,000.00"</span>
-    <span class="k">assert</span> <span class="n">result</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">selected</span><span class="p">,</span> <span class="s2">"amount_exact"</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">""</span>
-    <span class="k">assert</span> <span class="n">result</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">selected</span><span class="p">,</span> <span class="s2">"amount_status"</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"missing_range_bound"</span>
-    <span class="n">result</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">selected</span><span class="p">,</span> <span class="s2">"amount_exact"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"2000.0"</span>
-    <span class="n">result</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">selected</span><span class="p">,</span> <span class="s2">"amount_status"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"nonstandard_exact"</span>
+    <span class="k">for</span> <span class="n">decision</span> <span class="ow">in</span> <span class="n">review_decisions</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"decision"</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">"correct"</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="k">for</span> <span class="n">reviewed</span> <span class="ow">in</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"rows"</span><span class="p">]:</span>
+            <span class="n">selected</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">filing_id</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="n">decision</span><span class="p">[</span><span class="s2">"filing_id"</span><span class="p">])</span> <span class="o">&amp;</span> <span class="n">result</span><span class="o">.</span><span class="n">transaction_number_in_filing</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="n">reviewed</span><span class="p">[</span><span class="s2">"transaction_number_in_filing"</span><span class="p">])</span>
+            <span class="k">assert</span> <span class="n">selected</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span>
+            <span class="k">for</span> <span class="n">field</span><span class="p">,</span> <span class="n">before</span> <span class="ow">in</span> <span class="n">reviewed</span><span class="p">[</span><span class="s2">"before"</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                <span class="k">assert</span> <span class="n">result</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">selected</span><span class="p">,</span> <span class="n">field</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">before</span>
+                <span class="n">result</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">selected</span><span class="p">,</span> <span class="n">field</span><span class="p">]</span> <span class="o">=</span> <span class="n">reviewed</span><span class="p">[</span><span class="s2">"after"</span><span class="p">][</span><span class="n">field</span><span class="p">]</span>
     <span class="k">return</span> <span class="n">result</span>
 
 <span class="n">dictionary_data</span> <span class="o">=</span> <span class="n">build_p2</span><span class="p">(</span><span class="n">clean</span><span class="p">)</span>
@@ -10916,22 +10934,15 @@ source-supported values and apply only the single explicitly reviewed correction
 <span class="n">log_decision</span><span class="p">(</span><span class="s2">"P2: preservation"</span><span class="p">,</span> <span class="s2">"amount_exact_before_p2, amount_status_before_p2"</span><span class="p">,</span> <span class="s2">"Saved pre-P2 values"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">p2</span><span class="p">)</span><span class="o">*</span><span class="mi">2</span><span class="p">,</span>
     <span class="s2">"An individual correction must be reversible without rerunning the parser."</span><span class="p">,</span> <span class="s2">"Nothing; two copies added."</span><span class="p">,</span>
     <span class="s2">"Restore amount_exact and amount_status from these columns; then drop the two backup columns if desired."</span><span class="p">)</span>
-<span class="n">review_specs</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">(</span><span class="s2">"20024346"</span><span class="p">,</span> <span class="p">[</span><span class="s2">"27"</span><span class="p">],</span> <span class="s2">"transaction_date"</span><span class="p">,</span> <span class="s2">"Retained 2025-01-13"</span><span class="p">,</span> <span class="s2">"PDF page 4 places 01/13/2025 in the transaction-date cell; 01/17/25 belongs to the option description."</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
-    <span class="p">(</span><span class="s2">"20026517"</span><span class="p">,</span> <span class="p">[</span><span class="s2">"3"</span><span class="p">,</span> <span class="s2">"4"</span><span class="p">],</span> <span class="s2">"transaction rows"</span><span class="p">,</span> <span class="s2">"Retained both similar rows"</span><span class="p">,</span> <span class="s2">"PDF page 1 lists 15,000 units and 5,000 units separately; matching asset/date/band alone is insufficient for deletion."</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
-    <span class="p">(</span><span class="s2">"20027995"</span><span class="p">,</span> <span class="p">[</span><span class="s2">"8"</span><span class="p">],</span> <span class="s2">"amount_exact"</span><span class="p">,</span> <span class="s2">"Retained exact 800.0 and blank range bounds"</span><span class="p">,</span> <span class="s2">"PDF page 2 explicitly reports $800.00; inventing a disclosure range would lose precision."</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="p">]</span>
-<span class="k">for</span> <span class="n">filing</span><span class="p">,</span> <span class="n">rownums</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">action</span><span class="p">,</span> <span class="n">reason</span><span class="p">,</span> <span class="n">unused</span> <span class="ow">in</span> <span class="n">review_specs</span><span class="p">:</span>
-    <span class="n">mask</span> <span class="o">=</span> <span class="n">p2</span><span class="o">.</span><span class="n">filing_id</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="n">filing</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">p2</span><span class="o">.</span><span class="n">transaction_number_in_filing</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">rownums</span><span class="p">)</span>
-    <span class="k">assert</span> <span class="n">mask</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">rownums</span><span class="p">)</span>
-    <span class="n">log_decision</span><span class="p">(</span><span class="s2">"P2: manual retention"</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">action</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">mask</span><span class="o">.</span><span class="n">sum</span><span class="p">()),</span> <span class="n">reason</span><span class="p">,</span>
-        <span class="s2">"Nothing; no values or rows changed. Count is rows reviewed, not modifications."</span><span class="p">,</span>
-        <span class="sa">f</span><span class="s2">"No transformation to reverse; compare filing </span><span class="si">{</span><span class="n">filing</span><span class="si">}</span><span class="s2">, rows </span><span class="si">{</span><span class="s1">', '</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">rownums</span><span class="p">)</span><span class="si">}</span><span class="s2"> and the preserved PDF. Original flags remain."</span><span class="p">)</span>
+<span class="c1"># Generate the required decision log directly from the same original-flag reviews.</span>
+<span class="k">for</span> <span class="n">decision</span> <span class="ow">in</span> <span class="n">review_decisions</span><span class="p">:</span>
+    <span class="n">changed_cells</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s2">"before"</span><span class="p">][</span><span class="n">field</span><span class="p">]</span> <span class="o">!=</span> <span class="n">value</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"rows"</span><span class="p">]</span> <span class="k">for</span> <span class="n">field</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">row</span><span class="p">[</span><span class="s2">"after"</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">())</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="n">changed_cells</span> <span class="k">if</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"decision"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"correct"</span> <span class="k">else</span> <span class="nb">len</span><span class="p">(</span><span class="n">decision</span><span class="p">[</span><span class="s2">"rows"</span><span class="p">])</span>
+    <span class="k">assert</span> <span class="n">count</span> <span class="o">==</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"affected_count"</span><span class="p">]</span>
+    <span class="n">log_decision</span><span class="p">(</span><span class="s2">"P2: manual correction"</span> <span class="k">if</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"decision"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"correct"</span> <span class="k">else</span> <span class="s2">"P2: manual retention"</span><span class="p">,</span>
+                 <span class="n">decision</span><span class="p">[</span><span class="s2">"column"</span><span class="p">],</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"action"</span><span class="p">],</span> <span class="n">count</span><span class="p">,</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"reason"</span><span class="p">],</span>
+                 <span class="n">decision</span><span class="p">[</span><span class="s2">"what_is_lost"</span><span class="p">],</span> <span class="n">decision</span><span class="p">[</span><span class="s2">"how_to_reverse"</span><span class="p">])</span>
 <span class="n">corrected</span> <span class="o">=</span> <span class="n">p2</span><span class="o">.</span><span class="n">filing_id</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">"20033320"</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">p2</span><span class="o">.</span><span class="n">transaction_number_in_filing</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">"1"</span><span class="p">)</span>
-<span class="n">log_decision</span><span class="p">(</span><span class="s2">"P2: manual correction"</span><span class="p">,</span> <span class="s2">"amount_exact, amount_status"</span><span class="p">,</span> <span class="s2">"Set 2000.0 and nonstandard_exact (one row, two cells)"</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span>
-    <span class="s2">"PDF page 1 explicitly reports $2,000.00. Leaving it unknown discards readable evidence; inferring a range invents a bound."</span><span class="p">,</span>
-    <span class="s2">"Nothing; raw text, PDF, prior values and original review flags remain."</span><span class="p">,</span>
-    <span class="s2">"For filing 20033320 row 1, restore amount_exact from amount_exact_before_p2 and amount_status from amount_status_before_p2."</span><span class="p">)</span>
 <span class="n">metadata_added</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">clean</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">raw</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">clean</span> <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">"_v8_1"</span><span class="p">))</span> <span class="o">-</span> <span class="p">{</span><span class="s2">"asset_v8_2_cleaned"</span><span class="p">,</span> <span class="s2">"ticker_v8_2_cleaned"</span><span class="p">})</span>
 <span class="n">log_decision</span><span class="p">(</span><span class="s2">"4: resolver schema"</span><span class="p">,</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">metadata_added</span><span class="p">),</span> <span class="s2">"Added resolver decision metadata; renamed asset/ticker to *_v8_2_cleaned"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">clean</span><span class="p">)</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">metadata_added</span><span class="p">),</span>
     <span class="s2">"Keep decisions inspectable and distinguish resolved display values from preserved inputs."</span><span class="p">,</span>
@@ -10957,6 +10968,18 @@ source-supported values and apply only the single explicitly reviewed correction
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Logged decisions:"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">log_df</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Manual correction: 1 transaction row, 2 value cells. Original flags remain as history."</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">p2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">corrected</span><span class="p">,</span> <span class="p">[</span><span class="s2">"filing_id"</span><span class="p">,</span> <span class="s2">"transaction_number_in_filing"</span><span class="p">,</span> <span class="s2">"amount_raw"</span><span class="p">,</span> <span class="s2">"amount_exact_before_p2"</span><span class="p">,</span> <span class="s2">"amount_exact"</span><span class="p">,</span> <span class="s2">"amount_status_before_p2"</span><span class="p">,</span> <span class="s2">"amount_status"</span><span class="p">,</span> <span class="s2">"needs_review"</span><span class="p">,</span> <span class="s2">"review_reason"</span><span class="p">]])</span>
+
+<span class="c1"># Summary of human outcomes alongside existing parser flags (no new flag system).</span>
+<span class="n">reviewed_keys</span> <span class="o">=</span> <span class="p">{(</span><span class="n">d</span><span class="p">[</span><span class="s2">"filing_id"</span><span class="p">],</span> <span class="n">r</span><span class="p">[</span><span class="s2">"transaction_number_in_filing"</span><span class="p">]):</span> <span class="n">d</span><span class="p">[</span><span class="s2">"decision"</span><span class="p">]</span>
+                 <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">review_decisions</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">d</span><span class="p">[</span><span class="s2">"rows"</span><span class="p">]}</span>
+<span class="n">flagged_keys</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">tuple</span><span class="p">,</span> <span class="n">clean</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">clean</span><span class="o">.</span><span class="n">needs_review</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">"True"</span><span class="p">),</span> <span class="n">keys</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Original parser-flagged rows:"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">flagged_keys</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Flagged rows with a recorded human decision:"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">flagged_keys</span> <span class="o">&amp;</span> <span class="n">reviewed_keys</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Flagged rows not yet reviewed:"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">flagged_keys</span> <span class="o">-</span> <span class="n">reviewed_keys</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Additional reviewed rows without an original parser flag:"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">reviewed_keys</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span> <span class="o">-</span> <span class="n">flagged_keys</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span><span class="s2">"filing_id"</span><span class="p">:</span><span class="n">d</span><span class="p">[</span><span class="s2">"filing_id"</span><span class="p">],</span> <span class="s2">"transaction_number_in_filing"</span><span class="p">:</span><span class="n">r</span><span class="p">[</span><span class="s2">"transaction_number_in_filing"</span><span class="p">],</span>
+                      <span class="o">**</span><span class="n">r</span><span class="p">[</span><span class="s2">"original_flags"</span><span class="p">],</span> <span class="s2">"human_decision"</span><span class="p">:</span><span class="n">d</span><span class="p">[</span><span class="s2">"decision"</span><span class="p">],</span> <span class="s2">"reason"</span><span class="p">:</span><span class="n">d</span><span class="p">[</span><span class="s2">"reason"</span><span class="p">]}</span>
+                     <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">review_decisions</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">d</span><span class="p">[</span><span class="s2">"rows"</span><span class="p">]]))</span>
 </pre></div>
 </div>
 </div>
@@ -11279,6 +11302,108 @@ Manual correction: 1 transaction row, 2 value cells. Original flags remain as hi
 </div>
 </div>
 </div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Original parser-flagged rows: 206
+Flagged rows with a recorded human decision: 3
+Flagged rows not yet reviewed: 203
+Additional reviewed rows without an original parser flag: 2
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>filing_id</th>
+<th>transaction_number_in_filing</th>
+<th>needs_review</th>
+<th>review_level</th>
+<th>review_reason</th>
+<th>possible_adjacent_same_signature</th>
+<th>human_decision</th>
+<th>reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>20024346</td>
+<td>27</td>
+<td>False</td>
+<td></td>
+<td></td>
+<td>False</td>
+<td>keep</td>
+<td>PDF page 4 places 01/13/2025 in the transaction-date cell; 01/17/25 belongs to the option description.</td>
+</tr>
+<tr>
+<th>1</th>
+<td>20026517</td>
+<td>3</td>
+<td>True</td>
+<td>low</td>
+<td>adjacent transaction has same core signature</td>
+<td>True</td>
+<td>keep</td>
+<td>PDF page 1 lists 15,000 units and 5,000 units separately; matching asset/date/band alone is insufficient for deletion.</td>
+</tr>
+<tr>
+<th>2</th>
+<td>20026517</td>
+<td>4</td>
+<td>False</td>
+<td></td>
+<td></td>
+<td>False</td>
+<td>keep</td>
+<td>PDF page 1 lists 15,000 units and 5,000 units separately; matching asset/date/band alone is insufficient for deletion.</td>
+</tr>
+<tr>
+<th>3</th>
+<td>20027995</td>
+<td>8</td>
+<td>True</td>
+<td>low</td>
+<td>nonstandard_exact</td>
+<td>False</td>
+<td>keep</td>
+<td>PDF page 2 explicitly reports $800.00; inventing a disclosure range would lose precision.</td>
+</tr>
+<tr>
+<th>4</th>
+<td>20033320</td>
+<td>1</td>
+<td>True</td>
+<td>high</td>
+<td>missing_range_bound</td>
+<td>False</td>
+<td>correct</td>
+<td>PDF page 1 explicitly reports $2,000.00. Leaving it unknown discards readable evidence; inferring a range invents a bound.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -11491,13 +11616,7 @@ Pure column additions: ['amount_exact_before_p2', 'amount_status_before_p2', 'as
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Raw-file integrity: all</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre> 518 files unchanged across this notebook run.
+<pre>Raw-file integrity: all 518 files unchanged across this notebook run.
 Tidy output: one extracted transaction per row; each field is a column; original PDF preserved.
 Coverage: archived PDFs 515 filings with extracted rows 449 transaction rows 7667
 Unresolved missing-range cases retained: 1

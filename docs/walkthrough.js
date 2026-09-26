@@ -174,8 +174,8 @@
           links=stepCode.parse.filter(c=>c.parsed_field===field).map(c=>[c.label,c]);
         }else if(field==="amount_min"){
           original=q(s.amount_raw);rule="Read money values from the amount field and permitted continuation prefix. Recognize standard ranges, exact amounts, or open-ended wording using separate rules.";
-          change=`Saved classification: ${q(ex.csv_record.amount_status)}; category: ${q(ex.csv_record.amount_category)}.`;
-          result=`Minimum: ${q(s.amount_min)}\nMaximum: ${q(s.amount_max)}\nExact amount: ${q(ex.csv_record.amount_exact)}`;why="Dollar signs and commas are formatting. Bounds describe the disclosed range; they do not reveal the exact trade amount. Empty bounds must not be treated as zero.";
+          change=`Saved classification: ${q(s.amount_status)}; category: ${q(ex.csv_record.amount_category)}.`;
+          result=`Minimum: ${q(s.amount_min)}\nMaximum: ${q(s.amount_max)}\nExact amount: ${q(s.amount_exact)}`;why="Dollar signs and commas are formatting. Bounds describe the disclosed range; they do not reveal the exact trade amount. Empty bounds must not be treated as zero.";
         }else{
           original=`Asset: ${q(s.asset)}\nTicker: ${q(s.ticker)}\nDate: ${q(s.transaction_date)}\nAmount: ${q(s.amount_raw)}`;rule="Run validation checks and collect review reasons; the flag reflects whether reasons remain.";
           change=s.review_reason?`Recorded reasons: ${s.review_reason}`:"No review reasons were recorded for this transaction.";result=`needs_review = ${q(s.needs_review)}`;why="A flag asks for inspection. No flag means these checks found no recorded issue, not that the row has been independently proven correct.";
@@ -320,7 +320,7 @@
       document.querySelectorAll(".resolve-value").forEach(button=>button.setAttribute("aria-pressed",String(!sourceOverride&&card?.resolve_field===button.dataset.resolveField)));
       const source=sourceOverride|| (card.kind!=="notebook"?sourceFiles.find(f=>f.name===card.url.split("/").pop().split("#")[0]):null);
       $("code-file").value=source?source.name:"notebook";
-      $("code-reading").textContent=source?"Complete file · highlighted function and current line":"Complete notebook cell · current line highlighted";
+      $("code-reading").textContent=source?"Complete file · highlighted function and current line":"Saved teaching cell · current line highlighted";
       $("code-body").textContent="Loading source…";
       try{
         let text=card?.full_code,start=card?.full_start_line||1;
@@ -388,17 +388,17 @@
     for(const id of ["parse","resolve","audit"]){const note=document.createElement("p");note.className="lesson empty-state hidden";note.textContent="No transaction row reached this stage for this filing. The complete code remains available below.";$(id).querySelector(".stage-head").after(note);}
     sections.forEach((section,i)=>{const nav=document.createElement("div");nav.className="step-links";for(const [index,label] of [[i-1,"← Previous step"],[i+1,"Next step →"]])if(sections[index]){const link=addText(nav,"a",label);link.href="#"+sections[index].id;}section.append(nav)});
     async function start(){
-      const response=await fetch("data/examples.json?v=explain-v13");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
+      const response=await fetch("data/examples.json?v=original-review-v2");if(!response.ok)throw Error(`Index: ${response.status}`);const data=await response.json();
       renderCode(data.code);
       renderSourceLibrary(data.sources);
       setupSplit();
       const examples=data.examples,cache=new Map();
       const readable=examples.filter(e=>e.status==="parsed" && Number(e.rows)>0);
       if(!readable.length)throw Error("No filings with parsed transactions are available.");
-      document.querySelector('.picker-note').textContent=`${examples.length.toLocaleString()} archived filings · ${readable.length.toLocaleString()} with parsed transactions available here. ${examples.length-readable.length} without parsed rows are excluded from this picker, but retained in the archive and audit. This is a saved parser run, not a live scrape.`;
+      document.querySelector('.picker-note').textContent=`${readable.length.toLocaleString()} parsed filings available · ${examples.length.toLocaleString()} PDFs archived. This walkthrough focuses on digital PDFs with selectable text. Handwritten or scanned forms need a more complex extraction approach, such as OCR. The ${examples.length-readable.length} PDFs without extracted transactions remain in the archive.`;
       async function choose(id){
         $("random").disabled=true;$("status").className="";$("status").textContent=`Loading filing ${id}…`;
-        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=explain-v13`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
+        try{let ex=cache.get(id);if(!ex){const result=await fetch(`data/filings/${id}.json?v=original-review-v2`);if(!result.ok)throw Error(`Filing ${id}: ${result.status}`);ex=await result.json();cache.set(id,ex);}
           render(ex);currentId=id;$("content").classList.remove("hidden");$("status").textContent="";
         }catch(error){$("status").className="error";$("status").textContent=`Could not load this filing. Try another random filing. ${error.message}`;}
         finally{$("random").disabled=false;}
@@ -407,7 +407,7 @@
       $("random").addEventListener("click",()=>choose(randomId()));
       const initial=new URL(location.href).searchParams.get("filing");
       await choose(readable.some(e=>e.filing_id===initial)?initial:randomId());
-      if(initial && !readable.some(e=>e.filing_id===initial))document.querySelector('.picker-note').append(' The requested filing is not in the parsed set; a parsed filing has been selected instead.');
+
       $("provenance").textContent=`2025 archive · ${data.batch_pdf_count} verified PDFs · ${data.batch_transaction_count.toLocaleString()} parsed rows · ${data.parsed_filing_count} filings with rows · ${data.sample_size-data.parsed_filing_count} without parsed rows · parser ${data.source_commit.slice(0,12)}. ${data.selection}`;
     }
     document.addEventListener('click',event=>{const link=event.target.closest('[data-evidence]');if(link){event.preventDefault();if(openEvidence(link.dataset.evidence))history.replaceState(null,'','#'+link.dataset.evidence);}});

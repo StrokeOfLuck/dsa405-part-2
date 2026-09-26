@@ -140,7 +140,9 @@
     "asset_type": "ST",
     "continuation_raw": "",
     "detail_raw": "Gap, Inc. (GAP) [ST] S 08/21/2025 08/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Stock Account",
-    "date_token": "08/21/2025"
+    "date_token": "08/21/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "Gap, Inc.",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20030952.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030952.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "08/21/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -267,9 +273,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "False",
     "raw_date_prefix": "08/21/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20030952,Hon. Andrew Garbarino,Member,NY02,20030952.pdf,2025,1,,\"Gap, Inc.\",\"Gap, Inc.\",GAP,GAP,ST,S,2025-08-21,2025-08-21,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Stock Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030952.pdf,,,,\"Gap, Inc. (GAP) [ST] Filing Status: New Subholding Of: Stock Account\",\"Gap, Inc. (GAP) [ST]\",S,08/21/2025,08/21/2025,\"$1,001 - $15,000\",,\"Gap, Inc. (GAP) [ST] S 08/21/2025 08/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Stock Account\",,,False,100,GAP,accepted,house_ptr_structure+v8_1,False,False,False,08/21/2025,False\n",
+  "csv_serialized_row": "20030952,Hon. Andrew Garbarino,Member,NY02,20030952.pdf,2025,1,,\"Gap, Inc.\",\"Gap, Inc.\",GAP,GAP,ST,S,2025-08-21,2025-08-21,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Stock Account,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030952.pdf,,,,\"Gap, Inc. (GAP) [ST] Filing Status: New Subholding Of: Stock Account\",\"Gap, Inc. (GAP) [ST]\",S,08/21/2025,08/21/2025,\"$1,001 - $15,000\",,\"Gap, Inc. (GAP) [ST] S 08/21/2025 08/21/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Stock Account\",,,False,100,GAP,accepted,house_ptr_structure+v8_1,False,False,False,08/21/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "S",
     "before": "",

@@ -140,7 +140,9 @@
     "asset_type": "ST",
     "continuation_raw": "",
     "detail_raw": "McKesson Corporation Common Stock (MCK) [ST] S 10/08/2025 11/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley IRA",
-    "date_token": "10/08/2025"
+    "date_token": "10/08/2025",
+    "amount_exact": "",
+    "amount_status": "valid_range"
   },
   "stage4": {
     "asset_v8_1": "McKesson Corporation Common Stock",
@@ -163,7 +165,7 @@
     "date_prefix_disagrees": false
   },
   "csv_url": "data/csv/20033409.csv",
-  "csv_columns": 64,
+  "csv_columns": 66,
   "preview_columns": [
     "filing_id",
     "transaction_number_in_filing",
@@ -180,7 +182,9 @@
     "original_pdf_url",
     "raw_date_has_extra_text",
     "raw_date_prefix",
-    "date_prefix_disagrees"
+    "date_prefix_disagrees",
+    "amount_exact",
+    "amount_status"
   ],
   "csv_preview": [
     {
@@ -199,7 +203,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "10/08/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033409",
@@ -217,7 +223,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "10/08/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033409",
@@ -235,7 +243,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "10/08/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     },
     {
       "filing_id": "20033409",
@@ -253,7 +263,9 @@
       "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
       "raw_date_has_extra_text": "False",
       "raw_date_prefix": "10/06/2025",
-      "date_prefix_disagrees": "False"
+      "date_prefix_disagrees": "False",
+      "amount_exact": "",
+      "amount_status": "valid_range"
     }
   ],
   "changed_stage4_values": 0,
@@ -321,9 +333,11 @@
     "asset_changed_by_ticker_resolver": "False",
     "raw_date_has_extra_text": "False",
     "raw_date_prefix": "10/08/2025",
-    "date_prefix_disagrees": "False"
+    "date_prefix_disagrees": "False",
+    "amount_exact_before_p2": "",
+    "amount_status_before_p2": "valid_range"
   },
-  "csv_serialized_row": "20033409,Hon. Jonathan Jackson,Member,IL01,20033409.pdf,2025,1,,McKesson Corporation Common Stock,McKesson Corporation Common Stock,MCK,MCK,ST,S,2025-10-08,2025-11-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Morgan Stanley IRA,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf,,,,McKesson Corporation Common Stock (MCK) [ST] Filing Status: New Subholding Of: Morgan Stanley IRA,McKesson Corporation Common Stock (MCK) [ST],S,10/08/2025,11/04/2025,\"$1,001 - $15,000\",,\"McKesson Corporation Common Stock (MCK) [ST] S 10/08/2025 11/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley IRA\",,,False,100,MCK,accepted,house_ptr_structure+v8_1,False,False,False,10/08/2025,False\n",
+  "csv_serialized_row": "20033409,Hon. Jonathan Jackson,Member,IL01,20033409.pdf,2025,1,,McKesson Corporation Common Stock,McKesson Corporation Common Stock,MCK,MCK,ST,S,2025-10-08,2025-11-04,1001.0,15000.0,,\"$1,001 - $15,000\",valid_range,New,Morgan Stanley IRA,,,,1,1,table,False,False,,False,0,False,False,100,True,20,False,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf,,,,McKesson Corporation Common Stock (MCK) [ST] Filing Status: New Subholding Of: Morgan Stanley IRA,McKesson Corporation Common Stock (MCK) [ST],S,10/08/2025,11/04/2025,\"$1,001 - $15,000\",,\"McKesson Corporation Common Stock (MCK) [ST] S 10/08/2025 11/04/2025 $1,001 - $15,000 Filing Status: New Subholding Of: Morgan Stanley IRA\",,,False,100,MCK,accepted,house_ptr_structure+v8_1,False,False,False,10/08/2025,False,,valid_range\n",
   "trade_match": {
     "matched": "S",
     "before": "",
