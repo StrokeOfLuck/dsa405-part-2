@@ -4,6 +4,12 @@
 
 This is a **separate class project**. It copies 2025 source files, builds two transaction CSVs with the [House PTR scraper](https://github.com/StrokeOfLuck/house-ptr-scraper)'s original parser and ticker resolver, then audits the differences. It does not alter the scraper repository.
 
+## Review progress
+
+**[Open the visual progress preview](https://strokeofluck.github.io/dsa405-part-2/docs/review-progress.html)** — source-PDF excerpts, approved review decisions, the approved provenance brief, and the remaining submission checklist.
+
+[Review decision record](REVIEW_PROGRESS.md). This is a progress snapshot, not a final submission: the approved $2,000 correction still needs to be applied, the dictionary/log need finishing, and the notebook needs a fresh run with saved outputs plus the self-scored rubric.
+
 ## Visual walkthrough
 
 [![Open the visual walkthrough — follow a real PDF to CSV with clickable explanations and highlighted code](docs/assets/walkthrough-button.svg)](https://strokeofluck.github.io/dsa405-part-2/docs/index.html)
