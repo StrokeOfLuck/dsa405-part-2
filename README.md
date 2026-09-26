@@ -30,7 +30,7 @@ The website is a supplementary way to inspect the same work. Its grading links o
 | Provenance brief | ×1 | A 166-word explanation of the producer, purpose, coverage and limitations, including digital versus scanned/handwritten PDFs. | [Provenance](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#review-provenance) · notebook section 5 |
 | Tidy structure & reproducibility | ×2 | One extracted transaction per row, reconciled row/column accounting, preserved raw files, successful saved execution, this README and exact direct dependency versions. | [Reproducibility](https://strokeofluck.github.io/dsa405-part-2/docs/index.html#reproducibility) · [requirements.txt](requirements.txt) · notebook sections 4 and setup |
 
-These links identify supporting work, not awarded grades. [SELF_ASSESSMENT_DRAFT.md](SELF_ASSESSMENT_DRAFT.md) contains proposed scores that Sean must confirm or revise.
+These links identify supporting work, not awarded grades. [SELF_ASSESSMENT.md](SELF_ASSESSMENT.md) records Sean’s confirmed self-scores: 4 — Excellent on all five criteria (self-assessed 100%, not an instructor grade).
 
 ## Data source and scope
 
@@ -115,7 +115,7 @@ This command does not replace the notebook audit or apply its P2 review decision
 | `data/clean/` | Notebook-generated final CSV, dictionary, log, audit, accounting and validation summary, ignored by Git |
 | [docs/data/house_ptr_2025_p2.csv](docs/data/house_ptr_2025_p2.csv) | Published copy of the corrected full dataset |
 | [docs/](docs/) | Supplementary walkthrough and notebook HTML |
-| [SELF_ASSESSMENT_DRAFT.md](SELF_ASSESSMENT_DRAFT.md) | Proposed rubric scores for student confirmation |
+| [SELF_ASSESSMENT.md](SELF_ASSESSMENT.md) | Confirmed student self-scores with supporting evidence and limitations |
 
 After rerunning the notebook, refresh the dictionary, review view and all 449 individual filing downloads:
 
@@ -138,8 +138,8 @@ Due **October 1, 2026, 11:59 PM**, according to the P2 handout.
 - [x] README includes purpose, source and reproduction steps.
 - [x] Direct dependency versions are pinned.
 - [ ] Review outstanding exceptions and document unresolved limitations.
-- [ ] Confirm or revise the self-scored rubric.
-- [ ] Confirm Bench Check arrangements and be ready to explain the code.
+- [x] Self-scored rubric confirmed by Sean on September 26, 2026: all five criteria scored 4.
+- [x] Bench Check 1 completed September 26, 2026, as reported by Sean.
 - [ ] Submit the notebook, this repository link and confirmed rubric to Moodle.
 
-The website is supplementary. No Moodle submission or Bench Check scheduling has been performed by this workflow. AI assisted with code, documentation and review presentation; Sean confirmed the four manual review cases. The notebook includes the assistance disclosure.
+The website is supplementary. Moodle submission remains outstanding; Sean reported completing Bench Check 1. AI assisted with code, documentation and review presentation; Sean confirmed the four manual review cases. The notebook includes the assistance disclosure.

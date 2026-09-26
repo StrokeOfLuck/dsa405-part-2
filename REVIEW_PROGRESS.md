@@ -78,3 +78,7 @@ The HTML companion is supplementary. The existing walkthrough illustrates the or
 [Executed notebook HTML](https://strokeofluck.github.io/dsa405-part-2/docs/P2-notebook.html) · [Self-assessment draft](SELF_ASSESSMENT_DRAFT.md).
 
 The main walkthrough now includes the source-review evidence and checklist under **05 · Audit**, and the complete generated data dictionary under **06 · CSV**. The old review-page URL redirects there.
+
+## September 26 confirmation
+
+Sean confirmed self-scores of 4 (Excellent) on all five criteria; the resulting self-assessment is 100%, not an instructor-awarded grade. Current evidence and limitations are in [SELF_ASSESSMENT.md](SELF_ASSESSMENT.md). Sean also reported completing Bench Check 1 today. Final data/notebook review and Moodle submission remain. Earlier pending rubric and scheduling notes above are historical.
