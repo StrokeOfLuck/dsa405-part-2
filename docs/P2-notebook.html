@@ -11766,9 +11766,10 @@ Unresolved missing-range cases retained: 1
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="5.-Provenance-brief-(136-words)">5. Provenance brief (136 words)<a class="anchor-link" href="#5.-Provenance-brief-(136-words)">¶</a></h2><p>This dataset contains reported transactions extracted from 515 financial-disclosure PDFs in the U.S. House Clerk’s 2025 filing archive. House members file these reports to disclose financial transactions, and the Clerk publishes them. Each dataset row represents one extracted transaction, with a link to its source PDF.</p>
-<p>The selection uses the filing archive’s year, so some transactions occurred before 2025. Most amounts are reported as dollar ranges; some are exact amounts. The original PDFs remain unchanged, and corrections are documented so readers can trace them back to the source.</p>
-<p>The data describes transactions reported in these archived filings. It cannot establish unreported trades, exact values when only ranges were disclosed, or who personally made an investment decision. Automated extraction can miss or misread information. Selected examples were manually reviewed; the entire dataset has not been individually verified.</p>
+<h2 id="5.-Provenance-brief-(166-words)">5. Provenance brief (166 words)<a class="anchor-link" href="#5.-Provenance-brief-(166-words)">¶</a></h2><p>This dataset contains 7,667 reported transactions extracted from 449 of 515 financial-disclosure PDFs archived from the U.S. House Clerk’s 2025 filing index. House members file these reports to disclose financial transactions; the Clerk publishes them. Each row represents one extracted transaction linked to its source PDF.</p>
+<p>The pipeline reads digital PDFs with selectable text. Handwritten or scanned forms need a more complex approach, such as optical character recognition (OCR), which this pipeline does not perform. The 66 PDFs that produced no transaction rows remain archived but contribute no rows to this dataset; this does not mean they report no transactions.</p>
+<p>The selection follows filing-index year, so some transactions occurred before 2025. Most amounts are dollar ranges; some are exact amounts. Original PDFs are preserved, and corrections are documented.</p>
+<p>The dataset cannot establish unreported trades, exact values where only ranges were disclosed, or who personally made investment decisions. Extraction can miss or misread information. Selected examples were manually reviewed; the entire dataset has not been individually verified.</p>
 </div>
 </div>
 </div>
